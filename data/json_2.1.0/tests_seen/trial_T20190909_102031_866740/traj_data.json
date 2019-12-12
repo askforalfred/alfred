@@ -1,0 +1,291 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan221",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -3.75,
+            "y": 0.9984914,
+            "z": -2.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Vase_9647877c",
+                "position": {
+                    "x": -3.20709324,
+                    "y": 0.8839594,
+                    "z": -1.3856442
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9647877c",
+                "position": {
+                    "x": -0.0302466452,
+                    "y": 0.977985144,
+                    "z": -2.49397373
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_20f1dbb5",
+                "position": {
+                    "x": -1.84627831,
+                    "y": 0.18369633,
+                    "z": -2.981041
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 224.999969,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_20f1dbb5",
+                "position": {
+                    "x": 0.2542108,
+                    "y": 0.866211653,
+                    "z": -2.4086597
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": -3.87281322,
+                    "y": 0.878947,
+                    "z": -1.2872901
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": -0.126070261,
+                    "y": 0.8616818,
+                    "z": -2.433173
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_470b1bc7",
+                "position": {
+                    "x": -1.25456691,
+                    "y": 0.52623415,
+                    "z": 0.897500038
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_a8c2a636",
+                "position": {
+                    "x": -1.22295022,
+                    "y": 0.4522,
+                    "z": -0.578387856
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_ab958439",
+                "position": {
+                    "x": -2.863,
+                    "y": 1.03,
+                    "z": -0.958
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_a0c5d9cc",
+                "position": {
+                    "x": 0.629369438,
+                    "y": 0.482,
+                    "z": -1.667
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_e1ea86ca",
+                "position": {
+                    "x": -3.65090656,
+                    "y": 0.88159883,
+                    "z": -0.9922278
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_b55d9380",
+                "position": {
+                    "x": -3.85149717,
+                    "y": 0.8749896,
+                    "z": -1.01137221
+                },
+                "rotation": {
+                    "x": 359.863068,
+                    "y": 0.000111483365,
+                    "z": 359.804047
+                }
+            },
+            {
+                "objectName": "Laptop_a8c2a636",
+                "position": {
+                    "x": -1.22295022,
+                    "y": 0.4522,
+                    "z": -0.897612154
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_470b1bc7",
+                "position": {
+                    "x": -1.0802834,
+                    "y": 0.52623415,
+                    "z": 0.897500038
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9647877c",
+                "position": {
+                    "x": -0.8270993,
+                    "y": 0.459359467,
+                    "z": -0.658193946
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_5e4810d7",
+                "position": {
+                    "x": 0.2577918,
+                    "y": 0.9659995,
+                    "z": -2.5184164
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": -0.316210747,
+                    "y": 0.8607059,
+                    "z": -2.50671315
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_20f1dbb5",
+                "position": {
+                    "x": -3.429,
+                    "y": 0.8844528,
+                    "z": -0.9922278
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 1576124276,
+        "scene_num": 221
+    },
+    "task_id": "trial_T20190909_102031_866740",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Walk over to the couch",
+                    "Grab the remote",
+                    "Head over to the lamp",
+                    "Turn the lamp on with the remote"
+                ],
+                "task_desc": "Turn the lamp on with the remote"
+            },
+            {
+                "high_descs": [
+                    "Turn right and then left to face the couch with two remote controls on it.",
+                    "Pick the remote on the left up from the couch",
+                    "Move to the left to face the lamp.",
+                    "Turn the lamp on."
+                ],
+                "task_desc": "Pick up a remote and turn a lamp on."
+            },
+            {
+                "high_descs": [
+                    "Take a right at the table, head left at the television and walk to the gray couch on the right.",
+                    "Pick up the left remote control on the left side of the couch near the green pillow.",
+                    "Turn left and walk to the tall lamp on the right.",
+                    "Turn on the tall lamp."
+                ],
+                "task_desc": "Examine a remote control by the light of a tall lamp."
+            }
+        ]
+    }
+}

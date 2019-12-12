@@ -1,0 +1,325 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan329",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": 1.0,
+            "y": 0.9009992,
+            "z": -2.0
+        },
+        "object_poses": [
+            {
+                "objectName": "CD_65d0c202",
+                "position": {
+                    "x": -1.08569729,
+                    "y": 0.679210663,
+                    "z": -2.464004
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_65d0c202",
+                "position": {
+                    "x": 1.08248687,
+                    "y": 0.374163032,
+                    "z": -2.39932632
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_c6101754",
+                "position": {
+                    "x": -0.7414154,
+                    "y": 0.6192069,
+                    "z": 0.9109547
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.00032,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_c6101754",
+                "position": {
+                    "x": -0.121499121,
+                    "y": 0.6208252,
+                    "z": 0.5991429
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.00032,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_0913ea1c",
+                "position": {
+                    "x": 1.05515134,
+                    "y": 0.681607068,
+                    "z": -2.553743
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_0913ea1c",
+                "position": {
+                    "x": -1.204,
+                    "y": 0.681607068,
+                    "z": -2.374265
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_4d76afad",
+                "position": {
+                    "x": -1.26315141,
+                    "y": 0.6759502,
+                    "z": -2.464004
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_4d76afad",
+                "position": {
+                    "x": -1.20420241,
+                    "y": 0.0828524455,
+                    "z": -2.39932632
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_95ab5ac0",
+                "position": {
+                    "x": 2.45341372,
+                    "y": 0.222,
+                    "z": -0.04186213
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_082f1ecc",
+                "position": {
+                    "x": 0.247394532,
+                    "y": 0.5553288,
+                    "z": -1.211537
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 3.756604e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1e1344a8",
+                "position": {
+                    "x": -0.276475936,
+                    "y": 0.620082259,
+                    "z": 1.06685615
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_5d0c297b",
+                "position": {
+                    "x": 0.192,
+                    "y": 0.607,
+                    "z": -2.307
+                },
+                "rotation": {
+                    "x": 0.7996851,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_270ea6b4",
+                "position": {
+                    "x": 0.419,
+                    "y": 0.6664,
+                    "z": 1.0441
+                },
+                "rotation": {
+                    "x": 10.3601227,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_2fafcdd0",
+                "position": {
+                    "x": -1.3223027,
+                    "y": 0.685088456,
+                    "z": -2.553743
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_c6101754",
+                "position": {
+                    "x": 0.188462585,
+                    "y": 0.6192069,
+                    "z": 1.06685352
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.00032,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_4d76afad",
+                "position": {
+                    "x": -1.29089165,
+                    "y": 0.3745523,
+                    "z": -2.42303324
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_0913ea1c",
+                "position": {
+                    "x": 1.11430264,
+                    "y": 0.6852568,
+                    "z": -2.374265
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_de3577db",
+                "position": {
+                    "x": 0.247394264,
+                    "y": 0.554415166,
+                    "z": -1.65728474
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 3.756604e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_1883a1af",
+                "position": {
+                    "x": -0.121496886,
+                    "y": 0.6218786,
+                    "z": 0.9889032
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.00032,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_65d0c202",
+                "position": {
+                    "x": 0.9091083,
+                    "y": 0.374163032,
+                    "z": -2.42303324
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_1b2382a9",
+                "position": {
+                    "x": -0.431456357,
+                    "y": 0.6181135,
+                    "z": 0.9109529
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.00032,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1890998661,
+        "scene_num": 329
+    },
+    "task_id": "trial_T20190909_013620_927181",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn left, walk to the edge of the bed, turn left again, walk a few steps, then turn right to face the table.",
+                    "Pick up the alarm clock that is sitting on the table.",
+                    "Turn to the left, walk to the window, then turn left again and walk up to the nightstand.",
+                    "Place the alarm clock down on the nightstand, behind the CD."
+                ],
+                "task_desc": "Move an alarm clock to the nightstand."
+            },
+            {
+                "high_descs": [
+                    "Turn left, turn left after the led and turn right to face the right side of the dresser. ",
+                    "Pick up the alarm clock to the right of the keys. ",
+                    "Turn left, turn left at the window, walk up to the night stand to the right of the bed. ",
+                    "Put the alarm clock on the night stand behind the CD. "
+                ],
+                "task_desc": "To move an alarm clock to the night stand. "
+            },
+            {
+                "high_descs": [
+                    "Turn left and walk past the bed then turn left and walk to the middle of that side of the bed then turn right and walk to the small table.",
+                    "Pick up the alarm clock that's in front of you.",
+                    "Turn left and walk to the wall then turn left and walk to the night stand.",
+                    "Put the clock above the cd on the nightstand."
+                ],
+                "task_desc": "Put a clock on the nightstand."
+            }
+        ]
+    }
+}

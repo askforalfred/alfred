@@ -1,0 +1,234 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan217",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -2.0,
+            "y": 0.9011413,
+            "z": 1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.532461,
+                    "y": 0.554524243,
+                    "z": 2.35953331
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.15299416,
+                    "y": 0.554524243,
+                    "z": 2.455776
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_193339bf",
+                "position": {
+                    "x": -4.74445152,
+                    "y": 0.9878072,
+                    "z": 2.87919188
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8660a70c",
+                "position": {
+                    "x": -1.75269806,
+                    "y": 0.456995964,
+                    "z": 0.571301341
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_5b6fe32c",
+                "position": {
+                    "x": -4.668551,
+                    "y": 0.40546155,
+                    "z": 2.33778119
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_5b6fe32c",
+                "position": {
+                    "x": -2.70243382,
+                    "y": 0.7611274,
+                    "z": 0.843662262
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_9691257b",
+                "position": {
+                    "x": -0.2776128,
+                    "y": -0.000669963658,
+                    "z": 4.8605876
+                },
+                "rotation": {
+                    "x": 359.9809,
+                    "y": 359.9893,
+                    "z": 0.00747299241
+                }
+            },
+            {
+                "objectName": "CreditCard_8660a70c",
+                "position": {
+                    "x": 0.132250726,
+                    "y": 0.707695961,
+                    "z": 4.6594
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_32e21d3a",
+                "position": {
+                    "x": -2.532461,
+                    "y": 0.453835756,
+                    "z": 2.455776
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_f769cdcb",
+                "position": {
+                    "x": -3.294,
+                    "y": 0.624,
+                    "z": 0.801
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 338.090637
+                }
+            },
+            {
+                "objectName": "Laptop_d290dd79",
+                "position": {
+                    "x": -0.417164564,
+                    "y": 0.5471761,
+                    "z": 1.714
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_193339bf",
+                "position": {
+                    "x": -2.532461,
+                    "y": 0.455707222,
+                    "z": 2.744504
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": -5.09464359,
+                    "y": 0.985372663,
+                    "z": 2.595
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.15299416,
+                    "y": 0.554524243,
+                    "z": 2.744504
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 2852418232,
+        "scene_num": 217
+    },
+    "task_id": "trial_T20190908_171807_876172",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn right and walk over to the chair, then hang a left and walk towards the door, turn right and walk up to the round black table in the corner of the room.",
+                    "Pick up the water can off of the ground below the round black table.",
+                    "Turn left ad walk towards the chair in the corner of the room, then hang a left and walk forward, turn right and walk over to the dresser the television is on.",
+                    "Open the rightmost cabinet door of the dresser and put the watering can inside, then close the door."
+                ],
+                "task_desc": "Move a watering can into a dresser cabinet."
+            },
+            {
+                "high_descs": [
+                    "Turn right and walk to the chair then turn left and walk to the wall then turn right and walk to the table then turn left.",
+                    "Pick up the watering can that's in front of you on the floor by the wall.",
+                    "Turn left and walk to the tv that's in front of you to your left and stand facing the right side of the tv.",
+                    "Open the cupboard all the way to the right of the tv stand and put the watering can down there then close the door. "
+                ],
+                "task_desc": "Put a watering can in the cupboard."
+            },
+            {
+                "high_descs": [
+                    "Go right and then left and turn to the right to face the small black table in the corner.",
+                    "Pick the white pitcher up from the floor by the black table.",
+                    "Turn left and cross the room to face the black cabinet with the television on it.",
+                    "Open the cabinet on the bottom right and put the pitcher in and shut the door."
+                ],
+                "task_desc": "Put a pitcher in a cabinet."
+            }
+        ]
+    }
+}

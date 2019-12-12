@@ -1,0 +1,532 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan326",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -1.5,
+            "y": 0.899458051,
+            "z": 0.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Bowl_8c269f0e",
+                "position": {
+                    "x": -2.94820046,
+                    "y": 1.41302216,
+                    "z": -1.49768543
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_8c269f0e",
+                "position": {
+                    "x": 0.8910983,
+                    "y": 1.41302216,
+                    "z": -2.02539086
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_e31da285",
+                "position": {
+                    "x": -1.523,
+                    "y": 0.07553786,
+                    "z": 0.414663732
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00007,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_e31da285",
+                "position": {
+                    "x": 0.9541054,
+                    "y": 1.14197445,
+                    "z": -1.607688
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_cbcd5e6d",
+                "position": {
+                    "x": 2.99396753,
+                    "y": 0.5464546,
+                    "z": -0.552282333
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_cbcd5e6d",
+                "position": {
+                    "x": 3.08615255,
+                    "y": 0.7973008,
+                    "z": -0.838971436
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_b98eece4",
+                "position": {
+                    "x": -1.38373744,
+                    "y": 0.619384468,
+                    "z": 0.462640226
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000381,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_b98eece4",
+                "position": {
+                    "x": 2.99396753,
+                    "y": 0.547486246,
+                    "z": -2.3117547
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_096e7851",
+                "position": {
+                    "x": 3.209468,
+                    "y": 0.791644,
+                    "z": -1.12131548
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_b854204c",
+                "position": {
+                    "x": -1.523,
+                    "y": 0.339503527,
+                    "z": 0.393150926
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 6.488679e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_b854204c",
+                "position": {
+                    "x": -2.97970152,
+                    "y": 1.41498864,
+                    "z": -2.39072585
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999832,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4c818726",
+                "position": {
+                    "x": -0.479699224,
+                    "y": 0.614830136,
+                    "z": -0.317124069
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4c818726",
+                "position": {
+                    "x": -2.00309777,
+                    "y": 0.599222958,
+                    "z": -0.03584528
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_0397722d",
+                "position": {
+                    "x": 3.27112579,
+                    "y": 0.7940436,
+                    "z": -2.25069141
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_af69458f",
+                "position": {
+                    "x": -0.9366015,
+                    "y": 0.6141396,
+                    "z": -0.8796817
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4c818726",
+                "position": {
+                    "x": 3.18,
+                    "y": 0.7857534,
+                    "z": -1.541
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 21.3111076,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_af69458f",
+                "position": {
+                    "x": -2.46,
+                    "y": 0.598532438,
+                    "z": -1.16096044
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_b854204c",
+                "position": {
+                    "x": -1.52300012,
+                    "y": 0.615487,
+                    "z": 0.381447047
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000381,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_9b18bd81",
+                "position": {
+                    "x": 0.970993042,
+                    "y": -0.00154149532,
+                    "z": -2.404656
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_7718edb2",
+                "position": {
+                    "x": -2.982,
+                    "y": 0.015,
+                    "z": -2.698
+                },
+                "rotation": {
+                    "x": 270.0,
+                    "y": 350.597961,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BasketBall_11d56643",
+                "position": {
+                    "x": -2.718,
+                    "y": 0.1184585,
+                    "z": -1.925
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_d4cff861",
+                "position": {
+                    "x": -0.327398479,
+                    "y": 0.6939142,
+                    "z": -1.16096044
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_6aec589e",
+                "position": {
+                    "x": -0.6261245,
+                    "y": 0.650000036,
+                    "z": 0.129896164
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TennisRacket_8b81f72e",
+                "position": {
+                    "x": -3.018,
+                    "y": 0.301,
+                    "z": -2.199
+                },
+                "rotation": {
+                    "x": 19.103323,
+                    "y": 272.232483,
+                    "z": 184.97876
+                }
+            },
+            {
+                "objectName": "Pencil_b98eece4",
+                "position": {
+                    "x": -1.59263039,
+                    "y": 0.619384468,
+                    "z": 0.5032387
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000381,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_096e7851",
+                "position": {
+                    "x": 3.27112579,
+                    "y": 0.7927494,
+                    "z": -1.96834755
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_85b554b9",
+                "position": {
+                    "x": 0.911633968,
+                    "y": 0.025,
+                    "z": -2.70249653
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TeddyBear_d565c4f0",
+                "position": {
+                    "x": -2.64507127,
+                    "y": 0.6247293,
+                    "z": -0.4025734
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 286.876434,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_cbcd5e6d",
+                "position": {
+                    "x": 0.9225969,
+                    "y": 1.1473546,
+                    "z": -2.65323687
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_83c511c6",
+                "position": {
+                    "x": 0.705,
+                    "y": -0.00154149532,
+                    "z": -2.75
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 269.152557,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_0397722d",
+                "position": {
+                    "x": 3.02449465,
+                    "y": 0.7940436,
+                    "z": -2.25069141
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_e31da285",
+                "position": {
+                    "x": -1.73189354,
+                    "y": 0.614172637,
+                    "z": 0.340851367
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000381,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_1f80dd7b",
+                "position": {
+                    "x": -0.1750977,
+                    "y": 0.616349638,
+                    "z": -0.03584528
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f52f155c",
+                "position": {
+                    "x": -3.01120377,
+                    "y": 1.41300833,
+                    "z": -1.76538908
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_0fbdf42c",
+                "position": {
+                    "x": 0.9856014,
+                    "y": 1.41140163,
+                    "z": -2.51938534
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_8c269f0e",
+                "position": {
+                    "x": -2.916698,
+                    "y": 1.41302216,
+                    "z": -2.74401188
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1149971061,
+        "scene_num": 326
+    },
+    "task_id": "trial_T20190908_184758_224801",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around and walk around the left bed to the desk in the next room.",
+                    "Pick up the card on the left side of the desk.",
+                    "Turn around and walk around to the table between the beds.",
+                    "Place the card on the table between the beds.",
+                    "Turn around and walk around the left bed to the desk in the next room.",
+                    "Pick up the card on the right side of the desk.",
+                    "Turn around and walk around to the table between the beds.",
+                    "Place the card on the table between the beds."
+                ],
+                "task_desc": "To place two cards on the table between the beds."
+            },
+            {
+                "high_descs": [
+                    "Walk forward and walk around the left side of the bed. Go forward to the desk.",
+                    "Pick up the credit card from the desk. ",
+                    "Turn around completely and walk around the bed to the right. Walk forward to the night stand.",
+                    "Set the credit card on the night stand. ",
+                    "Walk forward and walk around the left side of the bed. Go forward to the desk.",
+                    "Pick up the credit card from the desk. ",
+                    "Turn around completely and walk around the bed to the right. Walk forward to the night stand.",
+                    "Set the credit card on the night stand. "
+                ],
+                "task_desc": "Move two credit cards to the night stand between the beds. "
+            },
+            {
+                "high_descs": [
+                    "Turn around, turn left after the bed, turn left at the shelves, turn right at the door, and walk to the desk. ",
+                    "Pick up the credit card from the desk. ",
+                    "Turn around and walk to the night stand in between the two beds. ",
+                    "Put the credit card down on the night stand in front of the keys. ",
+                    "Walk back over to the desk on the other side of the room. ",
+                    "Pick up the credit card to the right of the book. ",
+                    "Walk back over to the night stand. ",
+                    "Put the credit card down on the night stand to the right of the first card. "
+                ],
+                "task_desc": "To move two credit cards to the night stand. "
+            }
+        ]
+    }
+}

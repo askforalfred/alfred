@@ -1,0 +1,291 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan207",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": 1.0,
+            "y": 0.9009992,
+            "z": -1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_6b796512",
+                "position": {
+                    "x": 1.90101242,
+                    "y": 0.7603563,
+                    "z": 0.6919706
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_6b796512",
+                "position": {
+                    "x": -1.568,
+                    "y": 0.489272654,
+                    "z": 1.75385618
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_2d83981f",
+                "position": {
+                    "x": 1.90101111,
+                    "y": 0.7609194,
+                    "z": 0.241530448
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cb9b9d4",
+                "position": {
+                    "x": -1.79443538,
+                    "y": 1.62545717,
+                    "z": -1.47389984
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9999,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cb9b9d4",
+                "position": {
+                    "x": -1.11360717,
+                    "y": 0.327025056,
+                    "z": 0.643706441
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99987,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5dced9ac",
+                "position": {
+                    "x": 1.82594252,
+                    "y": 0.7597073,
+                    "z": 0.09138401
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_e596732c",
+                "position": {
+                    "x": -0.0518449247,
+                    "y": 0.471301138,
+                    "z": -0.08663845
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9998245,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_d6526770",
+                "position": {
+                    "x": -0.00748860836,
+                    "y": 0.65,
+                    "z": 0.8928821
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_e596732c",
+                "position": {
+                    "x": -0.196,
+                    "y": 0.470179319,
+                    "z": 0.407
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 72.61528,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cb9b9d4",
+                "position": {
+                    "x": 1.82594419,
+                    "y": 0.756996,
+                    "z": 0.6919707
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_2d83981f",
+                "position": {
+                    "x": 1.675806,
+                    "y": 0.757835746,
+                    "z": 0.09138444
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0001673396,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_625d2f5f",
+                "position": {
+                    "x": 1.60073912,
+                    "y": 0.762159467,
+                    "z": 0.5418247
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_31bce8de",
+                "position": {
+                    "x": -1.80041933,
+                    "y": 1.616,
+                    "z": -1.78580987
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_e6d56e59",
+                "position": {
+                    "x": -1.235,
+                    "y": 0.461,
+                    "z": -0.025
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 75.00003,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5dced9ac",
+                "position": {
+                    "x": -0.301129282,
+                    "y": 0.479886651,
+                    "z": 0.9714386
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9998245,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_6b796512",
+                "position": {
+                    "x": 1.79947877,
+                    "y": 0.179451823,
+                    "z": 0.20893608
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_77e7f5e9",
+                "position": {
+                    "x": -0.3011267,
+                    "y": 0.4812554,
+                    "z": 0.08970708
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9998245,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_7ce9b434",
+                "position": {
+                    "x": 1.60073829,
+                    "y": 0.7701476,
+                    "z": 0.241531342
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 2671312792,
+        "scene_num": 207
+    },
+    "task_id": "trial_T20190907_181722_293203",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn to the right and go forward to the middle of the TV stand and turn to the right",
+                    "pick up the set of keys from the TV stand",
+                    "turn to the left and take a few steps and turn to the right and take a step and turn to the left and go to the floor lamp",
+                    "turn on the floor lamp"
+                ],
+                "task_desc": "Examine a set of keys by the light of a floor lamp"
+            },
+            {
+                "high_descs": [
+                    "Move to the black TV stand against the wall",
+                    "Pick up the keys sitting on the TV stand behind the statue",
+                    "Carry the keys over to the green floor lamp in the middle of the room",
+                    "Turn on the lamp"
+                ],
+                "task_desc": "Carry keys while turning on a lamp"
+            },
+            {
+                "high_descs": [
+                    "Turn right and walk to the desk containing the television.",
+                    "Pick up the key chain from the desk.",
+                    "Turn left and walk to the floor lamp by the recycling bin.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Examine a key chain by the light of a floor lamp."
+            }
+        ]
+    }
+}

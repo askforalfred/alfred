@@ -1,0 +1,695 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan30",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": 0.25,
+            "y": 0.9304675,
+            "z": -0.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Pan_000ae861",
+                "position": {
+                    "x": 3.08444834,
+                    "y": 0.176851511,
+                    "z": 0.84102875
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Potato_ed324e47",
+                "position": {
+                    "x": -0.789968,
+                    "y": 0.938760042,
+                    "z": 0.399594069
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Potato_ed324e47",
+                "position": {
+                    "x": 2.98707986,
+                    "y": 0.7858177,
+                    "z": -0.0342778563
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Potato_ed324e47",
+                "position": {
+                    "x": 3.155206,
+                    "y": 0.139463186,
+                    "z": 1.68038273
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 225.000046,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Ladle_ff5a3b19",
+                "position": {
+                    "x": -0.9910205,
+                    "y": 0.5551319,
+                    "z": 0.576704144
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_3cec4766",
+                "position": {
+                    "x": -0.917910457,
+                    "y": 1.25797713,
+                    "z": -0.8118454
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_3cec4766",
+                "position": {
+                    "x": 3.20879388,
+                    "y": 0.100567408,
+                    "z": 1.57320583
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 225.000046,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ButterKnife_db774b98",
+                "position": {
+                    "x": 3.044359,
+                    "y": 0.9008421,
+                    "z": -0.3003367
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Glassbottle_20771abe",
+                "position": {
+                    "x": 0.897994161,
+                    "y": 0.9088167,
+                    "z": 0.6087306
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 36.8105049,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Spoon_0fe289e3",
+                "position": {
+                    "x": 0.422373831,
+                    "y": 0.706815839,
+                    "z": -1.5157
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Spoon_0fe289e3",
+                "position": {
+                    "x": -0.8273932,
+                    "y": 0.707704,
+                    "z": 0.8391918
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_bf099a5c",
+                "position": {
+                    "x": -0.909206867,
+                    "y": 0.515589237,
+                    "z": 1.60589182
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_bf099a5c",
+                "position": {
+                    "x": -0.29053244,
+                    "y": 0.89769727,
+                    "z": -1.54784632
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_ba5c7501",
+                "position": {
+                    "x": -1.11901546,
+                    "y": 0.9926588,
+                    "z": 1.52397466
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999847,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_ba5c7501",
+                "position": {
+                    "x": 1.16424751,
+                    "y": 0.8810964,
+                    "z": -1.47598743
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bread_1e8ab5c8",
+                "position": {
+                    "x": -0.86270237,
+                    "y": 0.9791738,
+                    "z": 0.623000562
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Lettuce_99ab2e9c",
+                "position": {
+                    "x": 0.967864335,
+                    "y": 0.976551,
+                    "z": 0.747513056
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Lettuce_99ab2e9c",
+                "position": {
+                    "x": -0.7525617,
+                    "y": 0.965890944,
+                    "z": -0.7768376
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "PepperShaker_6d2fd9f8",
+                "position": {
+                    "x": 2.90767145,
+                    "y": 1.46086979,
+                    "z": -1.55085
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_46f611f6",
+                "position": {
+                    "x": 2.96098423,
+                    "y": 1.46167791,
+                    "z": -1.18682539
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Egg_7c285ee2",
+                "position": {
+                    "x": 0.0223874375,
+                    "y": 0.952835,
+                    "z": -1.8032918
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Egg_7c285ee2",
+                "position": {
+                    "x": 0.101004355,
+                    "y": 0.952835,
+                    "z": -1.37360859
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_bf5eb4b5",
+                "position": {
+                    "x": 3.113,
+                    "y": 1.47748458,
+                    "z": -1.6488
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Knife_3e58a77d",
+                "position": {
+                    "x": -0.09992669,
+                    "y": 0.9259183,
+                    "z": -1.63577485
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 135.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_bf5eb4b5",
+                "position": {
+                    "x": 0.7197533,
+                    "y": 0.923881,
+                    "z": 0.254712135
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 36.8105049,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Glassbottle_20771abe",
+                "position": {
+                    "x": 0.710450053,
+                    "y": 0.908816636,
+                    "z": 0.7275939
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_5121dd32",
+                "position": {
+                    "x": 0.01749932,
+                    "y": 0.909402966,
+                    "z": -1.23981452
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Potato_ed324e47",
+                "position": {
+                    "x": 3.15291977,
+                    "y": 0.7858177,
+                    "z": -0.100778744
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Fork_12a59a81",
+                "position": {
+                    "x": 2.988393,
+                    "y": 0.713133156,
+                    "z": 0.761829555
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000046,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Ladle_ff5a3b19",
+                "position": {
+                    "x": 0.669937968,
+                    "y": 0.9479,
+                    "z": 0.5356984
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 216.8105,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pot_7a7d333f",
+                "position": {
+                    "x": 0.4232557,
+                    "y": 0.90096,
+                    "z": 0.869321465
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Kettle_449c396f",
+                "position": {
+                    "x": -0.6002,
+                    "y": 0.902399957,
+                    "z": -1.0901
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 134.999832,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Spatula_64c860f2",
+                "position": {
+                    "x": -0.8683,
+                    "y": 0.7215745,
+                    "z": 1.16841245
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Knife_3e58a77d",
+                "position": {
+                    "x": 0.179621279,
+                    "y": 0.9259183,
+                    "z": -1.6600641
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Lettuce_99ab2e9c",
+                "position": {
+                    "x": -1.00817108,
+                    "y": 0.965891,
+                    "z": 0.846407056
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cup_be22aed5",
+                "position": {
+                    "x": -0.234277517,
+                    "y": 0.8981324,
+                    "z": -1.39874661
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SaltShaker_c39806f6",
+                "position": {
+                    "x": 3.11111355,
+                    "y": 0.7088906,
+                    "z": -0.9028481
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000046,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Egg_7c285ee2",
+                "position": {
+                    "x": 1.008,
+                    "y": 0.7638253,
+                    "z": -1.40712857
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "PepperShaker_6d2fd9f8",
+                "position": {
+                    "x": -0.987973,
+                    "y": 0.896606147,
+                    "z": -0.7466208
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ButterKnife_db774b98",
+                "position": {
+                    "x": -1.00817108,
+                    "y": 0.9003421,
+                    "z": 0.623000562
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Apple_1e1bef89",
+                "position": {
+                    "x": -1.08090544,
+                    "y": 0.9741304,
+                    "z": 0.176187515
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pan_000ae861",
+                "position": {
+                    "x": 0.341,
+                    "y": 0.8731569,
+                    "z": -1.649
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 167.065247,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bread_1e8ab5c8",
+                "position": {
+                    "x": -0.789968,
+                    "y": 0.9791738,
+                    "z": -0.047219038
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_bf099a5c",
+                "position": {
+                    "x": -0.909206867,
+                    "y": 0.323989272,
+                    "z": 0.489208221
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_3cec4766",
+                "position": {
+                    "x": -0.703748941,
+                    "y": 0.8998642,
+                    "z": -0.5174586
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 44.9999962,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Tomato_bfd17fb4",
+                "position": {
+                    "x": 0.7736288,
+                    "y": 0.923085749,
+                    "z": -1.53184974
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Spoon_0fe289e3",
+                "position": {
+                    "x": 3.27791429,
+                    "y": 0.9019294,
+                    "z": -0.5990837
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_46f611f6",
+                "position": {
+                    "x": 1.16011488,
+                    "y": 1.67199731,
+                    "z": -1.41078925
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_ba5c7501",
+                "position": {
+                    "x": 0.713102,
+                    "y": 1.66987932,
+                    "z": -1.48049664
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 18782010,
+        "scene_num": 30
+    },
+    "task_id": "trial_T20190907_193302_048858",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Go forward and turn left to face the counter.",
+                    "Pick the potato up from the left of the bread.",
+                    "Go right and turn to face the microwave.",
+                    "Put the potato in the microwave and shut the door and then open it and take the potato out and shut the door again.",
+                    "Go left and then turn right to face the fridge.",
+                    "Put the potato in the fridge."
+                ],
+                "task_desc": "Put a heated potato in the fridge."
+            },
+            {
+                "high_descs": [
+                    "Walk forward and turn left to face the kitchen counter below the mirror",
+                    "Pick up the potato from the kitchen counter",
+                    "Turn right and walk to the microwave on the right side of the counter",
+                    "Put the potato in the microwave, cook it, and remove it",
+                    "Turn left and walk around to the fridge",
+                    "Open the fridge and put the potato on the lower shelf next to the egg"
+                ],
+                "task_desc": "Put the cooked potato in the fridge"
+            },
+            {
+                "high_descs": [
+                    "Walk to the middle of the counter on the left.",
+                    "Pick up the potato to the left of the loaf of bread on the counter.",
+                    "Turn right and walk to the microwave on the left.",
+                    "Put the potato inside the microwave, heat it, remove it, and close the door.",
+                    "Turn left and walk to the black fridge on the right.",
+                    "Put the heated potato on the bottom shelf to the right of the egg and close the door."
+                ],
+                "task_desc": "Place a heated potato in a fridge."
+            }
+        ]
+    }
+}

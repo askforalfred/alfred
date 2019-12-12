@@ -1,0 +1,298 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan207",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": 1.0,
+            "y": 0.9009992,
+            "z": 0.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_6b796512",
+                "position": {
+                    "x": 1.45614076,
+                    "y": 0.5714784,
+                    "z": 0.662086964
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_7ce9b434",
+                "position": {
+                    "x": 1.52567148,
+                    "y": 0.7701476,
+                    "z": 0.6919717
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_2d83981f",
+                "position": {
+                    "x": -1.42819881,
+                    "y": 0.327864826,
+                    "z": 0.44
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99987,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_2d83981f",
+                "position": {
+                    "x": -1.50315619,
+                    "y": 0.489835739,
+                    "z": 1.94838738
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5dced9ac",
+                "position": {
+                    "x": -1.349552,
+                    "y": 0.3297364,
+                    "z": 1.05111754
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99987,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5dced9ac",
+                "position": {
+                    "x": 1.60073829,
+                    "y": 0.7627909,
+                    "z": 0.241531342
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_e596732c",
+                "position": {
+                    "x": -0.218032449,
+                    "y": 0.475179344,
+                    "z": -0.08663899
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9998245,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_d6526770",
+                "position": {
+                    "x": -0.00748860836,
+                    "y": 0.65,
+                    "z": 0.8928821
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_e596732c",
+                "position": {
+                    "x": -0.196,
+                    "y": 0.470179319,
+                    "z": 0.407
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 72.61528,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cb9b9d4",
+                "position": {
+                    "x": 1.9010098,
+                    "y": 0.7600796,
+                    "z": -0.2089096
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_2d83981f",
+                "position": {
+                    "x": -1.69768739,
+                    "y": 0.489835739,
+                    "z": 1.62416875
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_625d2f5f",
+                "position": {
+                    "x": -1.43831253,
+                    "y": 0.49415946,
+                    "z": 1.8187
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_31bce8de",
+                "position": {
+                    "x": -1.80041933,
+                    "y": 1.616,
+                    "z": -1.78580987
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_e6d56e59",
+                "position": {
+                    "x": -1.235,
+                    "y": 0.461,
+                    "z": -0.025
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 75.00003,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5dced9ac",
+                "position": {
+                    "x": 1.825943,
+                    "y": 0.7627909,
+                    "z": 0.241530672
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_6b796512",
+                "position": {
+                    "x": 1.52566934,
+                    "y": 0.757272661,
+                    "z": -0.0587618053
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_77e7f5e9",
+                "position": {
+                    "x": -1.79980278,
+                    "y": 1.31599987,
+                    "z": -1.47010064
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_7ce9b434",
+                "position": {
+                    "x": -1.568,
+                    "y": 0.499063939,
+                    "z": 1.62416875
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 152503585,
+        "scene_num": 207
+    },
+    "task_id": "trial_T20190908_122348_520607",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to the right and take one step then turn to the left and look down.",
+                    "Pick up the remote control that is in the center of the entertainment center.",
+                    "Look up then turn around then look down at the coffee table.",
+                    "Put the remote down in the center of the coffee table.",
+                    "Look up and turn around to face the television.",
+                    "Pick up the remote control that is near the television.",
+                    "Look up then turn around then look down at the coffee table.",
+                    "Put the remote down in the center of the coffee table, to the right of the other remote. "
+                ],
+                "task_desc": "Put the remotes on the table. "
+            },
+            {
+                "high_descs": [
+                    "turn to face the television monitor and tv stand",
+                    "pick up the remote closest to the edge of the tv stand",
+                    "turn around to face the coffee table",
+                    "put the remote on the coffee table in front of the right hand lap top computer",
+                    "turn to face the television monitor and tv stand",
+                    "pick up the remote from the tv stand",
+                    "turn around to face the coffee table",
+                    "put the remote on the coffee table to the right of the remote already there"
+                ],
+                "task_desc": "put two remote controls on a coffee table"
+            },
+            {
+                "high_descs": [
+                    "Move slightly to the right and face the TV stand",
+                    "Grab the remote off of the TV stand",
+                    "Turn around and face the black coffee table",
+                    "Put the remote on the table",
+                    "Turn around and face the TV stand",
+                    "Grab the remote off of the TV stand",
+                    "Turn around and face the coffee table",
+                    "Put the remote on the table"
+                ],
+                "task_desc": "Moving two remotes to the black coffee table"
+            }
+        ]
+    }
+}

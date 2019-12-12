@@ -1,0 +1,265 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan208",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": -0.25,
+            "y": 0.9009992,
+            "z": 0.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Vase_df37b229",
+                "position": {
+                    "x": -2.73020077,
+                    "y": 0.787600756,
+                    "z": -3.61400151
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_df37b229",
+                "position": {
+                    "x": 1.84697568,
+                    "y": 0.881964445,
+                    "z": 1.40945613
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_dbf90498",
+                "position": {
+                    "x": 1.80738938,
+                    "y": 0.8787242,
+                    "z": 1.09355557
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_1ab24c77",
+                "position": {
+                    "x": -0.5759998,
+                    "y": 0.4252727,
+                    "z": 1.2405
+                },
+                "rotation": {
+                    "x": 7.79877951e-07,
+                    "y": 90.0000153,
+                    "z": 7.60536466e-07
+                }
+            },
+            {
+                "objectName": "CreditCard_1ab24c77",
+                "position": {
+                    "x": -0.8982232,
+                    "y": 0.4252727,
+                    "z": 1.11550009
+                },
+                "rotation": {
+                    "x": 7.79877951e-07,
+                    "y": 90.0000153,
+                    "z": 7.60536466e-07
+                }
+            },
+            {
+                "objectName": "RemoteControl_3d36b2c6",
+                "position": {
+                    "x": -2.17573953,
+                    "y": 0.7614473,
+                    "z": 0.6143215
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_157553b2",
+                "position": {
+                    "x": -0.564,
+                    "y": 0.122,
+                    "z": -2.747
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_dbf90498",
+                "position": {
+                    "x": 1.80738938,
+                    "y": 0.877383351,
+                    "z": 0.8829552
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_6a05bad5",
+                "position": {
+                    "x": 0.8570781,
+                    "y": 0.466000021,
+                    "z": -0.258270681
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 225.000259,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_ebcaafeb",
+                "position": {
+                    "x": -2.8538022,
+                    "y": 0.789412558,
+                    "z": -4.279764
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_20200b31",
+                "position": {
+                    "x": 0.495361447,
+                    "y": 0.603220463,
+                    "z": -0.7344159
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 225.000259,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_3d36b2c6",
+                "position": {
+                    "x": -0.6834077,
+                    "y": 0.4266402,
+                    "z": 1.1155
+                },
+                "rotation": {
+                    "x": 7.79877951e-07,
+                    "y": 90.0000153,
+                    "z": 7.60536466e-07
+                }
+            },
+            {
+                "objectName": "Statue_998bf84e",
+                "position": {
+                    "x": -2.97740173,
+                    "y": 0.7908211,
+                    "z": -4.05784273
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_1ab24c77",
+                "position": {
+                    "x": 1.75599456,
+                    "y": 0.7652876,
+                    "z": 0.806750536
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_df37b229",
+                "position": {
+                    "x": -3.4718,
+                    "y": 0.787600756,
+                    "z": -3.83592033
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_4ba07ec1",
+                "position": {
+                    "x": -3.10100079,
+                    "y": 0.796663463,
+                    "z": -3.83592129
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 3802465018,
+        "scene_num": 208
+    },
+    "task_id": "trial_T20190907_161434_277973",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Go forward a bit, turn right, go forward a bit, turn left, go forward, turn right and go to the table",
+                    "Pick up the vase on the table",
+                    "Turn around, go to the wall, turn left, go forward, turn right, go forward, turn left at the couch, go forward a bit, turn right and go to the desk",
+                    "Open the blinds on the window to the right"
+                ],
+                "task_desc": "Pick up a vase, open the blinds on the window"
+            },
+            {
+                "high_descs": [
+                    "Move forward, turn right, move forward, turn left, move forward, then turn right to face the dining table.",
+                    "Pick up the vase nearest to you, on the dining table.",
+                    "Turn around, turn left, go straight, turn right, go straight, turn left, then go straight to approach the lamp.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Look at a vase in the lamp light."
+            },
+            {
+                "high_descs": [
+                    "Turn around and go to the dining table.",
+                    "Pick up the vase on the table. ",
+                    "Go to the window.",
+                    "Open the shades on the window."
+                ],
+                "task_desc": "Open the shades on the window. "
+            }
+        ]
+    }
+}

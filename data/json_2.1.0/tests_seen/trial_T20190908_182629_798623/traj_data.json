@@ -1,0 +1,356 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan319",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": 1.5,
+            "y": 0.9020015,
+            "z": 0.0
+        },
+        "object_poses": [
+            {
+                "objectName": "CD_0b3dc2b2",
+                "position": {
+                    "x": -0.9509794,
+                    "y": 0.4267617,
+                    "z": -1.752
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_19266383",
+                "position": {
+                    "x": 2.45611,
+                    "y": 0.8214421,
+                    "z": 0.812540054
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_19266383",
+                "position": {
+                    "x": 2.46121883,
+                    "y": 0.0336544849,
+                    "z": 0.8808118
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_2c20820a",
+                "position": {
+                    "x": 2.57983613,
+                    "y": 0.827185452,
+                    "z": 0.8125397
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00015,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_2c20820a",
+                "position": {
+                    "x": 2.394246,
+                    "y": 0.825652838,
+                    "z": 0.4336481
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_c2ef4bac",
+                "position": {
+                    "x": -0.3933669,
+                    "y": 0.0497949757,
+                    "z": -1.80787826
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_f504086d",
+                "position": {
+                    "x": 2.601097,
+                    "y": 0.192154437,
+                    "z": 0.793507934
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_f504086d",
+                "position": {
+                    "x": 2.554471,
+                    "y": 0.6770185,
+                    "z": -0.1285488
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_6de61d1a",
+                "position": {
+                    "x": -0.7883935,
+                    "y": 0.7308113,
+                    "z": 0.9677471
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_831a16be",
+                "position": {
+                    "x": 0.2524,
+                    "y": 0.2277,
+                    "z": -2.042
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 29.0781651,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_6de61d1a",
+                "position": {
+                    "x": 0.3694262,
+                    "y": 0.7308113,
+                    "z": 0.17262423
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_77031df3",
+                "position": {
+                    "x": 2.456107,
+                    "y": 0.8274205,
+                    "z": -0.324136347
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_19266383",
+                "position": {
+                    "x": 2.70356178,
+                    "y": 0.8214421,
+                    "z": 0.623093367
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_fc80dfd1",
+                "position": {
+                    "x": 0.1764562,
+                    "y": 0.809355736,
+                    "z": 0.7027061
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_568ecdf0",
+                "position": {
+                    "x": -0.441,
+                    "y": 0.738,
+                    "z": 1.64
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 348.951324,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BasketBall_054aae4c",
+                "position": {
+                    "x": -1.231,
+                    "y": 0.121002644,
+                    "z": -0.18
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_9e9ae358",
+                "position": {
+                    "x": 2.507845,
+                    "y": 0.03374097,
+                    "z": 0.618900061
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_f504086d",
+                "position": {
+                    "x": 2.39424515,
+                    "y": 0.820835769,
+                    "z": 0.244202033
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_c2ef4bac",
+                "position": {
+                    "x": 2.6477232,
+                    "y": 0.03709415,
+                    "z": -0.215852737
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_bb28d3d0",
+                "position": {
+                    "x": -0.5030323,
+                    "y": 0.7081815,
+                    "z": -1.72406077
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_a6ddd15b",
+                "position": {
+                    "x": -0.0165137351,
+                    "y": 0.729022264,
+                    "z": 1.76287
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_0b3dc2b2",
+                "position": {
+                    "x": 2.46121883,
+                    "y": 0.6757895,
+                    "z": 0.0460591
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_2c20820a",
+                "position": {
+                    "x": -0.904741764,
+                    "y": 0.714098632,
+                    "z": -1.77993917
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "DeskLamp"
+            }
+        ],
+        "random_seed": 1078426309,
+        "scene_num": 319
+    },
+    "task_id": "trial_T20190908_182629_798623",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to the right, walk to the door, then turn left and face the bed. ",
+                    "Close the laptop that is on the bed and pick it up. ",
+                    "Turn around completely, walk to the wall, then turn right and face the dresser. ",
+                    "Turn on the lamp that is on the dresser. "
+                ],
+                "task_desc": "Examine a laptop by the light of a lamp. "
+            },
+            {
+                "high_descs": [
+                    "Turn right and walk to the door, then turn left and go to the bed",
+                    "Close the laptop that is sitting on the bed then pick up the laptop",
+                    "Turn around and walk to the mirror then turn right and face the end of the dresser",
+                    "Turn on the lamp that is sitting on the dresser"
+                ],
+                "task_desc": "Look at a laptop by lamp light"
+            },
+            {
+                "high_descs": [
+                    "Turn to your right and walk in the direction of the door, hang a left to the head of the bed.",
+                    "Close the lid of the laptop on the bed and pick the laptop up.",
+                    "Turn around and walk to the lamp to the right of the mirror on the wall.",
+                    "Tilt the lampshade towards you, turn the lamp on."
+                ],
+                "task_desc": "Pick up a laptop from the bed, turn on the lamp"
+            }
+        ]
+    }
+}

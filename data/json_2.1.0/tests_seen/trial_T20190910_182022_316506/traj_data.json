@@ -1,0 +1,246 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan217",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -1.75,
+            "y": 0.9011413,
+            "z": 4.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.65894985,
+                    "y": 0.554524243,
+                    "z": 2.35953331
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.532461,
+                    "y": 0.554524243,
+                    "z": 2.744504
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": 0.132250726,
+                    "y": 0.707972646,
+                    "z": 4.5786
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_32e21d3a",
+                "position": {
+                    "x": -2.939868,
+                    "y": 0.457835734,
+                    "z": 0.752875268
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_32e21d3a",
+                "position": {
+                    "x": -5.09464359,
+                    "y": 0.9890352,
+                    "z": 2.31080818
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_5b6fe32c",
+                "position": {
+                    "x": -4.668551,
+                    "y": 0.40546155,
+                    "z": 3.37507534
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_9691257b",
+                "position": {
+                    "x": -0.2776128,
+                    "y": -0.000669963658,
+                    "z": 4.8605876
+                },
+                "rotation": {
+                    "x": 359.9809,
+                    "y": 359.9893,
+                    "z": 0.00747299241
+                }
+            },
+            {
+                "objectName": "CreditCard_8660a70c",
+                "position": {
+                    "x": -0.240946516,
+                    "y": 0.467571765,
+                    "z": 3.44958878
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_32e21d3a",
+                "position": {
+                    "x": -2.279483,
+                    "y": 0.453835756,
+                    "z": 2.84074664
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_f769cdcb",
+                "position": {
+                    "x": -3.294,
+                    "y": 0.624,
+                    "z": 0.801
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 338.090637
+                }
+            },
+            {
+                "objectName": "Laptop_d290dd79",
+                "position": {
+                    "x": -4.873,
+                    "y": 0.981,
+                    "z": 3.44
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 83.8787842,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_193339bf",
+                "position": {
+                    "x": -2.405972,
+                    "y": 0.455707222,
+                    "z": 2.35953331
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": -4.74445152,
+                    "y": 0.9884721,
+                    "z": 2.595
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.78543854,
+                    "y": 0.554524243,
+                    "z": 2.55201864
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3967579423,
+        "scene_num": 217
+    },
+    "task_id": "trial_T20190910_182022_316506",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "go straight, then take a left at the chair, to face the television screen on the black stand",
+                    "pick up the watch on the black television stand",
+                    "take a right around the center coffee table and face the key ring",
+                    "place the watch to the right of the key ring and in front of the gold statue",
+                    "make a left and go straight to the end table to the left of the couch",
+                    "pick up the watch behind the lamp on the end table",
+                    "return to the middle coffee table ",
+                    "place the watch to the left of the first watch on the coffee table"
+                ],
+                "task_desc": "collect two watches from around the living room and place them on the coffee table"
+            },
+            {
+                "high_descs": [
+                    "walk to face bureau with tv monitor",
+                    "pick up watch from top of bureau",
+                    "walk to face coffee table",
+                    "put watch on table",
+                    "walk to face round side table with lamp",
+                    "pick up watch from table",
+                    "walk to face coffee table",
+                    "put watch on table"
+                ],
+                "task_desc": "put two watches on coffee table"
+            },
+            {
+                "high_descs": [
+                    "Turn left then head to the tv stand ",
+                    "Pick up the wrist watch on the stand ",
+                    "Turn right then head to the center table ",
+                    "Put the wrist watch on the center table",
+                    "Turn left then head to the side table with lamp ",
+                    "Pick up the wrist watch beside the lamp",
+                    "Turn right and head to the center table",
+                    "Put the wrist watch on the center table"
+                ],
+                "task_desc": "Put the two wrist watch on the center table"
+            }
+        ]
+    }
+}

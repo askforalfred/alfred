@@ -1,0 +1,356 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan212",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": 2.25,
+            "y": 0.9009992,
+            "z": -0.25
+        },
+        "object_poses": [
+            {
+                "objectName": "TissueBox_b814623d",
+                "position": {
+                    "x": -0.2906364,
+                    "y": 0.459261447,
+                    "z": -0.6534699
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_b814623d",
+                "position": {
+                    "x": 3.8389883,
+                    "y": 0.0689050853,
+                    "z": -0.495194077
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_ae6ac1d3",
+                "position": {
+                    "x": 1.18331873,
+                    "y": 0.476791173,
+                    "z": 0.512848854
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_ae6ac1d3",
+                "position": {
+                    "x": 1.59226227,
+                    "y": 0.456032664,
+                    "z": -0.6913349
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_47cfc867",
+                "position": {
+                    "x": 3.92616558,
+                    "y": 0.7709444,
+                    "z": 1.15104949
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_47cfc867",
+                "position": {
+                    "x": 1.466563,
+                    "y": 0.4830327,
+                    "z": 0.594499946
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_485ec074",
+                "position": {
+                    "x": 4.00756168,
+                    "y": 0.877383351,
+                    "z": 1.18165612
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_485ec074",
+                "position": {
+                    "x": 1.18332076,
+                    "y": 0.478215635,
+                    "z": 0.186251432
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_f9e01833",
+                "position": {
+                    "x": -0.130346045,
+                    "y": 0.32436347,
+                    "z": 1.663906
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 91.37214,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_3c3547a4",
+                "position": {
+                    "x": 2.65600014,
+                    "y": 0.5692376,
+                    "z": 1.79885626
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000160509444,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_02556112",
+                "position": {
+                    "x": 1.32494056,
+                    "y": 0.476211071,
+                    "z": 0.5944991
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.9996643,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_8b68e398",
+                "position": {
+                    "x": 1.805,
+                    "y": 0.47,
+                    "z": 0.499
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_33bf3943",
+                "position": {
+                    "x": 1.62122488,
+                    "y": 0.05634463,
+                    "z": -0.697304249
+                },
+                "rotation": {
+                    "x": 0.000197915157,
+                    "y": -6.957903e-05,
+                    "z": 0.0007479768
+                }
+            },
+            {
+                "objectName": "TissueBox_b814623d",
+                "position": {
+                    "x": -0.06722589,
+                    "y": 0.841799557,
+                    "z": -0.8189261
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_485ec074",
+                "position": {
+                    "x": -0.29,
+                    "y": 0.840935767,
+                    "z": -0.6721478
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_47cfc867",
+                "position": {
+                    "x": -0.606544554,
+                    "y": 0.463214725,
+                    "z": -0.6534699
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Boots_e23cd2af",
+                "position": {
+                    "x": 4.00566864,
+                    "y": 0.001239866,
+                    "z": 1.707024
+                },
+                "rotation": {
+                    "x": 1.56307054,
+                    "y": 246.167221,
+                    "z": 359.9851
+                }
+            },
+            {
+                "objectName": "Pencil_ae6ac1d3",
+                "position": {
+                    "x": 1.90417159,
+                    "y": 0.456032664,
+                    "z": -0.6913349
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_f9e01833",
+                "position": {
+                    "x": 1.80020177,
+                    "y": 0.454105,
+                    "z": -0.7291999
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8e4e0d55",
+                "position": {
+                    "x": 4.00756168,
+                    "y": 0.8765436,
+                    "z": 0.76045537
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_9cbc67e7",
+                "position": {
+                    "x": 0.6510968,
+                    "y": 0.3955,
+                    "z": 1.7089169
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_b2cc2598",
+                "position": {
+                    "x": -0.5323,
+                    "y": 0.4430988,
+                    "z": -0.7381
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 92.2449951,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_3b9cf513",
+                "position": {
+                    "x": 1.32494211,
+                    "y": 0.487443835,
+                    "z": 0.349551
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 919118897,
+        "scene_num": 212
+    },
+    "task_id": "trial_T20190909_130251_926330",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn around to face tv stand",
+                    "pick up the remote that is on the tv stand",
+                    "turn left, walk across room, turn left, walk across to the lamp, hold remote up",
+                    "turn the lamp on"
+                ],
+                "task_desc": "examine the remote with the lamp"
+            },
+            {
+                "high_descs": [
+                    "Turn around and face the television and television stand.",
+                    "Grab the remote control between the pencils sitting in the television stand shelf.",
+                    "Look up, turn left and walk to the lamp in the corner of the room to your left.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Grab the remote control and turn on the lamp."
+            },
+            {
+                "high_descs": [
+                    "Turn left, go forward a step, turn left to face the TV.",
+                    "Take the remote control from the shelf below the TV.",
+                    "Turn left, go forward to the silver trash bin, turn left, go forward to the lamp, raise the remote control up.",
+                    "Turn the lamp on."
+                ],
+                "task_desc": "Look at a remote control near a lit lamp."
+            }
+        ]
+    }
+}

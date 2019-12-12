@@ -1,0 +1,298 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan418",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": -2.0,
+            "y": 0.901641965,
+            "z": -3.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.764503,
+                    "y": 0.06674749,
+                    "z": -3.50663471
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.53802443,
+                    "y": 0.06674749,
+                    "z": -3.02324867
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_cc56b620",
+                "position": {
+                    "x": -2.637314,
+                    "y": 0.87252593,
+                    "z": -3.067952
+                },
+                "rotation": {
+                    "x": 1.40334208e-14,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_f876c62f",
+                "position": {
+                    "x": -2.61351728,
+                    "y": 0.07580155,
+                    "z": -3.56873274
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_ea8e94da",
+                "position": {
+                    "x": -2.61351728,
+                    "y": 0.06784755,
+                    "z": -3.50663471
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_88b2545f",
+                "position": {
+                    "x": -2.9620862,
+                    "y": 1.584,
+                    "z": -2.569
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000122,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_f876c62f",
+                "position": {
+                    "x": -0.09907627,
+                    "y": 1.05469859,
+                    "z": -3.11450839
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.6203053,
+                    "y": 0.806804,
+                    "z": -3.7653923
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_88b2545f",
+                "position": {
+                    "x": -2.9620862,
+                    "y": 1.584,
+                    "z": -3.55099988
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000122,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_ed669751",
+                "position": {
+                    "x": -0.1256311,
+                    "y": 0.0006431546,
+                    "z": -3.49332213
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_cc56b620",
+                "position": {
+                    "x": -2.46253157,
+                    "y": 0.06651318,
+                    "z": -3.75502729
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_0ae85b0d",
+                "position": {
+                    "x": -0.09340003,
+                    "y": 0.842,
+                    "z": -2.61889982
+                },
+                "rotation": {
+                    "x": -5.122642e-06,
+                    "y": 270.0,
+                    "z": 270.000061
+                }
+            },
+            {
+                "objectName": "ToiletPaper_1963f6ed",
+                "position": {
+                    "x": -0.190975964,
+                    "y": 1.04234052,
+                    "z": -2.91779256
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_c13c7186",
+                "position": {
+                    "x": -1.29189992,
+                    "y": 1.386,
+                    "z": -0.63
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_94c9196d",
+                "position": {
+                    "x": -2.44399023,
+                    "y": 0.80856204,
+                    "z": -2.525286
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_ea8e94da",
+                "position": {
+                    "x": -0.129709512,
+                    "y": 1.04674459,
+                    "z": -3.04893637
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_d4414847",
+                "position": {
+                    "x": -0.325021982,
+                    "y": 0.0006431546,
+                    "z": -3.342877
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 44839150,
+        "scene_num": 418
+    },
+    "task_id": "trial_T20190907_072650_335835",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn right and look up at the bathroom towel holder",
+                    "grab the towel off of the bathroom towel holder",
+                    "look down and turn right, then walk forwards over to the toilet on the right side of the room",
+                    "place the towel on top of the toilet",
+                    "turn around and walk over to the sink cabinet ahead, then look up at the towel holder",
+                    "grab the towel off of the towel holder",
+                    "turn around and walk forwards to the toilet again",
+                    "place the towel on top of the toilet"
+                ],
+                "task_desc": "place two towels on top of the toilet"
+            },
+            {
+                "high_descs": [
+                    "Turn right towards the sink.",
+                    "Remove the towel from the towel rack to the left of the mirror.",
+                    "Turn around and move towards the toilet.",
+                    "Place the towel on the left side of the toilet tank.",
+                    "Turn around and move towards the sink.",
+                    "Remove the towel from the towel rack to the right of the mirror.",
+                    "Turn around and move towards the toilet.",
+                    "Place the towel on the right side of the other towel. "
+                ],
+                "task_desc": "The robot needs to get a towel from each towel rack then place them on the toilet tank."
+            },
+            {
+                "high_descs": [
+                    "Turn to face the towel hanging to the left of the sink.",
+                    "Grab the towel from the towel ring to the left of the sink.",
+                    "Turn around and approach the toilet paper holder to the left of the toilet.",
+                    "Put the towel on the back of the toilet.",
+                    "Turn around and face the towel hanging to the right of the sink.",
+                    "Take the towel off the towel ring hanging to the right of the sink.",
+                    "Turn around and face the towel ring hanging to the left of the toilet.",
+                    "Put the towel on the back of the toilet."
+                ],
+                "task_desc": "Put two towels on the back of the toilet."
+            },
+            {
+                "high_descs": [
+                    "Turn right to face the towel rack to the left of the mirror.",
+                    "Pick up the towel from the towel rack.",
+                    "Turn around and walk to the toilet.",
+                    "Place the towel on top of the back of the toilet.",
+                    "Turn around and walk to the towel rack to the right of the mirror.",
+                    "Pick up the towel from the towel rack.",
+                    "Turn around and walk to the toilet.",
+                    "Place the towel next to the other towel on top of the back of the toilet."
+                ],
+                "task_desc": "Place two towels on top of the back of the toilet."
+            }
+        ]
+    }
+}

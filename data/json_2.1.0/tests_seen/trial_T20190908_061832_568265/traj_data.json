@@ -1,0 +1,291 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan316",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -0.5,
+            "y": 0.901932836,
+            "z": 0.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Pen_a89f75dd",
+                "position": {
+                    "x": -0.7089462,
+                    "y": 0.66873467,
+                    "z": 0.556913137
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000031,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_a89f75dd",
+                "position": {
+                    "x": -0.56099993,
+                    "y": 0.66873467,
+                    "z": 0.6000416
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000031,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_a89f75dd",
+                "position": {
+                    "x": -0.634973168,
+                    "y": 0.66873467,
+                    "z": 0.427527249
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000031,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_bd0ed82d",
+                "position": {
+                    "x": 0.287734032,
+                    "y": 0.693147063,
+                    "z": -2.03662634
+                },
+                "rotation": {
+                    "x": -7.500846e-07,
+                    "y": 99.09066,
+                    "z": -7.785866e-08
+                }
+            },
+            {
+                "objectName": "AlarmClock_3dad19ce",
+                "position": {
+                    "x": 1.69881845,
+                    "y": 0.6957165,
+                    "z": -1.7747
+                },
+                "rotation": {
+                    "x": -3.474696e-07,
+                    "y": 18.3543167,
+                    "z": 2.15077443e-06
+                }
+            },
+            {
+                "objectName": "Box_771c8efc",
+                "position": {
+                    "x": -0.0156201124,
+                    "y": 0.239,
+                    "z": -2.09146261
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_b7b0e878",
+                "position": {
+                    "x": -1.17171729,
+                    "y": 0.629234433,
+                    "z": -1.29797554
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_c1a967ec",
+                "position": {
+                    "x": 1.798,
+                    "y": 0.639,
+                    "z": 0.42537415
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 342.3163
+                }
+            },
+            {
+                "objectName": "Pen_a89f75dd",
+                "position": {
+                    "x": 0.845753253,
+                    "y": 0.6986528,
+                    "z": -2.05565429
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_afd1b200",
+                "position": {
+                    "x": -0.6700222,
+                    "y": 0.3732294,
+                    "z": 0.5033639
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 3.585849e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_bd0ed82d",
+                "position": {
+                    "x": 0.109034181,
+                    "y": 0.6941328,
+                    "z": -2.406776
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_924304f5",
+                "position": {
+                    "x": -1.69683623,
+                    "y": 0.7038552,
+                    "z": -0.74808085
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2969ac05",
+                "position": {
+                    "x": -0.487026781,
+                    "y": 0.663077831,
+                    "z": 0.6862988
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000031,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_a5eb5319",
+                "position": {
+                    "x": -2.04691553,
+                    "y": 0.6314814,
+                    "z": -1.02302825
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_c1715826",
+                "position": {
+                    "x": -1.69683623,
+                    "y": 0.628554463,
+                    "z": 0.0767611
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_028cd2e5",
+                "position": {
+                    "x": 0.66157347,
+                    "y": 0.6926067,
+                    "z": -2.05565453
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_38c8cac2",
+                "position": {
+                    "x": 1.029933,
+                    "y": 0.6954199,
+                    "z": -2.33655143
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_3dad19ce",
+                "position": {
+                    "x": 1.62231791,
+                    "y": 0.694730759,
+                    "z": -1.40915871
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "DeskLamp"
+            }
+        ],
+        "random_seed": 2280667202,
+        "scene_num": 316
+    },
+    "task_id": "trial_T20190908_061832_568265",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around and head forward, at the end of the bed take a left and walk to the black chair sitting in front of the desk",
+                    "Pick up the blue pen that is sitting on the desk to the right of the black chair",
+                    "Turn around and step forward, then turn left and face the desk",
+                    "Turn on the lamp that is sitting on the desk"
+                ],
+                "task_desc": "Examine a pen by the light of a desk lamp"
+            },
+            {
+                "high_descs": [
+                    "Turn around and walk to the desk across the room, then turn to your right and go to the corner of the desk. ",
+                    "Pick up the pen, to the left of the CD, on the desk. ",
+                    "Turn to your right, and go to far right end of the desk. ",
+                    "Turn the lamp on the corner of the desk on. "
+                ],
+                "task_desc": "Turn on the desk lamp."
+            },
+            {
+                "high_descs": [
+                    "Turn around and move to the chair on your left",
+                    "Pick up the pencil from the desk",
+                    "Turn around and move to the lamp on your left",
+                    "Turn the lamp on"
+                ],
+                "task_desc": "Examine a pencil by the light of a lamp"
+            }
+        ]
+    }
+}

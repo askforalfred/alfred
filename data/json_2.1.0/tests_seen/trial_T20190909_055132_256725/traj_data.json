@@ -1,0 +1,324 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan428",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -0.25,
+            "y": 0.901492238,
+            "z": 2.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_e1a5b3e4",
+                "position": {
+                    "x": -1.69440341,
+                    "y": 0.03974849,
+                    "z": 3.811706
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_5fababf8",
+                "position": {
+                    "x": -1.54247642,
+                    "y": 0.0408062339,
+                    "z": 3.316318
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_5fababf8",
+                "position": {
+                    "x": -1.65217412,
+                    "y": 0.9477896,
+                    "z": 2.74166155
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 10.090683
+                }
+            },
+            {
+                "objectName": "Candle_74c9d1eb",
+                "position": {
+                    "x": -1.51982033,
+                    "y": 0.9179053,
+                    "z": 3.147151
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.79556346,
+                    "y": 0.0377365351,
+                    "z": 3.27211022
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.91206622,
+                    "y": 0.9504933,
+                    "z": 1.75900018
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.75523114,
+                    "y": 0.9152607,
+                    "z": 3.17205954
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_0d121717",
+                "position": {
+                    "x": -1.54247642,
+                    "y": 0.040925622,
+                    "z": 2.46442318
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_0d121717",
+                "position": {
+                    "x": -1.88527751,
+                    "y": 0.954048157,
+                    "z": 2.07150054
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 269.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_74c9d1eb",
+                "position": {
+                    "x": -1.87293661,
+                    "y": 0.9179053,
+                    "z": 3.93334
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_9f2e6500",
+                "position": {
+                    "x": -1.67064345,
+                    "y": 1.49639475,
+                    "z": 3.96225166
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -4.78113252e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_0d121717",
+                "position": {
+                    "x": -1.79556346,
+                    "y": 0.040925622,
+                    "z": 2.508631
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_ed9a493d",
+                "position": {
+                    "x": 0.8339847,
+                    "y": 1.16006589,
+                    "z": 2.35729623
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_e1a5b3e4",
+                "position": {
+                    "x": -1.69543636,
+                    "y": 0.0312405825,
+                    "z": 3.040513
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_5fababf8",
+                "position": {
+                    "x": -1.85848415,
+                    "y": 0.9539406,
+                    "z": 1.69650054
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_ddfae4f5",
+                "position": {
+                    "x": -1.14020634,
+                    "y": 1.01309454,
+                    "z": 1.25650108
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 89.99995
+                }
+            },
+            {
+                "objectName": "Plunger_8c1215fa",
+                "position": {
+                    "x": -1.87680137,
+                    "y": 0.000189825892,
+                    "z": 2.276764
+                },
+                "rotation": {
+                    "x": 359.840363,
+                    "y": 0.0558536276,
+                    "z": 0.0464878269
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.744946,
+                    "y": 0.0377365351,
+                    "z": 3.40473366
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_a0644457",
+                "position": {
+                    "x": -1.476,
+                    "y": 0.0423482843,
+                    "z": 1.372
+                },
+                "rotation": {
+                    "x": -0.002123227,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_1cbe15ab",
+                "position": {
+                    "x": -1.70388472,
+                    "y": 0.000493228436,
+                    "z": 2.217829
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3183039216,
+        "scene_num": 428
+    },
+    "task_id": "trial_T20190909_055132_256725",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn left and walk towards the wall and turn left and walk towards the sink",
+                    "pick up the spray bottle on the sink counter",
+                    "turn around and walk straight then turn right and walk straight towards the wall then turn right towards the toilet",
+                    "put the spray bottle in the garbage can next to the toilet ",
+                    "turn left and walk towards the wall then turn right towards the toilet",
+                    "pick up the spray bottle off of the top of the toilet",
+                    "turn around and walk straight then turn left then turn left again and walk straight towards the toilet",
+                    "put the spray bottle into the garbage can on the floor"
+                ],
+                "task_desc": "throw away two spray bottles into the garbage can"
+            },
+            {
+                "high_descs": [
+                    "Turn around to face the sinks.",
+                    "Pick up the yellow spray bottle from in between the sinks.",
+                    "Make a left to walk to the trash can next to the toilet.",
+                    "Put the yellow spray bottle in the trash can.",
+                    "Turn to face the toilet.",
+                    "Pick up the yellow spray bottle on top of the toilet.",
+                    "Turn to face the trash can next to the toilet.",
+                    "Put the other yellow spray bottle into the trash can."
+                ],
+                "task_desc": "Put two yellow spray bottles into the trash can."
+            },
+            {
+                "high_descs": [
+                    "Turn left then head to the sink counter",
+                    "Pick up the spray bottle on the counter",
+                    "Turn left then head to the trash bin beside the toilet",
+                    "Put the spray bottle in the trash bin",
+                    "Move forward the toilet",
+                    "Pick up the spray bottle on the toilet tank",
+                    "Turn around and move backwards ",
+                    "Put the spray bottle in the trash bin"
+                ],
+                "task_desc": "Put the two spray bottle in the trash bin"
+            }
+        ]
+    }
+}

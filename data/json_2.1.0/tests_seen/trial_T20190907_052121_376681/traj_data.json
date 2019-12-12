@@ -1,0 +1,389 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan330",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": 2.25,
+            "y": 0.9009992,
+            "z": -1.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Bowl_d59970df",
+                "position": {
+                    "x": -1.58354485,
+                    "y": 0.9724189,
+                    "z": -0.7420343
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_15407ea7",
+                "position": {
+                    "x": -1.50985,
+                    "y": 0.9808639,
+                    "z": 0.06217718
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99987,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_e8ffdc91",
+                "position": {
+                    "x": -1.4361521,
+                    "y": 0.971910357,
+                    "z": -0.3399284
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_7035669b",
+                "position": {
+                    "x": -1.65724456,
+                    "y": 0.9725137,
+                    "z": 0.464282572
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_7035669b",
+                "position": {
+                    "x": 2.59267068,
+                    "y": 0.433210015,
+                    "z": 1.58401692
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.81287,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_a6306ccf",
+                "position": {
+                    "x": -1.607419,
+                    "y": 0.0365880169,
+                    "z": -0.7234874
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_88b330d0",
+                "position": {
+                    "x": -1.80463719,
+                    "y": 0.971675038,
+                    "z": 0.062176466
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_3a2d6b92",
+                "position": {
+                    "x": -1.58354735,
+                    "y": 0.9706196,
+                    "z": 0.263229847
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_a777a0ae",
+                "position": {
+                    "x": 1.74347711,
+                    "y": 0.773138165,
+                    "z": -0.106407106
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_88b330d0",
+                "position": {
+                    "x": -1.66492629,
+                    "y": 0.604777455,
+                    "z": -0.7213858
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_ac032140",
+                "position": {
+                    "x": -1.509849,
+                    "y": 0.972387,
+                    "z": -0.339928567
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_3a2d6b92",
+                "position": {
+                    "x": -1.5835464,
+                    "y": 0.9706196,
+                    "z": -0.138875842
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000140018863,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_64d86fa7",
+                "position": {
+                    "x": 1.413,
+                    "y": 0.794,
+                    "z": -1.505
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_f78b5f5c",
+                "position": {
+                    "x": 0.652,
+                    "y": 0.794,
+                    "z": -1.531
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_305dccf0",
+                "position": {
+                    "x": -1.668169,
+                    "y": 1.14705348,
+                    "z": -1.95940626
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_a777a0ae",
+                "position": {
+                    "x": 0.778841,
+                    "y": 0.773138165,
+                    "z": -0.9902473
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_3dd4c039",
+                "position": {
+                    "x": -1.65057909,
+                    "y": 1.626018,
+                    "z": -2.31655216
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_c0c69a42",
+                "position": {
+                    "x": -1.87833357,
+                    "y": 0.9762845,
+                    "z": -0.138876557
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99987,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_a6306ccf",
+                "position": {
+                    "x": -1.73083115,
+                    "y": 1.14635062,
+                    "z": -2.18742847
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Boots_6438362f",
+                "position": {
+                    "x": -1.84297776,
+                    "y": 0.000668019056,
+                    "z": -1.077008
+                },
+                "rotation": {
+                    "x": 0.0903331637,
+                    "y": 135.194382,
+                    "z": 0.00278281514
+                }
+            },
+            {
+                "objectName": "Pen_cfe375f5",
+                "position": {
+                    "x": -1.60551214,
+                    "y": 1.643468,
+                    "z": -2.18742919
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_7035669b",
+                "position": {
+                    "x": 1.02,
+                    "y": 0.7753482,
+                    "z": -0.106407106
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_e8ffdc91",
+                "position": {
+                    "x": 1.57630873,
+                    "y": 0.08212367,
+                    "z": 2.15371323
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.000683018938,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_d59970df",
+                "position": {
+                    "x": -1.6995002,
+                    "y": 1.63793039,
+                    "z": -2.07341766
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_15407ea7",
+                "position": {
+                    "x": -1.764,
+                    "y": 0.9653037,
+                    "z": -0.758
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 59.7189941,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3298460317,
+        "scene_num": 330
+    },
+    "task_id": "trial_T20190907_052121_376681",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Walk around the bed and go to the dresser closest to the window.",
+                    "Pick up the urn on the shelf.",
+                    "Turn around and walk to the small table by the chair.",
+                    "Put the urn down next to the lamp.",
+                    "Turn around and go back to the dresser by the window.",
+                    "Pick up the yellow vase.",
+                    "Turn around and return to the table by the chair.",
+                    "Put the vase down next to the urn."
+                ],
+                "task_desc": "Put the urn and vase on the table by the chair."
+            },
+            {
+                "high_descs": [
+                    "Walk to the other side of the bed to the shelf in the corner by the window.",
+                    "Pick up the glass vase on the left side of the second shelf.",
+                    "Turn right and walk to the table with the black lamp on it at the foot of the bed.",
+                    "Place the vase to the right of the lamp.",
+                    "Turn left and walk to the shelf in the corner by the window.",
+                    "Pick up the orange top from the right side of the first shelf.",
+                    "Turn right and walk to the table with the black lamp on it at the foot of the bed.",
+                    "Place the top to the right of the glass vase on the table."
+                ],
+                "task_desc": "Place an orange top next to a glass vase on the table with a black lamp."
+            },
+            {
+                "high_descs": [
+                    "Head towards the chair, take a left and head towards the bookcase",
+                    "Pick up the urn on the shelf",
+                    "Turn right, head towards the door, turn right and stop in front of the side table next to the chair",
+                    "Place the urn on the side table",
+                    "Turn left and head towards the bookcase again",
+                    "Pick up the gold object from the shelf",
+                    "Turn right, head back to the side table",
+                    "Place the gold object on the right side of the urn on top of the side table"
+                ],
+                "task_desc": "Place the urn and gold object on the side table"
+            }
+        ]
+    }
+}

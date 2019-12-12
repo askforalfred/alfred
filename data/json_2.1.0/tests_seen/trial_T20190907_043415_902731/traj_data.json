@@ -1,0 +1,399 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan227",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -2.5,
+            "y": 0.9270526,
+            "z": 3.0
+        },
+        "object_poses": [
+            {
+                "objectName": "KeyChain_782acb33",
+                "position": {
+                    "x": -3.226697,
+                    "y": 0.167887,
+                    "z": 0.319993675
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_c6613840",
+                "position": {
+                    "x": -1.08521438,
+                    "y": 0.269995958,
+                    "z": 2.00685477
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_c6613840",
+                "position": {
+                    "x": -1.96159375,
+                    "y": 0.9406874,
+                    "z": 0.114879221
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999939,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_1d5da5eb",
+                "position": {
+                    "x": -2.73741412,
+                    "y": 0.48174715,
+                    "z": 1.999618
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.510132,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_262c32db",
+                "position": {
+                    "x": -5.93990755,
+                    "y": 0.6397063,
+                    "z": 1.86185122
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_1d5da5eb",
+                "position": {
+                    "x": -6.06281471,
+                    "y": 0.823353469,
+                    "z": 3.61722279
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_ad3c08e2",
+                "position": {
+                    "x": -3.008445,
+                    "y": 0.305987835,
+                    "z": 1.86319172
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.5100519,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_782acb33",
+                "position": {
+                    "x": -2.45774364,
+                    "y": 0.301687,
+                    "z": 2.22328639
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.510132,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_2a8098f1",
+                "position": {
+                    "x": -1.70107973,
+                    "y": 0.93094933,
+                    "z": 0.179179981
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_b9b39613",
+                "position": {
+                    "x": -0.7641,
+                    "y": 0.9409,
+                    "z": 0.2033
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_4a91c96f",
+                "position": {
+                    "x": -1.40533507,
+                    "y": 0.9613761,
+                    "z": 0.149939343
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999939,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_19b4d78c",
+                "position": {
+                    "x": -0.941805243,
+                    "y": 0.955567062,
+                    "z": 0.220059872
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999939,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_c6613840",
+                "position": {
+                    "x": -2.67099977,
+                    "y": 0.485046029,
+                    "z": 0.264828742
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99999,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_9824b9d2",
+                "position": {
+                    "x": -4.54043,
+                    "y": 1.27545059,
+                    "z": 5.17000055
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_262c32db",
+                "position": {
+                    "x": -5.76491976,
+                    "y": 0.6347063,
+                    "z": 2.37601185
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_eda1b909",
+                "position": {
+                    "x": -1.51520538,
+                    "y": 0.438748926,
+                    "z": 3.31957245
+                },
+                "rotation": {
+                    "x": 6.83018925e-06,
+                    "y": 300.000061,
+                    "z": 90.00001
+                }
+            },
+            {
+                "objectName": "Vase_95e8614f",
+                "position": {
+                    "x": -5.44827747,
+                    "y": 0.6424052,
+                    "z": 2.564
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a678bdc5",
+                "position": {
+                    "x": -2.461771,
+                    "y": 0.310163975,
+                    "z": 1.7710048
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.510132,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_fe654f0e",
+                "position": {
+                    "x": -1.35239077,
+                    "y": 1.258489,
+                    "z": 0.228351533
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_14e5c8ca",
+                "position": {
+                    "x": -0.904786468,
+                    "y": 0.49222213,
+                    "z": 0.264828861
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99999,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_f95445a2",
+                "position": {
+                    "x": -2.32178545,
+                    "y": 0.723505139,
+                    "z": 5.16801071
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_1ffd6824",
+                "position": {
+                    "x": -5.033,
+                    "y": 1.566,
+                    "z": 5.212
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_89bdecef",
+                "position": {
+                    "x": -0.8126194,
+                    "y": 1.5655,
+                    "z": 0.2098827
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_d3c3c310",
+                "position": {
+                    "x": -6.06281471,
+                    "y": 0.651770234,
+                    "z": 2.21292567
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_27221ca1",
+                "position": {
+                    "x": -3.174636,
+                    "y": 1.105,
+                    "z": 5.193249
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_119cdf81",
+                "position": {
+                    "x": -5.865033,
+                    "y": 0.6348236,
+                    "z": 2.786734
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 65.579,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 208325519,
+        "scene_num": 227
+    },
+    "task_id": "trial_T20190907_043415_902731",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to your right and head to the center table",
+                    "Grab the keys on the table beside the box",
+                    "Go to the on the other side of the center table behind the tv",
+                    "Put the keys on the box",
+                    "Pick up the box on the table with the key",
+                    "Turn around and head to the biggest sofa",
+                    "Put the box on the right side of the sofa"
+                ],
+                "task_desc": "Put the box with keys on the sofa"
+            },
+            {
+                "high_descs": [
+                    "turn right, and carefully make your way between the chairs and table to the last chair. Stop and face the grey round table.",
+                    "take the keys from the table",
+                    "move out of the circle and towards the television, then stop, and face the same round grey table",
+                    "Put the keys in the empty box on the table",
+                    "Take the box with the keys",
+                    "cross the room to the couch in front of you",
+                    "place the box on the right-side cushion of the couch."
+                ],
+                "task_desc": "Place a box with keys in it on the couch"
+            },
+            {
+                "high_descs": [
+                    "Move to the coffee table nearest to two arm chairs. ",
+                    "Pick up the keys from the coffee table.",
+                    "Move around to the left side of the coffee table.",
+                    "Place the keys inside the box on the table.",
+                    "Pick up the box from the coffee table.",
+                    "Move around to the couch on the other side of the coffee table.",
+                    "Place the box on the couch."
+                ],
+                "task_desc": "Put the box on the coffee table on the couch with keys inside."
+            }
+        ]
+    }
+}

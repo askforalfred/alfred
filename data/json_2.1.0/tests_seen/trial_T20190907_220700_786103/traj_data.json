@@ -1,0 +1,291 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan216",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -3.5,
+            "y": 0.9009992,
+            "z": -0.75
+        },
+        "object_poses": [
+            {
+                "objectName": "TissueBox_50e690f5",
+                "position": {
+                    "x": -4.27359533,
+                    "y": 1.06672406,
+                    "z": 0.257000953
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_50e690f5",
+                "position": {
+                    "x": -0.175049961,
+                    "y": 0.129377723,
+                    "z": 1.202
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b568144",
+                "position": {
+                    "x": -0.589,
+                    "y": 0.897935748,
+                    "z": 1.23403287
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b568144",
+                "position": {
+                    "x": -1.12105906,
+                    "y": 0.6348231,
+                    "z": 1.32767045
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_a56cd598",
+                "position": {
+                    "x": -0.8060436,
+                    "y": 0.127674222,
+                    "z": 1.27457714
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_6fa08eb0",
+                "position": {
+                    "x": -3.78054142,
+                    "y": 1.305,
+                    "z": 0.457275361
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_462d92e0",
+                "position": {
+                    "x": -1.22670615,
+                    "y": 0.1283771,
+                    "z": 1.16571152
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_50e690f5",
+                "position": {
+                    "x": -1.04760683,
+                    "y": 0.9005896,
+                    "z": 1.18729341
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_932fe9f5",
+                "position": {
+                    "x": -0.3853812,
+                    "y": 0.127028584,
+                    "z": 1.202
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b568144",
+                "position": {
+                    "x": -0.396495044,
+                    "y": 0.5382294,
+                    "z": -0.983410239
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_1d8d3594",
+                "position": {
+                    "x": 0.667616963,
+                    "y": 0.6680026,
+                    "z": 1.26747978
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -1.70754731e-06,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_b9ed9b88",
+                "position": {
+                    "x": -1.29,
+                    "y": 0.891890049,
+                    "z": 1.219
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5b8bcfa9",
+                "position": {
+                    "x": 0.05699998,
+                    "y": 0.4831681,
+                    "z": -1.31966329
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_22286f86",
+                "position": {
+                    "x": -1.82799935,
+                    "y": 0.585,
+                    "z": -1.25104988
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_a56cd598",
+                "position": {
+                    "x": -0.1697474,
+                    "y": 0.541437566,
+                    "z": -0.983410239
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_fbe5dbee",
+                "position": {
+                    "x": 0.434110135,
+                    "y": 0.541742444,
+                    "z": -1.1877985
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_6ea54dcc",
+                "position": {
+                    "x": 1.40774417,
+                    "y": 0.660075963,
+                    "z": -1.41366136
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_d6a7b63c",
+                "position": {
+                    "x": -0.359696567,
+                    "y": 0.9986242,
+                    "z": 1.140554
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "DeskLamp"
+            }
+        ],
+        "random_seed": 1280051692,
+        "scene_num": 216
+    },
+    "task_id": "trial_T20190907_220700_786103",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn to the right and take a step and turn to the left and take a step and turn to the right and go to the front of the chair and turn to the right facing the chair",
+                    "pick up the pillow from the chair",
+                    "turn to the left and go to the wall and turn to the right and step to the end table",
+                    "turn on the lamp on the end table"
+                ],
+                "task_desc": "Examine a pillow by the light of a lamp"
+            },
+            {
+                "high_descs": [
+                    "Turn around and face the chair on your right.",
+                    "Pick up the pillow from the chair.",
+                    "Walk to your left until you reach the end table with the lamp on it.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Examine a pillow in the light of a lamp."
+            },
+            {
+                "high_descs": [
+                    "Turn right and walk to the chair containing a pillow.",
+                    "Pick up the pillow from the chair.",
+                    "Turn left and walk to the lamp on the desk in the corner of the room.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Examine a pillow by the light of a desk lamp."
+            }
+        ]
+    }
+}

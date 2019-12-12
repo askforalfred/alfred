@@ -1,0 +1,272 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan428",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -0.25,
+            "y": 0.901492238,
+            "z": 1.75
+        },
+        "object_poses": [
+            {
+                "objectName": "SoapBar_5fababf8",
+                "position": {
+                    "x": -1.83169353,
+                    "y": 0.9538964,
+                    "z": 1.94650066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_74c9d1eb",
+                "position": {
+                    "x": -1.75523114,
+                    "y": 0.9179053,
+                    "z": 3.09733367
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_74c9d1eb",
+                "position": {
+                    "x": -1.51982033,
+                    "y": 0.9179053,
+                    "z": 3.072425
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.69440341,
+                    "y": 0.0378220677,
+                    "z": 2.870672
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_0d121717",
+                "position": {
+                    "x": -1.64371121,
+                    "y": 0.040925622,
+                    "z": 3.27211022
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_74c9d1eb",
+                "position": {
+                    "x": -1.93885839,
+                    "y": 0.9531379,
+                    "z": 1.88400006
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_9f2e6500",
+                "position": {
+                    "x": -1.67064345,
+                    "y": 1.49639475,
+                    "z": 3.96225166
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -4.78113252e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_0d121717",
+                "position": {
+                    "x": -1.54237175,
+                    "y": 0.0410111547,
+                    "z": 3.678359
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_ed9a493d",
+                "position": {
+                    "x": 0.8339847,
+                    "y": 1.16006589,
+                    "z": 2.35729623
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_e1a5b3e4",
+                "position": {
+                    "x": -1.69543636,
+                    "y": 0.0312405825,
+                    "z": 3.040513
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_5fababf8",
+                "position": {
+                    "x": -1.69440341,
+                    "y": 0.0408917665,
+                    "z": 3.678359
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_ddfae4f5",
+                "position": {
+                    "x": -1.6104,
+                    "y": 0.0312,
+                    "z": 2.5829
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_8c1215fa",
+                "position": {
+                    "x": -1.87680137,
+                    "y": 0.000189825892,
+                    "z": 2.276764
+                },
+                "rotation": {
+                    "x": 359.840363,
+                    "y": 0.0558536276,
+                    "z": 0.0464878269
+                }
+            },
+            {
+                "objectName": "SprayBottle_52cc5647",
+                "position": {
+                    "x": -1.91206753,
+                    "y": 0.9504933,
+                    "z": 2.0715003
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_a0644457",
+                "position": {
+                    "x": -1.14020634,
+                    "y": 1.01309454,
+                    "z": 1.25650108
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 89.99995
+                }
+            },
+            {
+                "objectName": "ScrubBrush_1cbe15ab",
+                "position": {
+                    "x": -1.70388472,
+                    "y": 0.000493228436,
+                    "z": 2.217829
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3691866121,
+        "scene_num": 428
+    },
+    "task_id": "trial_T20190909_013350_472755",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to the left, go forward, hang a left and go to the counter between the sinks. ",
+                    "Pick up the nail polish that is closest to you from the counter between the sinks.",
+                    "Turn around, go forward, turn around and face the sink.",
+                    "Put the nail polish in the rightmost cupboard underneath the sinks.",
+                    "Go to the left, then go right to the counter between the sinks.",
+                    "Pick up the nail polish from the counter between the sinks.",
+                    "Turn around, go forward, turn around and face the sink.",
+                    "Put the nail polish in the rightmost cupboard underneath the sinks, to the right of the other nail polish."
+                ],
+                "task_desc": "Put two bottles of nail polish in a cupboard."
+            },
+            {
+                "high_descs": [
+                    "Turn left and move to the vanity underneath the mirror.",
+                    "Pick up the perfume bottle nearest to you.",
+                    "Move a few feet backwards, facing towards the vanity.",
+                    "Open up the right-most cupboard underneath the sink on the right hand side, place the perfume into the cupboard, and close it.",
+                    "Approach the vanity underneath the mirror again.",
+                    "Pick up the last perfume bottle on the vanity.",
+                    "Move a few feet backwards again, facing towards the vanity.",
+                    "Open up the right-most cupboard underneath the sink on the right hand side, place the perfume into the cupboard, and close it."
+                ],
+                "task_desc": "Move the two perfume bottles on the vanity to the right-most cupboard underneath the vanity."
+            },
+            {
+                "high_descs": [
+                    "turn around, go to counter in between two sinks",
+                    "pick up candle in front in between sinks",
+                    "go to far right cabinet under sink on the right",
+                    "open cabinet, place candle on right side of cabinet, close cabinet",
+                    "go to counter to the left in between two sinks",
+                    "pick up candle on counter in between sinks",
+                    "go to far right cabinet under sink on the right",
+                    "open cabinet, place candle to the right of candle, close cabinet"
+                ],
+                "task_desc": "Place two candles in bottom right cabinet"
+            }
+        ]
+    }
+}

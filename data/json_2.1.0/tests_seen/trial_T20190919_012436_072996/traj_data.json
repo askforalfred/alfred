@@ -1,0 +1,287 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan405",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": -2.25,
+            "y": 0.9048511,
+            "z": 0.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_f05aa151",
+                "position": {
+                    "x": -3.0532043,
+                    "y": 1.86967206,
+                    "z": 1.16431522
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_467321f9",
+                "position": {
+                    "x": -3.07266641,
+                    "y": 0.05080772,
+                    "z": 0.846
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_c916d797",
+                "position": {
+                    "x": -3.23110175,
+                    "y": 0.110584557,
+                    "z": -0.22351861
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_b14fe5d7",
+                "position": {
+                    "x": -3.23110175,
+                    "y": 0.1110664,
+                    "z": -0.0220849812
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_b14fe5d7",
+                "position": {
+                    "x": -3.19373274,
+                    "y": 1.05064809,
+                    "z": 1.32913089
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00051,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_6f47e8ba",
+                "position": {
+                    "x": -1.61500061,
+                    "y": 1.398,
+                    "z": 1.80063808
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_0ef4ecaf",
+                "position": {
+                    "x": -3.32169986,
+                    "y": 1.464,
+                    "z": 0.763
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000061,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_00ce0dcd",
+                "position": {
+                    "x": -3.10373831,
+                    "y": 0.8832718,
+                    "z": 0.145438448
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_f90141c5",
+                "position": {
+                    "x": -3.23110175,
+                    "y": 0.105968058,
+                    "z": 0.337281883
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_868bf844",
+                "position": {
+                    "x": -3.06186676,
+                    "y": 0.668248653,
+                    "z": 0.690800548
+                },
+                "rotation": {
+                    "x": 347.0551,
+                    "y": 0.0,
+                    "z": 90.0
+                }
+            },
+            {
+                "objectName": "Candle_c916d797",
+                "position": {
+                    "x": -3.19373512,
+                    "y": 1.05016613,
+                    "z": 1.06684351
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00051,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_3954e6e3",
+                "position": {
+                    "x": -3.236,
+                    "y": 0.00385227427,
+                    "z": 1.79
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_06387083",
+                "position": {
+                    "x": -3.04350257,
+                    "y": 0.003389284,
+                    "z": 1.68351626
+                },
+                "rotation": {
+                    "x": -0.00119000988,
+                    "y": 0.000474272529,
+                    "z": 0.0007837008
+                }
+            },
+            {
+                "objectName": "SoapBottle_b14fe5d7",
+                "position": {
+                    "x": -3.10017276,
+                    "y": 0.1110664,
+                    "z": -0.0220849812
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_f05aa151",
+                "position": {
+                    "x": -2.97005415,
+                    "y": 0.108768046,
+                    "z": -0.4940947
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_467321f9",
+                "position": {
+                    "x": -3.140693,
+                    "y": 1.87077212,
+                    "z": 1.77598691
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1277471542,
+        "scene_num": 405
+    },
+    "task_id": "trial_T20190919_012436_072996",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn right and approach the counter",
+                    "get the red rag from under the counter",
+                    "walk the rag over to the bathtub",
+                    "toss the rag in to the bath basin"
+                ],
+                "task_desc": "get the rag below the counter and toss it in the tub"
+            },
+            {
+                "high_descs": [
+                    "Turn right and open the leftmost cabinet.",
+                    "Pick up the red cloth and close the cabinet.",
+                    "Turn around and walk to the bath tub.",
+                    "Place the cloth in the bath tub."
+                ],
+                "task_desc": "Put a red cloth in the bath tub."
+            },
+            {
+                "high_descs": [
+                    "Walk forward to the light switch and turn right.",
+                    "Open the cupboard, take the rag from inside, and close the cupboard.",
+                    "Turn right and walk to the toilet, then turn right and walk to the bath tub.",
+                    "Drop the rag in the bath tub."
+                ],
+                "task_desc": "Move the rag from the cupboard to the bath tub. "
+            },
+            {
+                "high_descs": [
+                    "Turn to the right.",
+                    "Open the cabinet and pull out the red cloth in it.",
+                    "Move over to the bath tub.",
+                    "Put the cloth in the tub. "
+                ],
+                "task_desc": "Put the red cloth in the tub. "
+            },
+            {
+                "high_descs": [
+                    "Turn to the right. ",
+                    "Open the end cabinet under the counter, grab the red rag out of the cabinet. ",
+                    "Turn around, walk to the bathtub. ",
+                    "Place the rag in the bathtub. "
+                ],
+                "task_desc": "Put the red rag in the bathtub. "
+            },
+            {
+                "high_descs": [
+                    "Turn right towards the counter top.",
+                    "Open the cabinet on the bottom left and take out the red cloth, then close the cabinet.",
+                    "Turn around and walk forward to the bath tub.",
+                    "Put the cloth in the bath tub basin."
+                ],
+                "task_desc": "Move a red cloth from a cabinet to a bath tub."
+            }
+        ]
+    }
+}

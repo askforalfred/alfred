@@ -1,0 +1,438 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan201",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -4.25,
+            "y": 0.9026567,
+            "z": 3.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Bowl_a610bd69",
+                "position": {
+                    "x": -2.47387838,
+                    "y": 0.3450204,
+                    "z": 4.80940866
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_1d84ce2c",
+                "position": {
+                    "x": -1.82515836,
+                    "y": 0.689081669,
+                    "z": 1.67019928
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_1d84ce2c",
+                "position": {
+                    "x": -2.253501,
+                    "y": 0.747918665,
+                    "z": -0.07226421
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_3336f113",
+                "position": {
+                    "x": -2.318988,
+                    "y": 0.6021844,
+                    "z": 4.731745
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_3336f113",
+                "position": {
+                    "x": -2.93399286,
+                    "y": 0.4817844,
+                    "z": 3.5258894
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_d71ae388",
+                "position": {
+                    "x": -0.284682125,
+                    "y": 0.7059483,
+                    "z": 3.28514051
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_d71ae388",
+                "position": {
+                    "x": -2.51080418,
+                    "y": 0.238272652,
+                    "z": 6.11976147
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_6b20e579",
+                "position": {
+                    "x": -2.490921,
+                    "y": 0.695050836,
+                    "z": 1.29940033
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_6b20e579",
+                "position": {
+                    "x": -2.269,
+                    "y": 0.695050836,
+                    "z": 1.29940033
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c97e4a37",
+                "position": {
+                    "x": -0.252928346,
+                    "y": 0.7102528,
+                    "z": 3.116209
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c97e4a37",
+                "position": {
+                    "x": -1.82515836,
+                    "y": 0.6948158,
+                    "z": 1.423
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_17229c57",
+                "position": {
+                    "x": -2.24154282,
+                    "y": 0.346235752,
+                    "z": 4.887073
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_17229c57",
+                "position": {
+                    "x": -2.49608231,
+                    "y": 0.6492824,
+                    "z": -0.0225413591
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_68eb019b",
+                "position": {
+                    "x": -2.318988,
+                    "y": 0.100212246,
+                    "z": 4.96473742
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_bdd125b7",
+                "position": {
+                    "x": -2.404,
+                    "y": 0.6789822,
+                    "z": 3.43616724
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_6b20e579",
+                "position": {
+                    "x": -2.134193,
+                    "y": 0.243887827,
+                    "z": 6.156311
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_bb1d191e",
+                "position": {
+                    "x": -1.874007,
+                    "y": 0.478,
+                    "z": 3.61561179
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_e0203d57",
+                "position": {
+                    "x": -2.63989234,
+                    "y": 0.7257575,
+                    "z": 6.053634
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_06101072",
+                "position": {
+                    "x": -1.97449923,
+                    "y": 0.747996,
+                    "z": -0.11578463
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_1d84ce2c",
+                "position": {
+                    "x": -2.24154282,
+                    "y": 0.3484411,
+                    "z": 4.731745
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_17229c57",
+                "position": {
+                    "x": -2.636341,
+                    "y": 0.238835737,
+                    "z": 6.083212
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_778c3347",
+                "position": {
+                    "x": -2.93476248,
+                    "y": 0.693239033,
+                    "z": 1.79379892
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_28bfaf44",
+                "position": {
+                    "x": -2.39643335,
+                    "y": 0.607013643,
+                    "z": 5.04240131
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_0ec7daed",
+                "position": {
+                    "x": -3.271,
+                    "y": 0.661,
+                    "z": 3.44
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 331.220551
+                }
+            },
+            {
+                "objectName": "Bowl_a610bd69",
+                "position": {
+                    "x": -1.83499837,
+                    "y": 0.7476204,
+                    "z": -0.159305051
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_a920a0bf",
+                "position": {
+                    "x": -2.318988,
+                    "y": 0.6031073,
+                    "z": 4.887073
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_d71ae388",
+                "position": {
+                    "x": -0.313875437,
+                    "y": 0.6156297,
+                    "z": 3.598452
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c97e4a37",
+                "position": {
+                    "x": -1.60323751,
+                    "y": 0.6948158,
+                    "z": 1.67019928
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_3336f113",
+                "position": {
+                    "x": -2.13900352,
+                    "y": 0.4817844,
+                    "z": 3.5258894
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 604405680,
+        "scene_num": 201
+    },
+    "task_id": "trial_T20190909_032116_282586",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Move to stand between the coffee table and television, facing the coffee table.",
+                    "Pick up the pencil from the coffee table.",
+                    "Carry the pencil around the table to stand between the table and sofa, facing the sofa.",
+                    "Place the pencil in the open box on the sofa to the right of the laptop. ",
+                    "Pick up the box with the pencil in it from the sofa.",
+                    "Carry the box with the pencil in it around the sofa to stand between the sofa and dining room table, facing the table.",
+                    "Place the box with the pencil on the table directly in front of the two sculptures."
+                ],
+                "task_desc": "Move a box with a pencil in it to the dining room table."
+            },
+            {
+                "high_descs": [
+                    "Turn left and walk around the sofa the the far side of the glass coffee table",
+                    "Pick up the yellow pencil from the coffee table",
+                    "Walk around the coffee table to the sofa",
+                    "Put the pencil into the box on the sofa",
+                    "Pick up the box from the sofa",
+                    "Turn right and walk around the sofa to the dining room table",
+                    "Put the box down on the table left of the yellow vase"
+                ],
+                "task_desc": "Put the box with pencil on the dining room table"
+            },
+            {
+                "high_descs": [
+                    "Walk to the glass coffee table in front of the couch and face the yellow pencil and the black bowl. ",
+                    "Pick up the yellow pencil to the left of the black bowl. ",
+                    "Walk to the front of the black couch and face the open box to the right of the lap top. ",
+                    "Place the yellow pencil in the back of the open box. ",
+                    "Pick up the open box to the right of the lap top. ",
+                    "Turn right, walk around the couch to the table, and face the table with the two sculptures on it. ",
+                    "Put the box on the table to the left of the yellow vase. "
+                ],
+                "task_desc": "Move a pencil in a box to the table. "
+            }
+        ]
+    }
+}

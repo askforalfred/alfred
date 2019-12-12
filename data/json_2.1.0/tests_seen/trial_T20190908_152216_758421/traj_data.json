@@ -1,0 +1,233 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan417",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -2.25,
+            "y": 0.9016677,
+            "z": -1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_e2d53691",
+                "position": {
+                    "x": -2.66886139,
+                    "y": 0.07885975,
+                    "z": -0.465628266
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_4e8d9897",
+                "position": {
+                    "x": -2.55034351,
+                    "y": 0.9966165,
+                    "z": -0.336961567
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_ef0d0edf",
+                "position": {
+                    "x": -1.05195081,
+                    "y": 1.53500009,
+                    "z": -2.887
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99997,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_5c2ba7c4",
+                "position": {
+                    "x": -2.5914,
+                    "y": 1.6351,
+                    "z": -0.04791402
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -4.78113252e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_30dcae22",
+                "position": {
+                    "x": -2.56711912,
+                    "y": 0.0786255,
+                    "z": -1.65088832
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_7d39bd45",
+                "position": {
+                    "x": -2.64004731,
+                    "y": 0.06999543,
+                    "z": -1.88877666
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_581455d0",
+                "position": {
+                    "x": -0.08460003,
+                    "y": 0.9021,
+                    "z": -3.28610015
+                },
+                "rotation": {
+                    "x": 1.70754731e-06,
+                    "y": 269.999939,
+                    "z": 90.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_ce70c449",
+                "position": {
+                    "x": -0.417412937,
+                    "y": 1.048695,
+                    "z": -3.88763332
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -1.36603767e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_4e8d9897",
+                "position": {
+                    "x": -2.61840534,
+                    "y": 0.08088541,
+                    "z": -2.03267717
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_9c31c02c",
+                "position": {
+                    "x": -1.04891253,
+                    "y": 0.000668982044,
+                    "z": -3.830687
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_6845f12e",
+                "position": {
+                    "x": -1.06689429,
+                    "y": 0.0002059862,
+                    "z": -3.52784014
+                },
+                "rotation": {
+                    "x": -0.00118068233,
+                    "y": 0.000421990553,
+                    "z": 0.000781600538
+                }
+            },
+            {
+                "objectName": "Cloth_e2d53691",
+                "position": {
+                    "x": -2.6690855,
+                    "y": 0.079572916,
+                    "z": -1.06270742
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_d16f87bc",
+                "position": {
+                    "x": -2.62,
+                    "y": 0.996404052,
+                    "z": -1.28502345
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 4138601404,
+        "scene_num": 417
+    },
+    "task_id": "trial_T20190908_152216_758421",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Move to the sink on the right side and look down at the cabinets below the sink. ",
+                    "Open the cabinet on the right side, take out a red rag, and close the door. ",
+                    "Walk to the toilet on the other side of the room. ",
+                    "Place the rag down on back of the toilet to the right of the bottle. ",
+                    "Turn around and walk back to the sink on the right side and look down at the cabinet. ",
+                    "Open the cabinet door on the left side, take a red rag out, close the door. ",
+                    "Walk back over to the toilet. ",
+                    "Place the red rag in front of the bottle on the back of the toilet. "
+                ],
+                "task_desc": "To move two rags to the back of the toilet. "
+            },
+            {
+                "high_descs": [
+                    "Turn right walk forward then face the cabinet on the right below the sink",
+                    "Open the cabinet, pick up the red cloth",
+                    "Turn left then walk toward the toilet tank",
+                    "Put the red cloth on the tank",
+                    "Turn round to your right then walk forward head to the cabinet sink",
+                    "Open the left side cabinet below the right sink and pick up the red cloth",
+                    "Turn around to your left head back to the toilet tank",
+                    "Put the red cloth beside the other cloth on the tank"
+                ],
+                "task_desc": "Put the red cloth beside the other cloth on the tank"
+            },
+            {
+                "high_descs": [
+                    "Turn right and walk to the wall, then turn left to face the counter.",
+                    "Open the rightmost cabinet door below the counter and take out the red rag, then close the door.",
+                    "Walk over to the toilet.",
+                    "Put the red rag on top of the toilet tank.",
+                    "Turn around and walk towards the door, then hang a left and walk up to the counter.",
+                    "Open the second cabinet door from the right and take out the red rag then close the door.",
+                    "Turn around and walk over to the toilet.",
+                    "Put the red rag on top of the toilet tank."
+                ],
+                "task_desc": "Move two red rags to the toilet tank."
+            }
+        ]
+    }
+}

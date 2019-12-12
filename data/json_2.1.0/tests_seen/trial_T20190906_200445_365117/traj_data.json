@@ -1,0 +1,265 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan216",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -2.75,
+            "y": 0.9009992,
+            "z": -1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "TissueBox_50e690f5",
+                "position": {
+                    "x": -0.175049961,
+                    "y": 0.129377723,
+                    "z": 1.1294229
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_932fe9f5",
+                "position": {
+                    "x": -1.22670615,
+                    "y": 0.127028584,
+                    "z": 1.202
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_932fe9f5",
+                "position": {
+                    "x": -0.8060436,
+                    "y": 0.127028584,
+                    "z": 1.202
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_6fa08eb0",
+                "position": {
+                    "x": -3.78054142,
+                    "y": 1.305,
+                    "z": 0.457275361
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_462d92e0",
+                "position": {
+                    "x": -0.97179544,
+                    "y": 0.114890076,
+                    "z": 1.19714463
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_50e690f5",
+                "position": {
+                    "x": -4.00511837,
+                    "y": 1.066724,
+                    "z": 0.589594841
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_932fe9f5",
+                "position": {
+                    "x": 1.49213433,
+                    "y": 0.6493607,
+                    "z": -1.48899984
+                },
+                "rotation": {
+                    "x": 9.20312741e-05,
+                    "y": -1.32723617e-05,
+                    "z": -4.34066533e-05
+                }
+            },
+            {
+                "objectName": "KeyChain_5b568144",
+                "position": {
+                    "x": 0.817708254,
+                    "y": 0.6600765,
+                    "z": 1.34221959
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -1.70754731e-06,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_1d8d3594",
+                "position": {
+                    "x": 1.49213433,
+                    "y": 0.6654327,
+                    "z": -1.33832264
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_b9ed9b88",
+                "position": {
+                    "x": -1.29,
+                    "y": 0.891890049,
+                    "z": 1.219
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_5b8bcfa9",
+                "position": {
+                    "x": 0.7474587,
+                    "y": 0.458361447,
+                    "z": 1.06819963
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -1.70754731e-06,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_22286f86",
+                "position": {
+                    "x": -1.82799935,
+                    "y": 0.585,
+                    "z": -1.25104988
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_a56cd598",
+                "position": {
+                    "x": 1.82969475,
+                    "y": 0.6560581,
+                    "z": -1.33832264
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_fbe5dbee",
+                "position": {
+                    "x": 0.434110135,
+                    "y": 0.541742444,
+                    "z": -1.1877985
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_6ea54dcc",
+                "position": {
+                    "x": -0.5166645,
+                    "y": 0.114890076,
+                    "z": 1.20104086
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_d6a7b63c",
+                "position": {
+                    "x": -4.165265,
+                    "y": 1.16654873,
+                    "z": 0.192882121
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "DeskLamp"
+            }
+        ],
+        "random_seed": 327373424,
+        "scene_num": 216
+    },
+    "task_id": "trial_T20190906_200445_365117",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn right and walk over to the cabinet underneath the television",
+                    "grab a white plate from the cabinet",
+                    "turn around and walk over to the night stand to the left of the couch",
+                    "turn on the lamp on the night stand"
+                ],
+                "task_desc": "turn on a lamp while holding a white plate"
+            },
+            {
+                "high_descs": [
+                    "Walk straight then take a quick right to go around the chair then a left to walk towards the shelf.",
+                    "Pick up the CD from the shelf.",
+                    "Turn to the right walk straight to the other table then turn around to walk towards the wall then make a right to go to the end table next to the couch.",
+                    "Turn on the lamp that is sitting on the end table while still holding the CD."
+                ],
+                "task_desc": "Turn on the light that is on the end table."
+            },
+            {
+                "high_descs": [
+                    "Cross the room, hang a right at the brown chair and head left until you reach the large brown desk.",
+                    "Pick up the silver CD from the bottom shelf on the left side near the papers.",
+                    "Head right until you reach the end of the large brown desk, go to your right, then take an immediate left turn to reach the wall and head right towards the small brown side table.",
+                    "Turn on the small lamp."
+                ],
+                "task_desc": "Examine a CD near a small lamp."
+            }
+        ]
+    }
+}

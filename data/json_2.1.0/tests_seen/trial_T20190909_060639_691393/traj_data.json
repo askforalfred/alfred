@@ -1,0 +1,321 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan218",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": 0.25,
+            "y": 0.9008399,
+            "z": 2.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Plate_0d99fab1",
+                "position": {
+                    "x": -3.216549,
+                    "y": 0.55436933,
+                    "z": 1.82213485
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_199ec092",
+                "position": {
+                    "x": 0.6367744,
+                    "y": 0.5486666,
+                    "z": 6.46977329
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_199ec092",
+                "position": {
+                    "x": 0.9095,
+                    "y": 0.9816666,
+                    "z": 3.921772
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_fa8249c9",
+                "position": {
+                    "x": 0.847,
+                    "y": 0.9860622,
+                    "z": 3.506228
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_fa8249c9",
+                "position": {
+                    "x": -1.12732029,
+                    "y": 0.316915452,
+                    "z": 2.685538
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 39.022747,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_fa8249c9",
+                "position": {
+                    "x": 0.7532782,
+                    "y": 0.102811635,
+                    "z": 4.096903
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_2592ccc4",
+                "position": {
+                    "x": -5.885833,
+                    "y": 0.78808254,
+                    "z": 5.35390425
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_2592ccc4",
+                "position": {
+                    "x": -5.26955748,
+                    "y": 0.78808254,
+                    "z": 5.57538843
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_d7ca8ed6",
+                "position": {
+                    "x": -5.63932276,
+                    "y": 0.977974534,
+                    "z": 4.68945169
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_d7ca8ed6",
+                "position": {
+                    "x": -1.591,
+                    "y": 0.4986,
+                    "z": 2.277
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 26.831543,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_fa8249c9",
+                "position": {
+                    "x": 0.4463233,
+                    "y": 0.552621067,
+                    "z": 6.731045
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_c192383b",
+                "position": {
+                    "x": 0.8299264,
+                    "y": -0.00101917982,
+                    "z": 2.339594
+                },
+                "rotation": {
+                    "x": 0.0007589513,
+                    "y": 45.1253052,
+                    "z": 0.0009456006
+                }
+            },
+            {
+                "objectName": "Newspaper_199ec092",
+                "position": {
+                    "x": -1.8852427,
+                    "y": 0.308666766,
+                    "z": 2.3080833
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 39.022747,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_479327d9",
+                "position": {
+                    "x": 0.7845,
+                    "y": 0.983593047,
+                    "z": 3.506228
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_0d99fab1",
+                "position": {
+                    "x": -5.80734968,
+                    "y": 0.7818739,
+                    "z": 4.22248173
+                },
+                "rotation": {
+                    "x": 0.00256380439,
+                    "y": 0.000247297081,
+                    "z": 0.000114991155
+                }
+            },
+            {
+                "objectName": "Pillow_76f16fe2",
+                "position": {
+                    "x": -2.719,
+                    "y": 0.6093162,
+                    "z": 2.768
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 320.6474,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_2592ccc4",
+                "position": {
+                    "x": -5.63932276,
+                    "y": 0.78808254,
+                    "z": 4.910936
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_9f46cbc0",
+                "position": {
+                    "x": 0.718657553,
+                    "y": 0.09950274,
+                    "z": 4.34587669
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_4dbc7255",
+                "position": {
+                    "x": -5.464,
+                    "y": 0.7793162,
+                    "z": 5.252
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 306.8717,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_4a123fac",
+                "position": {
+                    "x": -3.216549,
+                    "y": 0.5608392,
+                    "z": 1.47377324
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 2579636215,
+        "scene_num": 218
+    },
+    "task_id": "trial_T20190909_060639_691393",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around and move to the small table with the lamp on in the corner.",
+                    "Pick up the cell phone from the table.",
+                    "Turn left and carry the phone to the dining room table, then turn left and move to the other side of the table so the door is behind you.",
+                    "Place the phone on the gray plate on the table.",
+                    "Pick up the plate with the phone on it.",
+                    "Turn right and cross the room and when you get just before the wall, head right again and continue to the coffee table, which is across from a fireplace.",
+                    "Place the plate with the phone on top on the coffee table."
+                ],
+                "task_desc": "Move a cell phone on a plate to the coffee table."
+            },
+            {
+                "high_descs": [
+                    "Walk over to the table in the corner or the room. ",
+                    "Pick up the cell phone from the table. ",
+                    "Turn and walk to the dining table. ",
+                    "Put the cell phone down on the black plate. ",
+                    "Pick up the plate from the table. ",
+                    "Turn and walk to the coffee table. ",
+                    "Put the plate down on the table to the left of the cell phone. "
+                ],
+                "task_desc": "To put a cell phone on a plate and put the plate on the coffee table. "
+            },
+            {
+                "high_descs": [
+                    "Turn left to walk to the far corner with the small wooden table.",
+                    "Pick up the smartphone on the small wooden table.",
+                    "Turn around, walking across the room to reach the wooden table with chairs around it.",
+                    "Set the smartphone down on the plate on the wooden table with chairs around it.",
+                    "Pick up the plate with the smartphone on it.",
+                    "Turn right, then hang another right around the couches to reach the coffee table.",
+                    "Set the plate with the smartphone on it down next to the other smartphone on the coffee table."
+                ],
+                "task_desc": "Put a smartphone on a plate to set on the coffee table."
+            }
+        ]
+    }
+}

@@ -1,0 +1,324 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan209",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -4.75,
+            "y": 0.9027015,
+            "z": -4.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_a77a858f",
+                "position": {
+                    "x": -1.88387489,
+                    "y": 0.482844919,
+                    "z": -5.076
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_732027f3",
+                "position": {
+                    "x": -2.469,
+                    "y": 0.592994452,
+                    "z": -2.82224584
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_d56c9394",
+                "position": {
+                    "x": -4.46145153,
+                    "y": 0.333153,
+                    "z": -1.462645
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_1c8f3660",
+                "position": {
+                    "x": -3.503513,
+                    "y": 0.706707239,
+                    "z": -5.046717
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_95693c5e",
+                "position": {
+                    "x": -2.362,
+                    "y": 0.261,
+                    "z": -1.647
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 76.16191,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_d3003325",
+                "position": {
+                    "x": -2.15119,
+                    "y": 0.5871431,
+                    "z": -2.82224584
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_573c993f",
+                "position": {
+                    "x": -4.265,
+                    "y": 0.34,
+                    "z": -2.164
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_a77a858f",
+                "position": {
+                    "x": -3.21841669,
+                    "y": 0.705594659,
+                    "z": -5.188487
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_732027f3",
+                "position": {
+                    "x": -4.073706,
+                    "y": 0.710507452,
+                    "z": -5.046717
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_f1b704c3",
+                "position": {
+                    "x": -7.991349,
+                    "y": 0.0008428693,
+                    "z": -4.629464
+                },
+                "rotation": {
+                    "x": -0.000799632457,
+                    "y": 296.796967,
+                    "z": 0.00115881
+                }
+            },
+            {
+                "objectName": "Pillow_43f5ce75",
+                "position": {
+                    "x": -4.26282644,
+                    "y": 0.4429881,
+                    "z": -3.52039051
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_d56c9394",
+                "position": {
+                    "x": -4.112757,
+                    "y": 0.33511728,
+                    "z": -3.30226183
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_6a3e9901",
+                "position": {
+                    "x": -4.477,
+                    "y": 0.697854638,
+                    "z": -5.076
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_66f96f55",
+                "position": {
+                    "x": -2.469,
+                    "y": 0.5881774,
+                    "z": -2.65712357
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_b321c4a8",
+                "position": {
+                    "x": -4.218,
+                    "y": 0.697854638,
+                    "z": -5.046
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_fa6f33e1",
+                "position": {
+                    "x": -2.25712681,
+                    "y": 0.585341632,
+                    "z": -2.492001
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_e7eb2316",
+                "position": {
+                    "x": -3.21841669,
+                    "y": 0.710679352,
+                    "z": -4.99946
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9af66930",
+                "position": {
+                    "x": -2.15119,
+                    "y": 0.5925011,
+                    "z": -2.16175628
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_1c8f3660",
+                "position": {
+                    "x": -2.78681016,
+                    "y": 0.5900489,
+                    "z": -1.99663389
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_eb5b21fb",
+                "position": {
+                    "x": -2.93332,
+                    "y": 0.704698861,
+                    "z": -5.14123
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1616684434,
+        "scene_num": 209
+    },
+    "task_id": "trial_T20190911_084342_641678",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around, go forward, turn right to the statue on the dresser. Go to the dresser.",
+                    "Take the watch from behind the statue on the dresser.",
+                    "Turn left, go forward to the wall, turn left, go forward, turn left to the coffee table.",
+                    "Put the watch on the coffee table to the right of the computer.",
+                    "Turn left, go forward to the wall, turn right.",
+                    "Take the watch from the small table.",
+                    "Turn right, go forward, turn left to the coffee table.",
+                    "Put the watch on the coffee table behind the first watch."
+                ],
+                "task_desc": "Put two watches on a coffee table."
+            },
+            {
+                "high_descs": [
+                    "turn around and walk forwards to the long brown cabinet on the right",
+                    "grab the wrist watch off of the top of the cabinet",
+                    "turn left and walk to the near end of the room, then turn left and walk over to the back side of the coffee table which is on your left just up ahead",
+                    "place the wrist watch down on the coffee table to the right of the laptop",
+                    "turn left and walk over to the end of the room, and turn right to face the small brown table there",
+                    "grab the wrist watch off of the small brown table there",
+                    "turn right and walk over to the back side of the coffee table again which is on your left just up ahead",
+                    "place the wrist watch down on the coffee table next to the other wrist watch"
+                ],
+                "task_desc": "place two wrist watches down on the coffee table"
+            },
+            {
+                "high_descs": [
+                    "Turn around, go halfway across the room and turn right to the statue.",
+                    "Pick up the watch from behind the statue.",
+                    "Turn left, go across the room, turn left, go halfway across the room and turn left to the table.",
+                    "Put the watch on the table to the right of the laptop.",
+                    "Turn left, go across the room, turn right to the small table.",
+                    "Pick up the watch from the table.",
+                    "Turn right and go back to the with the laptop.",
+                    "Put the watch to the right of the laptop."
+                ],
+                "task_desc": "Put two watches on the table."
+            }
+        ]
+    }
+}

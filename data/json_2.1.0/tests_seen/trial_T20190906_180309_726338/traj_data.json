@@ -1,0 +1,457 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan301",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": 2.5,
+            "y": 0.9009992,
+            "z": 0.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_0f7be4f9",
+                "position": {
+                    "x": -1.35084438,
+                    "y": 0.676453769,
+                    "z": -0.847555041
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_0f7be4f9",
+                "position": {
+                    "x": 2.21588874,
+                    "y": 0.7959879,
+                    "z": -1.12144959
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_0f7be4f9",
+                "position": {
+                    "x": 2.02785969,
+                    "y": 0.7950727,
+                    "z": -1.18569851
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f25640ea",
+                "position": {
+                    "x": 2.76463413,
+                    "y": 0.569983,
+                    "z": -1.24647689
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f25640ea",
+                "position": {
+                    "x": 1.5590415,
+                    "y": 0.126989931,
+                    "z": -1.21802711
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_b9003495",
+                "position": {
+                    "x": -0.8068642,
+                    "y": 0.5663049,
+                    "z": 0.358137846
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_b9003495",
+                "position": {
+                    "x": -1.31801915,
+                    "y": 1.23690486,
+                    "z": -0.6493938
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_d94967db",
+                "position": {
+                    "x": -1.42241335,
+                    "y": 1.24056971,
+                    "z": -0.745
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_80d98dab",
+                "position": {
+                    "x": 2.5919466,
+                    "y": 0.794796,
+                    "z": -1.153574
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_a68436a8",
+                "position": {
+                    "x": 2.5919466,
+                    "y": 0.7956334,
+                    "z": -1.24994731
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_c3876352",
+                "position": {
+                    "x": -0.902,
+                    "y": 0.5744,
+                    "z": 1.179
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 332.922272,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_32219d9d",
+                "position": {
+                    "x": 2.7342,
+                    "y": 0.195,
+                    "z": 0.89
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_acb78e08",
+                "position": {
+                    "x": -0.462213755,
+                    "y": 0.561,
+                    "z": 0.846990347
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_b9003495",
+                "position": {
+                    "x": 2.21588874,
+                    "y": 0.798104942,
+                    "z": -1.24994731
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_7de4b683",
+                "position": {
+                    "x": 2.847,
+                    "y": 0.643,
+                    "z": 1.838
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 335.1118
+                }
+            },
+            {
+                "objectName": "BasketBall_7b5f2c88",
+                "position": {
+                    "x": 1.01986575,
+                    "y": 0.330830961,
+                    "z": -0.9766739
+                },
+                "rotation": {
+                    "x": 346.948517,
+                    "y": 295.8199,
+                    "z": 0.656402946
+                }
+            },
+            {
+                "objectName": "TissueBox_00aeed40",
+                "position": {
+                    "x": -1.29435253,
+                    "y": 0.677880645,
+                    "z": -0.6148162
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_80d98dab",
+                "position": {
+                    "x": -1.29470158,
+                    "y": 0.9680992,
+                    "z": -0.919000149
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_a68436a8",
+                "position": {
+                    "x": 1.83983088,
+                    "y": 0.7965486,
+                    "z": -1.28207183
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_89afc677",
+                "position": {
+                    "x": 1.70895386,
+                    "y": 1.05071282,
+                    "z": -1.37326336
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Boots_dc0ae5c1",
+                "position": {
+                    "x": -1.27998614,
+                    "y": 0.0006508231,
+                    "z": -1.34300911
+                },
+                "rotation": {
+                    "x": 359.9876,
+                    "y": 27.1430378,
+                    "z": 359.993652
+                }
+            },
+            {
+                "objectName": "Pillow_419db2d8",
+                "position": {
+                    "x": -0.634,
+                    "y": 0.63,
+                    "z": 1.6116
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_7bb65943",
+                "position": {
+                    "x": -1.283221,
+                    "y": 1.23506391,
+                    "z": -0.5537876
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_600fd48d",
+                "position": {
+                    "x": 2.451,
+                    "y": 0.788715243,
+                    "z": -1.20707834
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_0f7be4f9",
+                "position": {
+                    "x": 2.85323119,
+                    "y": 0.34824267,
+                    "z": -1.24647689
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f25640ea",
+                "position": {
+                    "x": 2.839,
+                    "y": 0.0398521759,
+                    "z": 0.147029981
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_d94967db",
+                "position": {
+                    "x": -1.31801915,
+                    "y": 1.23925281,
+                    "z": -0.745
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_2a940808",
+                "position": {
+                    "x": 2.821235,
+                    "y": 0.788715839,
+                    "z": -1.22375667
+                },
+                "rotation": {
+                    "x": -0.00050716527,
+                    "y": 6.883269e-05,
+                    "z": 0.0006346849
+                }
+            },
+            {
+                "objectName": "Statue_e0075340",
+                "position": {
+                    "x": 1.823921,
+                    "y": 1.036511,
+                    "z": -1.419659
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 2609406183,
+        "scene_num": 301
+    },
+    "task_id": "trial_T20190906_180309_726338",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn right and walk to the desk.",
+                    "Pick up the watch to the left of the other watch.",
+                    "Turn to the right and walk to the cabinet.",
+                    "Place the watch to the left of the pencil on the cabinet.",
+                    "Open the second drawer from the top on the left side of the cabinet and take out the watch.",
+                    "Put the watch on the right side of the pencil on the cabinet."
+                ],
+                "task_desc": "Put two watches on a cabinet top."
+            },
+            {
+                "high_descs": [
+                    "turn around make a left to face white dresser",
+                    "pick up watch closest to you below the phone ",
+                    "turn around then turn left move forward toward dresser ",
+                    "place watch on top of dresser directly next to the left of the pen",
+                    "open second drawer from the top on the left side of the dresser and pick up the watch in it",
+                    "place the watch on top of the dresser to the right of the pen so the watch is standing upright "
+                ],
+                "task_desc": "to move a watch from the desk to the dresser"
+            },
+            {
+                "high_descs": [
+                    "Walk to the desk on your right.",
+                    "Pick up the watch laying on the desk.",
+                    "Walk to the dresser next to the bed. ",
+                    "Place the watch on the dresser",
+                    "Open the second to bottom drawer on the left side of the dresser and pick up the watch inside.",
+                    "Place this watch on the dresser next to the first watch."
+                ],
+                "task_desc": "Place two watches on top of the dresser next to the bed."
+            },
+            {
+                "high_descs": [
+                    "turn right towards the shelf ",
+                    "pick up a watch from the shelf",
+                    "turn right towards the shelf",
+                    "place the watch on the shelf",
+                    "open the drawer beneath and take out a watch",
+                    "place the watch on the shelf"
+                ],
+                "task_desc": "place two watches on the shelf"
+            },
+            {
+                "high_descs": [
+                    "Take a couple steps forward and then turn and move to the left to stand facing the desk.",
+                    "Pick up the left watch that's in front of the phone.",
+                    "Turn right and cross the room to stand in front of the tall white dresser beyond the foot of the bed.",
+                    "Open the second drawer from the top on the left and set the watch inside. ",
+                    "Take the watch back out of the drawer. ",
+                    "Set it on top of the dresser directly to the right of the other watch already there. "
+                ],
+                "task_desc": "One of the watches from the desk should end up on top of the white dresser. "
+            }
+        ]
+    }
+}

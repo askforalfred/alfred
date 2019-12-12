@@ -1,0 +1,311 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan211",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -1.0,
+            "y": 0.9009992,
+            "z": 1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Plate_92ace7b6",
+                "position": {
+                    "x": 0.00379805267,
+                    "y": 0.339058757,
+                    "z": 0.6510508
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_45f90c17",
+                "position": {
+                    "x": -2.04266644,
+                    "y": 0.591831267,
+                    "z": 0.0311044455
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_45f90c17",
+                "position": {
+                    "x": -1.80966711,
+                    "y": 0.5953796,
+                    "z": 1.09689558
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a303ecd",
+                "position": {
+                    "x": -1.587795,
+                    "y": 0.291835755,
+                    "z": -1.47830129
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 240.000229,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a303ecd",
+                "position": {
+                    "x": -2.04266644,
+                    "y": 0.5938358,
+                    "z": 1.09689558
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_598d8b19",
+                "position": {
+                    "x": -1.43960071,
+                    "y": 0.306280971,
+                    "z": -1.57249641
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 240.000229,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_72dab5e1",
+                "position": {
+                    "x": 1.41699994,
+                    "y": 0.552879035,
+                    "z": 0.7842073
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_85a108e5",
+                "position": {
+                    "x": 0.167999983,
+                    "y": 0.419726849,
+                    "z": 0.3979901
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_45f90c17",
+                "position": {
+                    "x": 1.22949994,
+                    "y": 0.480831265,
+                    "z": 0.9808109
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_fb790b71",
+                "position": {
+                    "x": -1.96499991,
+                    "y": 0.592996,
+                    "z": 0.9192637
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9f41f84e",
+                "position": {
+                    "x": 3.38139939,
+                    "y": 0.6449595,
+                    "z": -0.9839542
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a303ecd",
+                "position": {
+                    "x": -1.96499991,
+                    "y": 0.5973841,
+                    "z": 0.2087363
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_92ace7b6",
+                "position": {
+                    "x": 0.25010097,
+                    "y": 0.339058757,
+                    "z": 0.777581155
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_09374fea",
+                "position": {
+                    "x": 3.525028,
+                    "y": 0.631654263,
+                    "z": -1.43840861
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 271.146973,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_598d8b19",
+                "position": {
+                    "x": -1.69707179,
+                    "y": 0.29192692,
+                    "z": -1.451514
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 240.000229,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_85445823",
+                "position": {
+                    "x": 3.88790059,
+                    "y": 0.642507255,
+                    "z": -0.9839542
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_72dab5e1",
+                "position": {
+                    "x": 1.43508458,
+                    "y": 0.515,
+                    "z": -0.1256359
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_4e23a53b",
+                "position": {
+                    "x": 0.0219332427,
+                    "y": 0.555134654,
+                    "z": 1.97967362
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_7cbea25c",
+                "position": {
+                    "x": -0.289166927,
+                    "y": 0.5611226,
+                    "z": 1.97967362
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 132217608,
+        "scene_num": 211
+    },
+    "task_id": "trial_T20190907_155441_973789",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn left and begin walking across the room, then turn right and walk up to the television.",
+                    "Pick up the newspaper off of the left side of the glass table that the television is on.",
+                    "Turn right and walk towards the door, then hang a right and walk up to the coffee table.",
+                    "Put the newspaper on the coffee table to the right of the closest blue book.",
+                    "Turn left and walk towards the door, then hang a left and walk over to the end of the glass table.",
+                    "Pick up the newspaper off of the glass table.",
+                    "Turn left and begin walking across the room, then hang a right and walk up to the coffee table.",
+                    "Put the newspaper on the coffee table on top of the closest blue book."
+                ],
+                "task_desc": "Move two newspapers to the coffee table."
+            },
+            {
+                "high_descs": [
+                    "turn left, go to left side of television stand",
+                    "pick up newspaper from under left side of television",
+                    "turn around, face coffee table with rug underneath",
+                    "place newspaper touching right side of square blue place toward front of coffee table",
+                    "turn around, go to right end of television stand",
+                    "pick up newspaper from television stand",
+                    "go to coffee table to the left",
+                    "place newspaper on top of blue plate with newspaper touching it"
+                ],
+                "task_desc": "Place newspaper next to blue plate, place newspaper on top of blue plate"
+            },
+            {
+                "high_descs": [
+                    "Move to the left of the TV before the bin",
+                    "Pick up a paper from the stand",
+                    "Move to the coffee table behind you",
+                    "Put the paper on the coffee table",
+                    "Move to the right of the TV stand behind you",
+                    "Pick up a paper from the stand",
+                    "Move to the coffee table behind you",
+                    "Put the paper on the coffee table"
+                ],
+                "task_desc": "Put two papers on the coffee table."
+            }
+        ]
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan217",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -2.25,
+            "y": 0.9011413,
+            "z": 3.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": -4.58780575,
+                    "y": 0.8873124,
+                    "z": 3.470366
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": 0.132250726,
+                    "y": 0.707972646,
+                    "z": 4.5786
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_193339bf",
+                "position": {
+                    "x": -4.569356,
+                    "y": 0.9909067,
+                    "z": 3.44757581
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8660a70c",
+                "position": {
+                    "x": -0.129125357,
+                    "y": 0.707695961,
+                    "z": 4.59879971
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_5b6fe32c",
+                "position": {
+                    "x": -2.180622,
+                    "y": 0.6704,
+                    "z": 2.42843866
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 350.086456,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_9691257b",
+                "position": {
+                    "x": -0.2776128,
+                    "y": -0.000669963658,
+                    "z": 4.8605876
+                },
+                "rotation": {
+                    "x": 359.9809,
+                    "y": 359.9893,
+                    "z": 0.00747299241
+                }
+            },
+            {
+                "objectName": "CreditCard_8660a70c",
+                "position": {
+                    "x": -1.99013209,
+                    "y": 0.520991266,
+                    "z": 0.6620883
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_32e21d3a",
+                "position": {
+                    "x": -4.569356,
+                    "y": 0.985935748,
+                    "z": 2.87919188
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_f769cdcb",
+                "position": {
+                    "x": -0.417164564,
+                    "y": 0.611030757,
+                    "z": 1.714
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_d290dd79",
+                "position": {
+                    "x": -4.873,
+                    "y": 0.981,
+                    "z": 3.44
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 83.8787842,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_193339bf",
+                "position": {
+                    "x": -2.465,
+                    "y": 0.45970726,
+                    "z": 0.6620883
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_50539444",
+                "position": {
+                    "x": -4.567365,
+                    "y": 0.8873124,
+                    "z": 3.318019
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_a6431b1c",
+                "position": {
+                    "x": -2.65894985,
+                    "y": 0.554524243,
+                    "z": 2.35953331
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 2694125592,
+        "scene_num": 217
+    },
+    "task_id": "trial_T20190911_082512_678680",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Walk over to the left side of the couch. ",
+                    "Pick up the credit card from the couch. ",
+                    "Walk over to the TV stand. ",
+                    "Put the credit card down in front of the television. ",
+                    "Walk over to the side table to the left of the tan chair. ",
+                    "Pick up the credit card next to the lamp. ",
+                    "Walk back over to the television stand. ",
+                    "Put the credit card down on the TV stand to the left of the first credit card. "
+                ],
+                "task_desc": "To move two credit cards to the television stand. "
+            },
+            {
+                "high_descs": [
+                    "Turn right, walk to couch",
+                    "Pick up credit card from couch",
+                    "Turn around, walk to cabinet",
+                    "Put credit on cabinet to the left of the keys",
+                    "Turn around, walk to table to the left of the couch",
+                    "Pick up credit card from the table",
+                    "Turn around, walk to the cabinet",
+                    "Place credit card to the left of the card on the cabinet"
+                ],
+                "task_desc": "Retrieve two credit cards and put them on the cabinet with keys on it"
+            },
+            {
+                "high_descs": [
+                    "Turn right and go to the left front side of the sofa.",
+                    "Pick up the red credit card on the seat of the sofa. ",
+                    "Turn right and go to the TV stand.",
+                    "Place the red credit card on the left of the keys on the top of the TV stand.",
+                    "Turn around and go to the black round end table in the left corner. ",
+                    "Pick up the red credit on the table. ",
+                    "Turn around and go back to the front of the TV stand.",
+                    "Place the red credit card on the left side of the first credit card. "
+                ],
+                "task_desc": "Move two credit cards to the TV stand."
+            }
+        ]
+    }
+}

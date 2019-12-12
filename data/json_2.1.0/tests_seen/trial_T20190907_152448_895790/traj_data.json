@@ -1,0 +1,273 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan421",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -1.25,
+            "y": 0.9008256,
+            "z": 1.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_c4a4c4ad",
+                "position": {
+                    "x": -0.3024292,
+                    "y": 0.206807852,
+                    "z": 2.03450513
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_0fd13d7a",
+                "position": {
+                    "x": -0.470215231,
+                    "y": 0.206573546,
+                    "z": 1.51912713
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_55833eba",
+                "position": {
+                    "x": -2.17002368,
+                    "y": 0.0575833656,
+                    "z": 3.818938
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_862832c1",
+                "position": {
+                    "x": -0.414286554,
+                    "y": 0.5137007,
+                    "z": 1.86781561
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_5484beaa",
+                "position": {
+                    "x": -0.417906046,
+                    "y": 0.8132801,
+                    "z": 2.19055748
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_f6c37fb2",
+                "position": {
+                    "x": -0.03691358,
+                    "y": 1.658,
+                    "z": 3.44300032
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0004,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_0fd13d7a",
+                "position": {
+                    "x": -0.188515663,
+                    "y": 0.953245938,
+                    "z": 3.53399682
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_335b3797",
+                "position": {
+                    "x": -0.180218875,
+                    "y": 0.945194542,
+                    "z": 3.71929717
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_a5ac7169",
+                "position": {
+                    "x": -0.139841557,
+                    "y": -0.0006361902,
+                    "z": 3.369947
+                },
+                "rotation": {
+                    "x": -0.00118185522,
+                    "y": 0.0004360497,
+                    "z": 0.000781859
+                }
+            },
+            {
+                "objectName": "Candle_1814f8bc",
+                "position": {
+                    "x": -0.190571815,
+                    "y": 0.510781348,
+                    "z": 2.551027
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_5484beaa",
+                "position": {
+                    "x": -0.14460443,
+                    "y": 0.8046577,
+                    "z": 1.32575345
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_dab0d4d7",
+                "position": {
+                    "x": -0.161189049,
+                    "y": 0.809,
+                    "z": 2.19055748
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_55833eba",
+                "position": {
+                    "x": -0.161723971,
+                    "y": 0.9546045,
+                    "z": 3.59649682
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_e5bc324c",
+                "position": {
+                    "x": -1.106,
+                    "y": 1.151,
+                    "z": 1.28995311
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 1.70754731e-06,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_c4a4c4ad",
+                "position": {
+                    "x": -0.2465005,
+                    "y": 0.205373645,
+                    "z": 2.43990064
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_274c0193",
+                "position": {
+                    "x": -0.346180737,
+                    "y": -0.000173203647,
+                    "z": 3.34195137
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_862832c1",
+                "position": {
+                    "x": -0.268063873,
+                    "y": 0.8299487,
+                    "z": 1.67563009
+                },
+                "rotation": {
+                    "x": 1.40334191e-14,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3995180026,
+        "scene_num": 421
+    },
+    "task_id": "trial_T20190907_152448_895790",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Move to the left side of the toilet to the left of the sink",
+                    "Pick up the spray bottle to the right of the toilet next to the plunger",
+                    "Carry the spray bottle to the sink on the far right",
+                    "Place the spray bottle on the left side of the sink between the soap dispenser and the sink"
+                ],
+                "task_desc": "Move a spray bottle by the toilet to the bathroom counter by the sink"
+            },
+            {
+                "high_descs": [
+                    "Talk towards the toilet on your right.",
+                    "Pick up a white spray bottle on the floor to the right of the toilet.",
+                    "Turn right towards the sink on your left.",
+                    "Place the bottle to the left of the sink."
+                ],
+                "task_desc": "Place a spray bottle on the sink counter."
+            },
+            {
+                "high_descs": [
+                    "Walk forward to the toilet.",
+                    "Pick up the spray bottle from the top of the toilet.",
+                    "Turn right and walk to the right side of the counter top.",
+                    "Put the spray bottle on the counter top, immediately to the right of the soap bottle on the left."
+                ],
+                "task_desc": "Move a spray bottle from the top of a toilet to a counter top."
+            }
+        ]
+    }
+}

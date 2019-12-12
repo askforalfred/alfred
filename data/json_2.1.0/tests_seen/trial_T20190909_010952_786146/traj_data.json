@@ -1,0 +1,376 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan214",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -3.0,
+            "y": 0.920439839,
+            "z": 6.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Newspaper_bd7d57f9",
+                "position": {
+                    "x": -0.240596771,
+                    "y": 0.28695327,
+                    "z": 6.73944759
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_add9bdcb",
+                "position": {
+                    "x": -0.43738842,
+                    "y": 0.617732763,
+                    "z": 0.99776566
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9862d1f2",
+                "position": {
+                    "x": -2.52539587,
+                    "y": 0.4477989,
+                    "z": 3.83650613
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_74b7dba5",
+                "position": {
+                    "x": -4.305957,
+                    "y": 0.474460661,
+                    "z": 6.450001
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_218e2a13",
+                "position": {
+                    "x": -0.6747393,
+                    "y": 1.46151006,
+                    "z": 5.989571
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_218e2a13",
+                "position": {
+                    "x": -2.494,
+                    "y": 0.536995947,
+                    "z": 0.6013051
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_cc96a597",
+                "position": {
+                    "x": -0.5633557,
+                    "y": 1.46287751,
+                    "z": 5.742548
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_cc96a597",
+                "position": {
+                    "x": -0.3192984,
+                    "y": 0.281835377,
+                    "z": 6.244888
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_cc96a597",
+                "position": {
+                    "x": -0.3192984,
+                    "y": 0.281835377,
+                    "z": 6.492168
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_bb5d5a95",
+                "position": {
+                    "x": -4.508628,
+                    "y": 0.661733747,
+                    "z": 2.02292156
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999832,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_bb5d5a95",
+                "position": {
+                    "x": -4.27914047,
+                    "y": 0.6639968,
+                    "z": 3.232093
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.000160509444,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_c6af1417",
+                "position": {
+                    "x": -0.5554031,
+                    "y": 0.2851567,
+                    "z": 5.255769
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9862d1f2",
+                "position": {
+                    "x": -0.750611544,
+                    "y": 0.6172989,
+                    "z": 0.842
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "WateringCan_add9bdcb",
+                "position": {
+                    "x": -2.280118,
+                    "y": 0.44823277,
+                    "z": 3.83650613
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_bd7d57f9",
+                "position": {
+                    "x": -4.50862932,
+                    "y": 0.54348135,
+                    "z": 2.627507
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_505088cb",
+                "position": {
+                    "x": -3.01595163,
+                    "y": 0.454306781,
+                    "z": 4.27954
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_74b7dba5",
+                "position": {
+                    "x": -0.555403,
+                    "y": 0.281307638,
+                    "z": 5.997608
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_2e351c21",
+                "position": {
+                    "x": -2.79629278,
+                    "y": 0.6060846,
+                    "z": 0.793068767
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_bc12b2bf",
+                "position": {
+                    "x": -3.01595163,
+                    "y": 0.45503515,
+                    "z": 3.61498928
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_cc96a597",
+                "position": {
+                    "x": -2.89331269,
+                    "y": 0.4505108,
+                    "z": 4.058023
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_218e2a13",
+                "position": {
+                    "x": -4.049648,
+                    "y": 0.539617836,
+                    "z": 2.6275084
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_02c88406",
+                "position": {
+                    "x": -0.525,
+                    "y": 1.45307183,
+                    "z": 5.351
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 294.738617,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_317e1aa8",
+                "position": {
+                    "x": -2.64803481,
+                    "y": 0.4471473,
+                    "z": 4.72257376
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_f608fdaf",
+                "position": {
+                    "x": -0.5987849,
+                    "y": 1.45268,
+                    "z": 6.794378
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 284.797,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3754208158,
+        "scene_num": 214
+    },
+    "task_id": "trial_T20190909_010952_786146",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn right and take a step forward, then turn left and walk over to the black shelves on the wall.",
+                    "Pick up the remote off of the black shelf.",
+                    "Turn left and walk over to the wall, then hang a left and walk up to the black chair in the corner of the room.",
+                    "Put the remote on the front edge of the seat of the black chair.",
+                    "Turn around and walk over to the black bench.",
+                    "Pick up the rightmost remote off of the black bench.",
+                    "Turn around and walk over to the black chair in the corner of the room.",
+                    "Put the remote on the front edge of the seat of the black chair."
+                ],
+                "task_desc": "Move two remotes to the seat of a black chair."
+            },
+            {
+                "high_descs": [
+                    "Face the top shelf with the remote in front of you.",
+                    "Take the remote from the shelf in front of you.",
+                    "Turn around and face the couch in front of you.",
+                    "Place the remote on the couch in front of you.",
+                    "Turn around and face the bottom shelf with the remote on the right in front of you.",
+                    "Take the remote on the right on the shelf in front of you.",
+                    "Turn around and face the couch in front of you.",
+                    "Place the remote on the couch in front of you."
+                ],
+                "task_desc": "Place the remote on the couch."
+            },
+            {
+                "high_descs": [
+                    "Turn and go to the shelf by the wall.",
+                    "Pick up the remote control on the shelf.",
+                    "Turn around and go to the armchair. ",
+                    "Put the remote control on the armchair. ",
+                    "Turn and go to the shelf by the wall.",
+                    "Pick up the remote control on the shelf.",
+                    "Turn around and go to the armchair. ",
+                    "Put the remote control on the armchair. "
+                ],
+                "task_desc": "Move two remote controls to the armchair."
+            }
+        ]
+    }
+}

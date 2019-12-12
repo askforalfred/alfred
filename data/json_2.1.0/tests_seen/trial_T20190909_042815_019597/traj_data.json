@@ -1,0 +1,253 @@
+{
+    "scene": {
+        "dirty_and_empty": true,
+        "floor_plan": "FloorPlan405",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -2.5,
+            "y": 0.9048511,
+            "z": -0.25
+        },
+        "object_poses": [
+            {
+                "objectName": "SprayBottle_467321f9",
+                "position": {
+                    "x": -3.09694862,
+                    "y": 1.87077212,
+                    "z": 1.26497316
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_467321f9",
+                "position": {
+                    "x": -2.962168,
+                    "y": 1.00350416,
+                    "z": -0.287308276
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_b14fe5d7",
+                "position": {
+                    "x": -3.07266641,
+                    "y": 0.0515019931,
+                    "z": 0.869985163
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_0ef4ecaf",
+                "position": {
+                    "x": -3.32169986,
+                    "y": 1.464,
+                    "z": 0.762999952
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000061,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_6f47e8ba",
+                "position": {
+                    "x": -1.61500061,
+                    "y": 1.398,
+                    "z": 1.80063808
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_0ef4ecaf",
+                "position": {
+                    "x": -2.96,
+                    "y": 1.593,
+                    "z": -0.728403032
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000122,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_00ce0dcd",
+                "position": {
+                    "x": -1.03258514,
+                    "y": 0.5127933,
+                    "z": 1.08455074
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_f90141c5",
+                "position": {
+                    "x": -2.97005415,
+                    "y": 0.105464041,
+                    "z": -0.440664947
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_868bf844",
+                "position": {
+                    "x": -3.06186676,
+                    "y": 0.668248653,
+                    "z": 0.690800548
+                },
+                "rotation": {
+                    "x": 347.0551,
+                    "y": 0.0,
+                    "z": 90.0
+                }
+            },
+            {
+                "objectName": "Candle_c916d797",
+                "position": {
+                    "x": -3.10017276,
+                    "y": 0.110584557,
+                    "z": 0.236565113
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_3954e6e3",
+                "position": {
+                    "x": -3.236,
+                    "y": 0.00385227427,
+                    "z": 1.79
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_06387083",
+                "position": {
+                    "x": -3.04350257,
+                    "y": 0.003389284,
+                    "z": 1.68351626
+                },
+                "rotation": {
+                    "x": -0.00119000988,
+                    "y": 0.000474272529,
+                    "z": 0.0007837008
+                }
+            },
+            {
+                "objectName": "SoapBottle_b14fe5d7",
+                "position": {
+                    "x": -3.18443727,
+                    "y": 1.8714664,
+                    "z": 1.62499976
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_f05aa151",
+                "position": {
+                    "x": -2.88626575,
+                    "y": 1.00240409,
+                    "z": -0.601795554
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_467321f9",
+                "position": {
+                    "x": -3.16563725,
+                    "y": 0.110372126,
+                    "z": 0.286923528
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3923839121,
+        "scene_num": 405
+    },
+    "task_id": "trial_T20190909_042815_019597",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn left and face the counter.",
+                    "Pick up the dirty red rag on the counter.",
+                    "Take two steps right.",
+                    "Wash the rag in the sink.",
+                    "Take a step right.",
+                    "Place the rag on top of the toilet tank."
+                ],
+                "task_desc": "Place a clean rag on top of a toilet tank."
+            },
+            {
+                "high_descs": [
+                    "turn around and walk forwards to the end of the room which is only a few steps, turn right to face the bathroom cabinet and look downwards a bit",
+                    "grab the dirty cloth off of the bathroom cabinet there",
+                    "move to the right a bit to align your self with the sink on the left, turn left to face the sink of course",
+                    "clean off the dirty cloth in the sink and then take it back out",
+                    "turn right and walk over to the toilet, and turn to face the toilet",
+                    "place the clean cloth on the back side of the toilet"
+                ],
+                "task_desc": "place a clean cloth on top of the back side of the toilet"
+            },
+            {
+                "high_descs": [
+                    "Turn completely around, walk to the wall, turn right so you are facing the counter of the sink vanity.",
+                    "Pick up the red dirty wash cloth from the counter of the sink vanity. ",
+                    "Turn right, walk slightly forward, turn left so you are facing the sink. ",
+                    "Put the dirty wash cloth in the sink, fill the sink with water, drain the water, pick up the wash cloth. ",
+                    "Turn right, walk slightly forward, turn left so you are facing the towel bar on the wall next to the toilet. ",
+                    "Put the wash cloth on the top of the toilet tank on the left side."
+                ],
+                "task_desc": "Rinse the wash cloth and put it on the back of the toilet. "
+            }
+        ]
+    }
+}

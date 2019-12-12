@@ -1,0 +1,441 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan230",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -0.75,
+            "y": 0.9082557,
+            "z": 5.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Plate_5e7db3f1",
+                "position": {
+                    "x": -3.43260431,
+                    "y": 0.797620952,
+                    "z": 1.75198448
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_908cc737",
+                "position": {
+                    "x": -2.324463,
+                    "y": 0.7838789,
+                    "z": 1.906896
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_908cc737",
+                "position": {
+                    "x": -2.04742765,
+                    "y": 0.7838789,
+                    "z": 2.52654219
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_a5054344",
+                "position": {
+                    "x": -2.60149837,
+                    "y": 0.7810505,
+                    "z": 2.52654219
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_a5054344",
+                "position": {
+                    "x": -3.02655029,
+                    "y": 0.456956923,
+                    "z": 5.93032551
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_1d7526da",
+                "position": {
+                    "x": -2.8785336,
+                    "y": 0.792243361,
+                    "z": 2.6814537
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b0f81e2",
+                "position": {
+                    "x": -3.6630013,
+                    "y": 0.3294632,
+                    "z": 4.71895075
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b0f81e2",
+                "position": {
+                    "x": -3.5380013,
+                    "y": 0.327087,
+                    "z": 4.71895075
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_edffc522",
+                "position": {
+                    "x": -2.97044778,
+                    "y": 0.533496,
+                    "z": 8.596501
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999847,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_edffc522",
+                "position": {
+                    "x": -3.60865736,
+                    "y": 0.533496,
+                    "z": 8.47149849
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999847,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_9dff4699",
+                "position": {
+                    "x": -1.77596378,
+                    "y": 0.5836617,
+                    "z": 6.7393465
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_9dff4699",
+                "position": {
+                    "x": -2.324463,
+                    "y": 0.910361648,
+                    "z": 2.37163067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_1ce7ed17",
+                "position": {
+                    "x": -1.77596378,
+                    "y": 0.453000069,
+                    "z": 5.54977369
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_9dff4699",
+                "position": {
+                    "x": -1.623794,
+                    "y": 0.5836617,
+                    "z": 6.14456
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_5b0f81e2",
+                "position": {
+                    "x": -2.69100118,
+                    "y": 0.329463184,
+                    "z": 4.77495146
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_5e7db3f1",
+                "position": {
+                    "x": -3.43260431,
+                    "y": 0.798100352,
+                    "z": 2.37163067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_baa7deba",
+                "position": {
+                    "x": -2.04742765,
+                    "y": 0.7823445,
+                    "z": 2.37163067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_1c7e6d26",
+                "position": {
+                    "x": -1.85204864,
+                    "y": 0.5167066,
+                    "z": 7.33413267
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_926dae3a",
+                "position": {
+                    "x": -3.44910479,
+                    "y": 0.5345076,
+                    "z": 8.471499
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999847,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_908cc737",
+                "position": {
+                    "x": -3.70963955,
+                    "y": 0.7838789,
+                    "z": 2.52654219
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_1ce7ed17",
+                "position": {
+                    "x": -3.216764,
+                    "y": 0.4506064,
+                    "z": 6.33357048
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_a5054344",
+                "position": {
+                    "x": -2.04742765,
+                    "y": 0.7815299,
+                    "z": 2.21671915
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_edffc522",
+                "position": {
+                    "x": -1.85204864,
+                    "y": 0.454996,
+                    "z": 7.03673935
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_06e16364",
+                "position": {
+                    "x": -3.663001,
+                    "y": 0.333206564,
+                    "z": 4.514477
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Boots_7fb33fbb",
+                "position": {
+                    "x": -5.786989,
+                    "y": 0.007925332,
+                    "z": 4.817991
+                },
+                "rotation": {
+                    "x": 0.09014016,
+                    "y": 167.028427,
+                    "z": 0.003741637
+                }
+            },
+            {
+                "objectName": "Candle_6f5401e5",
+                "position": {
+                    "x": -2.9425,
+                    "y": 0.53611654,
+                    "z": 8.321264
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_ed97bba2",
+                "position": {
+                    "x": -2.04742765,
+                    "y": 0.883224249,
+                    "z": 1.906896
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_724f65b7",
+                "position": {
+                    "x": -0.246540532,
+                    "y": 0.6760134,
+                    "z": 0.227507651
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 329.437,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_1d7526da",
+                "position": {
+                    "x": -3.42772651,
+                    "y": 0.466063976,
+                    "z": 6.764908
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3190894980,
+        "scene_num": 230
+    },
+    "task_id": "trial_T20190908_124100_352527",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn right to walk behind the sofa, and when you get to the wall turn left and move around the sofa so you stop facing the center cushion of it.",
+                    "Pick up the open box from the center cushion of the sofa.",
+                    "Turn left and move around the coffee table so you stop facing the table with the sofa on the other side.",
+                    "Place the box on the right corner of the table that's closest to you.",
+                    "Move around the coffee table and then all the way around to the back of the sofa.",
+                    "Pick up the remaining box from the sofa.",
+                    "Turn right and carry the box back around the sofa and coffee table so you're on the same side where you left the previous box.",
+                    "Place the new box on the front left corner of the table."
+                ],
+                "task_desc": "Move two boxes to the coffee table."
+            },
+            {
+                "high_descs": [
+                    "Turn right, go forward to the wall, turn left, go forward to the TV stand, turn left, go forward, turn left to face the couch.",
+                    "Take the left box from the couch.",
+                    "Turn left, go forward to the TV stand, turn left, go forward to the fire place, turn left, go forward, turn left to face the coffee table.",
+                    "Put the box on the coffee table to the right of the computer.",
+                    "Turn left, go forward to the TV stand, turn right, go forward past the couch, turn right, go forward, turn right to face the back of the couch.",
+                    "Take the box from the couch.",
+                    "Turn right, go forward to the TV stand, turn left, go forward to the fire place, turn left, go forward, turn left to face the coffee table.",
+                    "Put the box on the coffee table to the left of the statue."
+                ],
+                "task_desc": "Put two boxes on a coffee table."
+            },
+            {
+                "high_descs": [
+                    "Go to the sofa",
+                    "Pick up the box on the left",
+                    "Go to the center table",
+                    "Put the box down on the table on the right side",
+                    "Go to the back of the sofa",
+                    "Pick up the box",
+                    "Go to the center table",
+                    "Put the box down on the table on the left side"
+                ],
+                "task_desc": "Move two boxes to a table"
+            }
+        ]
+    }
+}

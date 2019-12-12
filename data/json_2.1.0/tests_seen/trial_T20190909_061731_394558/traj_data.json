@@ -1,0 +1,356 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan225",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": -3.25,
+            "y": 0.906817555,
+            "z": 3.0
+        },
+        "object_poses": [
+            {
+                "objectName": "TissueBox_005cb9a3",
+                "position": {
+                    "x": -0.178058416,
+                    "y": 0.7667832,
+                    "z": 2.22809076
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_005cb9a3",
+                "position": {
+                    "x": -0.395906359,
+                    "y": 0.183435589,
+                    "z": 3.09856772
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_42f358fb",
+                "position": {
+                    "x": -0.253126234,
+                    "y": 0.762272656,
+                    "z": 2.37823772
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_42f358fb",
+                "position": {
+                    "x": -0.361362427,
+                    "y": 0.183253527,
+                    "z": 2.26037884
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_820f3c89",
+                "position": {
+                    "x": -0.178057611,
+                    "y": 0.7637844,
+                    "z": 2.52838421
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_820f3c89",
+                "position": {
+                    "x": -0.478329957,
+                    "y": 0.766868055,
+                    "z": 2.67853165
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_3fa28733",
+                "position": {
+                    "x": -0.5533991,
+                    "y": 0.762147069,
+                    "z": 2.37823844
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_3fa28733",
+                "position": {
+                    "x": -0.403262645,
+                    "y": 0.762147069,
+                    "z": 2.378238
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2cd7c66d",
+                "position": {
+                    "x": -1.74051118,
+                    "y": 0.1985181,
+                    "z": 2.75760317
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2cd7c66d",
+                "position": {
+                    "x": -1.96906471,
+                    "y": 0.19559598,
+                    "z": 2.528407
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_d438b869",
+                "position": {
+                    "x": -2.86502767,
+                    "y": 0.484356046,
+                    "z": 4.41238832
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_2bae2fa3",
+                "position": {
+                    "x": -2.11128521,
+                    "y": 0.2932,
+                    "z": 2.9309
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2cd7c66d",
+                "position": {
+                    "x": -0.138531446,
+                    "y": 0.184175134,
+                    "z": 2.711505
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_005cb9a3",
+                "position": {
+                    "x": -0.4032609,
+                    "y": 0.7667832,
+                    "z": 2.97882462
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_5f0b3468",
+                "position": {
+                    "x": -4.503508,
+                    "y": 0.417489,
+                    "z": 2.64002824
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_cc78c04e",
+                "position": {
+                    "x": -2.88048768,
+                    "y": 1.518822,
+                    "z": 0.144867167
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_f0cfe9e7",
+                "position": {
+                    "x": -0.782158852,
+                    "y": 0.378786832,
+                    "z": 0.7123869
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_d438b869",
+                "position": {
+                    "x": -1.878324,
+                    "y": 0.48435697,
+                    "z": 4.41238832
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_3fa28733",
+                "position": {
+                    "x": -0.403262258,
+                    "y": 0.7652307,
+                    "z": 2.52838469
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_42f358fb",
+                "position": {
+                    "x": -0.4649988,
+                    "y": 0.5764784,
+                    "z": 3.098587
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_820f3c89",
+                "position": {
+                    "x": -4.26614428,
+                    "y": 0.421205342,
+                    "z": 1.40664709
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_3402f015",
+                "position": {
+                    "x": -2.12143373,
+                    "y": 0.205818534,
+                    "z": 2.29921079
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_5d099de8",
+                "position": {
+                    "x": -1.869989,
+                    "y": 1.518822,
+                    "z": 0.1452563
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 93834425,
+        "scene_num": 225
+    },
+    "task_id": "trial_T20190909_061731_394558",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn left and walk to the weird lattice of light on the floor then turn left and walk to the door then turn right and walk to the black chair.",
+                    "Pick up the remote that's in front of you.",
+                    "Turn right and walk to the black couch then take a step to your left to face the lamp.",
+                    "Turn on the light."
+                ],
+                "task_desc": "Inspect a remote by lamp light."
+            },
+            {
+                "high_descs": [
+                    "Turn left, hang a left at the end of the couch and walk to the black chair on the right.",
+                    "Pick up the remote control from the cushion on the chair.",
+                    "Turn right and walk to the tall lamp in the corner next to the couch.",
+                    "Turn on the tall lamp."
+                ],
+                "task_desc": "Examine a remote control by the light of a tall lamp."
+            },
+            {
+                "high_descs": [
+                    "Turn around and cross the room to face the black chair in the corner.",
+                    "Pick the remote up from the chair.",
+                    "Cross the room and face the floor lamp in the corner.",
+                    "Turn the lamp on."
+                ],
+                "task_desc": "Pick up a remote and turn a lamp on."
+            }
+        ]
+    }
+}

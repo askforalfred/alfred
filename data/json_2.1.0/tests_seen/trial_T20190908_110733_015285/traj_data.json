@@ -1,0 +1,441 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan311",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": 0.75,
+            "y": 0.9101201,
+            "z": 3.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Mug_34663f02",
+                "position": {
+                    "x": 2.88915682,
+                    "y": 0.806327343,
+                    "z": 3.71508837
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_65828e43",
+                "position": {
+                    "x": 2.60967064,
+                    "y": 0.8454321,
+                    "z": 0.230579376
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_fbb244a0",
+                "position": {
+                    "x": 2.88915682,
+                    "y": 0.8069972,
+                    "z": 2.39272165
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_73ef3690",
+                "position": {
+                    "x": 2.57583427,
+                    "y": 0.0972365141,
+                    "z": 0.4281597
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_e4e177ec",
+                "position": {
+                    "x": 2.576072,
+                    "y": 0.8083233,
+                    "z": 2.61311626
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_81ebd795",
+                "position": {
+                    "x": -1.01247966,
+                    "y": 0.9143347,
+                    "z": 4.90099144
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4c88af94",
+                "position": {
+                    "x": -0.5946238,
+                    "y": 0.713601649,
+                    "z": 3.105091
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_787808a4",
+                "position": {
+                    "x": 2.53340769,
+                    "y": 0.09592956,
+                    "z": 0.8198403
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_64d4017f",
+                "position": {
+                    "x": 2.68043351,
+                    "y": 0.8163972,
+                    "z": 2.39272165
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_64d4017f",
+                "position": {
+                    "x": 2.44725227,
+                    "y": 0.753941834,
+                    "z": -1.51612043
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_098867ef",
+                "position": {
+                    "x": 2.27501822,
+                    "y": 0.3978147,
+                    "z": -0.6816067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 269.999817,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_098867ef",
+                "position": {
+                    "x": -0.815475941,
+                    "y": 0.911498964,
+                    "z": 4.71732759
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_098867ef",
+                "position": {
+                    "x": -1.1280179,
+                    "y": 0.3978147,
+                    "z": -1.22763276
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4c88af94",
+                "position": {
+                    "x": 2.576072,
+                    "y": 0.806656,
+                    "z": 3.71508837
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_64d4017f",
+                "position": {
+                    "x": -0.815475941,
+                    "y": 0.9215688,
+                    "z": 3.98267221
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_73ef3690",
+                "position": {
+                    "x": 2.26298714,
+                    "y": 0.8073,
+                    "z": 2.61311626
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_65828e43",
+                "position": {
+                    "x": 2.36734867,
+                    "y": 0.809822559,
+                    "z": 3.053905
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_e4e177ec",
+                "position": {
+                    "x": 2.68678069,
+                    "y": 0.745867968,
+                    "z": -1.37369192
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_81ebd795",
+                "position": {
+                    "x": 2.60967064,
+                    "y": 0.8438358,
+                    "z": 0.886280537
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_787808a4",
+                "position": {
+                    "x": 2.39799213,
+                    "y": 0.745671749,
+                    "z": -1.65992141
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_098867ef",
+                "position": {
+                    "x": -0.8811438,
+                    "y": 0.911498964,
+                    "z": 4.35
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_172c7898",
+                "position": {
+                    "x": 2.26298714,
+                    "y": 0.8116682,
+                    "z": 3.053905
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_1f84c627",
+                "position": {
+                    "x": -0.5946238,
+                    "y": 0.785215139,
+                    "z": 2.53943944
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_e745bb37",
+                "position": {
+                    "x": -1.07318592,
+                    "y": 0.785215139,
+                    "z": 3.105091
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_fbb244a0",
+                "position": {
+                    "x": 2.36734867,
+                    "y": 0.807934046,
+                    "z": 3.27429938
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_2d1adb92",
+                "position": {
+                    "x": 2.85065842,
+                    "y": 0.84865284,
+                    "z": 0.6240001
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_34663f02",
+                "position": {
+                    "x": 2.26298714,
+                    "y": 0.806327343,
+                    "z": 3.49469376
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1693095459,
+        "scene_num": 311
+    },
+    "task_id": "trial_T20190908_110733_015285",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around and walk towards the door, then turn left and enter the bathroom.",
+                    "Close and pick up the lap top in the middle",
+                    "Turn around and walk out the bathroom, turn right and walk past the bed towards the green chair, turn right and walk towards the bed.",
+                    "Place the lap top on the bed. ",
+                    "Turn around and walk towards the green chair by the window, then turn right. ",
+                    "Close and pick up the lap top in the green chair. ",
+                    "Turn right and walk towards the bed.",
+                    "Place the lap top on the right side of the other one."
+                ],
+                "task_desc": "Place two lap tops side by side on the bed."
+            },
+            {
+                "high_descs": [
+                    "Turn around and head towards the door, then turn left and head towards the computers on the shelf. ",
+                    "Pick up the left computer on the shelf. ",
+                    "Turn around and head to the foot of the bed on the right. ",
+                    "Put the computer on the bed. ",
+                    "Turn around and go to the green chair. on the right.",
+                    "Pick up the compute on the chair. ",
+                    "Turn right and bring the computer to the bed. ",
+                    "Put the computer on the bed, to the right of the other computer. "
+                ],
+                "task_desc": "Put two computers on the bed. "
+            },
+            {
+                "high_descs": [
+                    "Turn left and take a step forward, then turn left again and begin walking across the room, hang a left and walk up to the counter beneath the mirror on the wall.",
+                    "Close the lid of the leftmost laptop on the counter and pick it up.",
+                    "Turn around and begin walking across the room, then hang a right and walk over to the end of the bed.",
+                    "Place the closed laptop on the middle of the end of the bed.",
+                    "Turn around and walk over to the green chair in the corner of the room.",
+                    "Close the lid of the laptop that is on the seat of the green chair and then pick it up.",
+                    "Turn right and walk over to the end of the bed.",
+                    "Place the laptop on the end of the bed to the right of the laptop that is already there."
+                ],
+                "task_desc": "Put two closed laptops on the bed."
+            },
+            {
+                "high_descs": [
+                    "Turn around and then turn to your left so you are facing the mirror",
+                    "Close the laptop and then pick it up off of the counter",
+                    "Turn around and then head to your left. Once you are passed the bed, turn right and then face the bottom of the bed.",
+                    "Drop the laptop on the bed",
+                    "Turn around and then face to your right",
+                    "Close the laptop and then pick it up off of the chair",
+                    "Turn to your right and head back to the foot of the bed",
+                    "Drop the second laptop on the bed"
+                ],
+                "task_desc": "Put two laptops on the bed"
+            },
+            {
+                "high_descs": [
+                    "Turn left and take a step then turn left and walk to the middle of the tiles to your left then turn left and walk to the counter.",
+                    "Close the middle laptop and pick it up.",
+                    "Turn around and walk past the wall to your right and when you do turn right and walk past the bed then turn right and walk to the middle of this side of the bed and turn right.",
+                    "Put the laptop on the bed.",
+                    "Walk back to where you got the first laptop.",
+                    "Close the laptop and pick it up.",
+                    "Walk back to where you put the first laptop.",
+                    "Put the laptop you're holding on the bed."
+                ],
+                "task_desc": "Put two laptops on the bed."
+            }
+        ]
+    }
+}

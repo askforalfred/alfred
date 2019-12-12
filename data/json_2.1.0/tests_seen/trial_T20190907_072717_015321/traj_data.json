@@ -1,0 +1,337 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan418",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -1.25,
+            "y": 0.901641965,
+            "z": -3.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.764503,
+                    "y": 0.06674749,
+                    "z": -3.56873274
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.70846224,
+                    "y": 0.806804,
+                    "z": -3.53294468
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_cc56b620",
+                "position": {
+                    "x": -2.35583282,
+                    "y": 0.806569636,
+                    "z": -2.26348734
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_94c9196d",
+                "position": {
+                    "x": -0.0684427,
+                    "y": 1.04740262,
+                    "z": -3.04893637
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_94c9196d",
+                "position": {
+                    "x": -2.70846224,
+                    "y": 0.8085621,
+                    "z": -3.7072804
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_88b2545f",
+                "position": {
+                    "x": -2.9620862,
+                    "y": 1.584,
+                    "z": -2.569
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000122,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_1963f6ed",
+                "position": {
+                    "x": -2.61351728,
+                    "y": 0.06344348,
+                    "z": -3.08155942
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_f876c62f",
+                "position": {
+                    "x": -0.190976322,
+                    "y": 1.05469859,
+                    "z": -3.04893613
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_57ecd3c7",
+                "position": {
+                    "x": -2.68863821,
+                    "y": 0.066052556,
+                    "z": -2.49451184
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_88b2545f",
+                "position": {
+                    "x": -2.9620862,
+                    "y": 1.584,
+                    "z": -3.55099988
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000122,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_ed669751",
+                "position": {
+                    "x": -0.1256311,
+                    "y": 0.0006431546,
+                    "z": -3.49332213
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_cc56b620",
+                "position": {
+                    "x": -0.160342753,
+                    "y": 1.04541028,
+                    "z": -2.98336434
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_0ae85b0d",
+                "position": {
+                    "x": -2.68901014,
+                    "y": 0.06344348,
+                    "z": -3.38243818
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_1963f6ed",
+                "position": {
+                    "x": -2.355834,
+                    "y": 0.8035,
+                    "z": -3.7653923
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_c13c7186",
+                "position": {
+                    "x": -1.29189992,
+                    "y": 1.386,
+                    "z": -0.63
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_94c9196d",
+                "position": {
+                    "x": -2.839996,
+                    "y": 0.0685055852,
+                    "z": -3.19818115
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_ea8e94da",
+                "position": {
+                    "x": -2.38711047,
+                    "y": 0.06715262,
+                    "z": -2.49451184
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_d4414847",
+                "position": {
+                    "x": -0.325021982,
+                    "y": 0.0006431546,
+                    "z": -3.342877
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 4026154993,
+        "scene_num": 418
+    },
+    "task_id": "trial_T20190907_072717_015321",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to your left and stand in front of the left side of the sink.",
+                    "Take the towel from its holder hanging on the wall to the left of the mirror.",
+                    "Turn around to face the side of the toilet nearest the shower. ",
+                    "Place the towel on the left side of the back of the toilet nearest the flusher handle.",
+                    "Turn around and walk to the towel rack to the right of the sink.",
+                    "Remove the towel from the rack.",
+                    "Turn around and walk to the toilet.",
+                    "Place the towel on the end of the back of the toilet to the right of the soap dispenser."
+                ],
+                "task_desc": "Move two towels from the wall behind the sink to the back of the toilet"
+            },
+            {
+                "high_descs": [
+                    "Move to the left side of the mirror on the wall above the sink",
+                    "Pick up the towel on the towel rack on the wall that is left of the mirror",
+                    "Carry the towel to the left side of the toilet",
+                    "Place the towel on the back of the toilet tank to the left of the soap bottle",
+                    "Turn around then head to the right side of the mirror where the other towel rack is",
+                    "Pick up the towel on the towel rack to the right of the mirror",
+                    "Carry the towel to the toilet on the back wall",
+                    "Place the towel on the right side of the soap dispenser bottle on top of the toilet"
+                ],
+                "task_desc": "Move two towels from the towel racks to the back of the toilet"
+            },
+            {
+                "high_descs": [
+                    "Turn  left and walk towards the sink. ",
+                    "Remove the towel on the left side of the mirror.",
+                    "Turn right and walk towards the shower, turn right and walk towards the toilet.",
+                    "Place the towel next to the pink bar of soap on the toilet.",
+                    "Turn all the way around and walk towards the sink.",
+                    "Remove the towel on the right side of the mirror. ",
+                    "Turn all the way around and walk towards the toilet.",
+                    "Place the towel on the right side of the bottle of lotion on the toilet."
+                ],
+                "task_desc": "Place two towels, one on the left, one on the right on the back of the toilet. "
+            },
+            {
+                "high_descs": [
+                    "Move to the sink ahead of the toilet",
+                    "Pick up a rag from the towel ring on the wall",
+                    "Move to the left side of the toilet behind you",
+                    "Put the rag on the wall handle",
+                    "Move to the sink ahead of the toilet",
+                    "Pick up a rag from the towel ring on the wall",
+                    "Move to the left side of the toilet behind you",
+                    "Put the rag on the wall handle"
+                ],
+                "task_desc": "Put two rags on the handle to the left of the toilet."
+            },
+            {
+                "high_descs": [
+                    "Turn directly to your left and face the bathroom counter",
+                    "Pick up a hand towel off of the rack",
+                    "Turn around so you are facing the left of the toilet",
+                    "Place the hand towel on the back of the toilet on the left side",
+                    "Turn around and walk to the bathroom counter behind you",
+                    "Pick up a hand towel off of the rack",
+                    "Turn around and walk to the left side of the toilet again",
+                    "Place this hand towel on the back of the toilet on the right side"
+                ],
+                "task_desc": "Move two hand towels to the back of the toilet"
+            },
+            {
+                "high_descs": [
+                    "Turn left to go toward the sink, then look up at the towel holder.",
+                    "Take the towel from the towel holder.",
+                    "Look down, turn right, go straight, then turn right, to the toilet.",
+                    "Put the towel on the back of the toilet, to the left of the soap.",
+                    "Turn around and look up to face the towel holder.",
+                    "Take the towel from the towel holder.",
+                    "Turn around and go forward, to the toilet.",
+                    "Put the towel on the back of the toilet, to the right of the soap."
+                ],
+                "task_desc": "Put two towels on the back of the toilet."
+            }
+        ]
+    }
+}

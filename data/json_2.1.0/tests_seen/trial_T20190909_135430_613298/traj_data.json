@@ -1,0 +1,347 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan213",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": 11.75,
+            "y": 0.9028512,
+            "z": 1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Statue_1f10aaf1",
+                "position": {
+                    "x": 10.6516485,
+                    "y": 0.5976794,
+                    "z": 1.14258671
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_1f10aaf1",
+                "position": {
+                    "x": 10.2643375,
+                    "y": 0.5976794,
+                    "z": 0.9568539
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_fac78eb0",
+                "position": {
+                    "x": 10.2643375,
+                    "y": 0.591272652,
+                    "z": 0.771121144
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_fac78eb0",
+                "position": {
+                    "x": 14.65475,
+                    "y": 0.5188194,
+                    "z": -0.71449995
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4ab20428",
+                "position": {
+                    "x": 14.2526388,
+                    "y": 0.143055588,
+                    "z": 1.5628
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4ab20428",
+                "position": {
+                    "x": 9.692654,
+                    "y": 0.4304519,
+                    "z": 3.216
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_705a3dcb",
+                "position": {
+                    "x": 14.0381966,
+                    "y": 0.75465095,
+                    "z": 0.5198047
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_705a3dcb",
+                "position": {
+                    "x": 14.6935005,
+                    "y": 0.517996,
+                    "z": -0.5895
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_24c7992d",
+                "position": {
+                    "x": 14.5262032,
+                    "y": 0.7573622,
+                    "z": 1.82562959
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_24c7992d",
+                "position": {
+                    "x": 14.1993713,
+                    "y": 0.5562292,
+                    "z": 0.989610434
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_8883cccc",
+                "position": {
+                    "x": 14.1357975,
+                    "y": 1.0043478,
+                    "z": 1.56446457
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_8883cccc",
+                "position": {
+                    "x": 11.6615791,
+                    "y": 0.706692755,
+                    "z": 3.23020744
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_8883cccc",
+                "position": {
+                    "x": 11.2326145,
+                    "y": 0.840692759,
+                    "z": 0.9568539
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_4ab20428",
+                "position": {
+                    "x": 10.6516485,
+                    "y": 0.5914519,
+                    "z": 0.771121144
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_8883cccc",
+                "position": {
+                    "x": 11.0208416,
+                    "y": 0.706692755,
+                    "z": 3.15594339
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_705a3dcb",
+                "position": {
+                    "x": 10.2643375,
+                    "y": 0.590995967,
+                    "z": 0.6782548
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_7db85c27",
+                "position": {
+                    "x": 11.448,
+                    "y": 0.457835734,
+                    "z": 3.08167934
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_dbd13737",
+                "position": {
+                    "x": 12.0487576,
+                    "y": 0.52,
+                    "z": 3.22808361
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_1f10aaf1",
+                "position": {
+                    "x": 14.2333994,
+                    "y": 0.76133436,
+                    "z": 0.5198047
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_4db8f8db",
+                "position": {
+                    "x": 14.24,
+                    "y": 0.747655,
+                    "z": 2.067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 300.000061,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_24c7992d",
+                "position": {
+                    "x": 14.5385,
+                    "y": 0.52070725,
+                    "z": -0.83949995
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_fac78eb0",
+                "position": {
+                    "x": 11.2326145,
+                    "y": 0.591272652,
+                    "z": 1.235453
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3685760703,
+        "scene_num": 213
+    },
+    "task_id": "trial_T20190909_135430_613298",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "move right to the center table",
+                    "pick up the watch on the table",
+                    "turn around to the sofa",
+                    "place the watch in the carton on the sofa",
+                    "pick up the carton from the sofa",
+                    "move left to the couch",
+                    "place the carton on the couch"
+                ],
+                "task_desc": "place a carton with a watch in it on the couch"
+            },
+            {
+                "high_descs": [
+                    "Turn around and walk to the right side of the coffee table, facing it.",
+                    "Pick up the watch on the table.",
+                    "Turn around and walk to the leftmost cushion of the red couch.",
+                    "Place the watch in the leftmost box.",
+                    "Pick up the box.",
+                    "Walk left to the red chair and face it.",
+                    "Place the box on the chair, to the left of the book."
+                ],
+                "task_desc": "Place a box with a watch in it on a chair."
+            },
+            {
+                "high_descs": [
+                    "Turn around and take a small step to your right then turn left.",
+                    "Pick up the watch that's in front of you.",
+                    "Turn around and walk to the couch.",
+                    "Put the watch in the box to the left of the other box on the couch.",
+                    "Pick up the box with the watch in it.",
+                    "Turn left and walk to the red chair then turn right to face it.",
+                    "Put the box on the red chair."
+                ],
+                "task_desc": "Put a box with a watch in it on the chair."
+            }
+        ]
+    }
+}

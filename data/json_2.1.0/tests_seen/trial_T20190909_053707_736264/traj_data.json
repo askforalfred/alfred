@@ -1,0 +1,350 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan302",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": 0.0,
+            "y": 0.9009992,
+            "z": 0.25
+        },
+        "object_poses": [
+            {
+                "objectName": "CD_53aad5ee",
+                "position": {
+                    "x": -1.19429815,
+                    "y": 0.79265815,
+                    "z": -1.24318719
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_53aad5ee",
+                "position": {
+                    "x": 0.32330063,
+                    "y": 0.6763422,
+                    "z": -1.78187037
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_53aad5ee",
+                "position": {
+                    "x": -0.315370232,
+                    "y": 0.836491942,
+                    "z": -2.038
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_c170f21e",
+                "position": {
+                    "x": 0.30498904,
+                    "y": 0.677760661,
+                    "z": 1.3481698
+                },
+                "rotation": {
+                    "x": -0.000628732,
+                    "y": -3.5145265e-06,
+                    "z": 0.237715349
+                }
+            },
+            {
+                "objectName": "Pencil_c170f21e",
+                "position": {
+                    "x": 0.22763218,
+                    "y": 0.6845968,
+                    "z": 1.2128464
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_595e0b99",
+                "position": {
+                    "x": -0.315370232,
+                    "y": 0.842538059,
+                    "z": -1.9687655
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_595e0b99",
+                "position": {
+                    "x": 0.368650317,
+                    "y": 0.6796528,
+                    "z": -1.63506484
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_f9bfaad4",
+                "position": {
+                    "x": 0.486787975,
+                    "y": 0.4803159,
+                    "z": -1.5466361
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_8199694d",
+                "position": {
+                    "x": 1.09838414,
+                    "y": 0.578694463,
+                    "z": -0.166563153
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_8199694d",
+                "position": {
+                    "x": -1.26508808,
+                    "y": 0.794751048,
+                    "z": -0.6002587
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_c170f21e",
+                "position": {
+                    "x": -0.981928349,
+                    "y": 0.7966482,
+                    "z": -0.3859492
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_718c58bb",
+                "position": {
+                    "x": -1.005,
+                    "y": 0.780766547,
+                    "z": -1.477
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 31.36375,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_595e0b99",
+                "position": {
+                    "x": 0.150264367,
+                    "y": 0.6791159,
+                    "z": 1.3481698
+                },
+                "rotation": {
+                    "x": 0.0003158273,
+                    "y": -1.78111677e-07,
+                    "z": -0.000168569983
+                }
+            },
+            {
+                "objectName": "TennisRacket_b84c0c30",
+                "position": {
+                    "x": -1.226,
+                    "y": 0.301,
+                    "z": -0.069
+                },
+                "rotation": {
+                    "x": 15.0003166,
+                    "y": 180.0,
+                    "z": 180.0
+                }
+            },
+            {
+                "objectName": "TeddyBear_35811fda",
+                "position": {
+                    "x": 1.629,
+                    "y": 0.557,
+                    "z": -1.0642308
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 118.28727,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_da1ea79b",
+                "position": {
+                    "x": 1.215812,
+                    "y": 0.641,
+                    "z": -1.66376066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_d9c0f745",
+                "position": {
+                    "x": -1.256856,
+                    "y": 1.461149,
+                    "z": -0.3396129
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_227ff109",
+                "position": {
+                    "x": 0.305,
+                    "y": 0.08279878,
+                    "z": 1.26283431
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_0d0b6904",
+                "position": {
+                    "x": -0.5857021,
+                    "y": 0.838089347,
+                    "z": -2.10723472
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_f9bfaad4",
+                "position": {
+                    "x": -0.670534,
+                    "y": 0.7930474,
+                    "z": -1.440284
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_53aad5ee",
+                "position": {
+                    "x": -0.964987457,
+                    "y": 0.79265815,
+                    "z": -1.82486343
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_069b5b86",
+                "position": {
+                    "x": -0.8094572,
+                    "y": 0.8249999,
+                    "z": -2.0852
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1712192280,
+        "scene_num": 302
+    },
+    "task_id": "trial_T20190909_053707_736264",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn right then head to the side table of the bed",
+                    "Pick up the cd on the side table",
+                    "Turn left then head to the vault",
+                    "Open the vault and put in the cd then close the vault",
+                    "Turn right then head t the left side of the desk",
+                    "Pick up the cd behind the laptop",
+                    "Turn right then head to the vault",
+                    "Open the vault and put in the cd then close the vault"
+                ],
+                "task_desc": "Put the two cd's in the vault"
+            },
+            {
+                "high_descs": [
+                    "Walk to the night stand to the right of the bed. ",
+                    "Pick up the CD from the night stand. ",
+                    "Walk over to the safe to the left of the foot of the bed. ",
+                    "Open the safe door, put the CD inside, and close the door. ",
+                    "Walk over to the desk in the corner of the room. ",
+                    "Pick up the CD to the left of the lap top. ",
+                    "Walk back over to the safe to the left of the foot of the bed. ",
+                    "Open the safe door, put the CD down to the right of the first CD, and close the door. "
+                ],
+                "task_desc": "To move two CD's to the safe. "
+            },
+            {
+                "high_descs": [
+                    "Turn right and go to the cabinet next to the bed",
+                    "Pick up the CD from the cabinet",
+                    "Turn around and go to the safe next to the shorter side of the bed",
+                    "Put the CD inside the safe",
+                    "Go back to the cabinet and turn right to face the table with the laptop",
+                    "Pick up the CD next to the laptop",
+                    "Go back to the safe",
+                    "Put the second CD inside the safe and close the safe"
+                ],
+                "task_desc": "Put two CDs in the safe"
+            }
+        ]
+    }
+}

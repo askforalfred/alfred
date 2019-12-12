@@ -1,0 +1,447 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan304",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": 0.75,
+            "y": 0.9069997,
+            "z": 1.25
+        },
+        "object_poses": [
+            {
+                "objectName": "Mug_9c9dffb8",
+                "position": {
+                    "x": -1.6033802,
+                    "y": 0.980398655,
+                    "z": -1.44375873
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_9c9dffb8",
+                "position": {
+                    "x": -1.19809616,
+                    "y": 0.980398655,
+                    "z": -1.60621667
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_f17ac2ff",
+                "position": {
+                    "x": -1.6033802,
+                    "y": 0.9896951,
+                    "z": -1.60621667
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_666099e9",
+                "position": {
+                    "x": -0.9954541,
+                    "y": 0.9816472,
+                    "z": -1.28130066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_666099e9",
+                "position": {
+                    "x": -1.15179074,
+                    "y": 0.7394599,
+                    "z": -1.25516248
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_dc6e6a5d",
+                "position": {
+                    "x": -0.0586178824,
+                    "y": 0.08994889,
+                    "z": -1.49231958
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_6e288678",
+                "position": {
+                    "x": -1.43561244,
+                    "y": 0.896932244,
+                    "z": 1.4538362
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_6e288678",
+                "position": {
+                    "x": -1.16304755,
+                    "y": 0.896932244,
+                    "z": 2.33237052
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c45454a8",
+                "position": {
+                    "x": -0.6210288,
+                    "y": 1.54217827,
+                    "z": -1.5147109
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c45454a8",
+                "position": {
+                    "x": -1.58777618,
+                    "y": 0.7449656,
+                    "z": -1.30020809
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_2ab1dea5",
+                "position": {
+                    "x": -1.15179074,
+                    "y": 0.742661953,
+                    "z": -1.39029956
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cd9998a",
+                "position": {
+                    "x": -0.5901701,
+                    "y": 0.982394636,
+                    "z": -1.20007169
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_ecb6b6d6",
+                "position": {
+                    "x": -1.29933,
+                    "y": 0.9529948,
+                    "z": 1.746681
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_8fa1421f",
+                "position": {
+                    "x": -0.9954541,
+                    "y": 0.9820463,
+                    "z": -1.36252964
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_8fa1421f",
+                "position": {
+                    "x": -1.40073812,
+                    "y": 0.9820463,
+                    "z": -1.5249877
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_d700f4b7",
+                "position": {
+                    "x": -0.890482545,
+                    "y": 0.8972633,
+                    "z": 1.4538362
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_a85b8778",
+                "position": {
+                    "x": 1.563,
+                    "y": 0.286,
+                    "z": -1.069
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 347.500916,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BasketBall_79639fdd",
+                "position": {
+                    "x": -1.65760016,
+                    "y": 0.12600024,
+                    "z": -0.09081757
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_c45454a8",
+                "position": {
+                    "x": -0.7928121,
+                    "y": 0.9871528,
+                    "z": -1.5249877
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_2ab1dea5",
+                "position": {
+                    "x": -1.40073812,
+                    "y": 0.9857478,
+                    "z": -1.28130066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_ec2a1448",
+                "position": {
+                    "x": -1.43561244,
+                    "y": 0.894005239,
+                    "z": 2.33237052
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_ecb6b6d6",
+                "position": {
+                    "x": -1.57189488,
+                    "y": 0.9529948,
+                    "z": 1.16099143
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_666099e9",
+                "position": {
+                    "x": -0.6210288,
+                    "y": 1.53667247,
+                    "z": -1.67128921
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Bowl_02cd1747",
+                "position": {
+                    "x": -1.18312335,
+                    "y": 1.52871752,
+                    "z": -1.590147
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_8cd9998a",
+                "position": {
+                    "x": -0.8113139,
+                    "y": 1.53652143,
+                    "z": -1.63214469
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_6e288678",
+                "position": {
+                    "x": -1.326185,
+                    "y": 0.740239739,
+                    "z": -1.34525383
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_dc6e6a5d",
+                "position": {
+                    "x": -1.00159907,
+                    "y": 1.5361321,
+                    "z": -1.593
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_8fa1421f",
+                "position": {
+                    "x": -0.387528062,
+                    "y": 0.982944965,
+                    "z": -1.28130066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_9c9dffb8",
+                "position": {
+                    "x": -0.9954541,
+                    "y": 0.980398655,
+                    "z": -1.5249877
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_f17ac2ff",
+                "position": {
+                    "x": -1.50339,
+                    "y": 1.528718,
+                    "z": -1.590862
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "DeskLamp"
+            }
+        ],
+        "random_seed": 1054907985,
+        "scene_num": 304
+    },
+    "task_id": "trial_T20190908_235346_227372",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around and move to the front of the desk with the clocks.",
+                    "Pick up the pencil on the desk.",
+                    "Turn left and move to the left of the desk.",
+                    "Turn on the light above the desk."
+                ],
+                "task_desc": "Grab the pencil from the desk and turn the light on over it."
+            },
+            {
+                "high_descs": [
+                    "Turn around and go to the desk across from you, turn right between the desk and the bed and go to the right end of the desk. ",
+                    "Pick up the pencil in front of the alarm clock, on the bed. ",
+                    "Turn to your left and go to the corner of end of the desk. ",
+                    "Turn on the lamp on the top, right shelf of the desk. "
+                ],
+                "task_desc": "Turn on the desk lamp. "
+            },
+            {
+                "high_descs": [
+                    "Turn left and walk over to the bed, then turn left and walk over to the right side of the wooden desk.",
+                    "Pick up the short yellow pencil off of the wooden desk.",
+                    "Turn around and walk up to the bed, then turn right and walk towards the wall, turn right and walk over to the small silver bin and look up.",
+                    "Turn on the small lamp on top of the wooden desk on your right."
+                ],
+                "task_desc": "Examine a short yellow pencil in the light of a small lamp."
+            }
+        ]
+    }
+}

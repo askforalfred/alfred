@@ -1,0 +1,265 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan221",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -0.25,
+            "y": 0.9984914,
+            "z": -0.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Pen_20f1dbb5",
+                "position": {
+                    "x": -3.65090656,
+                    "y": 0.8844528,
+                    "z": -0.8938737
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": 0.9194466,
+                    "y": 0.7863832,
+                    "z": -1.6980567
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": 0.492035478,
+                    "y": 0.409992039,
+                    "z": -2.03382921
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_e1ea86ca",
+                "position": {
+                    "x": -0.383149743,
+                    "y": 0.524996,
+                    "z": 0.7725
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_470b1bc7",
+                "position": {
+                    "x": -1.42885029,
+                    "y": 0.52623415,
+                    "z": 0.835
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_470b1bc7",
+                "position": {
+                    "x": -0.731716633,
+                    "y": 0.52623415,
+                    "z": 0.835
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_ab958439",
+                "position": {
+                    "x": -1.3549006,
+                    "y": 0.6085969,
+                    "z": -0.738000035
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_a0c5d9cc",
+                "position": {
+                    "x": 0.629369438,
+                    "y": 0.482,
+                    "z": -1.667
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_e1ea86ca",
+                "position": {
+                    "x": 0.748482168,
+                    "y": 0.304995954,
+                    "z": -1.530171
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plate_b55d9380",
+                "position": {
+                    "x": -4.09472,
+                    "y": 0.8885691,
+                    "z": -1.2872901
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_a8c2a636",
+                "position": {
+                    "x": -3.20709324,
+                    "y": 0.8796029,
+                    "z": -1.188936
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_470b1bc7",
+                "position": {
+                    "x": 0.577517748,
+                    "y": 0.306234121,
+                    "z": -1.614114
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Vase_9647877c",
+                "position": {
+                    "x": -0.345220834,
+                    "y": 0.977985144,
+                    "z": -2.53344369
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_5e4810d7",
+                "position": {
+                    "x": 0.2577918,
+                    "y": 0.9659995,
+                    "z": -2.5184164
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_73ed151d",
+                "position": {
+                    "x": -3.65090656,
+                    "y": 0.878947,
+                    "z": -1.188936
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_20f1dbb5",
+                "position": {
+                    "x": -2.76328,
+                    "y": 0.8844528,
+                    "z": -1.188936
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [
+            {
+                "isOn": false,
+                "objectType": "FloorLamp"
+            }
+        ],
+        "random_seed": 4262935000,
+        "scene_num": 221
+    },
+    "task_id": "trial_T20190907_103018_243812",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn to the right and walk across the room, then turn left to face the green chair.",
+                    "Pick up the purple pillow that is sitting on the green chair beside the keys. ",
+                    "Turn around and walk halfway across the room, then turn right and walk across the room to the lamp. ",
+                    "Turn on the lamp. "
+                ],
+                "task_desc": "To see the pillow in the light. "
+            },
+            {
+                "high_descs": [
+                    "Walk to the yellow chair to the right.",
+                    "Pick up the purple pillow from the chair.",
+                    "Turn around and walk to the floor lamp that is to the left of the sofa.",
+                    "Turn on the lamp."
+                ],
+                "task_desc": "Examine a pillow by the light of a floor lamp."
+            },
+            {
+                "high_descs": [
+                    "Turn right, and turn left to the yellow arm chair",
+                    "Grab the purple pillow on the arm chair",
+                    "Turn around, walk to the white table, turn right, walk to the floor lamp",
+                    "Turn on the floor lamp"
+                ],
+                "task_desc": "Grab the purple pillow from the arm chair, turn on the floor lamp"
+            }
+        ]
+    }
+}

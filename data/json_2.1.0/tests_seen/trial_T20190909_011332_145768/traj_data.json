@@ -1,0 +1,311 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan429",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 90,
+            "x": -0.75,
+            "y": 0.900419354,
+            "z": -2.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Cloth_7939dc60",
+                "position": {
+                    "x": -1.86277771,
+                    "y": 0.04286599,
+                    "z": -1.82207847
+                },
+                "rotation": {
+                    "x": 4.54982e-21,
+                    "y": 270.0,
+                    "z": -1.40334208e-14
+                }
+            },
+            {
+                "objectName": "Cloth_7939dc60",
+                "position": {
+                    "x": -1.862778,
+                    "y": 0.04286599,
+                    "z": -2.10877848
+                },
+                "rotation": {
+                    "x": 4.54982e-21,
+                    "y": 270.0,
+                    "z": -1.40334208e-14
+                }
+            },
+            {
+                "objectName": "TissueBox_c53efa7b",
+                "position": {
+                    "x": -1.35316169,
+                    "y": 0.8188617,
+                    "z": -0.137
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_c53efa7b",
+                "position": {
+                    "x": 0.7547063,
+                    "y": 0.8188617,
+                    "z": -0.6235637
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_a5cd30dd",
+                "position": {
+                    "x": -2.15016127,
+                    "y": 0.832909346,
+                    "z": -0.605902135
+                },
+                "rotation": {
+                    "x": 1.40334191e-14,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_a5cd30dd",
+                "position": {
+                    "x": -2.15016127,
+                    "y": 0.832909346,
+                    "z": -0.686749
+                },
+                "rotation": {
+                    "x": 1.40334191e-14,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_a524c5a0",
+                "position": {
+                    "x": 0.7547064,
+                    "y": 0.821127653,
+                    "z": -0.8258384
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_a524c5a0",
+                "position": {
+                    "x": -1.65657377,
+                    "y": 0.821127653,
+                    "z": -0.108853176
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_7939dc60",
+                "position": {
+                    "x": 0.833367,
+                    "y": 0.8091426,
+                    "z": -1.54676247
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_96bce45a",
+                "position": {
+                    "x": 0.8391468,
+                    "y": 0.8178067,
+                    "z": -0.320151627
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_58cfe716",
+                "position": {
+                    "x": -2.166232,
+                    "y": 1.50052226,
+                    "z": -0.0377430953
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -4.78113252e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_4aebdbec",
+                "position": {
+                    "x": -1.525,
+                    "y": 1.68500006,
+                    "z": -0.1059
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_a5cd30dd",
+                "position": {
+                    "x": -0.0705007762,
+                    "y": 0.9524895,
+                    "z": -3.901067
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_f49cc550",
+                "position": {
+                    "x": 0.4052499,
+                    "y": 0.729898334,
+                    "z": -3.88590622
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 270.0
+                }
+            },
+            {
+                "objectName": "Plunger_a768b787",
+                "position": {
+                    "x": 0.854430556,
+                    "y": -0.000899396837,
+                    "z": -3.90581059
+                },
+                "rotation": {
+                    "x": 0.336342156,
+                    "y": 359.871063,
+                    "z": 359.993134
+                }
+            },
+            {
+                "objectName": "SprayBottle_b0e070bc",
+                "position": {
+                    "x": 0.7395596,
+                    "y": 0.8151622,
+                    "z": -1.87470114
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_c53efa7b",
+                "position": {
+                    "x": 0.116999149,
+                    "y": 0.9531193,
+                    "z": -3.87427473
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_4c7645bc",
+                "position": {
+                    "x": -0.444,
+                    "y": 0.0393995866,
+                    "z": -3.793
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_648b2f70",
+                "position": {
+                    "x": 0.684140265,
+                    "y": -0.00058028847,
+                    "z": -3.90567446
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 3469036921,
+        "scene_num": 429
+    },
+    "task_id": "trial_T20190909_011332_145768",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn left to walk forward and turn left to face the sink.",
+                    "Pick up the bar of soap on the right in the sink.",
+                    "Turn to the left and step forward and turn right to face the tub.",
+                    "Place the bar of soap in the tub.",
+                    "Walk around to face the sink with the bar of soap in it.",
+                    "Pick up the bar of soap in the sink.",
+                    "Turn to the left and step forward and turn right to face the tub.",
+                    "Place the soap next to the first soap in the tub."
+                ],
+                "task_desc": "To move two bars of soap from the sink to the tub."
+            },
+            {
+                "high_descs": [
+                    "Turn to your left, move across the room, turn left, and go to the sink",
+                    "Pick up a soap bar from the sink",
+                    "Turn around and go to the bathtub",
+                    "Put the soap bar in the bathtub",
+                    "Go back to the sink",
+                    "Pick up the second soap bar from the sink",
+                    "Go back to the tub",
+                    "Put the second soap bar in the bathtub"
+                ],
+                "task_desc": "Put two soap bars in the bathtub"
+            },
+            {
+                "high_descs": [
+                    "Turn left then face the sink on your left.",
+                    "Grab the soap from the sink in front of you.",
+                    "Turn around, turn right and face the tub to your right.",
+                    "Place the soap inside of the tub in front of you.",
+                    "Turn right then face the sink on your left.",
+                    "Grab the soap from the sink in front of you.",
+                    "Turn around, turn right and face the tub to your right.",
+                    "Place the soap inside of the tub in front of you."
+                ],
+                "task_desc": "Place soap in the tub."
+            }
+        ]
+    }
+}

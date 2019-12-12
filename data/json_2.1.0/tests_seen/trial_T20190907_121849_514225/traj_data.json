@@ -1,0 +1,415 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan321",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 270,
+            "x": 2.25,
+            "y": 0.9009992,
+            "z": 0.5
+        },
+        "object_poses": [
+            {
+                "objectName": "TissueBox_528d8e8a",
+                "position": {
+                    "x": 3.239,
+                    "y": 0.7814728,
+                    "z": -1.50070155
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f2466fdb",
+                "position": {
+                    "x": 0.2284213,
+                    "y": 0.7051823,
+                    "z": -0.933140039
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f2466fdb",
+                "position": {
+                    "x": 0.33315298,
+                    "y": 0.615648866,
+                    "z": -1.24645233
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_a02909a5",
+                "position": {
+                    "x": 0.766026855,
+                    "y": 0.596871,
+                    "z": 0.146000028
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 2.3905659e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_369f1c16",
+                "position": {
+                    "x": 0.3573607,
+                    "y": 0.71122843,
+                    "z": 1.13026917
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0007,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_7030f200",
+                "position": {
+                    "x": 2.77649736,
+                    "y": 0.7822539,
+                    "z": -1.50070155
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2946225d",
+                "position": {
+                    "x": 0.3245744,
+                    "y": 0.7055716,
+                    "z": 1.38005567
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0007,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2946225d",
+                "position": {
+                    "x": 0.3554354,
+                    "y": 0.7055716,
+                    "z": -1.10207212
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a9bddbb",
+                "position": {
+                    "x": 3.239,
+                    "y": 0.77958703,
+                    "z": -1.76859689
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a9bddbb",
+                "position": {
+                    "x": 0.313432783,
+                    "y": 0.6176292,
+                    "z": -1.09348416
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000336,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_9dcb1956",
+                "position": {
+                    "x": 0.563282847,
+                    "y": 0.5961157,
+                    "z": 0.530244946
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 2.3905659e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_55797a1f",
+                "position": {
+                    "x": 3.3931675,
+                    "y": 0.779816031,
+                    "z": -1.32210469
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_9dcb1956",
+                "position": {
+                    "x": 2.956,
+                    "y": 0.773010433,
+                    "z": -1.499
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 4.88676,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_1a9bddbb",
+                "position": {
+                    "x": 1.19339252,
+                    "y": 0.434587,
+                    "z": -2.30309415
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 330.0002,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_801065cc",
+                "position": {
+                    "x": 1.171515,
+                    "y": 0.6770957,
+                    "z": 0.5302448
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 2.3905659e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_b8577ff9",
+                "position": {
+                    "x": 1.37425911,
+                    "y": 0.6770957,
+                    "z": 0.145999849
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 2.3905659e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_2946225d",
+                "position": {
+                    "x": 2.77649736,
+                    "y": 0.779769242,
+                    "z": -1.67929852
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_369f1c16",
+                "position": {
+                    "x": 3.08483267,
+                    "y": 0.7854261,
+                    "z": -1.85789537
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_7030f200",
+                "position": {
+                    "x": 0.357362717,
+                    "y": 0.7087539,
+                    "z": 1.2967931
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0007,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "TissueBox_528d8e8a",
+                "position": {
+                    "x": 3.239,
+                    "y": 0.7814728,
+                    "z": -1.32210469
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_f3c3a308",
+                "position": {
+                    "x": 0.9687707,
+                    "y": 0.594881654,
+                    "z": -0.43036738
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 2.3905659e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_a02909a5",
+                "position": {
+                    "x": 0.258991748,
+                    "y": 0.705565,
+                    "z": 1.04700828
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0007,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "AlarmClock_55797a1f",
+                "position": {
+                    "x": 3.7015028,
+                    "y": 0.779816031,
+                    "z": -1.76859689
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_f2466fdb",
+                "position": {
+                    "x": 0.258997828,
+                    "y": 0.7051823,
+                    "z": 1.54658055
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0007,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1103300677,
+        "scene_num": 321
+    },
+    "task_id": "trial_T20190907_121849_514225",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Take a step to the left.",
+                    "Pick up the purple pillow closest to you.",
+                    "Turn left and walk towards the sofa chair on your right.",
+                    "Place the pillow on the chair.",
+                    "Turn right and head towards the other pillow on the bed.",
+                    "Pick up the pillow from the bed.",
+                    "Turn left and walk towards the sofa chair on your right.",
+                    "Place the pillow on the chair."
+                ],
+                "task_desc": "Place the two purple pillows from the bed on to the chair."
+            },
+            {
+                "high_descs": [
+                    "Move to the middle of the bed in front of you",
+                    "Pick up a pillow from the bed.",
+                    "Move to the arm chair in the left corner to the left of you,",
+                    "Place the pillow on the arm chair.",
+                    "Move to the foot of the bed to your right.",
+                    "Pick up the second pillow from the bed.",
+                    "Move to the arm chair to the left of you.",
+                    "Place the pillow on the arm chair next to the other one."
+                ],
+                "task_desc": "Move the purple pillows to the arm chair from the bed."
+            },
+            {
+                "high_descs": [
+                    "Turn left and take a step forward, then turn right to face the bed.",
+                    "Pick up the leftmost purple pillow off of the bed.",
+                    "Turn left and walk over to the window, then turn right and walk up to the chair in the corner of the room.",
+                    "Place the purple pillow standing up on the seat of the chair just to the right of the keys.",
+                    "Turn right and walk over to the bed then turn right and begin walking across the room, hang a left and walk over to the door, then turn left to face the bed.",
+                    "Pick up the purple pillow off of the bed.",
+                    "Turn left and walk over to the window, then turn right and walk up to the chair in the corner of the room.",
+                    "Put the purple pillow standing up on the chair to the right of the purple pillow that's already there."
+                ],
+                "task_desc": "Move two purple pillows to a chair."
+            },
+            {
+                "high_descs": [
+                    "Move in front of the pillow that's on the bed and to the left. ",
+                    "Pick up the pillow on the left. ",
+                    "Turn left and walk in front of the chair that is next to the window. ",
+                    "Put the pillow on the chair next to the keys. ",
+                    "Walk back to the front of the bed. ",
+                    "Pick up the remaining pillow on the bed. ",
+                    "Walk back to the chair next to the window. ",
+                    "place the pillow on the chair to the right of the first pillow. "
+                ],
+                "task_desc": "To move two pillows from the bed to the chair. "
+            },
+            {
+                "high_descs": [
+                    "Move in front of the left cushion on the bed. ",
+                    "Pick up the cushion that's to the right of the lap top. ",
+                    "Turn left and walk to the brown chair to the right of the window. ",
+                    "Place the cushion on the brown chair right next to the keys. ",
+                    "Turn right and walk back to the foot of the bed. ",
+                    "Pick up the remaining cushion from the right edge of the bed. ",
+                    "Turn left and walk back to the chair to the right of the window. ",
+                    "Place the cushion on the brown chair to the right of the first cushion. "
+                ],
+                "task_desc": "To move two cushions from the bed to the brown chair. "
+            },
+            {
+                "high_descs": [
+                    "Turn to the left, go forward, turn to face the bed. ",
+                    "Pick up the leftmost purple pillow on the bed. ",
+                    "Turn to the left, go to the wall, turn to the right, go to the chair. ",
+                    "Put the pillow on the left side of the chair cushion. ",
+                    "Turn around, go to the bed, turn right, go to the end of the bed, turn left, go to the far side of the bed.  ",
+                    "Pick up the purple pillow that is on the bed. ",
+                    "Turn left, go to the wall, turn right, go to the chair. ",
+                    "Put the pillow on the chair to the right of the other pillow. "
+                ],
+                "task_desc": "Put two pillows on a chair. "
+            }
+        ]
+    }
+}

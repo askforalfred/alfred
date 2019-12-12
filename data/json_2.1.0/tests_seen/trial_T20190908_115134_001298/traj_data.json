@@ -1,0 +1,325 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan322",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": 0.75,
+            "y": 0.9017602,
+            "z": -0.75
+        },
+        "object_poses": [
+            {
+                "objectName": "Mug_781a5acc",
+                "position": {
+                    "x": 2.55735755,
+                    "y": 0.9831,
+                    "z": 0.7238066
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_c0c82f9a",
+                "position": {
+                    "x": 0.0867762,
+                    "y": 0.6942395,
+                    "z": -0.109611124
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_679f38ce",
+                "position": {
+                    "x": -1.60356832,
+                    "y": 0.668652833,
+                    "z": -1.48252368
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_679f38ce",
+                "position": {
+                    "x": -1.648273,
+                    "y": 0.668652833,
+                    "z": 1.55650783
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_dcbdc277",
+                "position": {
+                    "x": 2.4567976,
+                    "y": 0.449217558,
+                    "z": -0.9697299
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 119.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_dcbdc277",
+                "position": {
+                    "x": 2.609752,
+                    "y": 0.449217558,
+                    "z": -0.8370637
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 119.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Book_d7ca8482",
+                "position": {
+                    "x": -0.448788017,
+                    "y": 0.6932631,
+                    "z": 0.3365424
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_de93154e",
+                "position": {
+                    "x": -1.5141592,
+                    "y": 0.664587,
+                    "z": -1.09498429
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_fb6464f8",
+                "position": {
+                    "x": -0.98435235,
+                    "y": 0.691842139,
+                    "z": 0.782695651
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_3f92dde4",
+                "position": {
+                    "x": 1.763,
+                    "y": 0.0007606298,
+                    "z": -1.732
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 70.59012,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_dcbdc277",
+                "position": {
+                    "x": 2.34225655,
+                    "y": 0.449217558,
+                    "z": -0.903600335
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 119.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pen_679f38ce",
+                "position": {
+                    "x": 2.644909,
+                    "y": 0.9907528,
+                    "z": 0.155423224
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pencil_367f76c6",
+                "position": {
+                    "x": 2.81999826,
+                    "y": 0.992453337,
+                    "z": 1.2921921
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_5a388b63",
+                "position": {
+                    "x": 3.076,
+                    "y": 0.629,
+                    "z": -1.762
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 338.300385
+                }
+            },
+            {
+                "objectName": "AlarmClock_ca7072bf",
+                "position": {
+                    "x": 2.73245525,
+                    "y": 0.9875098,
+                    "z": 0.439615726
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 179.999664,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "BaseballBat_8659ff3f",
+                "position": {
+                    "x": 0.808,
+                    "y": 0.05,
+                    "z": 2.151
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 270.000183
+                }
+            },
+            {
+                "objectName": "Pillow_2ebb2348",
+                "position": {
+                    "x": -0.1810059,
+                    "y": 0.7796623,
+                    "z": -0.332687646
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_0f29a798",
+                "position": {
+                    "x": -1.457,
+                    "y": 0.754,
+                    "z": 0.494
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 285.000153,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CellPhone_c0c82f9a",
+                "position": {
+                    "x": 2.35168529,
+                    "y": 0.449618846,
+                    "z": -1.01953053
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 119.999756,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CD_e652db95",
+                "position": {
+                    "x": -1.56249166,
+                    "y": 0.356881946,
+                    "z": -1.25
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Mug_781a5acc",
+                "position": {
+                    "x": 2.55735922,
+                    "y": 0.9831,
+                    "z": 0.439614654
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -0.0003380771,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 397217921,
+        "scene_num": 322
+    },
+    "task_id": "trial_T20190908_115134_001298",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn around, head straight to the mirror",
+                    "Take the black baseball bat from the floor",
+                    "Turn around, head across the room",
+                    "Put the baseball bat on the bed"
+                ],
+                "task_desc": "Take the bat from the floor, put it on the bed"
+            },
+            {
+                "high_descs": [
+                    "Turn around and walk to the right of the yellow bed.",
+                    "Pick up the black baseball bat on the floor.",
+                    "Turn around and walk to the left of the bed.",
+                    "Put the black baseball bat on the bed."
+                ],
+                "task_desc": "Pick up the black baseball bat and put it on the bed."
+            },
+            {
+                "high_descs": [
+                    "Move forward to the mirror.",
+                    "Pick up the bat on the floor. ",
+                    "Turn around, bring the bat to the bed near the phone.",
+                    "Put the bat on the bed, in front of the pillow, left of the phone. "
+                ],
+                "task_desc": "Put a bat on the bed. "
+            }
+        ]
+    }
+}

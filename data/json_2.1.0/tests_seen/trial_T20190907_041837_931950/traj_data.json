@@ -1,0 +1,312 @@
+{
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan414",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 0,
+            "x": -1.25,
+            "y": 0.902752042,
+            "z": 1.0
+        },
+        "object_poses": [
+            {
+                "objectName": "SoapBar_381ff7e3",
+                "position": {
+                    "x": -2.48727036,
+                    "y": 1.66357648,
+                    "z": 3.07299471
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_381ff7e3",
+                "position": {
+                    "x": -2.54909062,
+                    "y": 0.09245378,
+                    "z": 2.614836
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_4c8db6a6",
+                "position": {
+                    "x": -2.88326383,
+                    "y": 1.20690429,
+                    "z": 1.4002564
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 269.999939,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_4c8db6a6",
+                "position": {
+                    "x": -2.55531621,
+                    "y": 0.09469986,
+                    "z": 3.442052
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_ba684fae",
+                "position": {
+                    "x": -2.73259878,
+                    "y": 0.09038395,
+                    "z": 2.18059516
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_ba684fae",
+                "position": {
+                    "x": -2.7121346,
+                    "y": 0.746675,
+                    "z": 3.167485
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_528db748",
+                "position": {
+                    "x": -2.67208576,
+                    "y": 0.0934598446,
+                    "z": 3.47975731
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_a334b9f3",
+                "position": {
+                    "x": -0.106900014,
+                    "y": 1.51000011,
+                    "z": 1.943
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_87649014",
+                "position": {
+                    "x": -2.93363261,
+                    "y": 1.0867697,
+                    "z": 0.7181318
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00051,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_528db748",
+                "position": {
+                    "x": -2.73259878,
+                    "y": 0.0889837742,
+                    "z": 2.2766645
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_baf1fa95",
+                "position": {
+                    "x": -2.69821835,
+                    "y": 1.521,
+                    "z": 2.867809
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -9.2207556e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_ea2270cd",
+                "position": {
+                    "x": -2.83731842,
+                    "y": 0.00175310671,
+                    "z": 0.131988525
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_381ff7e3",
+                "position": {
+                    "x": -2.76230741,
+                    "y": 0.9378409,
+                    "z": 2.30607319
+                },
+                "rotation": {
+                    "x": 1.40334208e-14,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_4a5bb417",
+                "position": {
+                    "x": -2.87236547,
+                    "y": 1.07441163,
+                    "z": 0.7837031
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.00051,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Cloth_01784571",
+                "position": {
+                    "x": -2.736265,
+                    "y": 0.938285768,
+                    "z": 2.08151627
+                },
+                "rotation": {
+                    "x": 1.40334208e-14,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_69b931f7",
+                "position": {
+                    "x": -2.763179,
+                    "y": 0.08920598,
+                    "z": 3.001816
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_4c8db6a6",
+                "position": {
+                    "x": -2.61088181,
+                    "y": 0.9049362,
+                    "z": 3.4397738
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "PaperTowelRoll_8ffed536",
+                "position": {
+                    "x": -2.96426845,
+                    "y": 1.183697,
+                    "z": 0.455844522
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 180.0005,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_b1108607",
+                "position": {
+                    "x": -2.83165288,
+                    "y": 0.00175310671,
+                    "z": 0.295444965
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "DishSponge_ba684fae",
+                "position": {
+                    "x": -2.79250956,
+                    "y": 1.20706439,
+                    "z": 1.520393
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 269.999939,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 1091739712,
+        "scene_num": 414
+    },
+    "task_id": "trial_T20190907_041837_931950",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "turn around to the wall behind you and step forward to the wall and turn right and go forward to the toilet",
+                    "pick up toilet paper from the toilet basin ",
+                    "turn left and go forward to the wall and turn right",
+                    "place the toilet paper on the toilet paper holder"
+                ],
+                "task_desc": "Place the toilet paper on the toilet paper holder"
+            },
+            {
+                "high_descs": [
+                    "Turn to the left and walk to the toilet. ",
+                    "Pick up the roll of toilet paper on the top right side of the toilet. ",
+                    "Turn left and walk to the toilet paper holder on the wall.",
+                    "Place the toilet paper on the holder on the wall. "
+                ],
+                "task_desc": "To put the toilet paper on the toilet paper holder. "
+            },
+            {
+                "high_descs": [
+                    "Turn left and walk a little bit towards the toilet.",
+                    "Pick up the roll of toilet paper from the top of the toilet.",
+                    "Move slightly to the left towards the empty toilet paper hanger.",
+                    "Place the roll of the toilet paper on the toilet paper hanger."
+                ],
+                "task_desc": "Refill an empty toilet paper hanger with a full roll of toilet paper."
+            }
+        ]
+    }
+}
