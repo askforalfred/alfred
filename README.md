@@ -8,7 +8,7 @@
 
 ## Dataset
 
-`traj_data.json` structure:
+Each trajectory contains 3 or more annotations inside `traj_data.json`:
 
 ```
 task_id: unique indentifier for trajectory
