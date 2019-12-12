@@ -4,9 +4,11 @@ A Benchmark for Interpreting Grounded Instructions for Everyday Tasks
 
 ## Dataset
 
+Dataset Structure...
+
 ## Code
 
-Coming soon..
+Coming soon ...
 
 ## Citation
 
