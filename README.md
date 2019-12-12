@@ -1,6 +1,8 @@
 # ALFRED
 
-A Benchmark for Interpreting Grounded Instructions for Everyday Tasks
+[<b>A Benchmark for Interpreting Grounded Instructions for Everyday Tasks</b>](https://arxiv.org/abs/1912.01734)  
+[Mohit Shridhar](https://mohitshridhar.com/), [Jesse Thomason](https://jessethomason.com/), Daniel Gordon, Yonatan Bisk,  
+Winson Han, Roozbeh Mottaghi, Luke Zettlemoyer, Dieter Fox
 
 ## Dataset
 
