@@ -12,13 +12,13 @@ Each expert demonstration contains 3 or more language annotations in `traj_data.
 
 Task Info:
 ```
-['task_id'] = "trial_00003_T20190312_234237"		(unique trajectory ID)
-['task_type'] = "pick_heat_then_place_in_recep"		(one of 7 task types)
-['pddl_params'] = {'object_target': "AlarmClock",	(object)
+['task_id'] = "trial_00003_T20190312_234237"        (unique trajectory ID)
+['task_type'] = "pick_heat_then_place_in_recep"     (one of 7 task types)
+['pddl_params'] = {'object_target': "AlarmClock",   (object)
                    'parent_target': "DeskLamp",		(receptacle)
-                   'mrecep_target': "",				(movable receptacle)
-                   "toggle_target": "",				(toggle object)
-                   "object_sliced": false			(should object be sliced?)
+                   'mrecep_target': "",             (movable receptacle)
+                   "toggle_target": "",             (toggle object)
+                   "object_sliced": false           (should object be sliced?)
                    }
 ```
 
