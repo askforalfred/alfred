@@ -84,9 +84,14 @@ Coming soon ...
 ## Citation
 
 ```
-@Unpublished{ALFRED,
-  title={{ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks}},
-  author={Mohit Shridhar and Jesse Thomason and Daniel Gordon and Yonatan Bisk and Winson Han and Roozbeh Mottaghi and Luke Zettlemoyer and Dieter Fox},
-  year={2019},
+@misc{ALFRED19,
+  title ={{ALFRED: A Benchmark for Interpreting Grounded
+           Instructions for Everyday Tasks}},
+  author={Mohit Shridhar and Jesse Thomason and
+          Daniel Gordon and Yonatan Bisk and
+          Winson Han and Roozbeh Mottaghi and
+          Luke Zettlemoyer and Dieter Fox},
+  year = {2019},
+  url  = {https://arxiv.org/abs/1912.01734}
 }
 ```
