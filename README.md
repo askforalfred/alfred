@@ -33,12 +33,11 @@ Scene Info:
 
 Language Annotations:
 ```
-['turk_annotations']['anns'] = 
-              [...
-              {'task_descs': "Examine a clock using the light of a lamp.",                     (goal instruction) 
+['turk_annotations']['anns'] =  
+             [{'task_descs': "Examine a clock using the light of a lamp.",                     (goal instruction) 
                'high_descs': ["Turn to the left and move forward to the window ledge." ...],   (list of step-by-step instructions)
                'votes': [1, 1, 1]                                                              (AMTurk languauge quality votes)
-              }
+              },
               ...]
 ```
 
