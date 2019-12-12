@@ -49,7 +49,7 @@ Expert Demonstration:
                  "discrete_action":                    
                      {"action": "PutObject",             (discrete high-level action)
                       "args": ["bread", "microwave"],    (discrete params)
-                 "planner_action": <PDDL_ACTION> ],      (planner action)
+                 "planner_action": <PDDL_ACTION> ],      (PDDL action)
                 ...],
                  
             'low_actions': 
