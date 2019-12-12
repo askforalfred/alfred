@@ -59,7 +59,7 @@ Expert Demonstration:
                      {"action": "PickupObject",          (discrete low-level action)
                       "args": 
                           {"bbox": [180, 346, 332, 421]} (bounding box for interact action)
-                           "mask": [0, 0, ... 1, 1]},    (pixel mask for interact action)
+                           "mask": [0, 0, ... 1, 1]},    (compressed pixel mask for interact action)
                  "api_action": <API_CMD> ],              (THOR API command for replay)
                 ...], 
            }
