@@ -18,17 +18,17 @@ Task Info:
                    'parent_target': "DeskLamp",     (receptacle)
                    'mrecep_target': "",             (movable receptacle)
                    "toggle_target": "",             (toggle object)
-                   "object_sliced": false}          (should object be sliced?)
+                   "object_sliced": false}          (should the object be sliced?)
 ```
 
 Scene Info:
 ```
-['scene'] =  {'floor_plan': "FloorPlan7",			(THOR scene name)
-              'scene_num' : 7,						(THOR scene number)
-              'random_seed': 3810970210, 		 	(seed for initializing object placements)
-              'init_action' : <API_CMD> 		 	(called to set the starting position of the agent)
-              'object_poses': <LIST_OBJS> 		 	(initial 6DOF poses of objects in the scene)
-              'object_toggles': <LIST_OBJS>      	(initial states of togglable objects)
+['scene'] =  {'floor_plan': "FloorPlan7",           (THOR scene name)
+              'scene_num' : 7,                      (THOR scene number)
+              'random_seed': 3810970210,            (seed for initializing object placements)
+              'init_action' : <API_CMD>,            (called to set the starting position of the agent)
+              'object_poses': <LIST_OBJS>,          (initial 6DOF poses of objects in the scene)
+              'object_toggles': <LIST_OBJS>,        (initial states of togglable objects)
               }
 ```
 
