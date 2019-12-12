@@ -8,18 +8,7 @@
 
 ## Dataset
 
-Each trajectory contains 3 or more annotations inside `traj_data.json`:
-
-```
-task_id: unique indentifier for trajectory
-task_type
-scene
-turk_annotations
-plan
-images
-pddl_params
-```
-
+Data structure ...
 
 ## Code
 
