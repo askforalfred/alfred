@@ -11,7 +11,7 @@
 Each expert demonstration contains 3 or more language annotations in `traj_data.json`:
 
 Task Info:
-```json
+```
 ['task_id'] = "trial_00003_T20190312_234237"      (unique trajectory ID)
 ['task_type'] = "pick_heat_then_place_in_recep"   (one of 7 task types)
 ['pddl_params'] = {'object_target': "AlarmClock", (object)
@@ -23,7 +23,7 @@ Task Info:
 ```
 
 Scene Info:
-```json
+```
 ['scene'] =  {'floor_plan': "FloorPlan7", (THOR scene name)
 	          'scene_num' : 7, (THOR scene number)
               'random_seed': 3810970210, 		 (seed for initializing object placements)
