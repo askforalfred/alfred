@@ -25,7 +25,7 @@ Task Info:
 Scene Info:
 ```
 ['scene'] =  {'floor_plan': "FloorPlan7",			(THOR scene name)
-			  'scene_num' : 7, 						(THOR scene number)
+              'scene_num' : 7, 						(THOR scene number)
               'random_seed': 3810970210, 		 	(seed for initializing object placements)
               'init_action' : <API_CMD> 		 	(called to set the starting position of the agent)
               'object_poses': <LIST_OBJS> 		 	(initial 6DOF poses of objects in the scene)
