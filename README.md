@@ -65,8 +65,19 @@ Expert Demonstration:
            }
 ```
 
+Images:
+```
+['images'] = [{"low_idx": 0,                    (low-level action index)
+               "high_idx": 0,                   (high-level action index)
+               "image_name": "000000000.png"}   (image filename)
+             ...]
+```
 
-## Code
+## Models
+
+Coming soon ...
+
+## Data Generation
 
 Coming soon ...
 
