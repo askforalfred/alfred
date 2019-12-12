@@ -19,7 +19,7 @@ Task Info:
                    'mrecep_target': "",				(movable receptacle)
                    "toggle_target": "",				(toggle object)
                    "object_sliced": false			(should object be sliced?)
-				  }
+                   }
 ```
 
 Scene Info:
