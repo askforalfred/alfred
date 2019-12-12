@@ -8,7 +8,17 @@
 
 ## Dataset
 
-Trajectory JSON
+`traj_data.json` structure:
+
+```
+task_id: unique indentifier for trajectory
+task_type
+scene
+turk_annotations
+plan
+images
+pddl_params
+```
 
 
 ## Code
