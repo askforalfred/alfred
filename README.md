@@ -28,8 +28,7 @@ Scene Info:
               'random_seed': 3810970210,            (seed for initializing object placements)
               'init_action' : <API_CMD>,            (called to set the starting position of the agent)
               'object_poses': <LIST_OBJS>,          (initial 6DOF poses of objects in the scene)
-              'object_toggles': <LIST_OBJS>,        (initial states of togglable objects)
-              }
+              'object_toggles': <LIST_OBJS>}        (initial states of togglable objects)
 ```
 
 ## Code
