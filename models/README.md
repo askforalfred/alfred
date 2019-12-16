@@ -18,6 +18,8 @@ Run this once with `--preprocess` to save preprocessed jsons inside the trajecto
 
 ## Evaluation
 
+The evaluation is measures the performance of 
+
 ### Task Evaluation
 
 ### Subgoal Evaluation
@@ -25,6 +27,6 @@ Run this once with `--preprocess` to save preprocessed jsons inside the trajecto
 ## File Structure
 
 
-## Leaderboard
+## Pre-trained Models
 
 Coming soon ...
