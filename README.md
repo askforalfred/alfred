@@ -65,6 +65,8 @@ Coming soon ...
 
 ## Citation
 
+If you find the dataset or code useful, please cite:
+
 ```
 @misc{ALFRED19,
   title ={{ALFRED: A Benchmark for Interpreting Grounded
