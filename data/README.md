@@ -26,12 +26,12 @@ coming soon...
 ## File Structure
 
 ```
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/                  # (trajectory root)
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/traj_data.json    # (trajectory metadata)
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/feat_conv.pt      # (Resnet18 features)
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/problem_x.pddl    # (pddl state)
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/video.mp4         # (video sequence)
-data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/raw_images/       # (images from trajectory)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/                  (trajectory root)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/traj_data.json    (trajectory metadata)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/feat_conv.pt      (Resnet18 features)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/problem_x.pddl    (pddl state)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/video.mp4         (video sequence)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/raw_images/       (images from trajectory)
 ```
 
 ## JSON Structure
