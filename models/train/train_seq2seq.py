@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     # settings
     parser.add_argument('--seed', help='random seed', default=123, type=int)
-    parser.add_argument('--data', help='data folder', default='data/json_feat_2.1.0')
+    parser.add_argument('--data', help='dataset folder', default='data/json_feat_2.1.0')
     parser.add_argument('--splits', help='json file containing train/dev/test splits', default='splits/oct21.json')
     parser.add_argument('--preprocess', help='store preprocessed data to json files', action='store_true')
     parser.add_argument('--pp_folder', help='folder name for preprocessed data', default='pp')
