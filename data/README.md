@@ -9,6 +9,7 @@ The dataset is hosted on [GDrive](https://drive.google.com/open?id=1aGcXh5BDJk4e
 **1.** Lite (93MB): Trajectory JSONs. Images and Resnet features need to be generated with the [augment_trajectories.py](../gen/README.md) script:
 
 ```bash
+$ cd $ALFRED_ROOT/data
 $ sh download_data.sh json
 ```
 
