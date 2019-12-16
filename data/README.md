@@ -6,18 +6,18 @@ The ALFRED dataset contains 25k+ expert demostrations with 3 or more language an
 
 We provide three options:
 
-(1) Trajectory JSONs (93MB): just metadata on trajectories with language annotations. Images and Resnet features need to be generated with [augment_trajectories.py](../gen/scripts/augment_trajectories.py) script:
+**1.** Trajectory JSONs (93MB): just metadata on trajectories with language annotations. Images and Resnet features need to be generated with [augment_trajectories.py](../gen/scripts/augment_trajectories.py) script:
 
 ```bash
 $ sh download_data.sh json
 ```
 
-(2) Trajectory JSONs and Resnet Features (~215GB) - **Recommended**: trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
+**2.** Trajectory JSONs and Resnet Features (~215GB) - **Recommended**: trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
 ```bash
 $ sh download_data.sh json_feat
 ```
 
-(3) Trajectory JSONs, Images, PDDL state, Video, Resnet Features: full dataset includes raw images and PDDL states.
+**3.** Trajectory JSONs, Images, PDDL state, Video, Resnet Features: full dataset includes raw images and PDDL states.
 
 ```bash
 coming soon...
