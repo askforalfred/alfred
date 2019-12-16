@@ -1,27 +1,29 @@
 # Dataset
 
-The ALFRED dataset contains 25k+ expert demostrations with 3 or more language annotations.
+The ALFRED dataset contains 8k+ expert demostrations with 3 or more language annotations. Each trajectory consists of a sequence of expert actions, the corresponding image observations, and MTurk language annotations describing segments of the trajectory.
 
 ## Download
 
-We provide three options:
+The dataset is hosted on [GDrive](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-). We provide a `download_data.sh` script with three options:
 
-**1.** Trajectory JSONs (93MB): just metadata on trajectories with language annotations. Images and Resnet features need to be generated with [augment_trajectories.py](../gen/scripts/augment_trajectories.py) script:
+**1.** Lite (93MB): Trajectory JSONs. Images and Resnet features need to be generated with the [augment_trajectories.py](../gen/scripts/augment_trajectories.py) script:
 
 ```bash
 $ sh download_data.sh json
 ```
 
-**2.** Trajectory JSONs and Resnet Features (~215GB) - **Recommended**: trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
+**2.** Modeling Quickstart (~215GB) - **Recommended**: Trajectory JSONs and Resnet Features
 ```bash
 $ sh download_data.sh json_feat
 ```
 
-**3.** Trajectory JSONs, Images, PDDL state, Video, Resnet Features: full dataset includes raw images and PDDL states.
+**3.** Full Dataset (~750GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
 
 ```bash
 coming soon...
 ```
+
+Alternatively, if prefer to use something other than `wget`, you can directly download the [GDrive folder](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-).
 
 ## File Structure
 
@@ -62,9 +64,10 @@ Scene Info:
 Language Annotations:
 ```
 ['turk_annotations']['anns'] =  
-             [{'task_desc': "Examine a clock using the light of a lamp.",                      (goal instruction) 
-               'high_descs': ["Turn to the left and move forward to the window ledge." ...],   (list of step-by-step instructions)
-               'votes': [1, 1, 1]                                                              (AMTurk languauge quality votes)
+             [{'task_desc': "Examine a clock using the light of a lamp.",                 (goal instruction) 
+               'high_descs': ["Turn to the left and move forward to the window ledge.",   (list of step-by-step instructions)
+                              "Pick up the alarm clock on the table", ...],               
+               'votes': [1, 1, 1]                                                         (AMTurk languauge quality votes)
               },
               ...]
 ```
