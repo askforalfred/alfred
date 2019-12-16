@@ -72,6 +72,5 @@ gdict["pick_and_place_simple"] = '''
         )
     )
 )
-'''
 ```
 
