@@ -46,6 +46,15 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 - [**Models**](models/): Training and Evaluation, File structure, Pre-trained models.
 - [**Data Generation**](gen/): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
 
+## Prerequisites
+
+- Python 3
+- PyTorch 1.1.0
+- Torchvision 1.3.0
+- AI2THOR 2.1.0
+
+See [requirements.txt](requirements.txt) for all prerequisites
+
 ## Leaderboard
 
 Coming soon ...
