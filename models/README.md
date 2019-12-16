@@ -43,19 +43,19 @@ PDDL expert demonstrations will be used to reach the subgoal to be evaluated. Yo
 
 ```
 model
-	seq2seq.py           (base module with train and val loops)
+    seq2seq.py           (base module with train and val loops)
     seq2seq_im.py        (full model with batching and losses)
 nn
-	vnn.py               (encoder, decoder, attention mechanisms)
+    vnn.py               (encoder, decoder, attention mechanisms)
     resnet.py            (pre-trained Resnet feature extractor)
 train
-	train_seq2seq.py     (main with training args)
+    train_seq2seq.py     (main with training args)
 eval
-	eval_seq2seq.py      (main with eval args)
+    eval_seq2seq.py      (main with eval args)
     eval_subgoals.py     (subgoal eval)
     eval_task.py         (overall task eval)
 config
-	rewards.json         (reward values for actions; not used)
+    rewards.json         (reward values for actions; not used)
 ```
 
 ## Pre-trained Models
