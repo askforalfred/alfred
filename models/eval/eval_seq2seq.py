@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
     # eval params
     parser.add_argument('--max_steps', type=int, default=500, help='max steps before episode termination')
-    parser.add_argument('--max_fails', type=int, default=1, help='max API execution failures before episode termination')
+    parser.add_argument('--max_fails', type=int, default=10, help='max API execution failures before episode termination')
 
     # eval settings
     parser.add_argument('--subgoals', type=str, help="subgoals to evaluate independently, eg:all or GotoLocation,PickupObject...", default="")
