@@ -6,7 +6,9 @@
 
 **ALFRED** (**A**ction **L**earning **F**rom **R**ealistic **E**nvironments and **D**irectives), is a new benchmark for learning a mapping from natural language instructions and egocentric vision to sequences of actions for household tasks. Long composition rollouts with non-reversible state changes are among the phenomena we include to shrink the gap between research benchmarks and real-world applications.
 
-![](media/instr_teaser.png)
+<p align="center">
+	<img src="media/instr_teaser.png" width="600" height="500">
+</p>
 
 ## Quickstart
 
