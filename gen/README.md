@@ -26,12 +26,12 @@ This will sample tasks based on the sampling mechanism described in the paper. Y
 
 ## Replay Checks
 
-In parallel with generation, replay saved trajectories to check if the expert demonstrations are reproducable:
+In parallel with generation, replay saved trajectories to check if they are reproducable:
 
 ```bash
 $ python scripts/replay_checks.py --data_path data/new_trajs --in_parallel  
 ```
-This will ensure that the interaction masks and expert actions are deterministic.
+This will ensure that the interaction masks and expert actions can be deterministically executed in THOR.
 
 ## Data Augmentation
 
