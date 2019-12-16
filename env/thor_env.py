@@ -5,9 +5,9 @@ import numpy as np
 from collections import Counter
 from env.tasks import get_task
 from ai2thor.controller import Controller
-import utils.image_util as image_util
-from utils import game_util
-from utils.game_util import get_objects_of_type, get_obj_of_type_closest_to_obj
+import gen.utils.image_util as image_util
+from gen.utils import game_util
+from gen.utils.game_util import get_objects_of_type, get_obj_of_type_closest_to_obj
 
 
 DEFAULT_RENDER_SETTINGS = {'renderImage': True,

@@ -5,7 +5,7 @@ import time
 import torch
 import torch.multiprocessing as mp
 from models.nn.resnet import Resnet
-from models.data.preprocess import Dataset
+from data.preprocess import Dataset
 from importlib import import_module
 
 class Eval(object):

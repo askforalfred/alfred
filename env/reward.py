@@ -1,4 +1,4 @@
-from utils.game_util import get_object
+from gen.utils.game_util import get_object
 
 class BaseAction(object):
     '''

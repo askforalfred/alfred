@@ -1,12 +1,42 @@
 # Dataset
 
+The ALFRED dataset contains 25k+ expert demostrations with 3 or more language annotations.
+
 ## Download
+
+We provide three options:
+
+(1) Trajectory JSONs (93MB): just metadata on trajectories with language annotations. Images and Resnet features need to be generated with [augment_trajectories.py](../gen/scripts/augment_trajectories.py) script:
+
+```bash
+$ sh download_data.sh json
+```
+
+(2) **(Recommended)** Trajectory JSONs and Resnet Features (~215GB): trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
+```bash
+$ sh download_data.sh json_feat
+```
+
+(3) Trajectory JSONs, Images, PDDL state, Video, Resnet Features: full dataset includes raw images and PDDL states.
+
+```bash
+coming soon...
+```
 
 ## File Structure
 
+```
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/                  # (trajectory root)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/traj_data.json    # (trajectory metadata)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/feat_conv.pt      # (Resnet18 features)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/problem_x.pddl    # (pddl state)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/video.mp4         # (video sequence)
+data/train/task_type-object-movableReceptacle-receptacle-sceneNum/trial_ID/raw_images/       # (images from trajectory)
+```
+
 ## JSON Structure
 
-Each expert demonstration contains 3 or more language annotations in `traj_data.json`:
+Dictionary sturcture of `traj_data.json`:
 
 Task Info:
 ```

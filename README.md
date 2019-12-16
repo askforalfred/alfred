@@ -43,7 +43,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 ## Guides 
 
 - [**Dataset**](data/README.md): Downloading full dataset, Folder structure, JSON structure.
-- [**Models**](models/README.md): Training and Evaluation, File structure.
+- [**Models**](models/README.md): Training and Evaluation, File structure, Pre-trained models.
 - [**Data Generation**](gen/README.md): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
 
 ## Leaderboard
