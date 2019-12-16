@@ -153,8 +153,7 @@ def sample_task_params(succ_traj, full_traj, fail_traj,
         if key not in variable_value_by_diff:
             variable_value_by_diff[key] = []
         variable_value_by_diff[key].append((variable, value))
-    # print('\n'.join([str(variable_value_by_diff[key]) + " %.3f" % diff
-    #                  for key, diff in sorted(enumerate(diffs_as_keys), key=lambda x: x[1], reverse=True)]))
+
     for key, diff in sorted(enumerate(diffs_as_keys), key=lambda x: x[1], reverse=True):
         variable_value = variable_value_by_diff[key]
         random.shuffle(variable_value)
@@ -689,7 +688,7 @@ def delete_save(in_parallel):
             if in_parallel:  # another thread succeeded at this task while this one failed.
                 return False
             else:
-                raise e  # if we're not running in parallel, this is an Actual Problem.
+                raise e  # if we're not running in parallel, this is an actual.
     return True
 
 

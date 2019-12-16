@@ -319,7 +319,7 @@ class GameStateBase(object):
             np_box = instance_detections2D[object_id]
             return list([int(np_box[0]), int(np_box[1]), int(np_box[2]), int(np_box[3])])  # weird json formatting issue
         else:
-            raise ValueError("No bounding boxes on screen for %s" % object_id)
+            raise Exception("No bounding boxes on screen for %s" % object_id)
 
     def get_point_of_obj(self, object_id, centroid_type="box_center", visualize_debug=False):
         instance_detections2D = self.env.last_event.instance_detections2D
@@ -364,7 +364,7 @@ class GameStateBase(object):
 
             return list([int(cx), int(cy)])
         else:
-            raise ValueError("No point for ", object_id)
+            raise Exception("No point for ", object_id)
 
     def get_mask_of_obj(self, object_id):
         instance_detections2D = self.env.last_event.instance_detections2D
@@ -379,7 +379,7 @@ class GameStateBase(object):
             run_len_compressed = self.compress_mask(seg_mask)
             return run_len_compressed
         else:
-            raise ValueError("No mask for ", object_id)
+            raise Exception("No mask for ", object_id)
 
     def get_bbox_point_mask(self, object_id):
         bbox = self.get_bbox_of_obj(object_id)
@@ -390,7 +390,7 @@ class GameStateBase(object):
     def get_some_visible_obj_of_name(self, name):
         objects = [obj for obj in self.env.last_event.metadata['objects'] if obj['objectType'] == name and obj['visible']]
         if len(objects) == 0:
-            raise ValueError("No visible %s found!" % name)
+            raise Exception("No visible %s found!" % name)
         return objects[0]  # return the first visible instance
 
     def step(self, action_or_ind, process_frame=True):
@@ -894,12 +894,12 @@ class GameStateBase(object):
                 total_obj_pixels = np.sum(instance_masks[o['objectId']] if o['objectId'] in instance_masks else [0])
                 # print("\tNum. Object Pixels: " + str(total_obj_pixels))
                 if not o['visible'] or (total_obj_pixels < min_pixels):
-                    raise ValueError("Pickup item not visible! Visible property: " + str(o['visible']) +
+                    raise Exception("Pickup item not visible! Visible property: " + str(o['visible']) +
                                      "; visible pixes: " + str(total_obj_pixels))
 
     def check_action_success(self, event):
         if not event.metadata['lastActionSuccess']:
-            raise ValueError("API Action Failed: %s" % event.metadata['errorMessage'])
+            raise Exception("API Action Failed: %s" % event.metadata['errorMessage'])
 
     def save_act_image(self, action, dir=constants.BEFORE):
         self.save_image(constants.SAVE_FRAME_BEFORE_AND_AFTER_COUNTS[action['action']][dir])

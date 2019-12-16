@@ -133,7 +133,7 @@ def augment_traj(env, json_file):
         cmd = ll_action['api_action']
         hl_action = traj_data['plan']['high_pddl'][ll_action['high_idx']]
 
-        # remove unnecessay keys
+        # remove unnecessary keys
         cmd = {k: cmd[k] for k in ['action', 'objectId', 'receptacleObjectId', 'placeStationary', 'forceAction'] if k in cmd}
 
         if "MoveAhead" in cmd['action']:

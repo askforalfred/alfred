@@ -1,6 +1,5 @@
 import os
 import random
-import numpy as np
 import constants
 import goal_library as glib
 from game_states.planned_game_state import PlannedGameState
@@ -21,7 +20,6 @@ class TaskGameState(PlannedGameState):
         super(TaskGameState, self).__init__(env, seed, action_space,
                                             'put_task', 'planner/domains/PutTaskExtended_domain.pddl')
         self.task_target = None
-        self.container_target = np.zeros(constants.NUM_CLASSES)
         self.success = False
 
     def get_task_str(self):
@@ -76,7 +74,6 @@ class TaskGameState(PlannedGameState):
 
         self.object_target = -1
         self.parent_target = -1
-        self.container_target = np.zeros(constants.NUM_CLASSES)
 
         max_num_repeats = constants.MAX_NUM_OF_OBJ_INSTANCES
         remove_prob = 0.0
@@ -226,14 +223,14 @@ class TaskGameState(PlannedGameState):
 
         if len(pickupable_objects) == 0:
             print("Task Failed - %s" % constants.pddl_goal_type)
-            raise ValueError("No pickupable objects in the scene")
+            raise Exception("No pickupable objects in the scene")
 
         # filter based on crit
         obj_crit, _ = self.get_filter_crit(constants.pddl_goal_type)
         pickupable_objects = list(filter(obj_crit, pickupable_objects))
         if len(pickupable_objects) == 0:
             print("Task Failed - %s" % constants.pddl_goal_type)
-            raise ValueError("No pickupable objects related to the goal '%s'" % constants.pddl_goal_type)
+            raise Exception("No pickupable objects related to the goal '%s'" % constants.pddl_goal_type)
 
         # choose a pickupable object
         if constants.FORCED_SAMPLING or objs is None:
@@ -243,13 +240,13 @@ class TaskGameState(PlannedGameState):
                                       if obj['objectType'] == constants.OBJ_PARENTS[objs['pickup']]]
             if len(chosen_class_available) == 0:
                 print("Task Failed - %s" % constants.pddl_goal_type)
-                raise ValueError("Couldn't find a valid parent '%s' for pickup object with class '%s'" %
+                raise Exception("Couldn't find a valid parent '%s' for pickup object with class '%s'" %
                                  (constants.OBJ_PARENTS[objs['pickup']], objs['pickup']))
             self.rand_chosen_object = random.choice(chosen_class_available)
         self.rand_chosen_object_class = self.rand_chosen_object['objectType']
         self.object_target = constants.OBJECTS.index(self.rand_chosen_object_class)
 
-        # For now, any obj differing from its parent is obtained via slicing, but that may change in the future.
+        # for now, any obj differing from its parent is obtained via slicing, but that may change in the future.
         if constants.OBJ_PARENTS[objs['pickup']] != objs['pickup']:
             requires_slicing = True
         else:
@@ -263,7 +260,7 @@ class TaskGameState(PlannedGameState):
 
             if len(val_movable_receps) == 0:
                 print("Task Failed - %s" % constants.pddl_goal_type)
-                raise ValueError("Couldn't find a valid moveable receptacle for the chosen object class")
+                raise Exception("Couldn't find a valid moveable receptacle for the chosen object class")
 
             if objs is not None:
                 val_movable_receps = [o for o in val_movable_receps if o['objectType'] == objs['mrecep']]
@@ -279,7 +276,7 @@ class TaskGameState(PlannedGameState):
                           if ("Knife" in o['objectType'])]
             if len(knife_objs) == 0:
                 print("Task Failed - %s" % constants.pddl_goal_type)
-                raise ValueError("Couldn't find knife in the scene to cut with")
+                raise Exception("Couldn't find knife in the scene to cut with")
 
         if constants.pddl_goal_type == "look_at_obj_in_light":
             # choose a toggleable object
@@ -292,7 +289,7 @@ class TaskGameState(PlannedGameState):
                                           if obj['objectType'] == objs['toggle']]
                 if len(toggle_class_available) == 0:
                     print("Task Failed - %s" % constants.pddl_goal_type)
-                    raise ValueError("Couldn't find a valid toggle object of class '%s'" % objs['toggle'])
+                    raise Exception("Couldn't find a valid toggle object of class '%s'" % objs['toggle'])
                 rand_chosen_toggle_object = random.choice(toggle_class_available)
 
             rand_chosen_toggle_class = rand_chosen_toggle_object['objectType']
@@ -308,7 +305,7 @@ class TaskGameState(PlannedGameState):
 
             if len(val_receptacle_objects) == 0:
                 print("Task Failed - %s" % constants.pddl_goal_type)
-                raise ValueError("Couldn't find a valid receptacle object according to constraints specified")
+                raise Exception("Couldn't find a valid receptacle object according to constraints specified")
 
             # choose a receptacle object
             if constants.FORCED_SAMPLING or objs is None:
@@ -318,12 +315,10 @@ class TaskGameState(PlannedGameState):
                                               if obj['objectType'] == objs['receptacle']]
                 if len(receptacle_class_available) == 0:
                     print("Task Failed - %s" % constants.pddl_goal_type)
-                    raise ValueError("Couldn't find a valid receptacle object of class '%s'" % objs['receptacle'])
+                    raise Exception("Couldn't find a valid receptacle object of class '%s'" % objs['receptacle'])
                 rand_chosen_receptacle_object = random.choice(receptacle_class_available)
             rand_chosen_receptacle_object_class = rand_chosen_receptacle_object['objectType']
             self.parent_target = constants.OBJECTS.index(rand_chosen_receptacle_object_class)
-
-        self.container_target[self.parent_target] = 1
 
         # pddl_param dict
         constants.data_dict['pddl_params']['object_target'] = constants.OBJECTS[self.object_target] if self.object_target is not None else ""
@@ -346,7 +341,7 @@ class TaskGameState(PlannedGameState):
             try:
                 assert validity_check, 'Task does not seem valid according to scene metadata'
             except AssertionError:
-                raise ValueError(str(('Row: ', task_row, 'Scene', self.scene_name,
+                raise Exception(str(('Row: ', task_row, 'Scene', self.scene_name,
                                       'seed', self.scene_seed)))
 
         templated_task_desc = self.get_task_str()
@@ -360,7 +355,6 @@ class TaskGameState(PlannedGameState):
     def reset(self, seed=None, info=None, scene=None, objs=None):
         info = super(TaskGameState, self).reset(seed, info, scene=scene, objs=objs)
         self.receptacle_to_point = None
-        self.container_target = np.zeros(constants.NUM_CLASSES)
         self.task_target = None
         self.success = False
         return info
@@ -368,12 +362,7 @@ class TaskGameState(PlannedGameState):
     def step(self, action_or_ind):
         action, _ = self.get_action(action_or_ind)
         super(TaskGameState, self).step(action_or_ind)
-        if (action['action'] == 'PutObject' and
-                self.env.last_event.metadata['lastActionSuccess']):
-            object_cls = constants.OBJECT_CLASS_TO_ID[action['objectId'].split('|')[0]]
-            receptacle_cls = constants.OBJECT_CLASS_TO_ID[action['receptacleObjectId'].split('|')[0]]
-            if object_cls == self.object_target and receptacle_cls == self.parent_target:
-                self.success = True
+        self.success = True
 
     def get_success(self):
         return self.success

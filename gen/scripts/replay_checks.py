@@ -12,12 +12,14 @@ from env.thor_env import ThorEnv
 from utils.replay_json import replay_json
 
 
-NUM_REPLAYS = 2
 JSON_FILENAME = "traj_data.json"
-REPLAY_CERTIFICATE_FILENAMES = ["replay.certificate.%d" % idx for idx in range(NUM_REPLAYS)]
+
 
 def replay_check(args):
     env = ThorEnv()
+
+    # replay certificate filenames
+    replay_certificate_filenames = ["replay.certificate.%d" % idx for idx in range(args.num_replays)]
 
     # Clear existing failures in file recording.
     if args.failure_filename is not None:
@@ -40,8 +42,8 @@ def replay_check(args):
 
                 # If we're just stripping certificates, do that and continue.
                 if args.remove_certificates:
-                    for cidx in range(NUM_REPLAYS):
-                        certificate_file = os.path.join(dir_name, REPLAY_CERTIFICATE_FILENAMES[cidx])
+                    for cidx in range(args.num_replays):
+                        certificate_file = os.path.join(dir_name, replay_certificate_filenames[cidx])
                         if os.path.isfile(certificate_file):
                             os.system("rm %s" % certificate_file)
                     continue
@@ -59,23 +61,23 @@ def replay_check(args):
                 continue
 
             cidx = 0
-            certificate_file = os.path.join(dir_name, REPLAY_CERTIFICATE_FILENAMES[cidx])
+            certificate_file = os.path.join(dir_name, replay_certificate_filenames[cidx])
             already_checked = False
             while os.path.isfile(certificate_file):
                 cidx += 1
-                if cidx == NUM_REPLAYS:
+                if cidx == args.num_replays:
                     already_checked = True
                     break
-                certificate_file = os.path.join(dir_name, REPLAY_CERTIFICATE_FILENAMES[cidx])
+                certificate_file = os.path.join(dir_name, replay_certificate_filenames[cidx])
             if already_checked:
                 continue
 
             if not os.path.isfile(certificate_file):
-                total_checks += 1. / NUM_REPLAYS
+                total_checks += 1. / args.num_replays
                 failed = False
 
                 with open(json_file) as f:
-                    print("check %d/%d for file '%s'" % (cidx + 1, NUM_REPLAYS, json_file))
+                    print("check %d/%d for file '%s'" % (cidx + 1, args.num_replays, json_file))
                     try:
                         traj_data = json.load(f)
                         env.set_task(traj_data, args, reward_type='dense')
@@ -124,7 +126,7 @@ def replay_check(args):
                 if failed:
                     # Mark one failure and count the remainder of checks for this instance into the total.
                     total_failures += 1
-                    total_checks += NUM_REPLAYS - ((cidx + 1) / float(NUM_REPLAYS))
+                    total_checks += args.num_replays - ((cidx + 1) / float(args.num_replays))
 
                     failure_list.append(json_file)
                     if args.failure_filename is not None:
@@ -180,6 +182,7 @@ if __name__ == "__main__":
     parser.add_argument("--in_parallel", dest='in_parallel', action='store_true',
                         help="whether to run this script with parallel generation scripts in mind")
     parser.add_argument('--reward_config', default='../models/config/rewards.json')
+    parser.add_argument('--num_replays', type=int, default=2)
 
     # replay
     parser.add_argument('--json_file', type=str, default="", help="path to json file with trajectory dump")
