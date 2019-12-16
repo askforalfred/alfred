@@ -184,8 +184,5 @@ if __name__ == "__main__":
     parser.add_argument('--reward_config', default='../models/config/rewards.json')
     parser.add_argument('--num_replays', type=int, default=2)
 
-    # replay
-    parser.add_argument('--json_file', type=str, default="", help="path to json file with trajectory dump")
-
     args = parser.parse_args()
     replay_check(args)

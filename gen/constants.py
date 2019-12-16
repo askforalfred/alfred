@@ -26,7 +26,7 @@ MIN_VISIBLE_RATIO = 0.0011       # minimum area ratio (with respect to image siz
 PLANNER_MAX_STEPS = 100          # if the generated plan is more than these steps, discard the traj
 MAX_EPISODE_LENGTH = 1000        # maximum number of API steps allowed per trajectory
 
-FORCED_SAMPLING = False          # set True for debugging instead of doing exhaustive search
+FORCED_SAMPLING = False          # set True for debugging instead of proper sampling
 PRUNE_UNREACHABLE_POINTS = True  # prune navigation points that were deemed unreachable by the proprocessing script
 
 ########################################################################################################################
@@ -482,38 +482,6 @@ MOVABLE_RECEPTACLES_SET = set(MOVABLE_RECEPTACLES)
 OBJECTS_SET = set(OBJECTS) | MOVABLE_RECEPTACLES_SET
 
 OBJECT_CLASS_TO_ID = {obj: ii for (ii, obj) in enumerate(OBJECTS)}
-
-# RECEPTACLES = \
-#     {'Sink',
-#      'StoveBurner',
-#      'TableTop',
-#      'GarbageCan',
-#      'Microwave',
-#      'Fridge',
-#      'Cabinet',
-#      'Pot',
-#      'Pan',
-#      'ArmChair',
-#      'Bathtub',
-#      'BathtubBasin',
-#      'Bed',
-#      'Cart',
-#      'CoffeeMachine',
-#      'CounterTop',
-#      'Desk',
-#      'Drawer',
-#      'Dresser',
-#      'HandTowelHolder',
-#      'LaundryHamper',
-#      'NightStand',
-#      'Ottoman',
-#      'Safe',
-#      'SinkBasin',
-#      'Sofa',
-#      'Toilet',
-#      'ToiletPaperHanger',
-#      'TowelHolder'
-#      }
 
 RECEPTACLES = {
         'BathtubBasin',
