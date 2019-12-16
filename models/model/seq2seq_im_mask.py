@@ -91,7 +91,7 @@ class Module(Base):
             # goal and instr language
             lang_goal, lang_instr = ex['num']['lang_goal'], ex['num']['lang_instr']
 
-            # zero inputs in specified
+            # zero inputs if specified
             lang_goal = self.zero_input(lang_goal) if self.args.zero_goal else lang_goal
             lang_instr = self.zero_input(lang_instr) if self.args.zero_instr else lang_instr
 
