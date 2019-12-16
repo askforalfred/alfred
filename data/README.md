@@ -12,7 +12,7 @@ We provide three options:
 $ sh download_data.sh json
 ```
 
-(2) **(Recommended)** Trajectory JSONs and Resnet Features (~215GB): trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
+(2) Trajectory JSONs and Resnet Features (~215GB) - **Recommended**: trajectory metadata with pre-extracted Resnet18 features. This is sufficient to start training models.
 ```bash
 $ sh download_data.sh json_feat
 ```
