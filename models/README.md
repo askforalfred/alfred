@@ -20,7 +20,7 @@ Run this **once** with `--preprocess` to save preprocessed JSONs inside the traj
 
 ### Task Evaluation
 
-To evaluate a trained model with real-time execution on THOR:
+To evaluate a trained model through real-time execution on THOR:
 
 ```bash
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3
@@ -41,6 +41,22 @@ PDDL expert demonstrations will be used to reach the subgoal to be evaluated. Yo
 
 ## File Structure
 
+```
+model
+	seq2seq.py           (base module with train and val loops)
+    seq2seq_im.py        (full model with batching and losses)
+nn
+	vnn.py               (encoder, decoder, attention mechanisms)
+    resnet.py            (pre-trained Resnet feature extractor)
+train
+	train_seq2seq.py     (main with training args)
+eval
+	eval_seq2seq.py      (main with eval args)
+    eval_subgoals.py     (subgoal eval)
+    eval_task.py         (overall task eval)
+config
+	rewards.json         (reward values for actions; not used)
+```
 
 ## Pre-trained Models
 
