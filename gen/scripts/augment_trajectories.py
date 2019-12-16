@@ -45,9 +45,9 @@ def get_image_index(save_path):
 
 
 def save_image_with_delays(env, action,
-                           save_path, dir=constants.BEFORE):
+                           save_path, direction=constants.BEFORE):
     im_ind = get_image_index(save_path)
-    counts = constants.SAVE_FRAME_BEFORE_AND_AFTER_COUNTS[action['action']][dir]
+    counts = constants.SAVE_FRAME_BEFORE_AND_AFTER_COUNTS[action['action']][direction]
     for i in range(counts):
         save_image(env.last_event, save_path)
         env.noop()
@@ -173,20 +173,20 @@ def augment_traj(env, json_file):
              "OpenObject" in traj_data['plan']['low_actions'][ll_idx + 1]['api_action']['action']:
             if args.time_delays:
                 cool_action = hl_action['planner_action']
-                save_image_with_delays(env, cool_action, save_path=root_dir, dir=constants.BEFORE)
+                save_image_with_delays(env, cool_action, save_path=root_dir, direction=constants.BEFORE)
                 event = env.step(cmd)
-                save_image_with_delays(env, cool_action, save_path=root_dir, dir=constants.MIDDLE)
-                save_image_with_delays(env, cool_action, save_path=root_dir, dir=constants.AFTER)
+                save_image_with_delays(env, cool_action, save_path=root_dir, direction=constants.MIDDLE)
+                save_image_with_delays(env, cool_action, save_path=root_dir, direction=constants.AFTER)
             else:
                 event = env.step(cmd)
                 save_image(event, root_dir)
 
         else:
             if args.time_delays:
-                save_image_with_delays(env, cmd, save_path=root_dir, dir=constants.BEFORE)
+                save_image_with_delays(env, cmd, save_path=root_dir, direction=constants.BEFORE)
                 event = env.step(cmd)
-                save_image_with_delays(env, cmd, save_path=root_dir, dir=constants.MIDDLE)
-                save_image_with_delays(env, cmd, save_path=root_dir, dir=constants.AFTER)
+                save_image_with_delays(env, cmd, save_path=root_dir, direction=constants.MIDDLE)
+                save_image_with_delays(env, cmd, save_path=root_dir, direction=constants.AFTER)
             else:
                 event = env.step(cmd)
                 save_image(event, root_dir)
