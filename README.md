@@ -8,9 +8,7 @@
 
 For the latest updates, see: [**askforalfred.com**](https://askforalfred.com)
 
-<p align="center">
-	<img src="media/instr_teaser.png" width="590" height="500">
-</p>
+![](media/instr_teaser.png)
 
 ## Quickstart
 
