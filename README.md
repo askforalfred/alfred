@@ -30,14 +30,16 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-Download JSONs and Resnet feats (~215GB):
+Download Trajectory JSONs and Resnet feats (~215GB):
 ```bash
 $ cd $ALFRED_ROOT/data
 $ sh download_data.sh json_feat
+```language
 ```
 
 Train models:
 ```bash
+$ cd $ALFRED_ROOT
 $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2seq_im_mask --dout exp/model:{model},name:pm_and_subgoals_01 --splits data/splits/oct21.json --gpu --batch 8 --pm_aux_loss_wt 0.2 --subgoal_aux_loss_wt 0.2
 ```
 
@@ -45,11 +47,15 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 - [**Dataset**](data/README.md): Downloading full dataset, Folder structure, JSON structure.
 - [**Models**](models/README.md): Training and Evaluation, File structure.
-- [**Data Generation**](gen/README.md): Generation, Replay Checks, Data Augmentation (depth, segementation masks etc.)
+- [**Data Generation**](gen/README.md): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
 
 ## Leaderboard
 
-Coming soon...
+Coming soon ...
+
+## Docker Setup
+
+Coming soon ...
 
 ## Citation
 
