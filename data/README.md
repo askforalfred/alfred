@@ -114,3 +114,5 @@ To extract Resnet features from raw image sequences:
 ```bash
 $ python models/utils/extract_resnet.py --data data/full_2.1.0 --batch 32 --gpu --visual_model resnet18 --filename feat_conv.pt
 ```
+
+This will save `feat_conv.pt` files insides each trajectory root folder.

@@ -35,7 +35,7 @@ if __name__ == '__main__':
                     image_loader = Image.open if isinstance(fimages[0], str) else Image.fromarray
                     images = [image_loader(f) for f in fimages]
                     feat = extractor.featurize(images, batch=args.batch)
-                    torch.save(feat.cpu(), os.path.join(root, args.filename))
+                    torch.save(feat.cpu(), os.path.join(root.replace('raw_images', ''), args.filename))
                 except Exception as e:
                     print(e)
                     print("Skipping " + root)
