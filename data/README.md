@@ -2,6 +2,8 @@
 
 The ALFRED dataset contains 8k+ expert demostrations with 3 or more language annotations each. Each trajectory consists of a sequence of expert actions, the corresponding image observations, and MTurk language annotations describing segments of the trajectory.
 
+![](../media/tasks.png)
+
 ## Download
 
 The dataset is hosted on [GDrive](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-). We provide a `download_data.sh` script with three options:
