@@ -1,6 +1,6 @@
 # Models
 
-We provide PyTorch code and pre-trained models for baseline seq2seq models describe in the paper.
+We provide PyTorch code and pre-trained models for baseline seq2seq models described in the paper.
 
 ![](../media/model.png)
 
