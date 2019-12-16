@@ -38,8 +38,6 @@ $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --e
 ```
 PDDL expert demonstrations will be used to reach the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`.
 
-Use --subgoals all to evaluate all possible subgoals.
-
 
 ## File Structure
 
