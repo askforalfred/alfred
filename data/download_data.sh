@@ -21,6 +21,13 @@ else
     exit 1
 fi
 
+# remove json folder from repo
+REPO_JSON_FOLDER='./json_2.1.0'
+if [ -d "$REPO_JSON_FOLDER" ]; then
+  # Take action if $DIR exists. #
+  echo "Removing json_2.1.0 from repo"
+  rm -r $REPO_JSON_FOLDER
+fi
 
 # unzip and delete zip
 unzip $FILENAME && rm $FILENAME
