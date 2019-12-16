@@ -21,16 +21,21 @@ $ cd $ALFRED_ROOT/gen
 $ python scripts/generate_trajectories.py --save_path data/new_trajs --in_parallel --debug --num_threads 2 
 ```
 
-This will sample tasks based on the sampling mechanism described in the paper. 
+This will sample tasks based on the sampling mechanism described in the paper. You might notice a lot of failed executions, which are automatically discarded by the script.
 
 
 ## Replay Checks
 
+In parallel with generation, replay saved trajectories to check if the expert demonstrations are reproducable:
+
 ```bash
 $ python scripts/replay_checks.py --data_path data/new_trajs --in_parallel  
 ```
+This will ensure that the interaction masks and expert actions are deterministic.
 
 ## Data Augmentation
+
+Currently, dataset only provides 300x300 RGB images. However, each trajectory can be replayed to save any additional info available from the simulator. See the [augment_trajectories.py](scripts/augment_trajectories.py) script as an example for saving 600x600 RGB, depth and instance segmentation masks from the existing dataset: 
 
 ```bash
 python scripts/augment_trajectories.py --data_path data/json_2.1.0 --num_threads 2 --smooth_nav --time_delays
@@ -38,8 +43,9 @@ python scripts/augment_trajectories.py --data_path data/json_2.1.0 --num_threads
 
 ![](../media/aug.png)
 
+Note that these files consume a lot of storage space. 
 
-## PDDL Goals
+## PDDL Tasks
 
 The goals for the planner are specified in [goal_library.py](goal_library.py). Here is a simple pick-and-place PDDL goal definition:
 
@@ -68,3 +74,4 @@ gdict["pick_and_place_simple"] = '''
 )
 '''
 ```
+
