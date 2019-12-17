@@ -15,12 +15,12 @@ $ cd $ALFRED_ROOT/data
 $ sh download_data.sh json
 ```
 
-**2.** Modeling Quickstart (~215GB) - **Recommended**: Trajectory JSONs and Resnet Features
+**2.** Modeling Quickstart (~198GB) - **Recommended**: Trajectory JSONs and Resnet Features
 ```bash
 $ sh download_data.sh json_feat
 ```
 
-**3.** Full Dataset (~750GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
+**3.** Full Dataset (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
 
 ```bash
 coming soon...
