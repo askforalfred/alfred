@@ -35,7 +35,7 @@ This will ensure that the interaction masks and expert actions can be determinis
 
 ## Data Augmentation
 
-Currently, dataset only provides 300x300 RGB images. However, each trajectory can be replayed to save any additional info available from the simulator. See the [augment_trajectories.py](scripts/augment_trajectories.py) script as an example for saving 600x600 RGB, depth and instance segmentation masks from the existing dataset: 
+Currently, the dataset only provides 300x300 RGB images. However, each trajectory can be replayed to save any additional info available from the simulator. See the [augment_trajectories.py](scripts/augment_trajectories.py) script as an example for saving 600x600 RGB, depth and instance segmentation masks from the existing dataset: 
 
 ```bash
 python scripts/augment_trajectories.py --data_path data/json_2.1.0 --num_threads 2 --smooth_nav --time_delays
