@@ -28,7 +28,7 @@ $ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
-Download Trajectory JSONs and Resnet feats (~215GB):
+Download Trajectory JSONs and Resnet feats (~198GB):
 ```bash
 $ cd $ALFRED_ROOT/data
 $ sh download_data.sh json_feat
