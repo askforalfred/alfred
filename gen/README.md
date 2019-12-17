@@ -21,8 +21,9 @@ $ cd $ALFRED_ROOT/gen
 $ python scripts/generate_trajectories.py --save_path data/new_trajs --in_parallel --debug --num_threads 2 
 ```
 
-This will sample tasks based on the sampling mechanism described in the paper. You might notice a lot of failed executions, which are automatically discarded by the script.
+This will sample tasks based on the sampling mechanism described in the paper. You might notice a lot of failed executions, which are automatically discarded by the script.  
 
+**Note:** The first time you run the generation script, use `--num_threads 1` to allow the script to download the THOR binary.
 
 ## Replay Checks
 
