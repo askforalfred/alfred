@@ -44,7 +44,7 @@ This will use the expert demonstrations to reach the subgoal to be evaluated. Yo
 ```
 /model
     seq2seq.py           (base module with train and val loops)
-    seq2seq_im.py        (full model with batching and losses)
+    seq2seq_im_mask.py   (full model with batching and losses)
 /nn
     vnn.py               (encoder, decoder, attention mechanisms)
     resnet.py            (pre-trained Resnet feature extractor)
