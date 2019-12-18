@@ -6,7 +6,7 @@ The ALFRED dataset contains 8k+ expert demostrations with 3 or more language ann
 
 ## Download
 
-The dataset is hosted on [GDrive](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-). We provide a download script with three options:
+We provide a download script with three options:
 
 **1.** Lite (93MB): Trajectory JSONs. Images need to be generated with [augment_trajectories.py](../gen/README.md#data-augmentation) and Resnet feats with [extract_resnet.py](../data#extracting-resnet-features):
 
@@ -26,7 +26,7 @@ $ sh download_data.sh json_feat
 $ sh download_data.sh full
 ```
 
-Alternatively, if prefer to use something other than `wget`, you can directly download the [GDrive folder](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-).
+Alternatively, if prefer to use something other than `wget`, you can directly use the download links in [download_data.sh](download_data.sh)
 
 ## File Structure
 
