@@ -23,7 +23,7 @@ $ sh download_data.sh json_feat
 **3.** Full Dataset (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
 
 ```bash
-coming soon...
+$ sh download_data.sh full
 ```
 
 Alternatively, if prefer to use something other than `wget`, you can directly download the [GDrive folder](https://drive.google.com/open?id=1aGcXh5BDJk4eQKUUFfJruzJ9mOPic5u-).
