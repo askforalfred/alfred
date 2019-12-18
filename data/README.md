@@ -8,19 +8,19 @@ The ALFRED dataset contains 8k+ expert demostrations with 3 or more language ann
 
 We provide a download script with three options:
 
-**1.** Lite (93MB): Trajectory JSONs. Images need to be generated with [augment_trajectories.py](../gen/README.md#data-augmentation) and Resnet feats with [extract_resnet.py](../data#extracting-resnet-features):
+**1.** [Lite](https://storage.googleapis.com/alfred_dataset/data/json_2.1.0.zip) (93MB): Trajectory JSONs. Images need to be generated with [augment_trajectories.py](../gen/README.md#data-augmentation) and Resnet feats with [extract_resnet.py](../data#extracting-resnet-features):
 
 ```bash
 $ cd $ALFRED_ROOT/data
 $ sh download_data.sh json
 ```
 
-**2.** Modeling Quickstart (~198GB) - **Recommended**: Trajectory JSONs and Resnet Features
+**2.** [Modeling Quickstart](https://storage.googleapis.com/alfred_dataset/data/json_feat_2.1.0.zip) (~198GB) - **Recommended**: Trajectory JSONs and Resnet Features
 ```bash
 $ sh download_data.sh json_feat
 ```
 
-**3.** Full Dataset (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
+**3.** [Full Dataset](https://storage.googleapis.com/alfred_dataset/data/full_2.1.0.zip) (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
 
 ```bash
 $ sh download_data.sh full
