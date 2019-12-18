@@ -26,7 +26,7 @@ To evaluate a trained model through real-time execution on THOR:
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3
 ```
 
-Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`.
+Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory.
 
 
 ### Subgoal Evaluation
@@ -36,7 +36,7 @@ To evaluate individual subgoals for each task, run with `--subgoal`:
 ```bash
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3 --subgoals all
 ```
-This will use the expert demonstrations to reach the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`.
+This will use the expert demonstrations to reach the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`. The results will be dumped as a JSON file `subgoal_results_<timestamp>.json` inside the `model_path` directory.
 
 
 ## File Structure
