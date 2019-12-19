@@ -60,7 +60,7 @@ This will use the expert demonstrations to reach the subgoal to be evaluated. Yo
     rewards.json         (reward values for actions; not used)
 ```
 
-## Pre-trained Models
+## Pre-trained Model
 
 Download the [Seq2Seq+PM (both)](https://storage.googleapis.com/alfred_dataset/models/seq2seq_pm_chkpt.zip) model checkpoint:
 
