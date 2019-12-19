@@ -28,7 +28,7 @@ $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --e
 
 Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory.
 
-**Note:** If you are training and evaluating on different machines, you need to run eval with `--preprocess` once.
+**Note:** If you are training and evaluating on different machines or if you just downloaded a checkpoint, you need to run eval with `--preprocess` once with the appropriate dataset path.
 
 
 ### Subgoal Evaluation
@@ -62,4 +62,11 @@ This will use the expert demonstrations to reach the subgoal to be evaluated. Yo
 
 ## Pre-trained Models
 
-Coming soon ...
+Download the [Seq2Seq+PM (both)](https://storage.googleapis.com/alfred_dataset/models/seq2seq_pm_chkpt.zip) model checkpoint:
+
+```bash
+$ wget https://storage.googleapis.com/alfred_dataset/models/seq2seq_pm_chkpt.zip 
+$ unzip seq2seq_pm_chkpt.zip
+```
+
+The unzipped folder should contain `best_seen.pth` and `best_unseen.pth` checkpoints. 
