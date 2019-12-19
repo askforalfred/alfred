@@ -1,6 +1,6 @@
 # Dataset
 
-The ALFRED dataset contains 8k+ expert demostrations with 3 or more language annotations each. A trajectory consists of a sequence of expert actions, the corresponding image observations, and MTurk language annotations describing segments of the trajectory.
+The ALFRED dataset contains 8k+ expert demostrations with 3 or more language annotations each. A trajectory consists of a sequence of expert actions, the corresponding image observations, and language annotations describing segments of the trajectory.
 
 ![](../media/tasks.png)
 
