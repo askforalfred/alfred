@@ -88,7 +88,7 @@ class EvalTask(Eval):
                 print(action)
 
             # use predicted action and mask (if available) to interact with the env
-            t_success, _, _, err = env.va_interact(action, interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
+            t_success, _, _, err, _ = env.va_interact(action, interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
             if not t_success:
                 fails += 1
                 if fails >= args.max_fails:

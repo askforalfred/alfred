@@ -10,6 +10,7 @@ import constants
 from graph import graph_obj
 from utils import game_util
 from utils.py_util import SetWithGet
+from utils.image_util import compress_mask
 
 
 class GameStateBase(object):
@@ -291,27 +292,6 @@ class GameStateBase(object):
 
         return discrete_action
 
-    def compress_mask(self, seg_mask):
-        run_len_compressed = []  # list of lists of run lengths for 1s, which are assumed to be less frequent.
-        idx = 0
-        curr_run = False
-        run_len = 0
-        for x_idx in range(len(seg_mask)):
-            for y_idx in range(len(seg_mask[x_idx])):
-                if seg_mask[x_idx][y_idx] == 1 and not curr_run:
-                    curr_run = True
-                    run_len_compressed.append([idx, None])
-                if seg_mask[x_idx][y_idx] == 0 and curr_run:
-                    curr_run = False
-                    run_len_compressed[-1][1] = run_len
-                    run_len = 0
-                if curr_run:
-                    run_len += 1
-                idx += 1
-        if curr_run:
-            run_len_compressed[-1][1] = run_len
-        return run_len_compressed
-
     def get_bbox_of_obj(self, object_id):
         instance_detections2D = self.env.last_event.instance_detections2D if self.env.last_event.instance_detections2D != None else []
 
@@ -376,7 +356,7 @@ class GameStateBase(object):
             seg_mask = np.array(seg_mask) / 255
             seg_mask = seg_mask.astype(int)
             # Compress the segmentation mask using simple run-length compression.
-            run_len_compressed = self.compress_mask(seg_mask)
+            run_len_compressed = compress_mask(seg_mask)
             return run_len_compressed
         else:
             raise Exception("No mask for ", object_id)

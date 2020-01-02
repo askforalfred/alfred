@@ -107,7 +107,7 @@ class EvalSubgoals(Eval):
                     prev_action = action['action'] if not args.no_teacher_force_unroll_with_expert else None
 
                 # execute expert action
-                success, _, _, err = env.va_interact(action['action'], interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
+                success, _, _, err, _ = env.va_interact(action['action'], interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
                 if not success:
                     print ("expert initialization failed")
                     break
@@ -135,7 +135,7 @@ class EvalSubgoals(Eval):
 
                 if action not in cls.TERMINAL_TOKENS:
                     # use predicted action and mask (if provided) to interact with the env
-                    t_success, _, _, err = env.va_interact(action, interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
+                    t_success, _, _, err, _ = env.va_interact(action, interact_mask=mask, smooth_nav=args.smooth_nav, debug=args.debug)
                     if not t_success:
                         fails += 1
                         if fails >= args.max_fails:

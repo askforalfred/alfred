@@ -454,7 +454,7 @@ class ThorEnv(Controller):
         else:
             raise Exception("Invalid action. Conversion to THOR API failed! (action='" + str(action) + "')")
 
-        return event
+        return event, action
 
     def check_clean(self, object_id):
         '''
@@ -552,7 +552,7 @@ class ThorEnv(Controller):
             if len(instance_ids) == 0:
                 err = "Bad interact mask. Couldn't locate target object"
                 success = False
-                return success, None, None, err
+                return success, None, None, err, None
 
             target_instance_id = instance_ids[0]
         else:
@@ -561,10 +561,10 @@ class ThorEnv(Controller):
         if debug:
             print("taking action: " + str(action) + " on target_instance_id " + str(target_instance_id))
         try:
-            event = self.to_thor_api_exec(action, target_instance_id, smooth_nav)
+            event, api_action = self.to_thor_api_exec(action, target_instance_id, smooth_nav)
         except Exception as err:
             success = False
-            return success, None, None, err
+            return success, None, None, err, None
 
         if not event.metadata['lastActionSuccess']:
             if interact_mask is not None and debug:
@@ -578,10 +578,10 @@ class ThorEnv(Controller):
                 cv2.waitKey(0)
                 print(event.metadata['errorMessage'])
             success = False
-            return success, event, target_instance_id, event.metadata['errorMessage']
+            return success, event, target_instance_id, event.metadata['errorMessage'], api_action
 
         success = True
-        return success, event, target_instance_id, ''
+        return success, event, target_instance_id, '', api_action
 
     @staticmethod
     def bbox_to_mask(bbox):

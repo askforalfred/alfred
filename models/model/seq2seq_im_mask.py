@@ -44,6 +44,7 @@ class Module(Base):
         # internal states
         self.state_t = None
         self.e_t = None
+        self.test_mode = False
 
         # bce reconstruction loss
         self.bce_with_logits = torch.nn.BCEWithLogitsLoss(reduction='none')
@@ -71,15 +72,16 @@ class Module(Base):
             # auxillary
             ###########
 
-            # subgoal completion supervision
-            if self.args.subgoal_aux_loss_wt > 0:
-                feat['subgoals_completed'].append(np.array(ex['num']['low_to_high_idx']) / self.max_subgoals)
+            if not self.test_mode:
+                # subgoal completion supervision
+                if self.args.subgoal_aux_loss_wt > 0:
+                    feat['subgoals_completed'].append(np.array(ex['num']['low_to_high_idx']) / self.max_subgoals)
 
-            # progress monitor supervision
-            if self.args.pm_aux_loss_wt > 0:
-                num_actions = len([a for sg in ex['num']['action_low'] for a in sg])
-                subgoal_progress = [(i+1)/float(num_actions) for i in range(num_actions)]
-                feat['subgoal_progress'].append(subgoal_progress)
+                # progress monitor supervision
+                if self.args.pm_aux_loss_wt > 0:
+                    num_actions = len([a for sg in ex['num']['action_low'] for a in sg])
+                    subgoal_progress = [(i+1)/float(num_actions) for i in range(num_actions)]
+                    feat['subgoal_progress'].append(subgoal_progress)
 
             #########
             # inputs
@@ -100,7 +102,7 @@ class Module(Base):
             feat['lang_goal_instr'].append(lang_goal_instr)
 
             # load Resnet features from disk
-            if load_frames:
+            if load_frames and not self.test_mode:
                 root = self.get_task_root(ex)
                 im = torch.load(os.path.join(root, self.feat_pt))
                 keep = [None] * len(ex['plan']['low_actions'])
@@ -116,15 +118,16 @@ class Module(Base):
             # outputs
             #########
 
-            # low-level action
-            feat['action_low'].append([a['action'] for a in ex['num']['action_low']])
+            if not self.test_mode:
+                # low-level action
+                feat['action_low'].append([a['action'] for a in ex['num']['action_low']])
 
-            # low-level action mask
-            if load_mask:
-                feat['action_low_mask'].append([self.decompress_mask(a['mask']) for a in ex['num']['action_low'] if a['mask'] is not None])
+                # low-level action mask
+                if load_mask:
+                    feat['action_low_mask'].append([self.decompress_mask(a['mask']) for a in ex['num']['action_low'] if a['mask'] is not None])
 
-            # low-level valid interact
-            feat['action_low_valid_interact'].append([a['valid_interact'] for a in ex['num']['action_low']])
+                # low-level valid interact
+                feat['action_low_valid_interact'].append([a['valid_interact'] for a in ex['num']['action_low']])
 
 
         # tensorization and padding
@@ -159,10 +162,11 @@ class Module(Base):
         '''
         append segmented instr language and low-level actions into single sequences
         '''
-        is_serialized = not isinstance(feat['num']['action_low'][0], list)
+        is_serialized = not isinstance(feat['num']['lang_instr'][0], list)
         if not is_serialized:
             feat['num']['lang_instr'] = [word for desc in feat['num']['lang_instr'] for word in desc]
-            feat['num']['action_low'] = [a for a_group in feat['num']['action_low'] for a in a_group]
+            if not self.test_mode:
+                feat['num']['action_low'] = [a for a_group in feat['num']['action_low'] for a in a_group]
 
 
     def decompress_mask(self, compressed_mask):

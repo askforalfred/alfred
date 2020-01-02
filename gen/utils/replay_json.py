@@ -43,7 +43,7 @@ def replay_json(env, json_file):
         else:
             mask = None
 
-        success, event, target_instance_id, err = env.va_interact(action_name, interact_mask=mask)
+        success, event, target_instance_id, err, _ = env.va_interact(action_name, interact_mask=mask)
         if not success:
             raise RuntimeError(err)
 
