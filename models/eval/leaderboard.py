@@ -104,16 +104,16 @@ class Leaderboard(EvalTask):
             # next time-step
             t += 1
 
-        # log success/fails
-        lock.acquire()
-
+        # actseq
         seen_ids = [t['task'] for t in splits['tests_seen']]
         actseq = {
             'task_id': traj_data['task_id'],
             'api_actions': actions
         }
 
-        # store action sequences
+        # log action sequences
+        lock.acquire()
+
         if traj_data['task_id'] in seen_ids:
             seen_actseqs.append(actseq)
         else:
