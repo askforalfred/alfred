@@ -5,14 +5,12 @@ sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
 sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'models'))
 
 import json
-import random
 import argparse
 import numpy as np
 from PIL import Image
 from datetime import datetime
 from eval_task import EvalTask
 from env.thor_env import ThorEnv
-from utils.image_util import compress_mask
 import torch.multiprocessing as mp
 
 
