@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     # hyper parameters
     parser.add_argument('--batch', help='batch size', default=8, type=int)
-    parser.add_argument('--epoch', help='number of epochs', default=200, type=int)
+    parser.add_argument('--epoch', help='number of epochs', default=20, type=int)
     parser.add_argument('--lr', help='optimizer learning rate', default=1e-4, type=float)
     parser.add_argument('--decay_epoch', help='num epoch to adjust learning rate', default=10, type=int)
     parser.add_argument('--dhid', help='hidden layer size', default=512, type=int)
@@ -40,8 +40,8 @@ if __name__ == '__main__':
     parser.add_argument('--pframe', help='image pixel size (assuming square shape eg: 300x300)', default=300, type=int)
     parser.add_argument('--mask_loss_wt', help='weight of mask loss', default=1., type=float)
     parser.add_argument('--action_loss_wt', help='weight of action loss', default=1., type=float)
-    parser.add_argument('--subgoal_aux_loss_wt', help='weight of subgoal progress monitor', default=0., type=float)
-    parser.add_argument('--pm_aux_loss_wt', help='weight of subgoal progress monitor', default=0., type=float)
+    parser.add_argument('--subgoal_aux_loss_wt', help='weight of subgoal completion predictor', default=0., type=float)
+    parser.add_argument('--pm_aux_loss_wt', help='weight of progress monitor', default=0., type=float)
 
     # dropouts
     parser.add_argument('--zero_goal', help='zero out goal language', action='store_true')
