@@ -15,6 +15,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 Run this **once with** `--preprocess` to save preprocessed JSONs inside the trajectory folders. This could take a few minutes, but subsequent runs can be deployed without any preprocessing. See [train_seq2seq.py](train/train_seq2seq.py) for hyper-parameters and other settings. 
 
+Use `tensorboard --logdir exp --port 6006` to visualize losses and performance metrics.
 
 ## Evaluation
 
