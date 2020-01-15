@@ -27,9 +27,9 @@ To evaluate a trained model through real-time execution on THOR:
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3
 ```
 
-Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory.
+Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory. 
 
-**Note:** If you are training and evaluating on different machines or if you just downloaded a checkpoint, you need to run eval with `--preprocess` once with the appropriate dataset path.
+**Note:** If you are training and evaluating on different machines or if you just downloaded a checkpoint, you need to run eval with `--preprocess` once with the appropriate dataset path. Also, after a fresh-install, run with `--num_threads 1` to allow the script to download the THOR binary.
 
 
 ### Subgoal Evaluation
