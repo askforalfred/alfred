@@ -27,7 +27,7 @@ To evaluate a trained model through real-time execution on THOR:
 $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --eval_split valid_seen --data data/json_feat_2.1.0 --model models.model.seq2seq_im_mask --gpu --num_threads 3
 ```
 
-Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=400`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory. 
+Use `eval_split` to specify which split to evaluate, and `num_threads` to indicate the number of parallel evaluation threads to spawn. The experiments in the paper used `max_fails=10` and `max_steps=1000`. The results will be dumped as a JSON file `task_results_<timestamp>.json` inside the `model_path` directory. 
 
 **Note:** If you are training and evaluating on different machines or if you just downloaded a checkpoint, you need to run eval with `--preprocess` once with the appropriate dataset path. Also, after a fresh-install, run with `--num_threads 1` to allow the script to download the THOR binary.
 
@@ -41,6 +41,19 @@ $ python models/eval/eval_seq2seq.py --model_path <model_path>/best_seen.pth --e
 ```
 This will use the expert demonstrations to reach the subgoal to be evaluated. You can specify `--subgoals all` to evaluate all subgoals, or select specific ones e.g `--subgoal GoalLocation,HeatObject`. Possible subgoals include `GotoLocation`, `PickupObject`, `PutObject`, `CleanObject`, `HeatObject`, `CoolObject`, `ToggleObject`, `SliceObject`. The results will be dumped as a JSON file `subgoal_results_<timestamp>.json` inside the `model_path` directory.
 
+
+### Leaderboard
+
+Run your model on test seen and unseen sets, and create an action-sequence dump of your agent:
+
+```bash
+$ cd $ALFRED_ROOT
+$ python models/eval/leaderboard.py --model_path <model_path>/best_seen.pth --model models.model.seq2seq_im_mask --data data/json_feat_2.1.0 --gpu --num_threads 5
+```
+
+This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [coming soon]().  
+
+The JSON contains deterministic THOR API commmands executed by your trained agent, which will be replayed on the leaderboard server for evaluation. This process is model-agnostic, allowing you use your local resources for test-time inference. For restrictions and guidelines regarding the submission, see the [leaderboard page]().
 
 ## File Structure
 
