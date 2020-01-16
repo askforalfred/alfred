@@ -63,6 +63,10 @@ Coming soon ...
 
 Coming soon ...
 
+## Cloud Instance
+
+See [this article](https://medium.com/@etendue2013/how-to-run-ai2-thor-simulation-fast-with-google-cloud-platform-gcp-c9fcde213a4a) on setting-up THOR for cloud-instances.
+
 ## Citation
 
 If you find the dataset or code useful, please cite:
