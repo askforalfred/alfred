@@ -64,9 +64,7 @@ $ cd $ALFRED_ROOT
 $ python models/eval/leaderboard.py --model_path <model_path>/model.pth --model models.model.seq2seq_im_mask --data data/json_feat_2.1.0 --gpu --num_threads 5
 ```
 
-This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder.   
-
-Submit this JSON here: [coming soon]().   
+This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [coming soon]().   
 
 ## Docker Setup
 
