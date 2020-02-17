@@ -51,9 +51,9 @@ $ cd $ALFRED_ROOT
 $ python models/eval/leaderboard.py --model_path <model_path>/best_seen.pth --model models.model.seq2seq_im_mask --data data/json_feat_2.1.0 --gpu --num_threads 5
 ```
 
-This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [coming soon]().  
+This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [AI2 ALFRED Leaderboard](https://leaderboard.allenai.org/alfred/submissions/public).  
 
-The JSON contains deterministic THOR API commmands executed by your trained agent, which will be replayed on the leaderboard server for evaluation. This process is model-agnostic, allowing you to use your local resources for test-time inference. For restrictions and guidelines regarding the submission, see the [leaderboard page]().
+The JSON contains deterministic THOR API commmands executed by your trained agent, which will be replayed on the leaderboard server for evaluation. This process is model-agnostic, allowing you to use your local resources for test-time inference. For restrictions and guidelines regarding the submission, see the [getting started page](https://leaderboard.allenai.org/alfred/submissions/get-started).
 
 ## File Structure
 
