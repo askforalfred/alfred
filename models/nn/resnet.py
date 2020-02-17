@@ -60,9 +60,9 @@ class Resnet(object):
 
         # choose model type
         if self.model_type == "maskrcnn":
-            self.resnet_model = MaskRCNN(args, eval, share_memory, use_conv_feat)
+            self.resnet_model = MaskRCNN(args, eval, share_memory)
         else:
-            self.resnet_model = Resnet18(args, eval, share_memory)
+            self.resnet_model = Resnet18(args, eval, share_memory, use_conv_feat=use_conv_feat)
 
         # normalization transform
         self.transform = self.get_default_transform()
