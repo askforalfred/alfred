@@ -106,7 +106,7 @@ class Leaderboard(EvalTask):
 
         # actseq
         seen_ids = [t['task'] for t in splits['tests_seen']]
-        actseq = {traj_data['task_id']: {}}
+        actseq = {traj_data['task_id']: actions}
 
         # log action sequences
         lock.acquire()
