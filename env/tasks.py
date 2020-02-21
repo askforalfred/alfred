@@ -171,7 +171,7 @@ class PickAndPlaceSimpleTask(BaseTask):
         # check if object needs to be sliced
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         if np.any([np.any([p['objectId'] in r['receptacleObjectIds']
@@ -209,7 +209,7 @@ class PickTwoObjAndPlaceTask(BaseTask):
         # check if object needs to be sliced
         if 'Sliced' in targets['object']:
             ts += 2
-            s += min([p['objectId'] for p in pickupables].count('Sliced'), 2)
+            s += min(len([p for p in pickupables if 'Sliced' in p['objectId']]), 2)
 
         # placing each object counts as a postcondition
         s += min(np.max([sum([1 if r['receptacleObjectIds'] is not None
@@ -247,7 +247,7 @@ class LookAtObjInLightTask(BaseTask):
         # check if object needs to be sliced
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         # check if the right object is in hand
@@ -287,7 +287,7 @@ class PickHeatThenPlaceInRecepTask(BaseTask):
         # check if object needs to be sliced
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         objs_in_place = [p['objectId'] for p in pickupables for r in receptacles
@@ -333,7 +333,7 @@ class PickCoolThenPlaceInRecepTask(BaseTask):
 
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         objs_in_place = [p['objectId'] for p in pickupables for r in receptacles
@@ -379,7 +379,7 @@ class PickCleanThenPlaceInRecepTask(BaseTask):
 
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         objs_in_place = [p['objectId'] for p in pickupables for r in receptacles
@@ -427,7 +427,7 @@ class PickAndPlaceWithMovableRecepTask(BaseTask):
         # check if object needs to be sliced
         if 'Sliced' in targets['object']:
             ts += 1
-            if 'Sliced' in [p['objectId'] for p in pickupables]:
+            if len([p for p in pickupables if 'Sliced' in p['objectId']]) >= 1:
                 s += 1
 
         pickup_in_place = [p for p in pickupables for m in movables
