@@ -82,12 +82,9 @@ If you find the dataset or code useful, please cite:
 @inproceedings{ALFRED20,
   title ={{ALFRED: A Benchmark for Interpreting Grounded
            Instructions for Everyday Tasks}},
-  author={Mohit Shridhar and Jesse Thomason and
-          Daniel Gordon and Yonatan Bisk and
-          Winson Han and Roozbeh Mottaghi and
-          Luke Zettlemoyer and Dieter Fox},
-  booktitle = {The IEEE Conference on Computer Vision
-              and Pattern Recognition (CVPR)},
+  author={Mohit Shridhar and Jesse Thomason and Daniel Gordon and Yonatan Bisk and
+          Winson Han and Roozbeh Mottaghi and Luke Zettlemoyer and Dieter Fox},
+  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2020},
   url  = {https://arxiv.org/abs/1912.01734}
 }
