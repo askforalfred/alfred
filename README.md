@@ -79,14 +79,16 @@ See [this article](https://medium.com/@etendue2013/how-to-run-ai2-thor-simulatio
 If you find the dataset or code useful, please cite:
 
 ```
-@misc{ALFRED19,
+@inproceedings{ALFRED20,
   title ={{ALFRED: A Benchmark for Interpreting Grounded
            Instructions for Everyday Tasks}},
   author={Mohit Shridhar and Jesse Thomason and
           Daniel Gordon and Yonatan Bisk and
           Winson Han and Roozbeh Mottaghi and
           Luke Zettlemoyer and Dieter Fox},
-  year = {2019},
+  booktitle = {The IEEE Conference on Computer Vision
+              and Pattern Recognition (CVPR)},
+  year = {2020},
   url  = {https://arxiv.org/abs/1912.01734}
 }
 ```
