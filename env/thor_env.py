@@ -2,7 +2,7 @@ import cv2
 import copy
 import gen.constants as constants
 import numpy as np
-from collections import Counter
+from collections import Counter, OrderedDict
 from env.tasks import get_task
 from ai2thor.controller import Controller
 import gen.utils.image_util as image_util
@@ -495,6 +495,20 @@ class ThorEnv(Controller):
         ordered_instance_ids = [id for id in instance_ids if id in pruned_instance_ids]
         return ordered_instance_ids
 
+    def prune_by_any_interaction(self, instances_ids):
+        '''
+        ignores any object that is not interactable in anyway
+        '''
+        pruned_instance_ids = []
+        for obj in self.last_event.metadata['objects']:
+            obj_id = obj['objectId']
+            if obj_id in instances_ids:
+                if obj['pickupable'] or obj['receptacle'] or obj['openable'] or obj['toggleable'] or obj['sliceable']:
+                    pruned_instance_ids.append(obj_id)
+
+        ordered_instance_ids = [id for id in instances_ids if id in pruned_instance_ids]
+        return ordered_instance_ids
+
     def va_interact(self, action, interact_mask=None, smooth_nav=True, mask_px_sample=1, debug=False):
         '''
         interact mask based action call
@@ -519,10 +533,22 @@ class ThorEnv(Controller):
             if debug:
                 print("action_box", "instance_counter", instance_counter)
 
+            # normalize the counts by the size of the GT object masks
+            normalized_instance_counter = {}
+            for color_id, intersection_count in instance_counter.most_common():
+                normalized_instance_counter[color_id] = intersection_count / float(np.sum(np.all(instance_segs == color_id, axis=2)))
+            sorted_normalized_instance_counter = list(OrderedDict(sorted(normalized_instance_counter.items(), key=lambda x: x[1], reverse=True)))
+
+            # sort color ids by ratio or count
+            if constants.MASK_INTERACTION_USE_COVERAGE_RATIO:
+                sorted_color_ids = sorted_normalized_instance_counter
+            else:
+                sorted_color_ids = [color_id for color_id, _ in instance_counter.most_common()]
+
             # get the most common object ids ignoring the object-in-hand
             inv_obj = self.last_event.metadata['inventoryObjects'][0]['objectId'] \
                 if len(self.last_event.metadata['inventoryObjects']) > 0 else None
-            all_ids = [color_to_object_id[color_id] for color_id, _ in instance_counter.most_common()
+            all_ids = [color_to_object_id[color_id] for color_id in sorted_color_ids
                        if color_id in color_to_object_id and color_to_object_id[color_id] != inv_obj]
 
             # print all ids
@@ -534,8 +560,12 @@ class ThorEnv(Controller):
             if debug:
                 print("action_box", "instance_ids", instance_ids)
 
-            # prune object by valid actions
-            instance_ids = self.prune_by_valid_action(instance_ids, action)
+            if constants.MASK_INTERACTION_USE_ACTION_ASSIST:
+                # prune object by valid actions
+                instance_ids = self.prune_by_valid_action(instance_ids, action)
+            else:
+                # prune objects that cannot be interacted with
+                instance_ids = self.prune_by_any_interaction(instance_ids)
 
             # cv2 imshows to show image, segmentation mask, interact mask
             if debug:
