@@ -21,8 +21,8 @@ elif [ "$1" = "full" ]
 then
 
     echo "Downloading JSONs, Resnet18 feats, Images, Videos, and PDDL states ..."
-    wget https://storage.googleapis.com/alfred_dataset/data/full_2.1.0.zip
-    unzip full_2.1.0.zip && rm full_2.1.0.zip
+    wget https://storage.googleapis.com/alfred_dataset/data/full_2.1.0_v2.zip
+    unzip full_2.1.0_v2.zip && rm full_2.1.0_v2.zip
     echo "saved folder: full_2.1.0"
 
 else
