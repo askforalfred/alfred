@@ -20,7 +20,7 @@ $ sh download_data.sh json
 $ sh download_data.sh json_feat
 ```
 
-**3.** [Full Dataset](https://storage.googleapis.com/alfred_dataset/data/full_2.1.0.zip) (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
+**3.** [Full Dataset](https://storage.googleapis.com/alfred_dataset/data/full_2.1.0_v2.zip) (~410GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
 
 ```bash
 $ sh download_data.sh full
