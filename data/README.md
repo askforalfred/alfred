@@ -26,7 +26,9 @@ $ sh download_data.sh json_feat
 $ sh download_data.sh full
 ```
 
-Alternatively, if prefer to use something other than `wget`, you can directly use the download links in [download_data.sh](download_data.sh)
+Alternatively, if prefer to use something other than `wget`, you can directly use the download links in [download_data.sh](download_data.sh).  
+
+**Note**: You need double the amount of storage space while unzipping the files.
 
 ## File Structure
 
