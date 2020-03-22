@@ -224,6 +224,18 @@ class EvalSubgoals(Eval):
                 print("PLW S: %.3f" % (sr_plw))
         print("------------")
 
+        # for spreadsheet
+        print("GotoLocation\tPickupObject\tPutObject\tCoolObject\tHeatObject\tCleanObject\tSliceObject\tToggleObject\t")
+        print("%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f" %
+              (results['GotoLocation']['sr'], results['GotoLocation']['sr_plw'],
+               results['PickupObject']['sr'], results['PickupObject']['sr_plw'],
+               results['PutObject']['sr'],    results['PutObject']['sr_plw'],
+               results['CoolObject']['sr'],   results['CoolObject']['sr_plw'],
+               results['HeatObject']['sr'],  results['HeatObject']['sr_plw'],
+               results['CleanObject']['sr'],  results['CleanObject']['sr_plw'],
+               results['SliceObject']['sr'],  results['SliceObject']['sr_plw'],
+               results['ToggleObject']['sr'], results['ToggleObject']['sr_plw']))
+
         lock.release()
 
     def create_stats(self):

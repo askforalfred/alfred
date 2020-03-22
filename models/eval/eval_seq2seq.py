@@ -22,7 +22,7 @@ if __name__ == '__main__':
     parser.add_argument('--splits', type=str, default="data/splits/oct21.json")
     parser.add_argument('--data', type=str, default="data/json_2.1.0")
     parser.add_argument('--reward_config', default='models/config/rewards.json')
-    parser.add_argument('--eval_split', type=str, default='valid_seen', choices=['train', 'valid_seen', 'valid_unseen'])
+    parser.add_argument('--eval_split', type=str, default='valid_seen', choices=['train', 'valid_seen', 'valid_unseen', 'tests_seen', 'tests_unseen'])
     parser.add_argument('--model_path', type=str, default="model.pth")
     parser.add_argument('--model', type=str, default='models.model.seq2seq_im_mask')
     parser.add_argument('--preprocess', dest='preprocess', action='store_true')

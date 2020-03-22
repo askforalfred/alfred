@@ -32,6 +32,8 @@ class Eval(object):
         self.model.share_memory()
         self.model.eval()
 
+        self.model.test_mode = True
+
         # updated args
         self.model.args.dout = self.args.model_path.replace(self.args.model_path.split('/')[-1], '')
         self.model.args.data = self.args.data if self.args.data else self.model.args.data

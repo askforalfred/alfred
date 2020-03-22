@@ -153,6 +153,14 @@ class EvalTask(Eval):
         print("PLW PC: %.3f" % (results['all']['path_length_weighted_postcondition_success_rate']))
         print("-------------")
 
+        # TODO: remove
+        # for spreadsheet
+        print("SR\tSR_PLW\tPC\tPC_PLW")
+        print("%.3f,\t%.3f,\t%.3f,\t%.3f" % (results['all']['success']['success_rate'],
+                                             results['all']['path_length_weighted_success_rate'],
+                                             results['all']['postcondition_success']['postcondition_success_rate'],
+                                             results['all']['path_length_weighted_postcondition_success_rate']))
+
         # task type results
         task_types = ['pick_and_place_simple', 'pick_clean_then_place_in_recep', 'pick_heat_then_place_in_recep',
                       'pick_cool_then_place_in_recep', 'pick_two_obj_and_place', 'look_at_obj_in_light',
