@@ -114,8 +114,8 @@ MIN_VISIBLE_PIXELS = 10
 ########################################################################################################################
 # Evaluation Settings (DO NOT CHANGE)
 
-MASK_INTERACTION_USE_COVERAGE_RATIO = True
-MASK_INTERACTION_USE_ACTION_ASSIST = False
+MASK_INTERACTION_USE_COVERAGE_RATIO = False
+MASK_INTERACTION_USE_ACTION_ASSIST = True
 
 ########################################################################################################################
 # Scenes and Objects
