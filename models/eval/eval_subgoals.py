@@ -186,7 +186,7 @@ class EvalSubgoals(Eval):
                      'subgoal_type': subgoal_action,
                      'subgoal_instr': subgoal_instr,
                      'subgoal_success_spl': float(s_spl),
-                     'subgoal_path_weighted_success_spl': float(plw_s_spl),
+                     'subgoal_path_len_weighted_success_spl': float(plw_s_spl),
                      'subgoal_path_len_weight': float(expert_pl),
                      'reward': float(reward)}
         if subgoal_success:
@@ -209,8 +209,8 @@ class EvalSubgoals(Eval):
                 sr = float(num_successes) / num_evals
                 total_path_len_weight = sum([entry['subgoal_path_len_weight'] for entry in successes[sg]]) + \
                                         sum([entry['subgoal_path_len_weight'] for entry in failures[sg]])
-                sr_plw = float(sum([entry['subgoal_path_weighted_success_spl'] for entry in successes[sg]]) +
-                                    sum([entry['subgoal_path_weighted_success_spl'] for entry in failures[sg]])) / total_path_len_weight
+                sr_plw = float(sum([entry['subgoal_path_len_weighted_success_spl'] for entry in successes[sg]]) +
+                                    sum([entry['subgoal_path_len_weighted_success_spl'] for entry in failures[sg]])) / total_path_len_weight
 
                 results[sg] = {
                     'sr': sr,

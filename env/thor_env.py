@@ -124,7 +124,7 @@ class ThorEnv(Controller):
 
     def step(self, action, smooth_nav=False):
         '''
-        overrides ai2thor.controller.Controller.step() for smooth navigation and postcondition updates
+        overrides ai2thor.controller.Controller.step() for smooth navigation and goal_condition updates
         '''
         if smooth_nav:
             if "MoveAhead" in action['action']:
@@ -191,11 +191,11 @@ class ThorEnv(Controller):
         else:
             return self.task.goal_satisfied(self.last_event)
 
-    def get_postconditions_met(self):
+    def get_goal_conditions_met(self):
         if self.task is None:
             raise Exception("WARNING: no task setup for goal_satisfied")
         else:
-            return self.task.postconditions_met(self.last_event)
+            return self.task.goal_conditions_met(self.last_event)
 
     def get_subgoal_idx(self):
         if self.task is None:

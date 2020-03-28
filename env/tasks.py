@@ -157,10 +157,10 @@ class PickAndPlaceSimpleTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class is inside any receptacle of 'parent' class
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 1
         s = 0
 
@@ -195,10 +195,10 @@ class PickTwoObjAndPlaceTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if two objects of 'object' class are in any receptacle of 'parent' class
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 2
         s = 0
 
@@ -211,7 +211,7 @@ class PickTwoObjAndPlaceTask(BaseTask):
             ts += 2
             s += min(len([p for p in pickupables if 'Sliced' in p['objectId']]), 2)
 
-        # placing each object counts as a postcondition
+        # placing each object counts as a goal_condition
         s += min(np.max([sum([1 if r['receptacleObjectIds'] is not None
                                    and p['objectId'] in r['receptacleObjectIds'] else 0
                               for p in pickupables])
@@ -232,10 +232,10 @@ class LookAtObjInLightTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class is being held in front of 'toggle' object that is turned on
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 2
         s = 0
 
@@ -273,10 +273,10 @@ class PickHeatThenPlaceInRecepTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class inside receptacle of 'parent' class is hot
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 3
         s = 0
 
@@ -320,10 +320,10 @@ class PickCoolThenPlaceInRecepTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class inside receptacle of 'parent' class is cold
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 3
         s = 0
 
@@ -366,10 +366,10 @@ class PickCleanThenPlaceInRecepTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class inside receptacle of 'parent' class is clean
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 3
         s = 0
 
@@ -412,10 +412,10 @@ class PickAndPlaceWithMovableRecepTask(BaseTask):
 
     def goal_satisfied(self, state):
         # check if any object of 'object' class is inside any movable receptacle of 'mrecep' class at receptacle of 'parent' class
-        pcs = self.postconditions_met(state)
+        pcs = self.goal_conditions_met(state)
         return pcs[0] == pcs[1]
 
-    def postconditions_met(self, state):
+    def goal_conditions_met(self, state):
         ts = 3
         s = 0
 
