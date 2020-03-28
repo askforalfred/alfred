@@ -146,11 +146,11 @@ class EvalTask(Eval):
         print("SR: %d/%d = %.3f" % (results['all']['success']['num_successes'],
                                     results['all']['success']['num_evals'],
                                     results['all']['success']['success_rate']))
-        print("PC: %d/%d = %.3f" % (results['all']['goal_condition_success']['completed_goal_conditions'],
+        print("GC: %d/%d = %.3f" % (results['all']['goal_condition_success']['completed_goal_conditions'],
                                     results['all']['goal_condition_success']['total_goal_conditions'],
                                     results['all']['goal_condition_success']['goal_condition_success_rate']))
-        print("PLW S: %.3f" % (results['all']['path_length_weighted_success_rate']))
-        print("PLW PC: %.3f" % (results['all']['path_length_weighted_goal_condition_success_rate']))
+        print("PLW SR: %.3f" % (results['all']['path_length_weighted_success_rate']))
+        print("PLW GC: %.3f" % (results['all']['path_length_weighted_goal_condition_success_rate']))
         print("-------------")
 
         # task type specific results

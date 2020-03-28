@@ -221,7 +221,7 @@ class EvalSubgoals(Eval):
 
                 print("%s ==========" % sg)
                 print("SR: %d/%d = %.3f" % (num_successes, num_evals, sr))
-                print("PLW S: %.3f" % (sr_plw))
+                print("PLW SR: %.3f" % (sr_plw))
         print("------------")
 
         lock.release()
