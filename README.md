@@ -95,6 +95,12 @@ If you find the dataset or code useful, please cite:
 
 MIT License
 
+## Change Log
+
+28/03/2020:
+- Updated the mask-interaction API to use IoU scores instead of max pixel count for selecting objects.
+- Results table in the paper will be updated with new numbers.
+
 ## Contact
 
 Questions or issues? Contact [askforalfred@googlegroups.com](askforalfred@googlegroups.com)
