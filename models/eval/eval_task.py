@@ -6,7 +6,6 @@ from datetime import datetime
 from eval import Eval
 from env.thor_env import ThorEnv
 
-
 class EvalTask(Eval):
     '''
     evaluate overall task performance
@@ -140,6 +139,39 @@ class EvalTask(Eval):
         else:
             failures.append(log_entry)
 
+        # overall results
+        results['all'] = cls.get_metrics(successes, failures)
+
+        print("-------------")
+        print("SR: %d/%d = %.3f" % (results['all']['success']['num_successes'],
+                                    results['all']['success']['num_evals'],
+                                    results['all']['success']['success_rate']))
+        print("PC: %d/%d = %.3f" % (results['all']['postcondition_success']['completed_postconditions'],
+                                    results['all']['postcondition_success']['total_postconditions'],
+                                    results['all']['postcondition_success']['postcondition_success_rate']))
+        print("PLW S: %.3f" % (results['all']['path_length_weighted_success_rate']))
+        print("PLW PC: %.3f" % (results['all']['path_length_weighted_postcondition_success_rate']))
+        print("-------------")
+
+        # task type specific results
+        task_types = ['pick_and_place_simple', 'pick_clean_then_place_in_recep', 'pick_heat_then_place_in_recep',
+                      'pick_cool_then_place_in_recep', 'pick_two_obj_and_place', 'look_at_obj_in_light',
+                      'pick_and_place_with_movable_recep']
+        for task_type in task_types:
+            task_successes = [s for s in (list(successes)) if s['type'] == task_type]
+            task_failures = [f for f in (list(failures)) if f['type'] == task_type]
+            if len(task_successes) > 0 or len(task_failures) > 0:
+                results[task_type] = cls.get_metrics(task_successes, task_failures)
+            else:
+                results[task_type] = {}
+
+        lock.release()
+
+    @classmethod
+    def get_metrics(cls, successes, failures):
+        '''
+        compute overall succcess and postcondition success rates along with path-weighted metrics
+        '''
         # stats
         num_successes, num_failures = len(successes), len(failures)
         num_evals = len(successes) + len(failures)
@@ -154,38 +186,31 @@ class EvalTask(Eval):
         sr = float(num_successes) / num_evals
         pc = completed_postconditions / float(total_postconditions)
         plw_sr = (float(sum([entry['path_weighted_success_spl'] for entry in successes]) +
-                                    sum([entry['path_weighted_success_spl'] for entry in failures])) /
-                                    total_path_len_weight)
+                        sum([entry['path_weighted_success_spl'] for entry in failures])) /
+                  total_path_len_weight)
         plw_pc = (float(sum([entry['path_weighted_postcondition_spl'] for entry in successes]) +
-                                    sum([entry['path_weighted_postcondition_spl'] for entry in failures])) /
-                                    total_path_len_weight)
+                        sum([entry['path_weighted_postcondition_spl'] for entry in failures])) /
+                  total_path_len_weight)
 
+        # result table
+        res = dict()
+        res['success'] = {'num_successes': num_successes,
+                          'num_evals': num_evals,
+                          'success_rate': sr}
+        res['postcondition_success'] = {'completed_postconditions': completed_postconditions,
+                                        'total_postconditions': total_postconditions,
+                                        'postcondition_success_rate': pc}
+        res['path_length_weighted_success_rate'] = plw_sr
+        res['path_length_weighted_postcondition_success_rate'] = plw_pc
 
-        # save results
-        results['success'] = {'num_successes': num_successes,
-                              'num_evals': num_evals,
-                              'success_rate': sr}
-        results['postcondition_success'] = {'completed_postconditions': completed_postconditions,
-                                            'total_postconditions': total_postconditions,
-                                            'postcondition_success_rate': pc}
-        results['path_length_weighted_success_rate'] = plw_sr
-        results['path_length_weighted_postcondition_success_rate'] = plw_pc
-
-        print("-------------")
-        print("SR: %d/%d = %.3f" % (num_successes, num_evals, sr))
-        print("PC: %d/%d = %.3f" % (completed_postconditions, total_postconditions, pc))
-        print("PLW S: %.3f" % (plw_sr))
-        print("PLW PC: %.3f" % (plw_pc))
-        print("-------------")
-
-        lock.release()
+        return res
 
     def create_stats(self):
-        '''
-        storage for success, failure, and results info
-        '''
-        self.successes, self.failures = self.manager.list(), self.manager.list()
-        self.results = self.manager.dict()
+            '''
+            storage for success, failure, and results info
+            '''
+            self.successes, self.failures = self.manager.list(), self.manager.list()
+            self.results = self.manager.dict()
 
     def save_results(self):
         results = {'successes': list(self.successes),
@@ -193,6 +218,7 @@ class EvalTask(Eval):
                    'results': dict(self.results)}
 
         save_path = os.path.dirname(self.args.model_path)
-        save_path = os.path.join(save_path, 'task_results_' + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + '.json')
+        save_path = os.path.join(save_path, 'task_results_' + self.args.eval_split + '_' + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + '.json')
         with open(save_path, 'w') as r:
             json.dump(results, r, indent=4, sort_keys=True)
+

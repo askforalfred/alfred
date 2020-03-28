@@ -31,6 +31,7 @@ class Eval(object):
         self.model, optimizer = M.Module.load(self.args.model_path)
         self.model.share_memory()
         self.model.eval()
+        self.model.test_mode = True
 
         # updated args
         self.model.args.dout = self.args.model_path.replace(self.args.model_path.split('/')[-1], '')
