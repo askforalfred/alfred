@@ -112,12 +112,6 @@ MIN_VISIBLE_PIXELS = 10
 #    DETECTION_SCREEN_HEIGHT))  # (400) / (600*600) ~ 0.13% area of image
 
 ########################################################################################################################
-# Evaluation Settings (DO NOT CHANGE)
-
-MASK_INTERACTION_USE_COVERAGE_RATIO = True
-MASK_INTERACTION_USE_ACTION_ASSIST = False
-
-########################################################################################################################
 # Scenes and Objects
 
 TRAIN_SCENE_NUMBERS = list(range(7, 31))           # Train Kitchens (24/30)

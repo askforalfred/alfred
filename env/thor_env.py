@@ -534,16 +534,14 @@ class ThorEnv(Controller):
                 print("action_box", "instance_counter", instance_counter)
 
             # normalize the counts by the size of the GT object masks
-            normalized_instance_counter = {}
+            iou_scores = {}
             for color_id, intersection_count in instance_counter.most_common():
-                normalized_instance_counter[color_id] = intersection_count / float(np.sum(np.all(instance_segs == color_id, axis=2)))
-            sorted_normalized_instance_counter = list(OrderedDict(sorted(normalized_instance_counter.items(), key=lambda x: x[1], reverse=True)))
+                union_count = np.sum(np.logical_or(np.all(instance_segs == color_id, axis=2), interact_mask.astype(bool)))
+                iou_scores[color_id] = intersection_count / float(union_count)
+            iou_sorted_instance_ids = list(OrderedDict(sorted(iou_scores.items(), key=lambda x: x[1], reverse=True)))
 
-            # sort color ids by ratio or count
-            if constants.MASK_INTERACTION_USE_COVERAGE_RATIO:
-                sorted_color_ids = sorted_normalized_instance_counter
-            else:
-                sorted_color_ids = [color_id for color_id, _ in instance_counter.most_common()]
+            # sort color ids by iou scores
+            sorted_color_ids = iou_sorted_instance_ids
 
             # get the most common object ids ignoring the object-in-hand
             inv_obj = self.last_event.metadata['inventoryObjects'][0]['objectId'] \
@@ -560,12 +558,8 @@ class ThorEnv(Controller):
             if debug:
                 print("action_box", "instance_ids", instance_ids)
 
-            if constants.MASK_INTERACTION_USE_ACTION_ASSIST:
-                # prune object by valid actions
-                instance_ids = self.prune_by_valid_action(instance_ids, action)
-            else:
-                # prune objects that cannot be interacted with
-                instance_ids = self.prune_by_any_interaction(instance_ids)
+            # prune invalid instances like floors, walls, etc.
+            instance_ids = self.prune_by_any_interaction(instance_ids)
 
             # cv2 imshows to show image, segmentation mask, interact mask
             if debug:

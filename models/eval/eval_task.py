@@ -229,3 +229,16 @@ class EvalTask(Eval):
         save_path = os.path.join(save_path, 'task_results_' + self.args.eval_split + '_' + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + '.json')
         with open(save_path, 'w') as r:
             json.dump(results, r, indent=4, sort_keys=True)
+
+
+        # TODO: remove
+        # for spreadsheet
+
+        st = open('sp_res/results.txt', 'a')
+
+        st.write("\nModel: {}, Split: {}, Time: {}\n".format(self.args.model_path, self.args.eval_split, datetime.now().strftime("D%d_%H:%M")))
+        st.write("SR\tSR_PLW\tPC\tPC_PLW\n")
+        st.write("%.3f,\t%.3f,\t%.3f,\t%.3f\n\n" % (results['results']['all']['success']['success_rate'],
+                                             results['results']['all']['path_length_weighted_success_rate'],
+                                             results['results']['all']['postcondition_success']['postcondition_success_rate'],
+                                             results['results']['all']['path_length_weighted_postcondition_success_rate']))

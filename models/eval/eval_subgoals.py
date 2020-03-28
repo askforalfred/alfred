@@ -254,3 +254,19 @@ class EvalSubgoals(Eval):
         save_path = os.path.join(save_path, 'subgoal_results_' + datetime.now().strftime("%Y%m%d_%H%M%S_%f") + '.json')
         with open(save_path, 'w') as r:
             json.dump(results, r, indent=4, sort_keys=True)
+
+        st = open('sp_res/subgoal_results.txt', 'a')
+
+        # for spreadsheet
+        st.write("\nModel: {}, Split: {}, Time: {}\n".format(self.args.model_path, self.args.eval_split, datetime.now().strftime("D%d_%H:%M")))
+        st.write("GotoLocation\tPickupObject\tPutObject\tCoolObject\tHeatObject\tCleanObject\tSliceObject\tToggleObject\n")
+        st.write("\n%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f,\t%.3f\n\n" %
+              (results['results']['GotoLocation']['sr'], results['results']['GotoLocation']['sr_plw'],
+               results['results']['PickupObject']['sr'], results['results']['PickupObject']['sr_plw'],
+               results['results']['PutObject']['sr'],    results['results']['PutObject']['sr_plw'],
+               results['results']['CoolObject']['sr'],   results['results']['CoolObject']['sr_plw'],
+               results['results']['HeatObject']['sr'],   results['results']['HeatObject']['sr_plw'],
+               results['results']['CleanObject']['sr'],  results['results']['CleanObject']['sr_plw'],
+               results['results']['SliceObject']['sr'],  results['results']['SliceObject']['sr_plw'],
+               results['results']['ToggleObject']['sr'], results['results']['ToggleObject']['sr_plw']))
+
