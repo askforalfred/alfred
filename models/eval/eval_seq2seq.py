@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser.add_argument('--num_threads', type=int, default=1)
 
     # eval params
-    parser.add_argument('--max_steps', type=int, default=500, help='max steps before episode termination')
+    parser.add_argument('--max_steps', type=int, default=1000, help='max steps before episode termination')
     parser.add_argument('--max_fails', type=int, default=10, help='max API execution failures before episode termination')
 
     # eval settings
