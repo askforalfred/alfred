@@ -60,6 +60,7 @@ class Dataset(object):
                 # root & split
                 traj['root'] = os.path.join(self.args.data, task['task'])
                 traj['split'] = k
+                traj['repeat_idx'] = r_idx
 
                 # numericalize language
                 self.process_language(ex, traj, r_idx)
