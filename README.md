@@ -97,6 +97,10 @@ MIT License
 
 ## Change Log
 
+07/04/2020:
+- Updated download links.
+
+
 28/03/2020:
 - Updated the mask-interaction API to use IoU scores instead of max pixel count for selecting objects.
 - Results table in the paper will be updated with new numbers.
