@@ -105,9 +105,10 @@ Images:
 ```
 ['images'] = [{"low_idx": 0,                    (low-level action index)
                "high_idx": 0,                   (high-level action index)
-               "image_name": "000000000.png"}   (image filename)
+               "image_name": "000000000.jpg"}   (image filename)
              ...]
 ```
+
 
 ## Extracting Resnet Features
 
@@ -117,4 +118,6 @@ To extract Resnet features from raw image sequences:
 $ python models/utils/extract_resnet.py --data data/full_2.1.0 --batch 32 --gpu --visual_model resnet18 --filename feat_conv.pt
 ```
 
-This will save `feat_conv.pt` files insides each trajectory root folder.
+This will save `feat_conv.pt` files insides each trajectory root folder.  
+
+**Note**: Data generation saved PNG files, which were later converted into JPGs.
