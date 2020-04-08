@@ -76,10 +76,10 @@ The JSON contains deterministic THOR API commmands executed by your trained agen
 
 ## Pre-trained Model
 
-Download the [Seq2Seq+PM (both)](https://storage.googleapis.com/alfred_dataset/models/seq2seq_pm_chkpt.zip) model checkpoint:
+Download the [Seq2Seq+PM (both)](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/seq2seq_pm_chkpt.zip) model checkpoint:
 
 ```bash
-$ wget https://storage.googleapis.com/alfred_dataset/models/seq2seq_pm_chkpt.zip 
+$ wget https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/seq2seq_pm_chkpt.zip
 $ unzip seq2seq_pm_chkpt.zip
 ```
 
