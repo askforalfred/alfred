@@ -98,7 +98,7 @@ MIT License
 ## Change Log
 
 07/04/2020:
-- Updated download links.
+- Updated download links. Switched from Google Cloud to AWS. Old download links will be deactivated.
 
 
 28/03/2020:
