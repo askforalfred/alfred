@@ -120,4 +120,4 @@ $ python models/utils/extract_resnet.py --data data/full_2.1.0 --batch 32 --gpu 
 
 This will save `feat_conv.pt` files insides each trajectory root folder.  
 
-**Note**: Data generation saved PNG files, which were later converted into JPGs.
+**Note**: Data generator saved PNG files, which were later converted into JPGs.
