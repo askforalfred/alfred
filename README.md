@@ -46,6 +46,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 - [**Dataset**](data/): Downloading full dataset, Folder structure, JSON structure.
 - [**Models**](models/): Training and Evaluation, File structure, Pre-trained models.
 - [**Data Generation**](gen/): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
+- [**FAQ**](doc/FAQ.md): Frequently Asked Questions. 
 
 ## Prerequisites
 
