@@ -12,3 +12,7 @@ You should be able to achieve **>99%** success rate on training and validation t
 ### Can you train an agent without mask prediction?
 
 Mask prediction is an important part of the ALFRED challenge. Unlike non-interactive environments (e.g vision-language navigation), here it's necessary for the agent to specify *what* exactly it wants to interact with.
+
+### Why does `feat_conv.pt` have 10 more frames than the number of images?
+
+The last 10 frames are copies of the features from the last image frame. 
