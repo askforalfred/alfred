@@ -15,12 +15,12 @@ $ cd $ALFRED_ROOT/data
 $ sh download_data.sh json
 ```
 
-**2.** [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) (~77GB) - **Recommended**: Trajectory JSONs and Resnet Features
+**2.** [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) (~17GB) - **Recommended**: Trajectory JSONs and Resnet Features
 ```bash
 $ sh download_data.sh json_feat
 ```
 
-**3.** [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) (~109GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Resnet Features
+**3.** [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) (~109GB) - Trajectory JSONs, Raw Images, PDDL States, Videos, Full Resnet Features
 
 ```bash
 $ sh download_data.sh full
@@ -109,6 +109,8 @@ Images:
              ...]
 ```
 
+**Note**: The [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) contains extracted Resnet features for each frame in `['images']
+`, whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx`.
 
 ## Extracting Resnet Features
 
@@ -120,4 +122,4 @@ $ python models/utils/extract_resnet.py --data data/full_2.1.0 --batch 32 --gpu 
 
 This will save `feat_conv.pt` files insides each trajectory root folder.  
 
-**Note**: Data generator saved PNG files, which were later converted into JPGs.
+**Note**: Data generator saved PNG files, which were later converted into JPGs. 
