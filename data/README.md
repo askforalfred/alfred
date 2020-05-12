@@ -71,7 +71,7 @@ Language Annotations:
 ['turk_annotations']['anns'] =  
              [{'task_desc': "Examine a clock using the light of a lamp.",                 (goal instruction) 
                'high_descs': ["Turn to the left and move forward to the window ledge.",   (list of step-by-step instructions)
-                              "Pick up the alarm clock on the table", ...],               
+                              "Pick up the alarm clock on the table", ...],               (indexes aligned with high_idx)
                'votes': [1, 1, 1]                                                         (AMTurk languauge quality votes)
               },
               ...]
@@ -110,7 +110,7 @@ Images:
 ```
 
 **Note**: The [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) contains extracted Resnet features for each frame in `['images']
-`, whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx`.
+`, whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx`. The indexes of `['turk_annotations']['anns']['high_descs']` are aligned with `high_idx`.
 
 ## Extracting Resnet Features
 
