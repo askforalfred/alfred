@@ -6,7 +6,6 @@ h5py
 tqdm
 vocab
 revtok
-numpy
 Pillow
 torch==1.1.0
 torchvision==0.3.0
