@@ -74,7 +74,13 @@ Coming soon ...
 
 ## Cloud Instance
 
-See [this article](https://medium.com/@etendue2013/how-to-run-ai2-thor-simulation-fast-with-google-cloud-platform-gcp-c9fcde213a4a) for setting-up THOR on cloud-instances.
+ALFRED can be setup on headless machines like AWS or GoogleCloud instances. 
+The main requirement is that you have access to a GPU machine that supports OpenGL rendering. Run the [startx.py](scripts/startx.py) script
+to examine the GPU devices on the host, generate a xorg.conf file, and then start X. Then you should be able run AI2THOR normally for evaluation purposes. 
+By default, the `:0.0` display will be used, but if you are running on a machine with more than one GPU, you can address 
+these by modifying the screen component of the display. So `:0.0` refers to the first device, `:0.1` the second and so on.
+
+Also, checkout this guide: [Setting up THOR on Google Cloud](https://medium.com/@etendue2013/how-to-run-ai2-thor-simulation-fast-with-google-cloud-platform-gcp-c9fcde213a4a)
 
 ## Citation
 
