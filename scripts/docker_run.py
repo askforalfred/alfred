@@ -20,7 +20,7 @@ if __name__=="__main__":
 
     parser.add_argument("-c", "--container", type=str, default="alfred", help="(optional) name of the container")
 
-    parser.add_argument("-d", "--data", type=str, default="data/", help="(optional) path to data directory")
+    parser.add_argument("-d", "--data", type=str, default="data/", help="(optional) external data directory")
 
     parser.add_argument("-g", "--gpus", type=str, default="all", help="(optional) gpus for nvidia docker")
 
@@ -50,7 +50,7 @@ if __name__=="__main__":
     cmd += " --user %s " % user_name                                                       # login as current user
 
     # uncomment below to mount your data volume
-    cmd += " -v %s:%s/alfred/data " %(os.path.join(source_dir, args.data), home_directory)
+    cmd += " -v %s:/data " %(os.path.join(source_dir, args.data))
 
     # expose UDP ports
     cmd += " -p 8888:8888 "
