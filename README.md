@@ -70,7 +70,22 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 
 ## Docker Setup
 
-Coming soon ...
+Build the image:
+
+```bash
+$ python scripts/docker_build.py 
+```
+
+Start a container:
+
+```bash
+$ python scripts/docker_run.py
+ 
+  source ~/alfred_env/bin/activate
+  cd $ALFRED_ROOT
+```
+
+Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
 
 ## Cloud Instance
 
