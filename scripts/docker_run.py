@@ -49,7 +49,7 @@ if __name__=="__main__":
 
     cmd += " --user %s " % user_name                                                       # login as current user
 
-    # uncomment below to mount your data volume
+    # custom data path
     cmd += " -v %s:/data " %(os.path.join(source_dir, args.data))
 
     # expose UDP ports
