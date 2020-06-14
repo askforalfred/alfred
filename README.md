@@ -70,6 +70,8 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 
 ## Docker Setup
 
+Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker#ubuntu-160418042004-debian-jessiestretchbuster).
+
 Build the image:
 
 ```bash
