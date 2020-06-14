@@ -61,7 +61,7 @@ if __name__=="__main__":
 
     cmd += " " + args.passthrough + " "
 
-    cmd += " --privileged -v /dev/bus/usb:/dev/bus/usb " # allow usb access
+    cmd += " --privileged"
 
     cmd += " --rm " # remove the image when you exit
 
