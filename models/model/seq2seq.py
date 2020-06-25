@@ -85,13 +85,13 @@ class Module(nn.Module):
             m_train = collections.defaultdict(list)
             self.train()
             self.adjust_lr(optimizer, args.lr, epoch, decay_epoch=args.decay_epoch)
-            p_train = {}
+            # p_train = {}
             total_train_loss = list()
             random.shuffle(train) # shuffle every epoch
             for batch, feat in self.iterate(train, args.batch):
                 out = self.forward(feat)
                 preds = self.extract_preds(out, batch, feat)
-                p_train.update(preds)
+                # p_train.update(preds)
                 loss = self.compute_loss(out, batch, feat)
                 for k, v in loss.items():
                     ln = 'loss_' + k
@@ -109,11 +109,11 @@ class Module(nn.Module):
                 total_train_loss.append(float(sum_loss))
                 train_iter += self.args.batch
 
-            # compute metrics for train
-            m_train = {k: sum(v) / len(v) for k, v in m_train.items()}
-            m_train.update(self.compute_metric(p_train, train))
-            m_train['total_loss'] = sum(total_train_loss) / len(total_train_loss)
-            self.summary_writer.add_scalar('train/total_loss', m_train['total_loss'], train_iter)
+            ## compute metrics for train (too memory heavy!)
+            # m_train = {k: sum(v) / len(v) for k, v in m_train.items()}
+            # m_train.update(self.compute_metric(p_train, train))
+            # m_train['total_loss'] = sum(total_train_loss) / len(total_train_loss)
+            # self.summary_writer.add_scalar('train/total_loss', m_train['total_loss'], train_iter)
 
             # compute metrics for valid_seen
             p_valid_seen, valid_seen_iter, total_valid_seen_loss, m_valid_seen = self.run_pred(valid_seen, args=args, name='valid_seen', iter=valid_seen_iter)
@@ -127,7 +127,9 @@ class Module(nn.Module):
             m_valid_unseen['total_loss'] = float(total_valid_unseen_loss)
             self.summary_writer.add_scalar('valid_unseen/total_loss', m_valid_unseen['total_loss'], valid_unseen_iter)
 
-            stats = {'epoch': epoch, 'train': m_train, 'valid_seen': m_valid_seen, 'valid_unseen': m_valid_unseen}
+            stats = {'epoch': epoch,
+                     'valid_seen': m_valid_seen,
+                     'valid_unseen': m_valid_unseen}
 
             # new best valid_seen loss
             if total_valid_seen_loss < best_loss['valid_seen']:
@@ -183,10 +185,10 @@ class Module(nn.Module):
                 'vocab': self.vocab,
             }, fsave)
 
-            # debug action output josn
-            fpred = os.path.join(args.dout, 'train.debug.preds.json')
-            with open(fpred, 'wt') as f:
-                json.dump(self.make_debug(p_train, train), f, indent=2)
+            ## debug action output json for train
+            # fpred = os.path.join(args.dout, 'train.debug.preds.json')
+            # with open(fpred, 'wt') as f:
+            #     json.dump(self.make_debug(p_train, train), f, indent=2)
 
             # write stats
             for split in stats.keys():
