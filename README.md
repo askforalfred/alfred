@@ -60,10 +60,10 @@ See [requirements.txt](requirements.txt) for all prerequisites
 ## Hardware 
 
 Tested on:
-- GPU - GTX 1080 Ti (12GB)
-- CPU - Intel Xeon (Quad Core)
-- RAM - 16GB
-- OS - Ubuntu 16.04
+- **GPU** - GTX 1080 Ti (12GB)
+- **CPU** - Intel Xeon (Quad Core)
+- **RAM** - 16GB
+- **OS** - Ubuntu 16.04
 
 
 ## Leaderboard
