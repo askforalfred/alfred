@@ -57,6 +57,15 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 See [requirements.txt](requirements.txt) for all prerequisites
 
+## Hardware 
+
+Tested on:
+- GPU - GTX 1080 Ti (12GB)
+- CPU - Intel Xeon (Quad Core)
+- RAM - 16GB
+- OS - Ubuntu 16.04
+
+
 ## Leaderboard
 
 Run your model on test seen and unseen sets, and create an action-sequence dump of your agent:
