@@ -143,8 +143,8 @@ def augment_traj(env, json_file):
                 save_images_in_events(events, root_dir)
                 event = events[-1]
             else:
+                save_image(env.last_event, root_dir)
                 event = env.step(cmd)
-                save_image(event, root_dir)
 
         elif "Rotate" in cmd['action']:
             if args.smooth_nav:
@@ -153,8 +153,8 @@ def augment_traj(env, json_file):
                 save_images_in_events(events, root_dir)
                 event = events[-1]
             else:
+                save_image(env.last_event, root_dir)
                 event = env.step(cmd)
-                save_image(event, root_dir)
 
         elif "Look" in cmd['action']:
             if args.smooth_nav:
@@ -163,8 +163,8 @@ def augment_traj(env, json_file):
                 save_images_in_events(events, root_dir)
                 event = events[-1]
             else:
+                save_image(env.last_event, root_dir)
                 event = env.step(cmd)
-                save_image(event, root_dir)
 
         # handle the exception for CoolObject tasks where the actual 'CoolObject' action is actually 'CloseObject'
         # TODO: a proper fix for this issue
@@ -178,8 +178,8 @@ def augment_traj(env, json_file):
                 save_image_with_delays(env, cool_action, save_path=root_dir, direction=constants.MIDDLE)
                 save_image_with_delays(env, cool_action, save_path=root_dir, direction=constants.AFTER)
             else:
+                save_image(env.last_event, root_dir)
                 event = env.step(cmd)
-                save_image(event, root_dir)
 
         else:
             if args.time_delays:
@@ -188,8 +188,8 @@ def augment_traj(env, json_file):
                 save_image_with_delays(env, cmd, save_path=root_dir, direction=constants.MIDDLE)
                 save_image_with_delays(env, cmd, save_path=root_dir, direction=constants.AFTER)
             else:
+                save_image(env.last_event, root_dir)
                 event = env.step(cmd)
-                save_image(event, root_dir)
 
         # update image list
         new_img_idx = get_image_index(high_res_images_dir)
