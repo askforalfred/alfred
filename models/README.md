@@ -83,4 +83,6 @@ $ wget https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/seq2seq_pm_chkpt.zip
 $ unzip seq2seq_pm_chkpt.zip
 ```
 
-The unzipped folder should contain `best_seen.pth` and `best_unseen.pth` checkpoints. 
+The unzipped folder should contain `best_seen.pth` and `best_unseen.pth` checkpoints.  
+
+**Note**: Some users have reported that they had to train the model themselves to reproduce the results. If the results from the pre-trained model are dramatically worse than the ones reported in the paper, you could try training the model from scratch. We are looking into the source of this issue.
