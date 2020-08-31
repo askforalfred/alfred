@@ -7,7 +7,7 @@ Yes, each step-by-step instruction has a corresponding subgoal in the training a
 
 ### Getting 100% success rate with ground-truth trajectories
 
-You should be able to achieve **>99%** success rate on training and validation tasks with the ground-truth actions and masks from the dataset. Occasionally, some [non-determistic behavior](https://github.com/askforalfred/alfred/issues/19) in THOR can lead to failures, but they are extremely rare. 
+You should be able to achieve **>99%** success rate on training and validation tasks with the ground-truth actions and masks from the dataset. Occasionally, some [non-determistic behaviors](https://github.com/askforalfred/alfred/issues/19) in THOR can lead to failures, but they are extremely rare. 
 
 ### Can you train an agent without mask prediction?
 
