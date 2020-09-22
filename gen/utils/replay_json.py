@@ -17,7 +17,7 @@ def replay_json(env, json_file):
 
     # initialize
     event = env.step(dict(traj_data['scene']['init_action']))
-    print("Task: %s" % (traj_data['template']['task_desc']))
+    # print("Task: %s" % (traj_data['template']['task_desc']))
 
     steps_taken = 0
     for ll_action in traj_data['plan']['low_actions']:
@@ -25,8 +25,8 @@ def replay_json(env, json_file):
             ll_action['high_idx'], ll_action['api_action'], ll_action['discrete_action']
 
         # print templated low-level instructions & discrete action
-        print("HL Templ: %s, LL Cmd: %s" % (traj_data['template']['high_descs'][hl_action_idx],
-                                            traj_discrete_action['action']))
+        # print("HL Templ: %s, LL Cmd: %s" % (traj_data['template']['high_descs'][hl_action_idx],
+                                            # traj_discrete_action['action']))
 
         # Use the va_interact that modelers will have to use at inference time.
         action_name, action_args = traj_discrete_action['action'], traj_discrete_action['args']
