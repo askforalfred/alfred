@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join(os.environ['ALFRED_ROOT']))
-sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred_new'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred_new', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -423,6 +423,7 @@ def main(args):
         print_successes(succ_traj)
         return
 
+    print(succ_traj.groupby('goal').count())
     # pre-populate failed trajectories.
     fail_traj = load_fails_from_disk(args.save_path)
     print("Loaded %d known failed tuples" % len(fail_traj))
@@ -459,6 +460,7 @@ def main(args):
     # main generation loop
     # keeps trying out new task tuples as trajectories either fail or suceed
     while True:
+    # for _ in range(10):
 
         sampled_task = next(task_sampler)
         print(sampled_task)  # DEBUG
@@ -493,6 +495,7 @@ def main(args):
 
             # plan & execute
             try:
+            # if True:
                 # Agent reset to new scene.
                 constraint_objs = {'repeat': [(constants.OBJ_PARENTS[pickup_obj],  # Generate multiple parent objs.
                                                np.random.randint(2 if gtype == "pick_two_obj_and_place" else 1,
@@ -559,7 +562,7 @@ def main(args):
 
                 dump_data_dict()
                 save_video()
-
+            # else:
             except Exception as e:
                 import traceback
                 traceback.print_exc()
