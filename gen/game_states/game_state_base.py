@@ -147,18 +147,19 @@ class GameStateBase(object):
 
             # if 'clean' action, make everything dirty and empty out fillable things
             if constants.pddl_goal_type == "pick_clean_then_place_in_recep":
-                self.env.step(dict(action='SetStateOfAllObjects',
-                                   StateChange="CanBeDirty",
-                                   forceAction=True))
+                # need to create a dictionary that contains all the object's type and state change.
+                
+                for o in objs['repeat']:
+                    self.env.step(dict(action='SetObjectStates',
+                                   SetObjectStates={'objectType': o[0], 'stateChange': 'dirtyable', 'isDirty': True}))
 
-                self.env.step(dict(action='SetStateOfAllObjects',
-                                   StateChange="CanBeFilled",
-                                   forceAction=False))
+                    self.env.step(dict(action='SetObjectStates',
+                                   SetObjectStates={'objectType': o[0], 'stateChange': 'canFillWithLiquid', 'isFilledWithLiquid': False}))
+
 
             if objs is not None and ('seton' in objs and len(objs['seton']) > 0):
-                self.env.step(dict(action='SetObjectToggles',
-                                   objectToggles=[{'objectType': o, 'isOn': v}
-                                                  for o, v in objs['seton']]))
+                for o, v in objs['seton']:
+                    self.env.step(dict(action='SetObjectStates', SetObjectStates={'objectType': o, 'stateChange': 'toggleable', 'isToggled': v}))
 
         self.gt_graph = graph_obj.Graph(use_gt=True, construct_graph=True, scene_id=self.scene_num)
 

@@ -103,16 +103,22 @@ class ThorEnv(Controller):
             visibility_distance=constants.VISIBILITY_DISTANCE,
             makeAgentsVisible=False,
         ))
+
         if len(object_toggles) > 0:
-            super().step((dict(action='SetObjectToggles', objectToggles=object_toggles)))
+            # TODO: problem here: the API has change on these two attributes.
+            for o in object_toggles:
+                super().step((dict(action='SetObjectStates', SetObjectStates=o)))
 
         if dirty_and_empty:
-            super().step(dict(action='SetStateOfAllObjects',
-                               StateChange="CanBeDirty",
-                               forceAction=True))
-            super().step(dict(action='SetStateOfAllObjects',
-                               StateChange="CanBeFilled",
-                               forceAction=False))
+            # TODO: problem here: the API also change on these two attributes.
+            
+            for o in object_poses:
+                super().step(dict(action='SetObjectStates',
+                    SetObjectStates={'objectType': o['objectName'].split('_')[0], 'stateChange': 'dirtyable', 'isDirty': True}))
+
+                super().step(dict(action='SetObjectStates',
+                    SetObjectStates={'objectType': o['objectName'].split('_')[0], 'stateChange': 'canFillWithLiquid', 'isFilledWithLiquid': False}))
+        
         super().step((dict(action='SetObjectPoses', objectPoses=object_poses)))
 
     def set_task(self, traj, args, reward_type='sparse', max_episode_length=2000):
