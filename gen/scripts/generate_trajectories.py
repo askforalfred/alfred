@@ -459,8 +459,8 @@ def main(args):
 
     # main generation loop
     # keeps trying out new task tuples as trajectories either fail or suceed
-    while True:
-    # for _ in range(10):
+    # while True:
+    for _ in range(20):
 
         sampled_task = next(task_sampler)
         print(sampled_task)  # DEBUG
@@ -539,7 +539,7 @@ def main(args):
                                  'rotation': obj['rotation']}
                                 for obj in env.last_event.metadata['objects'] if obj['pickupable']]
                 dirty_and_empty = gtype == 'pick_clean_then_place_in_recep'
-                object_toggles = [{'objectType': o, 'isOn': v}
+                object_toggles = [{'objectType': o, 'stateChange': 'toggleable', 'isToggled': v}
                                   for o, v in constraint_objs['seton']]
                 constants.data_dict['scene']['object_poses'] = object_poses
                 constants.data_dict['scene']['dirty_and_empty'] = dirty_and_empty

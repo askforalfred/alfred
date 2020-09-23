@@ -107,8 +107,9 @@ class ThorEnv(Controller):
         if len(object_toggles) > 0:
             # TODO: problem here: the API has change on these two attributes.
             for o in object_toggles:
-                super().step((dict(action='SetObjectStates', SetObjectStates=o)))
-
+                super().step((dict(action='SetObjectStates', 
+                                SetObjectStates=o)))
+        
         if dirty_and_empty:
             # TODO: problem here: the API also change on these two attributes.
             
