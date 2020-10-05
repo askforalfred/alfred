@@ -34,4 +34,5 @@ DEBIAN_FRONTEND=noninteractive apt install --no-install-recommends \
   module-init-tools \
   pciutils \
   xserver-xorg \
+  xserver-xorg-video-fbdev \
   mesa-utils
