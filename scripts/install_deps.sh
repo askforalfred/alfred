@@ -3,7 +3,8 @@
 set -euxo pipefail
 
 apt-get update
-apt install --no-install-recommends \
+DEBIAN_FRONTEND=noninteractive apt install --no-install-recommends \
+  curl \
   terminator \
   tmux \
   vim \
@@ -26,4 +27,11 @@ apt install --no-install-recommends \
   nvidia-settings \
   libffi-dev \
   flex \
-  bison
+  bison \
+  build-essential \
+  git \
+  wget \
+  module-init-tools \
+  pciutils \
+  xserver-xorg \
+  mesa-utils
