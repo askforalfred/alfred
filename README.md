@@ -79,6 +79,9 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 
 ## Docker Setup
 
+
+#### Build 
+
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker#ubuntu-160418042004-debian-jessiestretchbuster).
 
 Build the image:
@@ -87,7 +90,9 @@ Build the image:
 $ python scripts/docker_build.py 
 ```
 
-Start a container:
+#### Run (Local)
+
+For local machines:
 
 ```bash
 $ python scripts/docker_run.py
@@ -95,6 +100,38 @@ $ python scripts/docker_run.py
   source ~/alfred_env/bin/activate
   cd $ALFRED_ROOT
 ```
+
+#### Run (Headless)
+
+For headless VMs and Cloud-Instances:
+
+```bash
+$ python scripts/docker_run.py --headless 
+
+# inside docker
+$ tmux new -s startx  # start a new tmux session
+$ sudo su             # switch to root (password: 'password' or whatever you specified in docker_build.py)
+
+
+# start nvidia-xconfig (might have to run this twice)
+$ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+$ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+
+# start X on DISPLAY 0
+$ python /home/<user_name>/alfred/startx.py 0  # use other displays if 0 is unavailable
+
+# detach from tmux
+# Ctrl+b then d
+
+# source env
+$ source ~/alfred_env/bin/activate
+
+# check THOR
+$ cd $ALFRED_ROOT
+$ DISPLAY=:0 python scripts/check_thor.py
+```
+
+You might have to modify `X_DISPLAY` in [gen/constants.py](gen/constants.py) depending on which display you use.
 
 Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
 
