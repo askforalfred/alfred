@@ -120,7 +120,7 @@ $ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 $ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 
 # start X on DISPLAY 0
-$ python /home/<user_name>/alfred/startx.py 0  # use other displays if 0 is unavailable
+$ python /home/<user_name>/alfred/scripts/startx.py 0  # use other displays if 0 is unavailable
 
 # detach from tmux
 # Ctrl+b then d
