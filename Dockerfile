@@ -45,6 +45,5 @@ RUN cd ${USER_HOME_DIR} && echo $(pwd) && chown $USER_NAME:$USER_NAME -R .
 
 # copy scripts
 COPY ./scripts/startx.py /home/$USER_NAME/
-COPY ./scripts/start_display.sh /home/$USER_NAME/
 
 ENTRYPOINT bash -c "export ALFRED_ROOT=~/alfred && /bin/bash"
