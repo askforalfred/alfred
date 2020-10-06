@@ -90,6 +90,8 @@ Build the image:
 $ python scripts/docker_build.py 
 ```
 
+Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
+
 #### Run (Local)
 
 For local machines:
@@ -132,8 +134,6 @@ $ DISPLAY=:0 python scripts/check_thor.py
 ```
 
 You might have to modify `X_DISPLAY` in [gen/constants.py](gen/constants.py) depending on which display you use.
-
-Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
 
 ## Cloud Instance
 
