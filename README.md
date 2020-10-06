@@ -118,7 +118,7 @@ $ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 $ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 
 # start X on DISPLAY 0
-$ sudo python ~/alfred/scripts/startx.py 0  # use other displays if 0 is unavailable
+$ sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1) or (EE) already running ..." try a display > 0
 
 # detach from tmux
 # Ctrl+b then d
