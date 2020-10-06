@@ -120,7 +120,7 @@ $ python scripts/docker_run.py --headless
   # start X on DISPLAY 0
   sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1)" or "(EE) already running ..." try a display > 0
 
-  # detach from tmux
+  # detach from tmux shell
   # Ctrl+b then d
 
   # source env
