@@ -117,7 +117,7 @@ $ python scripts/docker_run.py --headless
   sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
   sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 
-  # start X on DISPLAY 0
+  # start X server on DISPLAY 0
   sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1)" or "(EE) already running ..." try a display > 0
 
   # detach from tmux shell
@@ -125,6 +125,8 @@ $ python scripts/docker_run.py --headless
 
   # source env
   source ~/alfred_env/bin/activate
+  
+  # set DISPLAY variable to match X server
   export DISPLAY=:0
 
   # check THOR
