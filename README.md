@@ -112,15 +112,13 @@ $ python scripts/docker_run.py --headless
 
 # inside docker
 $ tmux new -s startx  # start a new tmux session
-$ sudo su             # switch to root (password: 'password' or whatever you specified in docker_build.py)
-
 
 # start nvidia-xconfig (might have to run this twice)
-$ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
-$ nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+$ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+$ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 
 # start X on DISPLAY 0
-$ python /home/<user_name>/alfred/scripts/startx.py 0  # use other displays if 0 is unavailable
+$ sudo python ~/alfred/scripts/startx.py 0  # use other displays if 0 is unavailable
 
 # detach from tmux
 # Ctrl+b then d
