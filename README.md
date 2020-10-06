@@ -111,24 +111,25 @@ For headless VMs and Cloud-Instances:
 $ python scripts/docker_run.py --headless 
 
 # inside docker
-$ tmux new -s startx  # start a new tmux session
+  tmux new -s startx  # start a new tmux session
 
 # start nvidia-xconfig (might have to run this twice)
-$ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
-$ sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+  sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+  sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
 
 # start X on DISPLAY 0
-$ sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1) or (EE) already running ..." try a display > 0
+  sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1) or (EE) already running ..." try a display > 0
 
 # detach from tmux
 # Ctrl+b then d
 
 # source env
-$ source ~/alfred_env/bin/activate
+  source ~/alfred_env/bin/activate
 
 # check THOR
-$ cd $ALFRED_ROOT
-$ DISPLAY=:0 python scripts/check_thor.py
+  cd $ALFRED_ROOT
+  export DISPLAY=:0
+  python scripts/check_thor.py
 
 ###############
 ## (300, 300, 3)
