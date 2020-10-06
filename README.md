@@ -131,9 +131,9 @@ $ python scripts/docker_run.py --headless
   cd $ALFRED_ROOT
   python scripts/check_thor.py
 
-###############
-## (300, 300, 3)
-## Everything works!!!
+  ###############
+  ## (300, 300, 3)
+  ## Everything works!!!
 ```
 
 You might have to modify `X_DISPLAY` in [gen/constants.py](gen/constants.py) depending on which display you use.
