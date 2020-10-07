@@ -81,13 +81,19 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 
 Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker#ubuntu-160418042004-debian-jessiestretchbuster).
 
+#### Build 
+
 Build the image:
 
 ```bash
 $ python scripts/docker_build.py 
 ```
 
-Start a container:
+Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
+
+#### Run (Local)
+
+For local machines:
 
 ```bash
 $ python scripts/docker_run.py
@@ -96,7 +102,42 @@ $ python scripts/docker_run.py
   cd $ALFRED_ROOT
 ```
 
-Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
+#### Run (Headless)
+
+For headless VMs and Cloud-Instances:
+
+```bash
+$ python scripts/docker_run.py --headless 
+
+  # inside docker
+  tmux new -s startx  # start a new tmux session
+
+  # start nvidia-xconfig (might have to run this twice)
+  sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+  sudo nvidia-xconfig -a --use-display-device=None --virtual=1280x1024
+
+  # start X server on DISPLAY 0
+  sudo python ~/alfred/scripts/startx.py 0  # if this throws errors e.g "(EE) Server terminated with error (1)" or "(EE) already running ..." try a display > 0
+
+  # detach from tmux shell
+  # Ctrl+b then d
+
+  # source env
+  source ~/alfred_env/bin/activate
+  
+  # set DISPLAY variable to match X server
+  export DISPLAY=:0
+
+  # check THOR
+  cd $ALFRED_ROOT
+  python scripts/check_thor.py
+
+  ###############
+  ## (300, 300, 3)
+  ## Everything works!!!
+```
+
+You might have to modify `X_DISPLAY` in [gen/constants.py](gen/constants.py) depending on which display you use.
 
 ## Cloud Instance
 
