@@ -11,7 +11,7 @@ from gen.utils.game_util import get_objects_of_type, get_obj_of_type_closest_to_
 
 
 DEFAULT_RENDER_SETTINGS = {'renderImage': True,
-                           'renderDepthImage': False,
+                           'renderDepthImage': True,
                            'renderClassImage': False,
                            'renderObjectImage': False,
                            }
@@ -103,6 +103,8 @@ class ThorEnv(Controller):
             visibility_distance=constants.VISIBILITY_DISTANCE,
             makeAgentsVisible=False,
         ))
+
+        
 
         if len(object_toggles) > 0:
             # TODO: problem here: the API has change on these two attributes.

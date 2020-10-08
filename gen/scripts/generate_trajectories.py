@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join('/home/jiasenl/code/alfred_new'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred_new', 'gen'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -24,6 +24,7 @@ from utils.dataset_management_util import load_successes_from_disk, load_fails_f
 # params
 RAW_IMAGES_FOLDER = 'raw_images/'
 DATA_JSON_FILENAME = 'traj_data.json'
+DEPTH_IMAGES_FOLDER = 'depth_images/'
 
 # video saver
 video_saver = VideoSaver()
@@ -429,7 +430,7 @@ def main(args):
     print("Loaded %d known failed tuples" % len(fail_traj))
 
     # create env and agent
-    env = ThorEnv()
+    env = ThorEnv(x_display='0.%d' %args.gpu_id)
 
     game_state = TaskGameStateFullKnowledge(env)
     agent = DeterministicPlannerAgent(thread_id=0, game_state=game_state)
@@ -647,8 +648,13 @@ def create_dirs(gtype, pickup_obj, movable_obj, receptacle_obj, scene_num):
     save_name = '%s-%s-%s-%s-%d' % (gtype, pickup_obj, movable_obj, receptacle_obj, scene_num) + '/' + task_id
 
     constants.save_path = os.path.join(constants.DATA_SAVE_PATH, save_name, RAW_IMAGES_FOLDER)
+    constants.save_depth_path = os.path.join(constants.DATA_SAVE_PATH, save_name, DEPTH_IMAGES_FOLDER)
+
     if not os.path.exists(constants.save_path):
         os.makedirs(constants.save_path)
+
+    if not os.path.exists(constants.save_depth_path):
+        os.makedirs(constants.save_depth_path)
 
     print("Saving images to: " + constants.save_path)
     return task_id
@@ -723,6 +729,7 @@ if __name__ == "__main__":
     parser.add_argument("--repeats_per_cond", type=int, default=3)
     parser.add_argument("--trials_before_fail", type=int, default=5)
     parser.add_argument("--async_load_every_n_samples", type=int, default=10)
+    parser.add_argument('--gpu_id', type=int, default=0)
 
     parse_args = parser.parse_args()
 

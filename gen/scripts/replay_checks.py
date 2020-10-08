@@ -2,8 +2,8 @@ import os
 import sys
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT']))
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred_new'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred_new', 'gen'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
 
 import argparse
 import json
@@ -18,7 +18,7 @@ JSON_FILENAME = "traj_data.json"
 
 
 def replay_check(args):
-    env = ThorEnv()
+    env = ThorEnv(x_display='0.%d' %args.gpu_id)
 
     # replay certificate filenames
     replay_certificate_filenames = ["replay.certificate.%d" % idx for idx in range(args.num_replays)]
@@ -185,6 +185,7 @@ if __name__ == "__main__":
                         help="whether to run this script with parallel generation scripts in mind")
     parser.add_argument('--reward_config', default='../models/config/rewards.json')
     parser.add_argument('--num_replays', type=int, default=2)
+    parser.add_argument('--gpu_id', type=int, default=0)
 
     args = parser.parse_args()
     replay_check(args)
