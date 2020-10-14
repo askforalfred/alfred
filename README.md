@@ -79,7 +79,9 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 
 ## Docker Setup
 
-Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker#ubuntu-160418042004-debian-jessiestretchbuster).
+Install [Docker](https://docs.docker.com/engine/install/ubuntu/) and [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker#ubuntu-160418042004-debian-jessiestretchbuster). 
+
+Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
 
 #### Build 
 
@@ -88,8 +90,6 @@ Build the image:
 ```bash
 $ python scripts/docker_build.py 
 ```
-
-Modify [docker_build.py](scripts/docker_build.py) and [docker_run.py](scripts/docker_run.py) to your needs.
 
 #### Run (Local)
 
