@@ -143,7 +143,7 @@ You might have to modify `X_DISPLAY` in [gen/constants.py](gen/constants.py) dep
 
 ALFRED can be setup on headless machines like AWS or GoogleCloud instances. 
 The main requirement is that you have access to a GPU machine that supports OpenGL rendering. Run [startx.py](scripts/startx.py) in a tmux shell:
-```
+```bash
 # start tmux session
 $ tmux new -s startx 
 
