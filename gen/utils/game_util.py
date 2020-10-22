@@ -334,7 +334,7 @@ def get_object_bounds_batch(boxes, scene_bounds):
     return obj_bounds
 
 
-def get_task_str(task_type_ind, object_ind, receptacle_ind=None, toggle_ind=None, mrecep_ind=None):
+def get_task_str(object_ind, receptacle_ind=None, toggle_ind=None, mrecep_ind=None):
     goal_str = constants.pddl_goal_type
     if constants.data_dict['pddl_params']['object_sliced']:
         goal_str += "_slice"
