@@ -111,7 +111,7 @@ class Module(Base):
 
                 # Modeling Quickstart (without filler frames)
                 if num_low_actions == num_feat_frames:
-                    feat['frames'] = im
+                    feat['frames'].append(im)
                 # Full Dataset (contains filler frames)
                 else:
                     keep = [None] * num_low_actions
@@ -119,7 +119,7 @@ class Module(Base):
                         # only add frames linked with low-level actions (i.e. skip filler frames like smooth rotations and dish washing)
                         if keep[d['low_idx']] is None:
                             keep[d['low_idx']] = im[i]
-                    keep.append(im[-1])  # stop frame
+                    keep[-1] = im[-1]  # stop frame
                     feat['frames'].append(torch.stack(keep, dim=0))
 
             #########
