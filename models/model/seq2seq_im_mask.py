@@ -106,19 +106,21 @@ class Module(Base):
                 root = self.get_task_root(ex)
                 im = torch.load(os.path.join(root, self.feat_pt))
 
-                num_low_actions = len(ex['plan']['low_actions'])
+                num_low_actions = len(ex['plan']['low_actions']) + 1  # +1 for additional stop action
                 num_feat_frames = im.shape[0]
 
-                if num_low_actions != num_feat_frames:
-                    keep = [None] * len(ex['plan']['low_actions'])
+                # Modeling Quickstart (without filler frames)
+                if num_low_actions == num_feat_frames:
+                    feat['frames'] = im
+                # Full Dataset (contains filler frames)
+                else:
+                    keep = [None] * num_low_actions
                     for i, d in enumerate(ex['images']):
                         # only add frames linked with low-level actions (i.e. skip filler frames like smooth rotations and dish washing)
                         if keep[d['low_idx']] is None:
                             keep[d['low_idx']] = im[i]
-                    keep.append(keep[-1])  # stop frame
+                    keep.append(im[-1])  # stop frame
                     feat['frames'].append(torch.stack(keep, dim=0))
-                else:
-                    feat['frames'].append(torch.cat([im, im[-1].unsqueeze(0)], dim=0))  # add stop frame
 
             #########
             # outputs
