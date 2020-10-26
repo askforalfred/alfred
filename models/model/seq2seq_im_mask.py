@@ -112,6 +112,7 @@ class Module(Base):
                 # Modeling Quickstart (without filler frames)
                 if num_low_actions == num_feat_frames:
                     feat['frames'].append(im)
+
                 # Full Dataset (contains filler frames)
                 else:
                     keep = [None] * num_low_actions
