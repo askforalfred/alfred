@@ -191,6 +191,9 @@ MIT License
 
 ## Change Log
 
+26/10/2020:
+- Fixed missing stop-frame in Modeling Quickstart dataset (`json_feat_2.1.0.zip`). 
+
 07/04/2020:
 - Updated download links. Switched from Google Cloud to AWS. Old download links will be deactivated.
 
