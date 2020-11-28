@@ -110,7 +110,9 @@ Images:
 ```
 
 **Note**: The [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) contains extracted Resnet features for each frame in `['images']
-`, whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx`. The indexes of `['turk_annotations']['anns']['high_descs']` are aligned with `high_idx`.
+`, whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx`. The indexes of `['turk_annotations']['anns']['high_descs']` are aligned with `high_idx`.  
+
+Use `--use_templated_goals` with [train_seq2seq.py](../models/train/train_seq2seq.py) to use templated goals instead of human-annotated goal descriptions. 
 
 ## Extracting Resnet Features
 

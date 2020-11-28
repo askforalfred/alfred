@@ -17,6 +17,10 @@ Mask prediction is an important part of the ALFRED challenge. Unlike non-interac
 
 The last 10 frames are copies of the features from the last image frame. 
 
+### Can I train with templated goal descriptions?
+
+Yes. Run the training script with `--use_templated_goals`.
+
 ### How do I get panoramic image observations?
 
 You can use [augment_trajectories.py](../gen/scripts/augment_trajectories.py) to replay all the trajectories and augment the visual observations. At each [step](https://github.com/askforalfred/alfred/blob/a88bafac23a21725087d5a7b484dfcadeef1c5dc/gen/scripts/augment_trajectories.py#L137), use the THOR API to look around and take 6-12 shots of the surrounding. Then stitch together these shots to create a panoramic image for each frame. You might have to set `'forceAction': True` for [smooth moveahead/rotate/look](https://github.com/askforalfred/alfred/blob/a88bafac23a21725087d5a7b484dfcadeef1c5dc/env/thor_env.py#L258). Note that getting panoramic images during test time would incur the additional cost of looking around with the agent.  

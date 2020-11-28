@@ -2,8 +2,8 @@ import copy
 import random
 import cv2
 import numpy as np
-import constants
-import goal_library as glib
+import gen.constants as constants
+import gen.goal_library as glib
 
 
 def get_pose(event):
@@ -344,6 +344,20 @@ def get_task_str(object_ind, receptacle_ind=None, toggle_ind=None, mrecep_ind=No
     tog = constants.OBJECTS[toggle_ind].lower() if toggle_ind is not None else ""
     mrecep = constants.OBJECTS[mrecep_ind].lower() if mrecep_ind is not None else ""
     filled_in_str = template.format(obj=obj, recep=recep, toggle=tog, mrecep=mrecep)
+    return filled_in_str
+
+
+def sample_templated_task_desc_from_traj_data(traj_data):
+    pddl_params = traj_data['pddl_params']
+    goal_str = traj_data['task_type']
+    if pddl_params['object_sliced']:
+        goal_str += "_slice"
+    template = random.choice(glib.gdict[goal_str]['templates'])
+    obj = pddl_params['object_target'].lower()
+    recep = pddl_params['parent_target'].lower()
+    toggle = pddl_params['toggle_target'].lower()
+    mrecep = pddl_params['mrecep_target'].lower()
+    filled_in_str = template.format(obj=obj, recep=recep, toggle=toggle, mrecep=mrecep)
     return filled_in_str
 
 

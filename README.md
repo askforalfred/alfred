@@ -191,6 +191,9 @@ MIT License
 
 ## Change Log
 
+28/10/2020:
+- Added `--use_templated_goals` option to train with templated goals instead of human-annotated goal descriptions.
+
 26/10/2020:
 - Fixed missing stop-frame in Modeling Quickstart dataset (`json_feat_2.1.0.zip`). 
 

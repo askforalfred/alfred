@@ -27,6 +27,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', help='model to use', default='seq2seq_im')
     parser.add_argument('--gpu', help='use gpu', action='store_true')
     parser.add_argument('--dout', help='where to save model', default='exp/model:{model}')
+    parser.add_argument('--use_templated_goals', help='use templated goals instead of human-annotated goal descriptions', action='store_true')
     parser.add_argument('--resume', help='load a checkpoint')
 
     # hyper parameters
