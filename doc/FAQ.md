@@ -24,3 +24,7 @@ Yes. Run the training script with `--use_templated_goals`.
 ### How do I get panoramic image observations?
 
 You can use [augment_trajectories.py](../gen/scripts/augment_trajectories.py) to replay all the trajectories and augment the visual observations. At each [step](https://github.com/askforalfred/alfred/blob/a88bafac23a21725087d5a7b484dfcadeef1c5dc/gen/scripts/augment_trajectories.py#L137), use the THOR API to look around and take 6-12 shots of the surrounding. Then stitch together these shots to create a panoramic image for each frame. You might have to set `'forceAction': True` for [smooth moveahead/rotate/look](https://github.com/askforalfred/alfred/blob/a88bafac23a21725087d5a7b484dfcadeef1c5dc/env/thor_env.py#L258). Note that getting panoramic images during test time would incur the additional cost of looking around with the agent.  
+
+### Why do `feat_conv.pt` in [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) contain fewer frames than in [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z)
+
+The [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) contains extracted Resnet features for each frame in `['images']` which include filler frames inbetween each low-action (used to generate smooth videos), whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx` that correspond to frames after taking each low-level action. 
