@@ -28,3 +28,7 @@ You can use [augment_trajectories.py](../gen/scripts/augment_trajectories.py) to
 ### Why do `feat_conv.pt` in [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) contain fewer frames than in [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z)
 
 The [Full Dataset](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/full_2.1.0.7z) contains extracted Resnet features for each frame in `['images']` which include filler frames inbetween each low-action (used to generate smooth videos), whereas [Modeling Quickstart](https://ai2-vision-alfred.s3-us-west-2.amazonaws.com/json_feat_2.1.0.7z) only contains features for each `low_idx` that correspond to frames after taking each low-level action. 
+
+### Can I train the model on a smaller dataset for quick debugging?
+
+Yes, run the training script with `--fast_epoch`.
