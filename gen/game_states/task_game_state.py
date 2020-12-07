@@ -281,7 +281,7 @@ class TaskGameState(PlannedGameState):
         if constants.pddl_goal_type == "look_at_obj_in_light":
             # choose a toggleable object
             self.parent_target = None
-
+            
             if constants.FORCED_SAMPLING or objs is None:
                 rand_chosen_toggle_object = random.choice(toggle_objects)
             else:

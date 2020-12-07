@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join(os.environ['ALFRED_ROOT']))
-sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -24,6 +24,7 @@ from utils.dataset_management_util import load_successes_from_disk, load_fails_f
 # params
 RAW_IMAGES_FOLDER = 'raw_images/'
 DATA_JSON_FILENAME = 'traj_data.json'
+DEPTH_IMAGES_FOLDER = 'depth_images/'
 
 # video saver
 video_saver = VideoSaver()
@@ -423,12 +424,13 @@ def main(args):
         print_successes(succ_traj)
         return
 
+    print(succ_traj.groupby('goal').count())
     # pre-populate failed trajectories.
     fail_traj = load_fails_from_disk(args.save_path)
     print("Loaded %d known failed tuples" % len(fail_traj))
 
     # create env and agent
-    env = ThorEnv()
+    env = ThorEnv(x_display='0.%d' %args.gpu_id)
 
     game_state = TaskGameStateFullKnowledge(env)
     agent = DeterministicPlannerAgent(thread_id=0, game_state=game_state)
@@ -458,7 +460,8 @@ def main(args):
 
     # main generation loop
     # keeps trying out new task tuples as trajectories either fail or suceed
-    while True:
+    # while True:
+    for _ in range(20):
 
         sampled_task = next(task_sampler)
         print(sampled_task)  # DEBUG
@@ -493,6 +496,7 @@ def main(args):
 
             # plan & execute
             try:
+            # if True:
                 # Agent reset to new scene.
                 constraint_objs = {'repeat': [(constants.OBJ_PARENTS[pickup_obj],  # Generate multiple parent objs.
                                                np.random.randint(2 if gtype == "pick_two_obj_and_place" else 1,
@@ -536,7 +540,7 @@ def main(args):
                                  'rotation': obj['rotation']}
                                 for obj in env.last_event.metadata['objects'] if obj['pickupable']]
                 dirty_and_empty = gtype == 'pick_clean_then_place_in_recep'
-                object_toggles = [{'objectType': o, 'isOn': v}
+                object_toggles = [{'objectType': o, 'stateChange': 'toggleable', 'isToggled': v}
                                   for o, v in constraint_objs['seton']]
                 constants.data_dict['scene']['object_poses'] = object_poses
                 constants.data_dict['scene']['dirty_and_empty'] = dirty_and_empty
@@ -559,7 +563,7 @@ def main(args):
 
                 dump_data_dict()
                 save_video()
-
+            # else:
             except Exception as e:
                 import traceback
                 traceback.print_exc()
@@ -644,8 +648,13 @@ def create_dirs(gtype, pickup_obj, movable_obj, receptacle_obj, scene_num):
     save_name = '%s-%s-%s-%s-%d' % (gtype, pickup_obj, movable_obj, receptacle_obj, scene_num) + '/' + task_id
 
     constants.save_path = os.path.join(constants.DATA_SAVE_PATH, save_name, RAW_IMAGES_FOLDER)
+    constants.save_depth_path = os.path.join(constants.DATA_SAVE_PATH, save_name, DEPTH_IMAGES_FOLDER)
+
     if not os.path.exists(constants.save_path):
         os.makedirs(constants.save_path)
+
+    if not os.path.exists(constants.save_depth_path):
+        os.makedirs(constants.save_depth_path)
 
     print("Saving images to: " + constants.save_path)
     return task_id
@@ -720,6 +729,7 @@ if __name__ == "__main__":
     parser.add_argument("--repeats_per_cond", type=int, default=3)
     parser.add_argument("--trials_before_fail", type=int, default=5)
     parser.add_argument("--async_load_every_n_samples", type=int, default=10)
+    parser.add_argument('--gpu_id', type=int, default=0)
 
     parse_args = parser.parse_args()
 

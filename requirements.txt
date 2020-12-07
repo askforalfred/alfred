@@ -7,7 +7,7 @@ tqdm
 vocab
 revtok
 Pillow
-torch==1.1.0
-torchvision==0.3.0
-tensorboardX==1.8
-ai2thor==2.1.0
+torch
+torchvision
+tensorboardX
+ai2thor

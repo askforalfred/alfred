@@ -339,7 +339,7 @@ def get_task_str(object_ind, receptacle_ind=None, toggle_ind=None, mrecep_ind=No
     if constants.data_dict['pddl_params']['object_sliced']:
         goal_str += "_slice"
     template = random.choice(glib.gdict[goal_str]['templates'])
-    obj = constants.OBJECTS[object_ind].lower()
+    obj = constants.OBJECTS[object_ind].lower() if object_ind is not None else ""
     recep = constants.OBJECTS[receptacle_ind].lower() if receptacle_ind is not None else ""
     tog = constants.OBJECTS[toggle_ind].lower() if toggle_ind is not None else ""
     mrecep = constants.OBJECTS[mrecep_ind].lower() if mrecep_ind is not None else ""

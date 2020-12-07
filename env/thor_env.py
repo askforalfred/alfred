@@ -11,7 +11,7 @@ from gen.utils.game_util import get_objects_of_type, get_obj_of_type_closest_to_
 
 
 DEFAULT_RENDER_SETTINGS = {'renderImage': True,
-                           'renderDepthImage': False,
+                           'renderDepthImage': True,
                            'renderClassImage': False,
                            'renderObjectImage': False,
                            }
@@ -26,12 +26,12 @@ class ThorEnv(Controller):
                  quality='MediumCloseFitShadows',
                  build_path=constants.BUILD_PATH):
 
-        super().__init__(quality=quality)
-        self.local_executable_path = build_path
-        self.start(x_display=x_display,
-                   player_screen_height=player_screen_height,
-                   player_screen_width=player_screen_width)
         self.task = None
+
+        super().__init__(quality=quality, 
+                        x_display=x_display, 
+                        height=player_screen_height, 
+                        width=player_screen_width)
 
         # internal states
         self.cleaned_objects = set()
@@ -103,16 +103,25 @@ class ThorEnv(Controller):
             visibility_distance=constants.VISIBILITY_DISTANCE,
             makeAgentsVisible=False,
         ))
-        if len(object_toggles) > 0:
-            super().step((dict(action='SetObjectToggles', objectToggles=object_toggles)))
 
+        
+
+        if len(object_toggles) > 0:
+            # TODO: problem here: the API has change on these two attributes.
+            for o in object_toggles:
+                super().step((dict(action='SetObjectStates', 
+                                SetObjectStates=o)))
+        
         if dirty_and_empty:
-            super().step(dict(action='SetStateOfAllObjects',
-                               StateChange="CanBeDirty",
-                               forceAction=True))
-            super().step(dict(action='SetStateOfAllObjects',
-                               StateChange="CanBeFilled",
-                               forceAction=False))
+            # TODO: problem here: the API also change on these two attributes.
+            
+            for o in object_poses:
+                super().step(dict(action='SetObjectStates',
+                    SetObjectStates={'objectType': o['objectName'].split('_')[0], 'stateChange': 'dirtyable', 'isDirty': True}))
+
+                super().step(dict(action='SetObjectStates',
+                    SetObjectStates={'objectType': o['objectName'].split('_')[0], 'stateChange': 'canFillWithLiquid', 'isFilledWithLiquid': False}))
+        
         super().step((dict(action='SetObjectPoses', objectPoses=object_poses)))
 
     def set_task(self, traj, args, reward_type='sparse', max_episode_length=2000):
@@ -126,22 +135,25 @@ class ThorEnv(Controller):
         '''
         overrides ai2thor.controller.Controller.step() for smooth navigation and goal_condition updates
         '''
-        if smooth_nav:
-            if "MoveAhead" in action['action']:
-                self.smooth_move_ahead(action)
-            elif "Rotate" in action['action']:
-                self.smooth_rotate(action)
-            elif "Look" in action['action']:
-                self.smooth_look(action)
+        if 'action' in action:
+            if smooth_nav:
+                if "MoveAhead" in action['action']:
+                    self.smooth_move_ahead(action)
+                elif "Rotate" in action['action']:
+                    self.smooth_rotate(action)
+                elif "Look" in action['action']:
+                    self.smooth_look(action)
+                else:
+                    super().step(action)
             else:
-                super().step(action)
+                if "LookUp" in action['action']:
+                    self.look_angle(-constants.AGENT_HORIZON_ADJ)
+                elif "LookDown" in action['action']:
+                    self.look_angle(constants.AGENT_HORIZON_ADJ)
+                else:
+                    super().step(action)
         else:
-            if "LookUp" in action['action']:
-                self.look_angle(-constants.AGENT_HORIZON_ADJ)
-            elif "LookDown" in action['action']:
-                self.look_angle(constants.AGENT_HORIZON_ADJ)
-            else:
-                super().step(action)
+            super().step(action)
 
         event = self.update_states(action)
         self.check_post_conditions(action)
@@ -151,8 +163,9 @@ class ThorEnv(Controller):
         '''
         handle special action post-conditions
         '''
-        if action['action'] == 'ToggleObjectOn':
-            self.check_clean(action['objectId'])
+        if 'action' in action:
+            if action['action'] == 'ToggleObjectOn':
+                self.check_clean(action['objectId'])
 
     def update_states(self, action):
         '''
@@ -162,20 +175,21 @@ class ThorEnv(Controller):
         event = self.last_event
         if event.metadata['lastActionSuccess']:
             # clean
-            if action['action'] == 'ToggleObjectOn' and "Faucet" in action['objectId']:
-                sink_basin = get_obj_of_type_closest_to_obj('SinkBasin', action['objectId'], event.metadata)
-                cleaned_object_ids = sink_basin['receptacleObjectIds']
-                self.cleaned_objects = self.cleaned_objects | set(cleaned_object_ids) if cleaned_object_ids is not None else set()
-            # heat
-            if action['action'] == 'ToggleObjectOn' and "Microwave" in action['objectId']:
-                microwave = get_objects_of_type('Microwave', event.metadata)[0]
-                heated_object_ids = microwave['receptacleObjectIds']
-                self.heated_objects = self.heated_objects | set(heated_object_ids) if heated_object_ids is not None else set()
-            # cool
-            if action['action'] == 'CloseObject' and "Fridge" in action['objectId']:
-                fridge = get_objects_of_type('Fridge', event.metadata)[0]
-                cooled_object_ids = fridge['receptacleObjectIds']
-                self.cooled_objects = self.cooled_objects | set(cooled_object_ids) if cooled_object_ids is not None else set()
+            if 'action' in action:
+                if action['action'] == 'ToggleObjectOn' and "Faucet" in action['objectId']:
+                    sink_basin = get_obj_of_type_closest_to_obj('SinkBasin', action['objectId'], event.metadata)
+                    cleaned_object_ids = sink_basin['receptacleObjectIds']
+                    self.cleaned_objects = self.cleaned_objects | set(cleaned_object_ids) if cleaned_object_ids is not None else set()
+                # heat
+                if action['action'] == 'ToggleObjectOn' and "Microwave" in action['objectId']:
+                    microwave = get_objects_of_type('Microwave', event.metadata)[0]
+                    heated_object_ids = microwave['receptacleObjectIds']
+                    self.heated_objects = self.heated_objects | set(heated_object_ids) if heated_object_ids is not None else set()
+                # cool
+                if action['action'] == 'CloseObject' and "Fridge" in action['objectId']:
+                    fridge = get_objects_of_type('Fridge', event.metadata)[0]
+                    cooled_object_ids = fridge['receptacleObjectIds']
+                    self.cooled_objects = self.cooled_objects | set(cooled_object_ids) if cooled_object_ids is not None else set()
 
         return event
 
