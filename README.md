@@ -46,6 +46,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 - [**Dataset**](data/): Downloading full dataset, Folder structure, JSON structure.
 - [**Models**](models/): Training and Evaluation, File structure, Pre-trained models.
 - [**Data Generation**](gen/): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
+- [**Errata**](models/ERRATA.md): Updated numbers for Goto subgoal evaluation.
 - [**FAQ**](doc/FAQ.md): Frequently Asked Questions. 
 
 ## Prerequisites
@@ -192,6 +193,9 @@ If you find the dataset or code useful, please cite:
 MIT License
 
 ## Change Log
+
+14/10/2020:
+- Added [errata](models/ERRATA.md) for `Goto` subgoal evaluation. 
 
 28/10/2020:
 - Added `--use_templated_goals` option to train with templated goals instead of human-annotated goal descriptions.
