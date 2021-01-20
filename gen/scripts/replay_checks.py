@@ -12,12 +12,24 @@ import shutil
 import time
 from env.thor_env import ThorEnv
 from utils.replay_json import replay_json
+import multiprocessing as mp
+import time
 
 
 JSON_FILENAME = "traj_data.json"
 
 
-def replay_check(args):
+def parallel_replay_check(args):
+    procs = [mp.Process(target=replay_check, args=(args, thread_num)) for thread_num in range(args.num_threads)]
+    try:
+        for proc in procs:
+            proc.start()
+            time.sleep(0.1)
+    finally:
+        for proc in procs:
+            proc.join()
+
+def replay_check(args, thread_num=0):
     env = ThorEnv(x_display='0.%d' %args.gpu_id)
 
     # replay certificate filenames
@@ -31,11 +43,15 @@ def replay_check(args):
     continue_check = True
     total_checks, total_failures, crash_fails, unsat_fails, json_fails, nondet_fails = 0, 0, 0, 0, 0, 0
     errors = {}  # map from error strings to counts, to be shown after every failure.
+    total_threads = args.total_gpu * args.num_threads
+    current_threads = args.gpu_id * args.num_threads + thread_num
+
     while continue_check:
 
         # Crawl the directory of trajectories and vet ones with no certificate.
         failure_list = []
         valid_dirs = []
+        count = 0
         for dir_name, subdir_list, file_list in os.walk(args.data_path):
             if "trial_" in dir_name and (not "raw_images" in dir_name) and (not "pddl_states" in dir_name):
                 json_file = os.path.join(dir_name, JSON_FILENAME)
@@ -50,10 +66,13 @@ def replay_check(args):
                             os.system("rm %s" % certificate_file)
                     continue
 
-                valid_dirs.append(dir_name)
-
+                if count % total_threads == current_threads:
+                    valid_dirs.append(dir_name)
+                count += 1
+                
+        print(len(valid_dirs)) 
         np.random.shuffle(valid_dirs)
-        for dir_name in valid_dirs:
+        for ii, dir_name in enumerate(valid_dirs):
 
             if not os.path.exists(dir_name):
                 continue
@@ -74,6 +93,7 @@ def replay_check(args):
             if already_checked:
                 continue
 
+            print(ii)
             if not os.path.isfile(certificate_file):
                 total_checks += 1. / args.num_replays
                 failed = False
@@ -184,8 +204,14 @@ if __name__ == "__main__":
     parser.add_argument("--in_parallel", dest='in_parallel', action='store_true',
                         help="whether to run this script with parallel generation scripts in mind")
     parser.add_argument('--reward_config', default='../models/config/rewards.json')
-    parser.add_argument('--num_replays', type=int, default=2)
+    parser.add_argument('--num_replays', type=int, default=1)
     parser.add_argument('--gpu_id', type=int, default=0)
-
+    parser.add_argument('--total_gpu', type=int, default=8)
+    parser.add_argument('--num_threads', type=int, default=0)
     args = parser.parse_args()
-    replay_check(args)
+
+    if args.num_threads > 1:
+        parallel_replay_check(args)
+    else:
+        replay_check(args)
+

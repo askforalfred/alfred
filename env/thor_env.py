@@ -4,6 +4,7 @@ import gen.constants as constants
 import numpy as np
 from collections import Counter, OrderedDict
 from env.tasks import get_task
+import ai2thor
 from ai2thor.controller import Controller
 import gen.utils.image_util as image_util
 from gen.utils import game_util
@@ -31,7 +32,8 @@ class ThorEnv(Controller):
         super().__init__(quality=quality, 
                         x_display=x_display, 
                         height=player_screen_height, 
-                        width=player_screen_width)
+                        width=player_screen_width,
+                        depth_format=ai2thor.server.DepthFormat.Normalized)
 
         # internal states
         self.cleaned_objects = set()

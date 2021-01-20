@@ -323,12 +323,12 @@ class TaskGameStateFullKnowledge(TaskGameState):
                 action['forceVisible'] = forceVisible
                 should_fail = False
         elif action['action'] == 'CleanObject':
-            action['objectId'] = action['receptacleObjectId']
             action['cleanObjectId'] = action['objectId']
+            # action['objectId'] = action['objectId']
             action['forceVisible'] = forceVisible
             should_fail = False
         elif action['action'] in {'HeatObject', 'CoolObject'}:
-            action['objectId'] = action['receptacleObjectId']
+            # action['objectId'] = action['receptacleObjectId']
             action['forceVisible'] = forceVisible
             should_fail = False
         return action, should_fail

@@ -12,7 +12,7 @@ from utils import game_util
 from utils.py_util import SetWithGet
 from utils.image_util import compress_mask
 
-MAX_DEPTH = 5
+MAX_DEPTH = 1
 
 class GameStateBase(object):
     static_action_space = [
@@ -140,10 +140,10 @@ class GameStateBase(object):
                     for o, c in objs['empty']:
                         free_per_receptacle.append({'objectType': o, 'count': c})
             self.env.step(dict(action='InitialRandomSpawn', randomSeed=seed, forceVisible=False,
-                               numRepeats=[{'objectType': o, 'count': c}
+                               numDuplicatesOfType=[{'objectType': o, 'count': c}
                                            for o, c in objs['repeat']]
                                if objs is not None and 'repeat' in objs else None,
-                               minFreePerReceptacleType=free_per_receptacle if objs is not None else None
+                               excludedReceptacles=[obj['objectType'] for obj in free_per_receptacle]
                                ))
 
             # if 'clean' action, make everything dirty and empty out fillable things
@@ -729,7 +729,7 @@ class GameStateBase(object):
 
                         # close and cool the object inside the frige
                         cool_action = dict(action='CloseObject',
-                                           objectId=action['objectId'])
+                                           objectId=action['receptacleObjectId'])
                         self.store_ll_action(cool_action)
                         self.save_act_image(action, dir=constants.BEFORE)
                         self.event = self.env.step(cool_action)
