@@ -268,7 +268,7 @@ class GameStateBase(object):
             discrete_action['args']['point'] = point
             discrete_action['args']['mask'] = mask
         elif 'PutObject' in a_type:
-            bbox, point, mask = self.get_bbox_point_mask(action['receptacleObjectId'])
+            bbox, point, mask = self.get_bbox_point_mask(action['objectId'])
             discrete_action['action'] = "PutObject"
             discrete_action['args']['bbox'] = bbox
             discrete_action['args']['point'] = point
@@ -567,8 +567,7 @@ class GameStateBase(object):
 
                         # put the object
                         put_action = dict(action=action['action'],
-                                          objectId=action['objectId'],
-                                          receptacleObjectId=action['receptacleObjectId'],
+                                          objectId=action['receptacleObjectId'],
                                           forceAction=True,
                                           placeStationary=True)
                         self.store_ll_action(put_action)
@@ -590,8 +589,7 @@ class GameStateBase(object):
                         sink_obj_id = self.get_some_visible_obj_of_name('SinkBasin')['objectId']
                         inv_obj = self.env.last_event.metadata['inventoryObjects'][0]
                         put_action = dict(action='PutObject',
-                                          objectId=inv_obj['objectId'],
-                                          receptacleObjectId=sink_obj_id,
+                                          objectId=sink_obj_id,
                                           forceAction=True,
                                           placeStationary=True)
                         self.store_ll_action(put_action)
@@ -655,8 +653,7 @@ class GameStateBase(object):
                         # put the object in the microwave
                         inv_obj = self.env.last_event.metadata['inventoryObjects'][0]
                         put_action = dict(action='PutObject',
-                                          objectId=inv_obj['objectId'],
-                                          receptacleObjectId=microwave_obj_id,
+                                          objectId=microwave_obj_id,
                                           forceAction=True,
                                           placeStationary=True)
                         self.store_ll_action(put_action)
@@ -716,8 +713,7 @@ class GameStateBase(object):
                         # put the object in the fridge
                         inv_obj = self.env.last_event.metadata['inventoryObjects'][0]
                         put_action = dict(action='PutObject',
-                                          objectId=inv_obj['objectId'],
-                                          receptacleObjectId=fridge_obj_id,
+                                          objectId=fridge_obj_id,
                                           forceAction=True,
                                           placeStationary=True)
                         self.store_ll_action(put_action)

@@ -2,8 +2,8 @@ import os
 import sys
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT']))
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred', 'gen'))
 
 import argparse
 import json
@@ -30,7 +30,7 @@ def parallel_replay_check(args):
             proc.join()
 
 def replay_check(args, thread_num=0):
-    env = ThorEnv(x_display='0.%d' %args.gpu_id)
+    env = ThorEnv(x_display='0.%d' %(thread_num % args.total_gpu))
 
     # replay certificate filenames
     replay_certificate_filenames = ["replay.certificate.%d" % idx for idx in range(args.num_replays)]
@@ -207,7 +207,7 @@ if __name__ == "__main__":
     parser.add_argument('--num_replays', type=int, default=1)
     parser.add_argument('--gpu_id', type=int, default=0)
     parser.add_argument('--total_gpu', type=int, default=8)
-    parser.add_argument('--num_threads', type=int, default=0)
+    parser.add_argument('--num_threads', type=int, default=8)
     args = parser.parse_args()
 
     if args.num_threads > 1:

@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -387,7 +387,7 @@ def main(args, thread_num=0):
 
     print(thread_num)
     # settings
-    alfred_dataset_path = '/home/jiasenl/code/alfred/data/json_2.1.0/valid_seen'
+    alfred_dataset_path = '../data/json_2.1.0/train'
 
     constants.DATA_SAVE_PATH = args.save_path
     print("Force Unsave Data: %s" % str(args.force_unsave))
@@ -465,12 +465,19 @@ def main(args, thread_num=0):
     # main generation loop
     # keeps trying out new task tuples as trajectories either fail or suceed
     while True:
+        # if True:
+        #     if True:
     # for _ in range(20):
         for ii, json_path in enumerate(glob.iglob(os.path.join(alfred_dataset_path, "**", "traj_data.json"), recursive=True)):
             if ii % args.num_threads == thread_num:
+            # if ii == 5:
                 sampled_task = json_path.split('/')[-3].split('-')
                 # sampled_task = next(task_sampler)
+                # print("===============")
+                # print(ii, json_path)
                 print(sampled_task)  # DEBUG
+                # print("===============")
+
                 if sampled_task is None:
                     sys.exit("No valid tuples left to sample (all are known to fail or already have %d trajectories" %
                             args.repeats_per_cond)
@@ -735,7 +742,7 @@ if __name__ == "__main__":
 
     # params
     parser.add_argument("--repeats_per_cond", type=int, default=3)
-    parser.add_argument("--trials_before_fail", type=int, default=10)
+    parser.add_argument("--trials_before_fail", type=int, default=5)
     parser.add_argument("--async_load_every_n_samples", type=int, default=10)
     parser.add_argument('--gpu_id', type=int, default=0)
     

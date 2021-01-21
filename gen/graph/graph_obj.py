@@ -325,10 +325,10 @@ class Graph(object):
         start_angle = start_pose[3]
         if start_angle > 180:
             start_angle -= 360
-        if start_angle != 45:  # pitch angle
+        if start_angle != 30:  # pitch angle
             # Perform initial tilt to get to 45 degrees.
             tilt_pose = [pp for pp in start_pose]
-            tilt_pose[3] = 45
+            tilt_pose[3] = 30
             tilt_actions, _ = self.get_shortest_path(start_pose, tilt_pose)
             for action in tilt_actions:
                 game_state.step(action)

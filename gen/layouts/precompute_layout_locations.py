@@ -3,8 +3,8 @@ import os
 import threading
 import time
 import sys
-sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred'))
+sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred', 'gen'))
 import cv2
 import numpy as np
 
@@ -111,11 +111,10 @@ def get_mask_of_obj(env, object_id):
         return None
 
 
-def run():
+def run(thread_num):
     print(all_scene_numbers)
     # create env and agent
-    env = ThorEnv(build_path=constants.BUILD_PATH,
-                               quality='Low')
+    env = ThorEnv(build_path=constants.BUILD_PATH, x_display='0.%d' %(thread_num % 8), quality='Low')
     while len(all_scene_numbers) > 0:
         lock.acquire()
         scene_num = all_scene_numbers.pop()
@@ -274,8 +273,7 @@ def run():
                                             # We can open the object, so try placing our small inventory obj inside.
                                             # If it can be placed inside and retrieved, then this is a safe point.
                                             action = {'action': 'PutObject',
-                                                      'objectId': inv_obj,
-                                                      'receptacleObjectId': obj['objectId'],
+                                                      'objectId': obj['objectId'],
                                                       'forceAction': True,
                                                       'placeStationary': True}
                                             if inv_obj:
@@ -346,7 +344,7 @@ def run():
 
 threads = []
 for n in range(N_PROCS):
-    thread = threading.Thread(target=run)
+    thread = threading.Thread(target=run, args=(n,))
     threads.append(thread)
     thread.start()
     time.sleep(1)
