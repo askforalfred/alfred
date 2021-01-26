@@ -53,7 +53,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 ## SOTA Models
 
-Models that outperform the Seq2Seq baselines from ALFRED:  
+Publicly-open models that outperform the Seq2Seq baselines from ALFRED:  
 <br>
 <b> MOCA: A Modular Object-Centric Approach for Interactive Instruction Following </b>
 <br>
