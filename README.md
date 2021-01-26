@@ -11,6 +11,8 @@ For the latest updates, see: [**askforalfred.com**](https://askforalfred.com)
 
 ![](media/instr_teaser.png)
 
+**What more?** Checkout [ALFWorld](https://github.com/alfworld/alfworld) – interactive TextWorld environments for ALFRED scenes!
+
 ## Quickstart
 
 Clone repo:
@@ -48,6 +50,22 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 - [**Data Generation**](gen/): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
 - [**Errata**](models/ERRATA.md): Updated numbers for Goto subgoal evaluation.
 - [**FAQ**](doc/FAQ.md): Frequently Asked Questions. 
+
+## SOTA Models
+
+A curated list of models that outperform the Seq2Seq baseline models from ALFRED:  
+<br>
+<b> MOCA: A Modular Object-Centric Approach for Interactive Instruction Following </b>
+<br>
+<a href="https://kunalmessi10.github.io/"> Kunal Pratap Singh* </a>,
+<a href="https://www.linkedin.com/in/suvaansh-bhambri-1784bab7/"> Suvaansh Bhambri* </a>,
+<a href="https://bhkim94.github.io/"> Byeonghwi Kim* </a>,
+<a href="http://roozbehm.info/"> Roozbeh Mottaghi </a>,
+<a href="http://ppolon.github.io/"> Jonghyun Choi </a>
+<br>
+<a href="https://arxiv.org/abs/2012.03208"> Paper</a>, <a href="https://github.com/gistvision/moca"> Code </a>
+
+Contact [Mohit](https://mohitshridhar.com/) to add your model here. 
 
 ## Prerequisites
 
