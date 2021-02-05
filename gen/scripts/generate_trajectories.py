@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred'))
-sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred', 'gen'))
+sys.path.append(os.path.join('/Users/jiasenl/Code/alfred'))
+sys.path.append(os.path.join('/Users/jiasenl/Code/alfred', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -469,8 +469,7 @@ def main(args, thread_num=0):
         #     if True:
     # for _ in range(20):
         for ii, json_path in enumerate(glob.iglob(os.path.join(alfred_dataset_path, "**", "traj_data.json"), recursive=True)):
-            if ii % args.num_threads == thread_num:
-            # if ii == 5:
+            if ii % args.num_threads == thread_num and ii >= 3:
                 sampled_task = json_path.split('/')[-3].split('-')
                 # sampled_task = next(task_sampler)
                 # print("===============")
