@@ -2,8 +2,8 @@ import os
 import sys
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT']))
 # sys.path.append(os.path.join(os.environ['ALFRED_ROOT'], 'gen'))
-sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred'))
-sys.path.append(os.path.join('/mnt/raid00/jiasen/alfred', 'gen'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
+sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
 
 import argparse
 import json
@@ -206,8 +206,8 @@ if __name__ == "__main__":
     parser.add_argument('--reward_config', default='../models/config/rewards.json')
     parser.add_argument('--num_replays', type=int, default=1)
     parser.add_argument('--gpu_id', type=int, default=0)
-    parser.add_argument('--total_gpu', type=int, default=8)
-    parser.add_argument('--num_threads', type=int, default=8)
+    parser.add_argument('--total_gpu', type=int, default=2)
+    parser.add_argument('--num_threads', type=int, default=2)
     args = parser.parse_args()
 
     if args.num_threads > 1:

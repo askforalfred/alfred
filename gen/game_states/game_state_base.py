@@ -112,7 +112,7 @@ class GameStateBase(object):
 
         if scene is not None:
             self.scene_num = scene['scene_num']
-            seed = scene['random_seed']
+            seed = scene['random_seed'] % 1000000
 
         self.scene_name = 'FloorPlan%d' % self.scene_num
         self.event = self.env.reset(self.scene_name)
@@ -165,7 +165,7 @@ class GameStateBase(object):
         self.gt_graph = graph_obj.Graph(use_gt=True, construct_graph=True, scene_id=self.scene_num)
 
         if seed is not None:
-            self.local_random.seed(seed)
+            self.local_random.seed(seed) 
             print('set seed in game_state_base reset', seed)
 
         self.bounds = np.array([self.gt_graph.xMin, self.gt_graph.yMin,
