@@ -444,8 +444,7 @@ class ThorEnv(Controller):
         elif "PutObject" in action:
             inventory_object_id = self.last_event.metadata['inventoryObjects'][0]['objectId']
             action = dict(action="PutObject",
-                          objectId=inventory_object_id,
-                          receptacleObjectId=object_id,
+                          objectId=object_id,
                           forceAction=True,
                           placeStationary=True)
             event = self.step(action)
