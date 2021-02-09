@@ -1,7 +1,7 @@
 import os
 import sys
-sys.path.append(os.path.join('/home/jiasenl/code/alfred'))
-sys.path.append(os.path.join('/home/jiasenl/code/alfred', 'gen'))
+sys.path.append(os.path.join('/Users/jiasenl/Code/alfred'))
+sys.path.append(os.path.join('/Users/jiasenl/Code/alfred', 'gen'))
 
 import time
 import multiprocessing as mp
@@ -746,7 +746,7 @@ if __name__ == "__main__":
     
     parse_args = parser.parse_args()
 
-    if parse_args.in_parallel and parse_args.num_threads > 1:
-        parallel_main(parse_args)
-    else:
-        main(parse_args)
+    # if parse_args.in_parallel and parse_args.num_threads > 1:
+    #     parallel_main(parse_args)
+    # else:
+    main(parse_args)
