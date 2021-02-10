@@ -12,7 +12,7 @@ import constants
 from utils import game_util
 from env.thor_env import ThorEnv
 
-N_PROCS = 20
+N_PROCS = 1
 
 lock = threading.Lock()
 all_scene_numbers = sorted(constants.TRAIN_SCENE_NUMBERS + constants.TEST_SCENE_NUMBERS, reverse=True)
