@@ -139,7 +139,7 @@ class GameStateBase(object):
                 if 'empty' in objs:
                     for o, c in objs['empty']:
                         free_per_receptacle.append({'objectType': o, 'count': c})
-            self.env.step(dict(action='InitialRandomSpawn', randomSeed=seed, forceVisible=False,
+            self.env.step(dict(action='InitialRandomSpawn', randomSeed=seed, forceVisible=True,
                                numDuplicatesOfType=[{'objectType': o, 'count': c}
                                            for o, c in objs['repeat']]
                                if objs is not None and 'repeat' in objs else None,

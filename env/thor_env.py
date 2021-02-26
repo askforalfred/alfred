@@ -32,8 +32,7 @@ class ThorEnv(Controller):
         super().__init__(quality=quality, 
                         x_display=x_display, 
                         height=player_screen_height, 
-                        width=player_screen_width,
-                        depth_format=ai2thor.server.DepthFormat.Normalized)
+                        width=player_screen_width)
 
         # internal states
         self.cleaned_objects = set()
@@ -64,7 +63,6 @@ class ThorEnv(Controller):
         event = super().step(dict(
             action='Initialize',
             gridSize=grid_size,
-            cameraY=camera_y,
             renderImage=render_image,
             renderDepthImage=render_depth_image,
             renderClassImage=render_class_image,
@@ -97,7 +95,6 @@ class ThorEnv(Controller):
         super().step(dict(
             action='Initialize',
             gridSize=constants.AGENT_STEP_SIZE / constants.RECORD_SMOOTHING_FACTOR,
-            cameraY=constants.CAMERA_HEIGHT_OFFSET,
             renderImage=constants.RENDER_IMAGE,
             renderDepthImage=constants.RENDER_DEPTH_IMAGE,
             renderClassImage=constants.RENDER_CLASS_IMAGE,
@@ -116,7 +113,6 @@ class ThorEnv(Controller):
         
         if dirty_and_empty:
             # TODO: problem here: the API also change on these two attributes.
-            
             for o in object_poses:
                 super().step(dict(action='SetObjectStates',
                     SetObjectStates={'objectType': o['objectName'].split('_')[0], 'stateChange': 'dirtyable', 'isDirty': True}))
