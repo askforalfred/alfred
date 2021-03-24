@@ -92,7 +92,9 @@ $ python models/eval/leaderboard.py --model_path <model_path>/model.pth --model 
 
 This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [AI2 ALFRED Leaderboard](https://leaderboard.allenai.org/alfred/submissions/public). For rules and restrictions, see the [getting started page](https://leaderboard.allenai.org/alfred/submissions/get-started).  
 
-**Note:** You are only allowed to use **RGB** and **language instructions (goal & step-by-step)** as input for your agents. You **cannot use additional depth, mask, metadata info etc.** from the simulator on Test Seen and Test Unseen scenes. However, during training you are allowed to use additional info for auxiliary losses etc.
+**Note:** 
+1. You are only allowed to use **RGB** and **language instructions (goal & step-by-step)** as input for your agents. You **cannot use additional depth, mask, metadata info etc.** from the simulator on Test Seen and Test Unseen scenes. However, during training you are allowed to use additional info for auxiliary losses etc.
+2. During evaluation, agents are restricted to `max_steps=1000` and `max_fails=10`. Do not change these settings in the [leaderboard script](https://github.com/askforalfred/alfred/blob/master/models/eval/leaderboard.py); these modifications will not be reflected in the evaluation server.
 
 ## Docker Setup
 
