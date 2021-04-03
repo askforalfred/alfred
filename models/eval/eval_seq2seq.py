@@ -28,6 +28,7 @@ if __name__ == '__main__':
     parser.add_argument('--preprocess', dest='preprocess', action='store_true')
     parser.add_argument('--shuffle', dest='shuffle', action='store_true')
     parser.add_argument('--gpu', dest='gpu', action='store_true')
+    parser.add_argument('--use_templated_goals', help='use templated goals instead of human-annotated goal descriptions (only available for train set)', action='store_true')
     parser.add_argument('--num_threads', type=int, default=1)
 
     # eval params
