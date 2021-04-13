@@ -49,6 +49,7 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 - [**Models**](models/): Training and Evaluation, File structure, Pre-trained models.
 - [**Data Generation**](gen/): Generation, Replay Checks, Data Augmentation (high-res, depth, segementation masks etc).
 - [**Errata**](models/ERRATA.md): Updated numbers for Goto subgoal evaluation.
+- [**THOR 2.1.0 Docs**](https://allenai.github.io/ai2thor-v2.1.0-documentation/installation): Deprecated documentation from Ai2-THOR 2.1.0 release.
 - [**FAQ**](doc/FAQ.md): Frequently Asked Questions. 
 
 ## SOTA Models
