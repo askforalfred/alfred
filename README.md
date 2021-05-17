@@ -56,11 +56,17 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 Open-source models that outperform the Seq2Seq baselines from ALFRED:  
 <br>
+<b> Episodic Transformer for Vision-and-Language Navigation </b>
+<br>
+Alexander Pashevich, Cordelia Schmid, Chen Sun
+<br>
+<a href="https://arxiv.org/pdf/2105.06453.pdf"> Paper</a>, <a href="https://github.com/alexpashevich/E.T."> Code </a>
+
 <b> MOCA: A Modular Object-Centric Approach for Interactive Instruction Following </b>
 <br>
 Kunal Pratap Singh*, Suvaansh Bhambri*, Byeonghwi Kim*, Roozbeh Mottaghi, Jonghyun Choi
 <br>
-<a href="https://arxiv.org/abs/2012.03208"> Paper</a>, <a href="https://github.com/gistvision/moca"> Code </a>
+<a href="https://arxiv.org/abs/2012.03208"> Paper</a>, <a href="https://github.com/gistvision/moca"> Code </a>  
 
 Contact [Mohit](https://mohitshridhar.com/) to add your model here. 
 
