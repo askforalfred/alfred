@@ -62,7 +62,6 @@ class PickupObjectAction(BaseAction):
 
     valid_actions = {'PickupObject', 'OpenObject', 'CloseObject'}
 
-
     def get_reward(self, state, prev_state, expert_plan, goal_idx):
         if state.metadata['lastAction'] not in self.valid_actions:
             reward, done = self.rewards['invalid_action'], False
@@ -75,7 +74,7 @@ class PickupObjectAction(BaseAction):
             inv_object_id = state.metadata['inventoryObjects'][0]['objectId']
             goal_object_id = subgoal['objectId']
 
-            # doesn't matter which slice you pickups
+            # doesn't matter which slice you pick up
             def remove_slice_postfix(object_id):
                 return object_id.split("Sliced")[0]
 
