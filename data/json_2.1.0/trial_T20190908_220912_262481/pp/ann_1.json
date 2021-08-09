@@ -1,0 +1,556 @@
+{
+    "ann": {
+        "goal": [
+            " to ",
+            " move ",
+            " two ",
+            " newspapers ",
+            " to ",
+            " the ",
+            " chair ",
+            " on ",
+            " the ",
+            " side ",
+            " of ",
+            " the ",
+            " room ",
+            ". ",
+            "<<goal>>"
+        ],
+        "instr": [
+            [
+                " turn ",
+                " around ",
+                " and ",
+                " step ",
+                " forward ",
+                " to ",
+                " face ",
+                " the ",
+                " living ",
+                " room ",
+                " table ",
+                ". "
+            ],
+            [
+                " pick ",
+                " up ",
+                " the ",
+                " newspaper ",
+                " on ",
+                " the ",
+                " living ",
+                " room ",
+                " table ",
+                ". "
+            ],
+            [
+                " turn ",
+                " right ",
+                " and ",
+                " step ",
+                " forward ",
+                " to ",
+                " face ",
+                " the ",
+                " chair ",
+                ". "
+            ],
+            [
+                " place ",
+                " the ",
+                " newspaper ",
+                " in ",
+                " the ",
+                " chair ",
+                ". "
+            ],
+            [
+                " take ",
+                " a ",
+                " step ",
+                " to ",
+                " the ",
+                " left ",
+                " to ",
+                " face ",
+                " the ",
+                " table ",
+                " to ",
+                " the ",
+                " left ",
+                " of ",
+                " the ",
+                " chair ",
+                ". "
+            ],
+            [
+                " pick ",
+                " up ",
+                " the ",
+                " newspaper ",
+                " on ",
+                " the ",
+                " table ",
+                ". "
+            ],
+            [
+                " take ",
+                " a ",
+                " step ",
+                " to ",
+                " the ",
+                " right ",
+                " to ",
+                " face ",
+                " the ",
+                " chair ",
+                ". "
+            ],
+            [
+                " place ",
+                " the ",
+                " newspaper ",
+                " next ",
+                " to ",
+                " the ",
+                " first ",
+                " newspaper ",
+                " in ",
+                " the ",
+                " chair ",
+                ". "
+            ],
+            [
+                "<<stop>>"
+            ]
+        ],
+        "repeat_idx": 1
+    },
+    "num": {
+        "lang_goal": [
+            18,
+            17,
+            105,
+            618,
+            18,
+            4,
+            78,
+            15,
+            4,
+            20,
+            21,
+            4,
+            165,
+            16,
+            2
+        ],
+        "lang_instr": [
+            [
+                24,
+                25,
+                26,
+                201,
+                144,
+                18,
+                39,
+                4,
+                372,
+                165,
+                60,
+                16
+            ],
+            [
+                22,
+                23,
+                4,
+                566,
+                15,
+                4,
+                372,
+                165,
+                60,
+                16
+            ],
+            [
+                24,
+                38,
+                26,
+                201,
+                144,
+                18,
+                39,
+                4,
+                78,
+                16
+            ],
+            [
+                10,
+                4,
+                566,
+                11,
+                4,
+                78,
+                16
+            ],
+            [
+                69,
+                35,
+                201,
+                18,
+                4,
+                19,
+                18,
+                39,
+                4,
+                60,
+                18,
+                4,
+                19,
+                21,
+                4,
+                78,
+                16
+            ],
+            [
+                22,
+                23,
+                4,
+                566,
+                15,
+                4,
+                60,
+                16
+            ],
+            [
+                69,
+                35,
+                201,
+                18,
+                4,
+                38,
+                18,
+                39,
+                4,
+                78,
+                16
+            ],
+            [
+                10,
+                4,
+                566,
+                73,
+                18,
+                4,
+                134,
+                566,
+                11,
+                4,
+                78,
+                16
+            ],
+            [
+                34
+            ]
+        ]
+    },
+    "repeat_idx": 1,
+    "root": "data/json_2.1.0/trial_T20190908_220912_262481",
+    "scene": {
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan226",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": 0.0,
+            "y": 0.9009992,
+            "z": -1.0
+        },
+        "object_poses": [
+            {
+                "objectName": "Watch_d51f12e3",
+                "position": {
+                    "x": 1.89166594,
+                    "y": 0.87074,
+                    "z": 0.6438309
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_d51f12e3",
+                "position": {
+                    "x": -0.5826199,
+                    "y": 0.360370934,
+                    "z": -0.6096846
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_2d006f19",
+                "position": {
+                    "x": 1.76616693,
+                    "y": 0.868831158,
+                    "z": 0.5378872
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_2d006f19",
+                "position": {
+                    "x": -0.4112807,
+                    "y": 0.550831139,
+                    "z": -0.451175064
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_61ccf647",
+                "position": {
+                    "x": -1.10014164,
+                    "y": 0.3596269,
+                    "z": -0.609686136
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "CreditCard_61ccf647",
+                "position": {
+                    "x": 1.52240634,
+                    "y": 0.277996,
+                    "z": -0.435964435
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_a8fff04d",
+                "position": {
+                    "x": 1.84983289,
+                    "y": 0.8720731,
+                    "z": 0.326
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_a8fff04d",
+                "position": {
+                    "x": -0.323859274,
+                    "y": 0.3586904,
+                    "z": -0.5449213
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99983,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Box_5386643f",
+                "position": {
+                    "x": 1.724,
+                    "y": 0.202,
+                    "z": 0.44
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 9.539609,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "KeyChain_41d57854",
+                "position": {
+                    "x": -0.3238581,
+                    "y": 0.361217916,
+                    "z": -0.15269652
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Watch_d51f12e3",
+                "position": {
+                    "x": -0.323858261,
+                    "y": 0.0380124934,
+                    "z": -0.185077712
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Newspaper_2d006f19",
+                "position": {
+                    "x": -0.2609204,
+                    "y": 0.550831139,
+                    "z": -0.278827131
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Pillow_b7deebb6",
+                "position": {
+                    "x": 0.151,
+                    "y": 0.561,
+                    "z": -1.794
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 45.3188744
+                }
+            },
+            {
+                "objectName": "CreditCard_61ccf647",
+                "position": {
+                    "x": -0.9223329,
+                    "y": 0.293995976,
+                    "z": -1.77111959
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "RemoteControl_a8fff04d",
+                "position": {
+                    "x": 1.80800009,
+                    "y": 0.8712341,
+                    "z": 0.114112765
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Laptop_06e40200",
+                "position": {
+                    "x": -0.981,
+                    "y": 0.530805051,
+                    "z": -0.37
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 33.8213844,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_27538585",
+                "position": {
+                    "x": -0.5616398,
+                    "y": 0.562063932,
+                    "z": -0.192652091
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0001673396,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Statue_fc6362d8",
+                "position": {
+                    "x": -0.561640739,
+                    "y": 0.562063932,
+                    "z": -0.537348747
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.000183,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 2867619879,
+        "scene_num": 226
+    },
+    "split": "tests_unseen",
+    "task_id": "trial_T20190908_220912_262481",
+    "turk_annotations": {
+        "anns": [
+            {
+                "high_descs": [
+                    "Turn and go to the coffee table",
+                    "Pick up a newspaper on the coffee table. ",
+                    "Turn and go to the armchair.",
+                    "Put the newspaper on the armchair.",
+                    "Turn and go to the small table by the armchair.",
+                    "Pick up a newspaper on the small table by the armchair.",
+                    "Turn and go to the armchair.",
+                    "Put the newspaper on the armchair."
+                ],
+                "task_desc": "Move two newspapers to the armchair."
+            },
+            {
+                "high_descs": [
+                    "TUrn around and step forward to face the living room table.",
+                    "Pick up the newspaper on the living room table.",
+                    "Turn right and step forward to face the chair.",
+                    "Place the newspaper in the chair.",
+                    "Take a step to the left to face the table to the left of the chair.",
+                    "Pick up the newspaper on the table.",
+                    "Take a step to the right to face the chair.",
+                    "Place the newspaper next to the first newspaper in the chair."
+                ],
+                "task_desc": "To move two newspapers to the chair on the side of the room."
+            },
+            {
+                "high_descs": [
+                    "Turn around and face the coffee table.",
+                    "Pick up the newspaper that is nearest to you on the coffee table.",
+                    "Turn right and move to the brown lounge chair to the right of the end table.",
+                    "Place the newspaper on the brown lounge chair.",
+                    "Move to the end table to the left of the brown lounge chair.",
+                    "Pick up the newspaper on the end table.",
+                    "Turn around and move to face the brown lounge chair once again.",
+                    "Place this second newspaper to the right of the first newspaper on the brown lounge chair as well."
+                ],
+                "task_desc": "Place two newspapers on the brown lounge chair, one from the end table and one from the coffee table."
+            }
+        ]
+    }
+}
