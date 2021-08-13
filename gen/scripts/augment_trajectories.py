@@ -292,10 +292,10 @@ parser.add_argument('--reward_config', type=str, default='../models/config/rewar
 args = parser.parse_args()
 
 # make a list of all the traj_data json files
-for dir_name, subdir_list, file_list in walklevel(args.data_path, level=2):
+for dir_name, subdir_list, file_list in walklevel(args.data_path, level=3):
     if "trial_" in dir_name:
         json_file = os.path.join(dir_name, TRAJ_DATA_JSON_FILENAME)
-        if not os.path.isfile(json_file):
+        if not os.path.isfile(json_file) or 'tests' in dir_name:
             continue
         traj_list.append(json_file)
 
