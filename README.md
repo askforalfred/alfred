@@ -68,6 +68,11 @@ Kunal Pratap Singh*, Suvaansh Bhambri*, Byeonghwi Kim*, Roozbeh Mottaghi, Jonghy
 <br>
 <a href="https://arxiv.org/abs/2012.03208"> Paper</a>, <a href="https://github.com/gistvision/moca"> Code </a>  
 
+<b> Embodied BERT: A Transformer Model for Embodied, Language-guided Visual Task Completion </b>
+<br>
+Alessandro Suglia, Qiaozi Gao, Jesse Thomason, Govind Thattai, Gaurav Sukhatme  
+<a href="https://arxiv.org/abs/2108.04927">Paper</a>, <a href="https://github.com/amazon-research/embert"> Code </a>
+
 Contact [Mohit](https://mohitshridhar.com/) to add your model here. 
 
 ## Prerequisites
