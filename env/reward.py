@@ -242,8 +242,6 @@ class CoolObjectAction(BaseAction):
     valid_actions = {'OpenObject', 'CloseObject', 'PickupObject', 'PutObject'}
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self. = False
-        self.
 
     def get_reward(self, state, prev_state, expert_plan, goal_idx):
         if state.metadata['lastAction'] not in self.valid_actions:
