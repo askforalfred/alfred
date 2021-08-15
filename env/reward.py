@@ -240,6 +240,10 @@ class CoolObjectAction(BaseAction):
     '''
 
     valid_actions = {'OpenObject', 'CloseObject', 'PickupObject', 'PutObject'}
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self. = False
+        self.
 
     def get_reward(self, state, prev_state, expert_plan, goal_idx):
         if state.metadata['lastAction'] not in self.valid_actions:
@@ -252,7 +256,28 @@ class CoolObjectAction(BaseAction):
             cool_object_id = expert_plan[next_put_goal_idx]['planner_action']['objectId']
             cool_object = get_object(cool_object_id, state.metadata)
             is_obj_cool = cool_object['objectId'] in self.env.cooled_objects
-            reward, done = (self.rewards['positive'], True) if is_obj_cool else (self.rewards['negative'], False)
+
+            # intermediate reward if object is cooled
+            if is_obj_cool and not self.env.cooled_reward:
+                self.env.cooled_reward = True
+                reward, done = self.rewards['positive'], False
+
+            # intermediate reward for opening fridge after object is cooled
+            elif is_obj_cool and state.metadata['lastAction']=='OpenObject':
+                target_recep = get_object(subgoal['objectId'], state.metadata)
+                if target_recep is not None and not self.env.reopen_reward:
+                    if target_recep['isOpen']:
+                        self.env.reopen_reward = True
+                        reward, done = self.rewards['positive'], False
+
+            # intermediate reward for picking up cooled object after reopening fridge
+            elif is_obj_cool and state.metadata['lastAction']=='PickupObject':
+                inventory_objects = state.metadata['inventoryObjects']
+                if len(inventory_objects):
+                    inv_object_id = state.metadata['inventoryObjects'][0]['objectId']
+                    if inv_object_id == cool_object_id:
+                        reward, done = self.rewards['positive'], True # Subgoal completed
+
         return reward, done
 
 

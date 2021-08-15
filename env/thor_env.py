@@ -38,6 +38,10 @@ class ThorEnv(Controller):
         self.cooled_objects = set()
         self.heated_objects = set()
 
+        # intemediate states for CoolObject Subgoal
+        self.cooled_reward = False
+        self.reopen_reward = False
+
         print("ThorEnv started.")
 
     def reset(self, scene_name_or_num,
