@@ -252,7 +252,8 @@ class CoolObjectAction(BaseAction):
             cool_object_id = expert_plan[next_put_goal_idx]['planner_action']['objectId']
             cool_object = get_object(cool_object_id, state.metadata)
             is_obj_cool = cool_object['objectId'] in self.env.cooled_objects
-
+            
+            # TODO(mohit): support dense rewards for all subgoals
             # intermediate reward if object is cooled
             if is_obj_cool and not self.env.cooled_reward:
                 self.env.cooled_reward = True
