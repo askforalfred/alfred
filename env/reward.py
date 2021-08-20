@@ -247,6 +247,7 @@ class CoolObjectAction(BaseAction):
             return reward, done
 
         reward, done = self.rewards['neutral'], False
+        subgoal = expert_plan[goal_idx]['planner_action']
         next_put_goal_idx = goal_idx+2 # (+1) GotoLocation -> (+2) PutObject (get the objectId from the PutObject action)
         if next_put_goal_idx < len(expert_plan):
             cool_object_id = expert_plan[next_put_goal_idx]['planner_action']['objectId']
