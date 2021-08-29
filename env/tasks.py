@@ -19,7 +19,7 @@ class BaseTask(object):
         self.max_episode_length = max_episode_length
         self.reward_type = reward_type
         self.step_num = 0
-        self.num_subgoals = len(self.traj['plan']['high_pddl']) - 1  # ignore end noop
+        self.num_subgoals = self.get_num_subgoals(self.traj['plan']['high_pddl']) 
         self.goal_finished = False
 
         # internal states
@@ -53,6 +53,18 @@ class BaseTask(object):
         floor_plan = self.traj['scene']['floor_plan']
         scene_num = self.traj['scene']['scene_num']
         self.gt_graph = graph_obj.Graph(use_gt=True, construct_graph=True, scene_id=scene_num)
+
+    def get_num_subgoals(self, high_pddl):
+        '''
+        number of subgoals in high-level pddl plan
+        '''
+        last_action = high_pddl[-1]
+
+        # issue97: https://github.com/askforalfred/alfred/issues/97
+        if last_action['planner_action']['action'] == 'End':
+            return len(high_pddl) - 1  # ignore NoOp/End action
+        else:
+            return len(high_pddl) 
 
     def goal_satisfied(self, state):
         '''
