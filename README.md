@@ -56,6 +56,12 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 Open-source models that outperform the Seq2Seq baselines from ALFRED:  
 <br>
+<b> A Persistent Spatial Semantic Representation for High-level Natural Language Instruction Execution </b>
+<br>
+Valts Blukis, Chris Paxton, Dieter Fox, Animesh Garg, Yoav Artzi
+<br>
+<a href="https://arxiv.org/pdf/2107.05612.pdf"> Paper</a>, <a href="https://github.com/valtsblukis/hlsm"> Code </a>
+
 <b> Episodic Transformer for Vision-and-Language Navigation </b>
 <br>
 Alexander Pashevich, Cordelia Schmid, Chen Sun
