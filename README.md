@@ -68,6 +68,12 @@ Valts Blukis, Chris Paxton, Dieter Fox, Animesh Garg, Yoav Artzi
 <br>
 <a href="https://arxiv.org/pdf/2107.05612.pdf"> Paper</a>, <a href="https://github.com/valtsblukis/hlsm"> Code </a>
 
+<b> Hierarchical Task Learning from Language Instructions with Unified Transformers and Self-Monitoring </b>
+<br>
+Yichi Zhang, Joyce Chai
+<br>
+<a href="https://aclanthology.org/2021.findings-acl.368/"> Paper</a>, <a href="https://github.com/594zyc/HiTUT"> Code </a>
+
 <b> Episodic Transformer for Vision-and-Language Navigation </b>
 <br>
 Alexander Pashevich, Cordelia Schmid, Chen Sun
