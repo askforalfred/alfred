@@ -55,7 +55,25 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 ## SOTA Models
 
 Open-source models that outperform the Seq2Seq baselines from ALFRED:  
+
+<b> Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents </b>
 <br>
+Byeonghwi Kim, Jinyeon Kim, Yuyeong Kim, Cheolhong Min, Jonghyun Choi
+<br>
+<a href="https://arxiv.org/pdf/2308.07241.pdf"> Paper</a>, <a href="https://github.com/snumprlab/capeam"> Code </a>
+
+<b> Multi-Level Compositional Reasoning for Interactive Instruction Following </b>
+<br>
+Suvaansh Bhambri*, Byeonghwi Kim*, Jonghyun Choi
+<br>
+<a href="https://arxiv.org/pdf/2308.09387.pdf"> Paper</a>, <a href="https://github.com/yonseivnl/mcr-agent"> Code </a>
+
+<b> Agent with the Big Picture: Perceiving Surroundings for Interactive Instruction Following </b>
+<br>
+Byeonghwi Kim, Suvaansh Bhambri, Kunal Pratap Singh, Roozbeh Mottaghi, Jonghyun Choi
+<br>
+<a href="https://embodied-ai.org/papers/Agent-with-the-Big-Picture.pdf"> Paper</a>, <a href="https://github.com/snumprlab/abp"> Code </a> 
+
 <b> FILM: Following Instructions in Language with Modular Methods </b>
 <br>
 So Yeon Min, Devendra Singh Chaplot, Pradeep Ravikumar, Yonatan Bisk, Ruslan Salakhutdinov
