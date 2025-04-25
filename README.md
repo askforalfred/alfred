@@ -131,6 +131,8 @@ Tested on:
 
 ## Leaderboard
 
+⚠️ **Update (Apr 2025)**: As of April 2025, the Ai2 leaderboard has been deprecated. Please see instructions below on email submissions.
+
 Run your model on test seen and unseen sets, and create an action-sequence dump of your agent:
 
 ```bash
@@ -138,7 +140,7 @@ $ cd $ALFRED_ROOT
 $ python models/eval/leaderboard.py --model_path <model_path>/model.pth --model models.model.seq2seq_im_mask --data data/json_feat_2.1.0 --gpu --num_threads 5
 ```
 
-This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Submit this JSON here: [AI2 ALFRED Leaderboard](https://leaderboard.allenai.org/alfred/submissions/public). For rules and restrictions, see the [getting started page](https://leaderboard.allenai.org/alfred/submissions/get-started).  
+This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, inside the `<model_path>` folder. Email this file to [askforalfred@googlegroups.com](mailto:askforalfred@googlegroups.com), preferrably through a storage link on a platform like Google Drive, Dropbox etc.
 
 **Rules:** 
 1. You are only allowed to use **RGB** and **language instructions (goal & step-by-step)** as input for your agents. You **cannot use additional depth, mask, metadata info etc.** from the simulator on Test Seen and Test Unseen scenes. However, during training you are allowed to use additional info for auxiliary losses etc.
@@ -151,6 +153,9 @@ This will create a JSON file, e.g. `task_results_20191218_081448_662435.json`, i
 8. _(Optional)_ Share how you solved it: if possible, share information about how the task was solved. Link an academic paper or code repository if public.
 9. Only submit your own work: you may evaluate any model on the validation set, but must only submit your own work for evaluation against the test set.
 
+**Submissions**:  
+  
+Only one submission is allowed every 7 days. All submissions will be made public. Please do not create anonymous emails for multiple submissions. Use the val set to iterate on your agent.
 
 ## Docker Setup
 
