@@ -79,8 +79,9 @@ class EvalTask(Eval):
                 break
 
             # get action and mask
-            action, mask = m_pred['action_low'], m_pred['action_low_mask'][0]
-            mask = np.squeeze(mask, axis=0) if model.has_interaction(action) else None
+            action = m_pred['action_low']
+            mask = m_pred['action_low_mask'][0] if len(m_pred['action_low_mask']) else None
+            mask = np.squeeze(mask, axis=0) if model.has_interaction(action) and mask is not None else None
 
             # print action
             if args.debug:

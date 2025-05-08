@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# Install 7z
-echo "Checking for 7z (might require installation)..."
-
-if sudo apt-get install p7zip-full -y; then
-    echo "7z found/installed"
-else
-    echo "Failed: Please install 7z (https://www.7-zip.org/7z.html)"
-    exit 1
-fi
-
 # Download, Unzip, and Remove zip
 if [ "$1" = "json" ]
 then

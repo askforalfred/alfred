@@ -11,7 +11,11 @@ class SemanticMapPlannerAgent(AgentBase):
         assert(isinstance(game_state, PlannedGameState))
         super(SemanticMapPlannerAgent, self).__init__(thread_id, game_state)
 
-        self.plan_agent = PlanAgent(thread_id, game_state, self)
+        self.plan_agent = (
+
+
+
+        PlanAgent(thread_id, game_state, self))
         self.planning = False
 
     def reset(self, seed=None, info=None, scene=None, objs=None):

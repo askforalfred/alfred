@@ -19,15 +19,15 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # settings
-    parser.add_argument('--splits', type=str, default="data/splits/oct21.json")
-    parser.add_argument('--data', type=str, default="data/json_2.1.0")
-    parser.add_argument('--reward_config', default='models/config/rewards.json')
+    parser.add_argument('--splits', type=str, default=os.path.join(os.environ['ALFRED_ROOT'], "data/splits/oct21.json"))
+    parser.add_argument('--data', type=str, default=os.path.join(os.environ['ALFRED_ROOT'], "data/json_feat_2.1.0"))
+    parser.add_argument('--reward_config', default=os.path.join(os.environ['ALFRED_ROOT'], 'models/config/rewards.json'))
     parser.add_argument('--eval_split', type=str, default='valid_seen', choices=['train', 'valid_seen', 'valid_unseen'])
-    parser.add_argument('--model_path', type=str, default="model.pth")
+    parser.add_argument('--model_path', type=str, default=os.path.join(os.environ['ALFRED_ROOT'], "exp/model_test/best_seen.pth"))
     parser.add_argument('--model', type=str, default='models.model.seq2seq_im_mask')
     parser.add_argument('--preprocess', dest='preprocess', action='store_true')
     parser.add_argument('--shuffle', dest='shuffle', action='store_true')
-    parser.add_argument('--gpu', dest='gpu', action='store_true')
+    parser.add_argument('--gpu', dest='gpu', action='store_false')
     parser.add_argument('--use_templated_goals', help='use templated goals instead of human-annotated goal descriptions (only available for train set)', action='store_true')
     parser.add_argument('--num_threads', type=int, default=1)
 
