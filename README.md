@@ -56,6 +56,12 @@ $ python models/train/train_seq2seq.py --data data/json_feat_2.1.0 --model seq2s
 
 Open-source models that outperform the Seq2Seq baselines from ALFRED:  
 
+<b>LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models</b>
+<br>
+Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su
+<br>
+<a href="https://arxiv.org/pdf/2212.04088"> Paper</a>, <a href="https://github.com/OSU-NLP-Group/LLM-Planner"> Code </a>
+
 <b> Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents </b>
 <br>
 Byeonghwi Kim, Jinyeon Kim, Yuyeong Kim, Cheolhong Min, Jonghyun Choi
